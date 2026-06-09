@@ -8,7 +8,7 @@ import time
 import re
 from typing import Any, Dict, List, Optional
 
-import ollama
+from llm_client import LLMRequestConfig, chat_completion
 
 
 # ============================================================
@@ -21,19 +21,6 @@ OUTPUT_ROOT = Path("phase2_output")
 PAGE_OUTPUT_ROOT = OUTPUT_ROOT / "page_outputs_2"
 REPORT_ROOT = OUTPUT_ROOT / "reports"
 
-# Change this to your local Ollama model name
-OLLAMA_MODEL = "gemma4:latest"
-# OLLAMA_MODEL = "gemma4:26b"
-# OLLAMA_MODEL = "qwen3.5:9b"
-# OLLAMA_MODEL = "llama3.1:8b"
-# OLLAMA_MODEL = "gpt-oss:20b"
-
-THINK = True   # Set to True to enable Ollama's think mode for better reasoning (may increase latency)
-
-TEMPERATURE = 0.2
-TOP_P = 0.1
-NUM_CTX = 32768
-
 MAX_RETRIES = 2
 STOP_ON_FAILURE = False
 
@@ -45,6 +32,34 @@ SEND_PREVIOUS_OPEN_POINT_BLOCK = True
 # Keep this small enough for local 9B models.
 # Set to None if you want to send the full previous point text.
 PREVIOUS_OPEN_POINT_TEXT_LIMIT = None  # in characters
+
+# ============================================================
+# LOCAL LLM BACKEND CONFIG
+# ============================================================
+
+# Use "hf" for HuggingFace Transformers local models.
+# Use "ollama" to keep using your local Ollama server.
+MODEL_BACKEND = "hf"
+
+# HuggingFace local model
+HF_MODEL = "google/gemma-4-E4B-it"
+
+# Ollama local model; only used when MODEL_BACKEND = "ollama"
+OLLAMA_MODEL = "gemma4:latest"
+# OLLAMA_MODEL = "gemma4:26b"
+# OLLAMA_MODEL = "qwen3.5:9b"
+# OLLAMA_MODEL = "llama3.1:8b"
+# OLLAMA_MODEL = "gpt-oss:20b"
+
+THINK = True   # HF: enable_thinking in chat template; Ollama: think mode.
+
+TEMPERATURE = 0.2
+TOP_P = 0.1
+NUM_CTX = 32768
+
+# For HuggingFace generation only.
+# Increase if the model cuts off long JSON outputs.
+MAX_NEW_TOKENS = 8192
 
 # =========================
 # GLOBAL CHUNK RANGE CONFIG
@@ -475,28 +490,30 @@ def build_user_prompt(
 # OLLAMA CALL
 # ============================================================
 
-def call_ollama(prompt: str) -> str:
-    response = ollama.chat(
-        model=OLLAMA_MODEL,
-        messages=[
-            {"role": "system", "content": SYSTEM_PROMPT},
-            {"role": "user", "content": prompt}
-        ],
-        format="json",
-        think=THINK,
-        options={
-            "temperature": TEMPERATURE,
-            "top_p": TOP_P,
-            "num_ctx": NUM_CTX
-        }
+def call_model(prompt: str) -> str:
+    """
+    Calls the selected local model backend.
+
+    MODEL_BACKEND = "hf"     -> HuggingFace local model
+    MODEL_BACKEND = "ollama" -> Ollama local server
+    """
+
+    model_name = HF_MODEL if MODEL_BACKEND in ["hf", "huggingface"] else OLLAMA_MODEL
+
+    return chat_completion(
+        system_prompt=SYSTEM_PROMPT,
+        user_prompt=prompt,
+        config=LLMRequestConfig(
+            backend=MODEL_BACKEND,
+            model=model_name,
+            temperature=TEMPERATURE,
+            top_p=TOP_P,
+            num_ctx=NUM_CTX,
+            max_new_tokens=MAX_NEW_TOKENS,
+            think=THINK,
+            response_format="json",
+        ),
     )
-    
-    # print("Extract response received.")
-    # print("Input tokens:", response["prompt_eval_count"])
-    # print("Output tokens:", response["eval_count"])
-    # print("Total tokens:", response["prompt_eval_count"] + response["eval_count"])
-    
-    return response["message"]["content"]
 
 
 # ============================================================
@@ -760,7 +777,7 @@ def run_extractor_once(
 
     for attempt in range(1, MAX_RETRIES + 2):
         try:
-            raw_text = call_ollama(prompt)
+            raw_text = call_model(prompt)
             raw_json = extract_json_object(raw_text)
             output = validate_and_normalize_output(raw_json, chunk)
             return output

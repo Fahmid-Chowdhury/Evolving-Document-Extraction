@@ -3,19 +3,31 @@ import json
 import re
 from urllib import response
 
-import ollama
+from llm_client import LLMRequestConfig, chat_completion
 
 
 # ============================================================
-# VALIDATOR CONFIG
+# VALIDATOR LOCAL LLM BACKEND CONFIG
 # ============================================================
 
-VALIDATOR_MODEL = "gemma4:latest"
-THINK = False   # Set to True to enable Ollama's think mode for better reasoning (may increase latency)
+# Use "hf" for HuggingFace Transformers local models.
+# Use "ollama" to keep using your local Ollama server.
+VALIDATOR_BACKEND = "hf"
+
+# HuggingFace local model
+VALIDATOR_HF_MODEL = "google/gemma-4-E4B-it"
+
+# Ollama local model; only used when VALIDATOR_BACKEND = "ollama"
+VALIDATOR_OLLAMA_MODEL = "gemma4:latest"
+
+THINK = False   # HF: enable_thinking in chat template; Ollama: think mode.
 
 VALIDATOR_TEMPERATURE = 0.3
 VALIDATOR_TOP_P = 0.2
 VALIDATOR_NUM_CTX = 32768
+
+# Validator output is small, so keep this smaller than extractor output.
+VALIDATOR_MAX_NEW_TOKENS = 1024
 
 VALIDATOR_TEXT_LIMIT = 2500  # Limit for previous_tail, next_head, and previous_open_point_block text in the validator prompt to keep it concise and focused on the most relevant context.
 
@@ -445,34 +457,33 @@ def validate_extraction_with_agent(
     }
 
     try:
-        response = ollama.chat(
-            model=VALIDATOR_MODEL,
-            messages=[
-                {"role": "system", "content": VALIDATOR_SYSTEM_PROMPT},
-                {
-                    "role": "user",
-                    "content": (
-                        "Validate this extractor output. "
-                        "Return only the validator JSON.\n\n"
-                        + json.dumps(payload, ensure_ascii=False, indent=2)
-                    )
-                }
-            ],
-            format="json",
-            think=THINK,
-            options={
-                "temperature": VALIDATOR_TEMPERATURE,
-                "top_p": VALIDATOR_TOP_P,
-                "num_ctx": VALIDATOR_NUM_CTX
-            }
+        validator_prompt = (
+            "Validate this extractor output. "
+            "Return only the validator JSON.\n\n"
+            + json.dumps(payload, ensure_ascii=False, indent=2)
         )
 
-        # print("Validator response received.")
-        # print("Input tokens:", response["prompt_eval_count"])
-        # print("Output tokens:", response["eval_count"])
-        # print("Total tokens:", response["prompt_eval_count"] + response["eval_count"])
-        
-        raw_text = response["message"]["content"]
+        model_name = (
+            VALIDATOR_HF_MODEL
+            if VALIDATOR_BACKEND in ["hf", "huggingface"]
+            else VALIDATOR_OLLAMA_MODEL
+        )
+
+        raw_text = chat_completion(
+            system_prompt=VALIDATOR_SYSTEM_PROMPT,
+            user_prompt=validator_prompt,
+            config=LLMRequestConfig(
+                backend=VALIDATOR_BACKEND,
+                model=model_name,
+                temperature=VALIDATOR_TEMPERATURE,
+                top_p=VALIDATOR_TOP_P,
+                num_ctx=VALIDATOR_NUM_CTX,
+                max_new_tokens=VALIDATOR_MAX_NEW_TOKENS,
+                think=THINK,
+                response_format="json",
+            ),
+        )
+
         raw_json = parse_json_object(raw_text)
         return normalize_validator_response(raw_json)
 

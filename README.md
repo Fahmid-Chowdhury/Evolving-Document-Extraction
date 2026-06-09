@@ -3,30 +3,32 @@
 
 ## 1. Project Overview
 
-This project is an OCR-based legal document parsing pipeline. Its main goal is to take PDF legal documents, extract their text page by page, divide the OCR text into chunk-level inputs, use an LLM to classify and extract legal structure, validate the LLM output, and finally stitch multi-page legal points into a final structured JSON document.
+This project is an OCR-based legal document extraction pipeline. Its purpose is to take legal PDF documents, perform OCR, divide the OCR result into page-based chunks, extract structured legal content using a local LLM, validate the extracted structure, and finally stitch multi-page legal points into a clean final JSON document.
 
-The current project folder is:
+The current project structure is:
 
 ```text
 try2/
+├── .vscode/
 ├── Documents/
 ├── phase1_output/
 ├── phase2_output/
 ├── phase3_output/
+├── __pycache__/
 ├── pdf_to_image.py
 ├── ocr.py
 ├── page_by_page_ocr.py
 ├── chunking.py
+├── llm_client.py
 ├── stateful_extraction_2.py
 ├── validator.py
-├── stitch_points.py
-└── __pycache__/
+└── stitch_points.py
 ```
 
-The pipeline is divided into three main phases:
+The pipeline is organized into three major phases:
 
 ```text
-Phase 1: PDF / OCR processing
+Phase 1: OCR and page preparation
     ├── pdf_to_image.py
     ├── ocr.py
     └── page_by_page_ocr.py
@@ -34,7 +36,8 @@ Phase 1: PDF / OCR processing
 Phase 1B: Chunk preparation
     └── chunking.py
 
-Phase 2: LLM-based structure extraction
+Phase 2: LLM-based legal structure extraction
+    ├── llm_client.py
     ├── stateful_extraction_2.py
     └── validator.py
 
@@ -42,7 +45,7 @@ Phase 3: Final stitching
     └── stitch_points.py
 ```
 
-The usual execution flow is:
+The recommended main execution flow is:
 
 ```bash
 python page_by_page_ocr.py
@@ -51,61 +54,79 @@ python stateful_extraction_2.py
 python stitch_points.py
 ```
 
-`pdf_to_image.py` and `ocr.py` are useful supporting scripts, but the main working pipeline appears to use `page_by_page_ocr.py` → `chunking.py` → `stateful_extraction_2.py` → `stitch_points.py`.
+`pdf_to_image.py` and `ocr.py` are supporting scripts. They are useful for visual checking and full-document OCR, but the main working flow uses page-level OCR through `page_by_page_ocr.py`.
 
 ---
 
-## 2. Important Project Folders
+# 2. High-Level Pipeline Flow
 
-### 2.1 `Documents/`
-
-This folder contains the original PDF files. The OCR scripts read PDFs from this folder or from subfolders inside it.
-
-Example current input path in `page_by_page_ocr.py`:
-
-```python
-INPUT_PATH = Path(r"Documents\20160408_Finance_Act_2013.pdf")
-```
-
-This can be changed to either:
-
-```python
-INPUT_PATH = Path(r"Documents\some_file.pdf")
-```
-
-or:
-
-```python
-INPUT_PATH = Path(r"Documents\Some Folder")
-```
-
-When a folder is given, the script searches for all PDF files inside it.
-
----
-
-### 2.2 `phase1_output/`
-
-This folder stores outputs from the OCR and chunking stage.
-
-Important subfolders:
+The complete processing flow is:
 
 ```text
-phase1_output/
-├── page_by_page_ocr/
-├── page_by_page_ocr/without_headers_footers/
-├── full_document_ocr/
-├── chunks/
-├── chunks/without_headers_footers/
-└── reports/
+Raw PDF
+  ↓
+page_by_page_ocr.py
+  ↓
+phase1_output/page_by_page_ocr/without_headers_footers/<document_name>/page_XXXX.json
+  ↓
+chunking.py
+  ↓
+phase1_output/chunks/without_headers_footers/<document_name>/chunks.json
+  ↓
+stateful_extraction_2.py
+  ↓
+llm_client.py
+  ↓
+validator.py
+  ↓
+phase2_output/page_outputs_2/<document_name>/<chunk_id>_page_XXXX.json
+  ↓
+stitch_points.py
+  ↓
+phase3_output/final_documents/<document_name>/final_stitched_document.json
 ```
 
-The most important output for the current pipeline is:
+The most important idea is that each stage produces files that the next stage expects. If one stage changes its output format, the next stage may break.
+
+---
+
+# 3. Main Input and Output Folders
+
+## 3.1 `Documents/`
+
+This folder stores the original PDF files.
+
+Example:
+
+```text
+Documents/20160408_Finance_Act_2013.pdf
+```
+
+Most scripts use a configurable `INPUT_PATH`, so anyone can process either one PDF file or a folder of PDFs.
+
+---
+
+## 3.2 `phase1_output/`
+
+This folder stores OCR and chunking outputs.
+
+Important paths:
+
+```text
+phase1_output/page_by_page_ocr/
+phase1_output/page_by_page_ocr/without_headers_footers/
+phase1_output/chunks/
+phase1_output/chunks/without_headers_footers/
+phase1_output/reports/
+```
+
+The current main pipeline usually uses:
 
 ```text
 phase1_output/page_by_page_ocr/without_headers_footers/<document_name>/page_XXXX.json
 ```
 
-Then `chunking.py` converts those page JSON files into:
+and then:
 
 ```text
 phase1_output/chunks/without_headers_footers/<document_name>/chunks.json
@@ -113,45 +134,43 @@ phase1_output/chunks/without_headers_footers/<document_name>/chunks.json
 
 ---
 
-### 2.3 `phase2_output/`
+## 3.3 `phase2_output/`
 
-This folder stores the LLM extraction results.
+This folder stores LLM extraction outputs.
 
-Important subfolders:
+Important paths:
 
 ```text
-phase2_output/
-├── page_outputs_2/
-└── reports/
+phase2_output/page_outputs_2/
+phase2_output/reports/
 ```
 
-For each document, `stateful_extraction_2.py` outputs one JSON file per page/chunk:
+For each chunk/page, the extractor saves one JSON file:
 
 ```text
 phase2_output/page_outputs_2/<document_name>/<chunk_id>_page_XXXX.json
 ```
 
-It also creates a run report:
+The Phase 2 report is saved inside:
 
 ```text
-phase2_output/reports/<document_name>_report.json
+phase2_output/reports/
 ```
 
 ---
 
-### 2.4 `phase3_output/`
+## 3.4 `phase3_output/`
 
-This folder stores the final stitched document.
+This folder stores the final stitched result.
 
-Important subfolders:
+Important paths:
 
 ```text
-phase3_output/
-├── final_documents/
-└── reports/
+phase3_output/final_documents/
+phase3_output/reports/
 ```
 
-Final output:
+Final stitched document:
 
 ```text
 phase3_output/final_documents/<document_name>/final_stitched_document.json
@@ -171,29 +190,36 @@ phase3_output/reports/phase3_master_report.json
 
 ---
 
-## 3. File-by-File Explanation
+# 4. File-by-File Explanation
 
-# 3.1 `pdf_to_image.py`
+---
+
+# 4.1 `pdf_to_image.py`
 
 ## Purpose
 
-`pdf_to_image.py` converts a PDF into page images and performs basic image-level sanity checks.
+`pdf_to_image.py` converts a PDF into page images and performs image-level sanity checks.
 
-This script is useful when we want to inspect the visual quality of a PDF before OCR. It can detect blank pages, low text density, possible rotated pages, landscape pages, and low-resolution pages.
+This script is useful when the OCR quality is poor and we need to visually inspect the original PDF pages. It can help detect:
 
-It is not the main OCR pipeline, but it is useful for debugging OCR problems.
+* blank pages,
+* pages with very low text density,
+* possible rotated or landscape pages,
+* low-resolution pages.
+
+This file is not required for the main extraction flow, but it is useful for debugging OCR problems.
 
 ---
 
 ## Main Input
 
-Configured at the top:
+Configured at the top of the file:
 
 ```python
 PDF_PATH = r"001-Law-1994 Germany DTAA.pdf"
 ```
 
-This should be changed to the PDF file that needs to be converted.
+This should be changed to the PDF file that needs image conversion.
 
 ---
 
@@ -205,83 +231,85 @@ Images are saved inside:
 phase1_output/page_images/<PDF_NAME>/
 ```
 
-For example:
-
-```text
-phase1_output/page_images/001-Law-1994 Germany DTAA/
-├── 001-Law-1994 Germany DTAA_page_0001.png
-├── 001-Law-1994 Germany DTAA_page_0002.png
-└── ...
-```
-
 Reports are saved inside:
 
 ```text
 phase1_output/reports/
 ```
 
-Specifically:
+The report files are:
 
 ```text
-phase1_output/reports/phase1_image_sanity_report.json
-phase1_output/reports/phase1_image_sanity_report.csv
+phase1_image_sanity_report.json
+phase1_image_sanity_report.csv
 ```
 
 ---
 
-## What It Does Internally
+## Main Functions
 
-The file performs four main tasks:
+### `save_pdf_pages_as_images()`
 
-### Step 1: Convert PDF pages into images
+Converts each PDF page into an image.
 
-Function:
-
-```python
-save_pdf_pages_as_images()
-```
-
-It uses `pdf2image.convert_from_path()` to convert each PDF page into a PNG image.
-
-### Step 2: Calculate blank page score
-
-Function:
+It uses:
 
 ```python
-calculate_blank_score()
+pdf2image.convert_from_path()
 ```
 
-It reads the image in grayscale and calculates how many pixels are almost white.
-
-A high blank score means the page may be mostly empty.
-
-### Step 3: Calculate dark pixel ratio
-
-Function:
-
-```python
-calculate_dark_pixel_ratio()
-```
-
-It estimates how much dark text or ink exists on a page.
-
-A very low dark pixel ratio means the page may contain very little readable content.
-
-### Step 4: Detect rotation or landscape risk
-
-Function:
-
-```python
-detect_rotation_risk()
-```
-
-If the page width is greater than the height, the script flags it as possible landscape or rotated.
+Each page is saved as a PNG file.
 
 ---
 
-## What Can Be Safely Changed
+### `calculate_blank_score()`
 
-A teammate can safely change:
+Calculates how much of the image is almost white.
+
+A higher blank score means the page may be blank.
+
+---
+
+### `calculate_dark_pixel_ratio()`
+
+Measures how many pixels are dark.
+
+This gives a rough estimate of how much text or ink exists on the page.
+
+---
+
+### `detect_rotation_risk()`
+
+Checks whether the image width is greater than its height.
+
+If width is greater than height, the page may be landscape or rotated.
+
+---
+
+### `inspect_image()`
+
+Collects all image-level information for one page.
+
+It returns:
+
+```json
+{
+  "page_number": 1,
+  "image_path": "...",
+  "width": 2480,
+  "height": 3508,
+  "mode": "RGB",
+  "blank_score": 0.92,
+  "dark_pixel_ratio": 0.04,
+  "rotation_risk": false,
+  "warnings": [],
+  "sanity_status": "ok"
+}
+```
+
+---
+
+## What anyone Can Safely Change
 
 ```python
 PDF_PATH
@@ -290,31 +318,36 @@ IMAGE_FORMAT
 POPPLER_PATH
 ```
 
-Usually, `DPI = 300` is a good OCR-quality setting. Higher DPI may improve OCR but increases processing time and file size.
+Recommended default:
+
+```python
+DPI = 300
+```
+
+Higher DPI may improve readability but will increase file size and processing time.
 
 ---
 
-## When to Use This File
+## When to Use
 
 Use this file when:
 
-* OCR output is poor.
-* Pages appear blank after OCR.
-* Some pages may be rotated.
-* We need visual page images for manual inspection.
-* We want a quick quality report before OCR.
+* OCR output looks wrong.
+* Pages may be blank or rotated.
+* You want to inspect page images manually.
+* You want a quick image sanity report before OCR.
 
 ---
 
-# 3.2 `ocr.py`
+# 4.2 `ocr.py`
 
 ## Purpose
 
-`ocr.py` runs Chandra OCR on full PDF documents. It processes either a single PDF file or all PDF files inside a folder.
+`ocr.py` runs Chandra OCR on full PDF documents. It can process either a single PDF or all PDFs inside a folder.
 
-This file generates full-document OCR output, such as Markdown, HTML, metadata JSON, and extracted images.
+This file generates full-document OCR outputs such as Markdown, HTML, metadata JSON, and extracted images.
 
-However, the current main pipeline seems to depend more on `page_by_page_ocr.py`, because page-by-page OCR gives cleaner page-level JSON files for downstream chunking.
+However, this is not the best script for the current page-by-page extraction pipeline. The current pipeline is better served by `page_by_page_ocr.py`.
 
 ---
 
@@ -338,7 +371,7 @@ or:
 INPUT_PATH = Path("Documents/Finance Acts/")
 ```
 
-If it is a folder, the script recursively finds all `.pdf` files inside it.
+If a folder is given, it recursively searches for all PDF files inside it.
 
 ---
 
@@ -362,12 +395,6 @@ Reports are saved inside:
 phase1_output/reports/ocr/
 ```
 
-Example report:
-
-```text
-phase1_output/reports/ocr/Finance_Acts_report.json
-```
-
 ---
 
 ## Important Config Variables
@@ -383,52 +410,43 @@ TIMEOUT_SECONDS = 60 * 60 * 3
 
 Meaning:
 
-* `METHOD = "hf"` uses local HuggingFace mode.
+* `METHOD = "hf"` uses local HuggingFace mode for Chandra OCR.
 * `METHOD = "vllm"` can be used if the Chandra vLLM server is running.
-* `PAGE_RANGE = None` means process the full document.
-* `INCLUDE_IMAGES = True` keeps extracted images.
-* `INCLUDE_HEADERS_FOOTERS = True` includes headers and footers in OCR output.
-* `TIMEOUT_SECONDS` controls how long the script waits before killing the OCR process.
+* `PAGE_RANGE = None` processes the full document.
+* `INCLUDE_IMAGES = True` keeps images extracted by OCR.
+* `INCLUDE_HEADERS_FOOTERS = True` includes headers and footers.
+* `TIMEOUT_SECONDS` controls maximum OCR runtime.
 
 ---
 
-## What It Does Internally
+## Main Functions
 
-### Step 1: Discover PDF files
+### `get_pdf_files()`
 
-Function:
+Finds PDF files from the configured `INPUT_PATH`.
 
-```python
-get_pdf_files()
-```
+It supports both:
 
-It checks whether `INPUT_PATH` is a single file or a folder. If it is a folder, it finds all PDFs recursively.
+1. a single PDF file,
+2. a folder containing multiple PDFs.
 
-### Step 2: Run Chandra OCR
+---
 
-Function:
+### `run_chandra_cli()`
 
-```python
-run_chandra_cli()
-```
+Builds and runs the Chandra OCR command.
 
-It builds a terminal command like:
+Example command:
 
 ```bash
 chandra <pdf_path> <output_dir> --method hf --max-output-tokens 12384 --include-images --include-headers-footers
 ```
 
-Then it runs that command using `subprocess.run()`.
+---
 
-### Step 3: Discover Chandra outputs
+### `find_chandra_outputs()`
 
-Function:
-
-```python
-find_chandra_outputs()
-```
-
-It searches for:
+Finds generated Chandra OCR outputs:
 
 ```text
 *.md
@@ -440,21 +458,24 @@ It searches for:
 *.webp
 ```
 
-### Step 4: Create sanity report
+---
 
-Function:
+### `run_simple_sanity_report()`
 
-```python
-run_simple_sanity_report()
-```
+Creates a summary report showing:
 
-It checks whether markdown files and metadata files were created. It also warns if the markdown text is empty or too short.
+* total PDFs,
+* successful PDFs,
+* failed PDFs,
+* Markdown files found,
+* HTML files found,
+* metadata JSON files found,
+* extracted images found,
+* warnings.
 
 ---
 
-## What Can Be Safely Changed
-
-A teammate can safely change:
+## What anyone Can Safely Change
 
 ```python
 INPUT_PATH
@@ -466,28 +487,28 @@ INCLUDE_HEADERS_FOOTERS
 TIMEOUT_SECONDS
 ```
 
-For the current pipeline, if the aim is page-level structure extraction, use `page_by_page_ocr.py` instead of `ocr.py`.
-
 ---
 
-## When to Use This File
+## When to Use
 
 Use this file when:
 
 * You want full-document OCR output.
-* You want Markdown and HTML for the whole document.
-* You want a quick full-document OCR report.
-* You do not need page-by-page JSON for LLM extraction.
+* You want the whole document as Markdown or HTML.
+* You do not need one JSON file per page.
+* You are debugging Chandra OCR output at the document level.
+
+For the main extraction pipeline, use `page_by_page_ocr.py` instead.
 
 ---
 
-# 3.3 `page_by_page_ocr.py`
+# 4.3 `page_by_page_ocr.py`
 
 ## Purpose
 
-`page_by_page_ocr.py` is the main OCR script for the current pipeline.
+`page_by_page_ocr.py` is the main OCR script for the pipeline.
 
-It runs Chandra OCR one page at a time and saves each page as a separate JSON file. This page-level structure is important because the next step, `chunking.py`, expects `page_*.json` files.
+It runs Chandra OCR page by page and saves each page as a separate JSON file. This is important because `chunking.py` expects page-level JSON files.
 
 ---
 
@@ -499,7 +520,19 @@ Configured at the top:
 INPUT_PATH = Path(r"Documents\20160408_Finance_Act_2013.pdf")
 ```
 
-This can be a single PDF file or a folder containing multiple PDFs.
+This can be either:
+
+```python
+INPUT_PATH = Path(r"Documents\example.pdf")
+```
+
+or:
+
+```python
+INPUT_PATH = Path(r"Documents\Finance Acts")
+```
+
+If a folder is given, all PDF files inside it are processed.
 
 ---
 
@@ -517,7 +550,7 @@ If headers and footers are included:
 phase1_output/page_by_page_ocr/<document_name>/
 ```
 
-Each page is saved as:
+Each page becomes one JSON file:
 
 ```text
 page_0000.json
@@ -526,13 +559,13 @@ page_0002.json
 ...
 ```
 
-Important note: the current code loops from `0` to `total_pages - 1`, so page numbers are zero-based in the output files.
+Important note: the page numbering is currently zero-based. That means the first page is stored as `page_0000.json`.
 
 ---
 
 ## Page JSON Structure
 
-Each page output has this structure:
+Each page JSON looks like:
 
 ```json
 {
@@ -559,7 +592,7 @@ Each page output has this structure:
 }
 ```
 
-The most important field for the next phase is:
+The most important field for the next stage is:
 
 ```json
 "content": {
@@ -567,7 +600,7 @@ The most important field for the next phase is:
 }
 ```
 
-`chunking.py` reads this field.
+`chunking.py` reads `raw_markdown`.
 
 ---
 
@@ -580,115 +613,83 @@ TIMEOUT_SECONDS = 60 * 20
 INCLUDE_HEADERS_FOOTERS = False
 ```
 
-The current configuration excludes headers and footers:
+The current setup excludes headers and footers:
 
 ```python
 INCLUDE_HEADERS_FOOTERS = False
 ```
 
-That is usually good for legal point extraction because repeated page headers and footers can confuse the LLM.
+This is usually better for legal structure extraction because repeated page headers and footers can confuse the LLM.
 
 ---
 
-## What It Does Internally
+## Main Functions
 
-### Step 1: Find PDF files
+### `get_pdf_files()`
 
-Function:
+Finds PDFs from the configured input path.
 
-```python
-get_pdf_files()
-```
+---
 
-It supports both single-PDF and folder input.
+### `get_pdf_page_count()`
 
-### Step 2: Count PDF pages
+Uses `pypdf.PdfReader` to count how many pages the PDF has.
 
-Function:
+---
 
-```python
-get_pdf_page_count()
-```
+### `run_chandra_single_page()`
 
-It uses `pypdf.PdfReader` to count pages.
+Runs Chandra OCR for one page at a time.
 
-### Step 3: Run OCR page by page
-
-Function:
-
-```python
-run_chandra_single_page()
-```
-
-For each page, it creates a temporary folder:
+It creates a temporary folder:
 
 ```text
 temp_page_XXXX/
 ```
 
-Then it runs Chandra OCR with:
+Then runs a command like:
 
 ```bash
 chandra <pdf_path> <temp_dir> --method hf --page-range <page_number> --max-output-tokens 12384 --no-headers-footers
 ```
 
-After Chandra finishes, the script reads the temporary Markdown, HTML, and metadata files.
-
-### Step 4: Save page JSON
-
-Each page is saved as:
-
-```text
-page_XXXX.json
-```
-
-inside the document output folder.
-
-### Step 5: Compute OCR sanity
-
-Function:
-
-```python
-compute_sanity()
-```
-
-It checks:
-
-* Whether the OCR text is empty.
-* Whether the OCR text is very short.
-* Whether there is encoding noise.
-* Whether Bangla or English characters are detected.
-
-### Step 6: Save final OCR run report
-
-Function:
-
-```python
-run_simple_sanity_report()
-```
-
-It summarizes:
-
-* Total PDFs.
-* Successful PDFs.
-* Failed PDFs.
-* Total pages.
-* Successful pages.
-* Failed pages.
-* Warning pages.
-* Failed page numbers by PDF.
-
-Report location:
-
-```text
-phase1_output/reports/page_by_page_ocr/<input_name>_report_without_headers_footers.json
-```
+After OCR, it reads the generated Markdown, HTML, and metadata files.
 
 ---
 
-## What Can Be Safely Changed
+### `compute_sanity()`
 
-A teammate can safely change:
+Checks the OCR text for:
+
+* empty text,
+* very short text,
+* encoding noise,
+* missing Bangla or English characters.
+
+---
+
+### `run_page_level_ocr()`
+
+Runs OCR for every page in a PDF and saves the page JSON outputs.
+
+---
+
+### `run_simple_sanity_report()`
+
+Creates a report containing:
+
+* input path,
+* whether headers/footers were included,
+* total PDFs,
+* total pages,
+* successful pages,
+* failed pages,
+* warning pages,
+* failed pages by PDF.
+
+---
+
+## What anyone Can Safely Change
 
 ```python
 INPUT_PATH
@@ -698,28 +699,31 @@ TIMEOUT_SECONDS
 INCLUDE_HEADERS_FOOTERS
 ```
 
-Be careful with page numbering. The script currently uses zero-based page numbers. If Chandra expects one-based page ranges in your environment, this should be tested carefully.
+---
+
+## Warning
+
+The code currently loops like this:
+
+```python
+for page_number in range(0, total_pages):
+```
+
+So page numbering starts at `0`.
+
+This is fine if Chandra accepts zero-based page numbers in the current environment. If OCR skips or misaligns pages, this should be checked first.
 
 ---
 
-## When to Use This File
-
-Use this file as the main OCR entry point before running `chunking.py`.
-
----
-
-# 3.4 `chunking.py`
+# 4.4 `chunking.py`
 
 ## Purpose
 
-`chunking.py` converts page-level OCR JSON files into chunk-level JSON input for the LLM extractor.
+`chunking.py` converts page-level OCR JSON files into LLM-ready chunks.
 
-Each chunk corresponds to one OCR page, but it also includes a small amount of surrounding context:
+Each chunk mostly represents one page, but it also includes a small amount of context from the previous and next pages.
 
-* `previous_tail`: the last part of the previous page.
-* `next_head`: the first part of the next page.
-
-This helps the LLM detect whether a legal point continues across page boundaries.
+This context helps the LLM decide whether a legal point continues across pages.
 
 ---
 
@@ -731,10 +735,10 @@ Configured at the top:
 PAGE_OCR_INPUT = Path(r"phase1_output\page_by_page_ocr\without_headers_footers\20160408_Finance_Act_2013")
 ```
 
-This can be either:
+This can be:
 
-1. A single document folder containing `page_*.json`, or
-2. A parent folder containing multiple document folders.
+1. a single document folder containing `page_*.json`, or
+2. a parent folder containing multiple document folders.
 
 ---
 
@@ -746,7 +750,7 @@ Configured as:
 OUTPUT_ROOT = Path("phase1_output/chunks/without_headers_footers")
 ```
 
-For a single document, it outputs:
+For one document:
 
 ```text
 phase1_output/chunks/without_headers_footers/<document_name>/chunks.json
@@ -756,7 +760,7 @@ phase1_output/chunks/without_headers_footers/<document_name>/chunks.json
 
 ## Chunk JSON Structure
 
-Each chunk looks like this:
+Each chunk looks like:
 
 ```json
 {
@@ -769,20 +773,9 @@ Each chunk looks like this:
 }
 ```
 
-The most important field is:
+The field `text` is the actual current page content.
 
-```json
-"text": "current page OCR markdown"
-```
-
-This is the only text that the Phase 2 extractor should extract from.
-
-The surrounding fields are only for continuity judgment:
-
-```json
-"previous_tail": "..."
-"next_head": "..."
-```
+The fields `previous_tail` and `next_head` are only context. The extractor should not copy text from them into the output.
 
 ---
 
@@ -795,65 +788,43 @@ HEAD_SIZE = 800
 
 Meaning:
 
-* `TAIL_SIZE = 800`: take the last 800 characters of the previous page.
-* `HEAD_SIZE = 800`: take the first 800 characters of the next page.
-
-These values are important. If they are too small, the LLM may miss continuation clues. If they are too large, the LLM may accidentally copy context text into the extracted output.
+* `TAIL_SIZE = 800`: keep the last 800 characters from the previous page.
+* `HEAD_SIZE = 800`: keep the first 800 characters from the next page.
 
 ---
 
-## What It Does Internally
+## Main Functions
 
-### Step 1: Detect document folders
+### `get_document_folders()`
 
-Function:
+Detects whether the input is one document folder or a parent folder containing multiple document folders.
 
-```python
-get_document_folders()
-```
+---
 
-It finds folders that directly contain files matching:
+### `load_pages_from_doc_folder()`
 
-```text
-page_*.json
-```
+Loads all `page_*.json` files and sorts them by page number.
 
-### Step 2: Load all page JSON files
+---
 
-Function:
+### `build_chunks_for_document()`
 
-```python
-load_pages_from_doc_folder()
-```
+Creates one chunk per page.
 
-It loads each page JSON file and sorts them by `page_number`.
+Each chunk includes:
 
-### Step 3: Build chunks
+* document name,
+* chunk ID,
+* page number,
+* current page OCR text,
+* previous page tail,
+* next page head.
 
-Function:
+---
 
-```python
-build_chunks_for_document()
-```
+### `save_document_chunks()`
 
-For each page, it creates a chunk containing:
-
-* document name
-* chunk id
-* page number
-* current page text
-* previous page tail
-* next page head
-
-### Step 4: Save chunks
-
-Function:
-
-```python
-save_document_chunks()
-```
-
-It saves all chunks into:
+Saves all chunks into one file:
 
 ```text
 chunks.json
@@ -861,9 +832,7 @@ chunks.json
 
 ---
 
-## What Can Be Safely Changed
-
-A teammate can safely change:
+## What anyone Can Safely Change
 
 ```python
 PAGE_OCR_INPUT
@@ -872,25 +841,379 @@ TAIL_SIZE
 HEAD_SIZE
 ```
 
-Usually, `TAIL_SIZE = 800` and `HEAD_SIZE = 800` are reasonable. Increase them only if continuation detection is weak. Decrease them if the extractor copies previous or next page context into the current output.
+---
+
+## Practical Advice
+
+If the extractor fails to detect cross-page continuation, increase `TAIL_SIZE` and `HEAD_SIZE`.
+
+If the extractor starts copying previous or next page text into the current output, reduce `TAIL_SIZE` and `HEAD_SIZE`.
 
 ---
 
-## When to Use This File
-
-Run this after `page_by_page_ocr.py` and before `stateful_extraction_2.py`.
-
----
-
-# 3.5 `stateful_extraction_2.py`
+# 4.5 `llm_client.py`
 
 ## Purpose
 
-`stateful_extraction_2.py` is the core LLM extraction engine.
+`llm_client.py` is the shared local LLM backend layer.
 
-It reads `chunks.json`, sends each chunk to an Ollama model, extracts structured content blocks, optionally sends the output to a validator agent, repairs invalid outputs, and saves one structured JSON file per page/chunk.
+This is the newest architectural addition. Earlier, `stateful_extraction_2.py` and `validator.py` directly called Ollama. Now both files call `llm_client.py`, and this file decides whether to use:
 
-This is the most important and most sensitive file in the project.
+```text
+Ollama local server
+HuggingFace Transformers local model
+```
+
+This makes the pipeline cleaner and more flexible.
+
+---
+
+## Why This File Exists
+
+Without `llm_client.py`, every file that needs an LLM would need its own separate Ollama or HuggingFace logic. That creates duplicated code and makes backend switching messy.
+
+With `llm_client.py`, the extractor and validator only need to call:
+
+```python
+chat_completion(...)
+```
+
+and pass a configuration object:
+
+```python
+LLMRequestConfig(...)
+```
+
+This keeps the model-calling logic centralized.
+
+---
+
+## Supported Backends
+
+The supported backend names are:
+
+```python
+"ollama"
+"hf"
+"huggingface"
+```
+
+Internally, the code defines:
+
+```python
+BackendName = Literal["ollama", "hf", "huggingface"]
+```
+
+---
+
+## Main Config Object: `LLMRequestConfig`
+
+The file defines a dataclass:
+
+```python
+@dataclass(frozen=True)
+class LLMRequestConfig:
+    backend: BackendName
+    model: str
+    temperature: float = 0.2
+    top_p: float = 0.1
+    num_ctx: Optional[int] = None
+    max_new_tokens: int = 4096
+    think: bool = False
+    response_format: str = "json"
+```
+
+This object stores all model-calling settings.
+
+Important fields:
+
+* `backend`: whether to use Ollama or HuggingFace.
+* `model`: model name.
+* `temperature`: controls randomness.
+* `top_p`: nucleus sampling parameter.
+* `num_ctx`: context length, mainly useful for Ollama.
+* `max_new_tokens`: maximum tokens to generate, mainly important for HuggingFace.
+* `think`: enables thinking mode if supported.
+* `response_format`: usually `"json"`.
+
+---
+
+## Main Public Function: `chat_completion()`
+
+This is the public entry point used by the rest of the pipeline.
+
+Signature:
+
+```python
+def chat_completion(
+    *,
+    system_prompt: str,
+    user_prompt: str,
+    config: LLMRequestConfig,
+) -> str:
+```
+
+It receives:
+
+* system prompt,
+* user prompt,
+* request config.
+
+Then it checks the backend:
+
+```python
+if backend == "ollama":
+    return _chat_ollama(...)
+
+if backend in {"hf", "huggingface"}:
+    return _chat_huggingface(...)
+```
+
+So the extractor and validator do not need to know the low-level details of Ollama or HuggingFace.
+
+---
+
+## Ollama Backend
+
+Function:
+
+```python
+_chat_ollama()
+```
+
+This function:
+
+1. imports the `ollama` Python package,
+2. builds an `options` dictionary,
+3. passes temperature, top-p, and context length,
+4. calls:
+
+```python
+ollama.chat(...)
+```
+
+The response is returned as:
+
+```python
+response["message"]["content"]
+```
+
+Ollama has native JSON formatting support through:
+
+```python
+format="json"
+```
+
+So when `response_format = "json"`, Ollama is instructed to return JSON.
+
+---
+
+## HuggingFace Backend
+
+Function:
+
+```python
+_chat_huggingface()
+```
+
+This function uses:
+
+```python
+AutoProcessor
+AutoModelForCausalLM
+```
+
+It loads the model and processor through:
+
+```python
+_load_hf_bundle()
+```
+
+The model is cached using:
+
+```python
+@lru_cache(maxsize=2)
+```
+
+This is important because loading a HuggingFace model is expensive. With caching, the model is loaded once and reused across extractor and validator calls.
+
+---
+
+## HuggingFace Model Loading
+
+The function `_load_hf_bundle()`:
+
+1. reads an optional HuggingFace token from:
+
+```text
+HF_TOKEN
+HUGGINGFACE_TOKEN
+```
+
+2. loads the processor,
+3. loads the model with:
+
+```python
+device_map="auto"
+```
+
+4. uses automatic dtype selection:
+
+```python
+dtype="auto"
+```
+
+or fallback:
+
+```python
+torch_dtype="auto"
+```
+
+5. sets the model to evaluation mode:
+
+```python
+model.eval()
+```
+
+---
+
+## HuggingFace JSON Handling
+
+Unlike Ollama, HuggingFace generation does not enforce JSON through a native `format="json"` parameter.
+
+So if `response_format == "json"`, `llm_client.py` appends an extra instruction to the user prompt:
+
+```text
+Return exactly one valid JSON object only. No markdown. No explanation. No text before or after JSON.
+```
+
+This does not guarantee JSON, but it improves the chance of valid output. The existing parser in `stateful_extraction_2.py` and `validator.py` still handles extra text defensively.
+
+---
+
+## Thinking Block Cleanup
+
+Some models may emit reasoning blocks such as:
+
+```text
+<think>...</think>
+```
+
+or:
+
+```text
+<thinking>...</thinking>
+```
+
+`llm_client.py` includes:
+
+```python
+_strip_thinking_blocks()
+```
+
+to remove these from the final model response before JSON parsing.
+
+---
+
+## What anyone Can Safely Change
+
+Usually, teammates should not change the internal code of `llm_client.py`.
+
+They should change backend settings from the caller files instead:
+
+* `stateful_extraction_2.py` for extractor settings,
+* `validator.py` for validator settings.
+
+However, advanced users can change:
+
+```python
+maxsize=2
+device_map="auto"
+dtype="auto"
+```
+
+only if they understand HuggingFace model loading and GPU memory behavior.
+
+---
+
+## Dependencies Required by `llm_client.py`
+
+For Ollama backend:
+
+```bash
+pip install ollama
+```
+
+For HuggingFace backend:
+
+```bash
+pip install -U transformers torch accelerate
+```
+
+If using a gated HuggingFace model, set one of these environment variables:
+
+```bash
+HF_TOKEN=<your_token>
+```
+
+or:
+
+```bash
+HUGGINGFACE_TOKEN=<your_token>
+```
+
+---
+
+## When to Modify This File
+
+Modify `llm_client.py` only when:
+
+* adding a new backend,
+* changing HuggingFace loading behavior,
+* changing how JSON response cleanup works,
+* changing how thinking blocks are removed,
+* changing shared LLM error handling.
+
+For normal model switching, do not modify this file. Change the config in the caller files instead.
+
+---
+
+# 4.6 `stateful_extraction_2.py`
+
+## Purpose
+
+`stateful_extraction_2.py` is the main Phase 2 extraction engine.
+
+It reads `chunks.json`, sends each page chunk to a local LLM, extracts structured legal content blocks, optionally validates the output, repairs invalid extraction, and saves one JSON output per page/chunk.
+
+This file is the core intelligence layer of the project.
+
+---
+
+## Major Update in Current Version
+
+The extractor no longer directly calls Ollama.
+
+It now imports:
+
+```python
+from llm_client import LLMRequestConfig, chat_completion
+```
+
+and uses:
+
+```python
+call_model()
+```
+
+to call either:
+
+```text
+HuggingFace local model
+Ollama local server
+```
+
+This makes the extractor backend-independent.
 
 ---
 
@@ -904,21 +1227,21 @@ INPUT_CHUNKS_PATH = Path(r"phase1_output\chunks\without_headers_footers\20160408
 
 This can be:
 
-1. A direct `chunks.json` file,
-2. A document folder containing `chunks.json`, or
-3. A parent folder containing multiple document folders.
+1. a direct `chunks.json` file,
+2. a document folder containing `chunks.json`,
+3. a parent folder containing multiple document folders.
 
 ---
 
 ## Main Output
 
-Page outputs are saved inside:
+Page-level extraction outputs are saved inside:
 
 ```text
 phase2_output/page_outputs_2/<document_name>/
 ```
 
-Each page/chunk produces a JSON file:
+Each page/chunk produces one JSON file:
 
 ```text
 <chunk_id>_page_XXXX.json
@@ -938,70 +1261,116 @@ phase2_output/reports/20160408_Finance_Act_2013_report.json
 
 ---
 
-## Critical Config Variables
+## Important Config Variables
 
 ```python
+INPUT_CHUNKS_PATH = Path(...)
+OUTPUT_ROOT = Path("phase2_output")
+PAGE_OUTPUT_ROOT = OUTPUT_ROOT / "page_outputs_2"
+REPORT_ROOT = OUTPUT_ROOT / "reports"
+
+MAX_RETRIES = 2
+STOP_ON_FAILURE = False
+
+USE_VALIDATOR_AGENT = True
+MAX_VALIDATOR_REPAIR_ROUNDS = 3
+
+SEND_PREVIOUS_OPEN_POINT_BLOCK = True
+PREVIOUS_OPEN_POINT_TEXT_LIMIT = None
+```
+
+These control file paths, retry behavior, validator usage, and previous open point context.
+
+---
+
+## Local LLM Backend Config
+
+Current extractor backend config:
+
+```python
+MODEL_BACKEND = "hf"
+HF_MODEL = "google/gemma-4-E4B-it"
 OLLAMA_MODEL = "gemma4:latest"
 THINK = True
 TEMPERATURE = 0.2
 TOP_P = 0.1
 NUM_CTX = 32768
-MAX_RETRIES = 2
-STOP_ON_FAILURE = False
-USE_VALIDATOR_AGENT = True
-MAX_VALIDATOR_REPAIR_ROUNDS = 3
-SEND_PREVIOUS_OPEN_POINT_BLOCK = True
-PREVIOUS_OPEN_POINT_TEXT_LIMIT = None
+MAX_NEW_TOKENS = 8192
+```
+
+Meaning:
+
+* `MODEL_BACKEND = "hf"` means the extractor currently uses a HuggingFace local model.
+* If changed to `"ollama"`, it will use the local Ollama server.
+* `HF_MODEL` is used only when backend is `"hf"` or `"huggingface"`.
+* `OLLAMA_MODEL` is used only when backend is `"ollama"`.
+* `MAX_NEW_TOKENS` is mainly for HuggingFace output length.
+* `NUM_CTX` is mainly useful for Ollama context length.
+* `THINK` is passed to both backends if supported.
+
+---
+
+## Important Warning: Chunk Range
+
+Current setting:
+
+```python
 CHUNK_START = 48
 CHUNK_END = None
 ```
 
-The most important issue:
+This means the extractor starts from chunk 48 and skips earlier chunks.
 
-```python
-CHUNK_START = 48
-```
+This is useful for debugging, but dangerous for full-document extraction.
 
-This means the extractor currently starts from chunk 48 and skips all previous chunks. For full-document extraction, change it to:
+For a full document run, change it to:
 
 ```python
 CHUNK_START = 0
+CHUNK_END = None
 ```
 
-`CHUNK_END = None` means continue until the end.
+To process only a specific range:
+
+```python
+CHUNK_START = 10
+CHUNK_END = 20
+```
+
+This processes chunks 10 through 19.
 
 ---
 
-## What the Extractor Produces
+## Extractor Output Schema
 
-The extractor outputs a structure like:
+The extractor returns this structure:
 
 ```json
 {
-  "chunk_id": "20160408_Finance_Act_2013_chunk_0001",
+  "chunk_id": "",
   "page_number": 0,
-  "document_id": "20160408_Finance_Act_2013",
+  "document_id": "",
   "content_blocks": [
     {
-      "block_id": "p0000_b001",
-      "type": "point",
-      "point_number": "১",
-      "text": "...",
+      "block_id": "",
+      "type": "point | metadata | ignore | uncertain",
+      "point_number": "",
+      "text": "",
       "continues_from_previous": false,
-      "continues_to_next": true,
-      "stitch_group_id": "point_১",
-      "stitching_note": "..."
+      "continues_to_next": false,
+      "stitch_group_id": "",
+      "stitching_note": ""
     }
   ],
   "output_carry_forward_state": {
-    "status": "open",
-    "active_point_number": "১",
-    "active_stitch_group_id": "point_১",
-    "active_point_summary": "...",
-    "numbering_system": "bangla_digits",
-    "expected_next_main_point": "২",
-    "continuation_hint": "...",
-    "last_visible_text": "..."
+    "status": "open | closed | uncertain",
+    "active_point_number": "",
+    "active_stitch_group_id": "",
+    "active_point_summary": "",
+    "numbering_system": "",
+    "expected_next_main_point": "",
+    "continuation_hint": "",
+    "last_visible_text": ""
   }
 }
 ```
@@ -1010,7 +1379,7 @@ The extractor outputs a structure like:
 
 ## Allowed Block Types
 
-The current extractor supports only these block types:
+Current allowed block types are:
 
 ```text
 point
@@ -1021,44 +1390,18 @@ uncertain
 
 Meaning:
 
-* `point`: main legal numbered content.
-* `metadata`: title, chapter heading, date, notification header, authority line, preamble, signature line, etc.
+* `point`: main numbered legal content.
+* `metadata`: document title, chapter title, date, authority line, preamble, signature block, etc.
 * `ignore`: page number, repeated footer, OCR garbage.
 * `uncertain`: used when the model is unsure.
 
-Important limitation: the current code does not yet support a separate `paragraph` block type. If paragraph extraction is required, then `stateful_extraction_2.py`, `validator.py`, and `stitch_points.py` must all be updated together.
-
----
-
-## How Continuation Works
-
-The extractor uses three kinds of context:
-
-```json
-"previous_state": {}
-"previous_tail": "..."
-"next_head": "..."
-```
-
-It may also receive:
-
-```json
-"previous_open_point_block": {}
-```
-
-The key rule is:
-
-```text
-The model must extract text only from current_page_text.
-```
-
-`previous_tail`, `next_head`, and `previous_open_point_block` are only context. They help the model decide whether a point continues, but they must not be copied into the output text.
+Important limitation: the current schema does not yet support a dedicated `paragraph` block type.
 
 ---
 
 ## Carry-Forward State
 
-The carry-forward state is how the extractor remembers legal structure across pages.
+The extractor uses carry-forward state to remember legal continuity across pages.
 
 Example:
 
@@ -1070,7 +1413,7 @@ Example:
   "active_point_summary": "The current point discusses...",
   "numbering_system": "bangla_digits",
   "expected_next_main_point": "৬",
-  "continuation_hint": "The next page may continue subpoint (ঘ).",
+  "continuation_hint": "The next page may continue this point.",
   "last_visible_text": "..."
 }
 ```
@@ -1081,23 +1424,73 @@ If a point continues to the next page:
 "continues_to_next": true
 ```
 
-Then the carry state should usually be:
+then the carry state should usually be:
 
 ```json
 "status": "open"
 ```
 
-If the point is complete:
-
-```json
-"continues_to_next": false
-```
-
-Then the carry state should usually be:
+If there is no active continuation, the carry state should usually be:
 
 ```json
 "status": "closed"
 ```
+
+---
+
+## Previous Open Point Block
+
+If a point continues to the next page, the extractor can send a compact version of the previous open point to the next chunk.
+
+Controlled by:
+
+```python
+SEND_PREVIOUS_OPEN_POINT_BLOCK = True
+PREVIOUS_OPEN_POINT_TEXT_LIMIT = None
+```
+
+Function:
+
+```python
+get_previous_open_point_block()
+```
+
+This finds the last `point` block where:
+
+```json
+"continues_to_next": true
+```
+
+and sends that point as context to the next extraction call.
+
+This helps maintain the same:
+
+```json
+point_number
+stitch_group_id
+```
+
+across pages.
+
+---
+
+## Important Rule
+
+The extractor must extract text only from:
+
+```json
+current_page_text
+```
+
+It must not copy text from:
+
+```json
+previous_tail
+next_head
+previous_open_point_block
+```
+
+Those fields are only for understanding continuation.
 
 ---
 
@@ -1108,115 +1501,180 @@ Then the carry state should usually be:
 Detects whether the input is:
 
 * a direct `chunks.json`,
-* a document folder containing `chunks.json`, or
+* a document folder containing `chunks.json`,
 * a parent folder containing multiple document folders.
 
-### `get_previous_open_point_block()`
-
-Finds the last `point` block from the current output where:
-
-```json
-"continues_to_next": true
-```
-
-It sends this compact block to the next LLM call so the model can continue the same point.
+---
 
 ### `build_user_prompt()`
 
-Builds the JSON payload for the LLM.
+Builds the JSON payload sent to the LLM.
 
 It includes:
 
-* chunk id
-* page number
-* document id
-* previous state
-* previous tail
-* current page text
-* next head
-* previous open point block
-* validator instruction, if this is a repair attempt
+* chunk ID,
+* page number,
+* document ID,
+* previous state,
+* previous tail,
+* current page text,
+* next head,
+* previous open point block,
+* validator instruction if this is a repair attempt.
 
-### `call_ollama()`
+---
 
-Calls the local Ollama model using:
+### `call_model()`
 
-```python
-ollama.chat()
-```
+This is the new backend-independent model caller.
 
-The response format is forced to JSON:
+It selects the correct model name:
 
 ```python
-format="json"
+model_name = HF_MODEL if MODEL_BACKEND in ["hf", "huggingface"] else OLLAMA_MODEL
 ```
+
+Then calls:
+
+```python
+chat_completion(...)
+```
+
+with an `LLMRequestConfig`.
+
+This is where `stateful_extraction_2.py` connects to `llm_client.py`.
+
+---
 
 ### `extract_json_object()`
 
-Parses the model output. If the model returns extra text, it tries to extract the largest JSON object.
+Parses model output into JSON.
+
+It first tries direct `json.loads()`. If that fails, it extracts the largest JSON object from the text.
+
+This is important because local models may sometimes return extra text even when instructed not to.
+
+---
+
+### `normalize_block()`
+
+Normalizes each extracted block.
+
+It ensures:
+
+* valid block type,
+* valid boolean fields,
+* stable block ID,
+* clean text,
+* empty point fields for non-point blocks,
+* auto-created `stitch_group_id` when missing.
+
+---
+
+### `normalize_state()`
+
+Normalizes the carry-forward state.
+
+It ensures valid values for:
+
+```text
+status
+numbering_system
+active_point_number
+active_stitch_group_id
+expected_next_main_point
+last_visible_text
+```
+
+---
 
 ### `validate_and_normalize_output()`
 
-Normalizes the model output so it follows the expected schema.
+Takes raw model JSON and converts it into the correct output schema.
 
-It fixes:
+If the model returns no valid blocks, this function creates a fallback uncertain block.
 
-* missing block ids
-* invalid block types
-* string booleans
-* missing stitch group ids
-* invalid carry state values
+---
 
 ### `fallback_output()`
 
-If the extractor completely fails, this creates a fallback output.
+Creates a fallback output when extraction fails completely.
 
-If the previous state was open, the fallback assumes the current text continues the previous point. Otherwise, it marks the page as uncertain.
+If the previous state was open, it assumes the current page continues the previous point.
+
+Otherwise, it marks the page as uncertain.
+
+---
+
+### `run_extractor_once()`
+
+Runs the extractor for one chunk.
+
+Flow:
+
+```text
+1. Build prompt.
+2. Call model through llm_client.py.
+3. Parse model response as JSON.
+4. Normalize output.
+5. Retry on failure.
+6. Return fallback output if all retries fail.
+```
+
+---
 
 ### `process_chunk()`
 
-This is the main per-chunk extraction function.
+Runs extraction and validation for one chunk.
 
 Flow:
 
 ```text
 1. Run extractor once.
-2. Send result to validator.
-3. If validator accepts, save result.
-4. If validator rejects, retry extraction with validator correction.
-5. Repeat up to MAX_VALIDATOR_REPAIR_ROUNDS.
+2. If validator is disabled, return output.
+3. If validator is enabled, validate output.
+4. If validator accepts, return output.
+5. If validator rejects, send correction instruction back to extractor.
+6. Repeat repair loop up to MAX_VALIDATOR_REPAIR_ROUNDS.
 ```
+
+---
 
 ### `run_extraction_for_document()`
 
 Processes all chunks for one document.
 
-It keeps track of:
+It maintains:
 
-* previous carry state
-* previous open point block
-* page-level reports
-* validation logs
-* failed pages
-* processing time per page
-
-### `run_extraction()`
-
-Main entry point. It processes one or more documents and writes the final Phase 2 report.
+* previous carry-forward state,
+* previous open point block,
+* page-level extraction report,
+* validation logs,
+* timing information,
+* failed pages.
 
 ---
 
-## What Can Be Safely Changed
+### `run_extraction()`
 
-A teammate can safely change:
+Main entry point.
+
+It processes one or more documents and saves the final Phase 2 report.
+
+---
+
+## What anyone Can Safely Change
 
 ```python
 INPUT_CHUNKS_PATH
+MODEL_BACKEND
+HF_MODEL
 OLLAMA_MODEL
 THINK
 TEMPERATURE
 TOP_P
 NUM_CTX
+MAX_NEW_TOKENS
 MAX_RETRIES
 USE_VALIDATOR_AGENT
 MAX_VALIDATOR_REPAIR_ROUNDS
@@ -1225,7 +1683,7 @@ CHUNK_START
 CHUNK_END
 ```
 
-Recommended default for full extraction:
+Recommended full-document setting:
 
 ```python
 CHUNK_START = 0
@@ -1237,30 +1695,80 @@ USE_VALIDATOR_AGENT = True
 
 ## What Should Be Changed Carefully
 
-Be very careful changing:
+Be careful changing:
 
 ```python
 SYSTEM_PROMPT
 output schema
+default_content_block()
 normalize_block()
 normalize_state()
 fallback_output()
 process_chunk()
 ```
 
-These parts control the contract between extraction, validation, and stitching. If the schema changes in Phase 2, Phase 3 must also be updated.
+If the schema changes here, `validator.py` and `stitch_points.py` must also be updated.
 
 ---
 
-# 3.6 `validator.py`
+# 4.7 `validator.py`
 
 ## Purpose
 
-`validator.py` is a second LLM agent that checks the extractor output.
+`validator.py` is the second LLM agent in the pipeline.
 
-It does not re-extract the page. It only checks whether the extractor made one of four serious mistakes.
+Its job is not to re-extract the page. Its job is to check whether the extractor made one of four major harmful errors.
 
-This validator improves reliability because the extractor sometimes makes small but harmful mistakes, especially with carry-forward state or page continuation.
+The validator improves stability because legal extraction often fails in small ways that create large downstream stitching problems.
+
+---
+
+## Major Update in Current Version
+
+The validator no longer calls Ollama directly.
+
+It now imports:
+
+```python
+from llm_client import LLMRequestConfig, chat_completion
+```
+
+and calls the model through `llm_client.py`.
+
+This means the validator can now use either:
+
+```text
+HuggingFace local model
+Ollama local server
+```
+
+independently from the extractor.
+
+---
+
+## Validator Backend Config
+
+Current validator config:
+
+```python
+VALIDATOR_BACKEND = "hf"
+VALIDATOR_HF_MODEL = "google/gemma-4-E4B-it"
+VALIDATOR_OLLAMA_MODEL = "gemma4:latest"
+
+THINK = False
+VALIDATOR_TEMPERATURE = 0.3
+VALIDATOR_TOP_P = 0.2
+VALIDATOR_NUM_CTX = 32768
+VALIDATOR_MAX_NEW_TOKENS = 1024
+VALIDATOR_TEXT_LIMIT = 2500
+```
+
+Meaning:
+
+* `VALIDATOR_BACKEND = "hf"` means it currently uses a HuggingFace local model.
+* To use Ollama, set `VALIDATOR_BACKEND = "ollama"`.
+* The validator output is small, so `VALIDATOR_MAX_NEW_TOKENS = 1024` is enough.
+* `VALIDATOR_TEXT_LIMIT` keeps previous and next page context compact.
 
 ---
 
@@ -1270,18 +1778,16 @@ The validator receives:
 
 ```json
 {
-  "chunk_id": "...",
+  "chunk_id": "",
   "page_number": 0,
   "previous_state": {},
-  "previous_tail": "...",
-  "current_page_text": "...",
-  "next_head": "...",
+  "previous_tail": "",
+  "current_page_text": "",
+  "next_head": "",
   "previous_open_point_block": {},
   "extractor_output": {}
 }
 ```
-
-It is called from `stateful_extraction_2.py`.
 
 ---
 
@@ -1307,42 +1813,25 @@ or:
 }
 ```
 
-The correction instruction is then sent back to the extractor for a repair attempt.
-
----
-
-## Validator Model Config
-
-```python
-VALIDATOR_MODEL = "gemma4:latest"
-THINK = False
-VALIDATOR_TEMPERATURE = 0.3
-VALIDATOR_TOP_P = 0.2
-VALIDATOR_NUM_CTX = 32768
-VALIDATOR_TEXT_LIMIT = 2500
-```
-
-The validator uses a shorter and more focused context. It compacts long `previous_tail` and `next_head` values using:
-
-```python
-compact_text()
-```
+The correction instruction is then sent back to the extractor for a repair round.
 
 ---
 
 ## The Four Major Errors It Checks
 
+The validator only checks four major errors.
+
 ### 1. `wrong_block_split`
 
-This means the extractor split one continuous legal point into multiple point blocks unnecessarily.
+This means a single continuous legal point was split into multiple point blocks unnecessarily.
 
 Example:
 
 ```text
-Point ৩ starts on the current page and includes a table, but the extractor separates the table into another point block.
+A point contains a table, but the extractor separates the table into another point block.
 ```
 
-That should be invalid.
+That should usually be invalid.
 
 ---
 
@@ -1356,36 +1845,30 @@ next_head
 previous_open_point_block
 ```
 
-even though that text does not appear in the current page.
+even though the copied text does not appear in the current page text.
 
 This is a serious source-boundary error.
-
-Correct behavior:
-
-```text
-Use previous_tail and next_head only to understand continuation.
-Extract block text only from current_page_text.
-```
 
 ---
 
 ### 3. `wrong_block_type`
 
-This means legal point text was classified as metadata, ignore, or uncertain, or clear metadata was classified as a point.
+This means:
+
+* legal point text was classified as metadata, ignore, or uncertain, or
+* clear metadata was classified as point.
 
 Example:
 
 ```text
-A numbered amendment is marked as metadata.
+A numbered legal amendment is marked as metadata.
 ```
-
-That should be invalid.
 
 ---
 
 ### 4. `carry_state_inconsistency`
 
-This means the extracted blocks and carry-forward state contradict each other.
+This means the content blocks and carry-forward state contradict each other.
 
 Examples:
 
@@ -1393,13 +1876,9 @@ Examples:
 continues_to_next = true, but output_carry_forward_state.status = closed
 ```
 
-or:
-
 ```text
 continues_to_next = true, but active_point_number is empty
 ```
-
-or:
 
 ```text
 active_stitch_group_id changes randomly
@@ -1411,9 +1890,18 @@ active_stitch_group_id changes randomly
 
 The validator is intentionally conservative.
 
-It should not reject outputs for minor issues, formatting differences, short summaries, or debatable classification. It only rejects outputs when one of the four major errors is clearly present.
+It should not reject outputs for:
 
-This is important because an overly strict validator would create unnecessary retry loops and slow down the pipeline.
+* minor wording issues,
+* harmless uncertainty,
+* imperfect summaries,
+* small formatting differences,
+* debatable metadata classification,
+* missing text unless caused by one of the four major issues.
+
+If unsure, it should mark the output as valid.
+
+This prevents excessive retry loops.
 
 ---
 
@@ -1421,25 +1909,57 @@ This is important because an overly strict validator would create unnecessary re
 
 ### `compact_text()`
 
-Limits long context fields to keep validator prompts smaller.
+Shortens long context fields.
+
+It keeps the beginning and ending parts of the text, separated by:
+
+```text
+...
+```
+
+This helps the validator stay focused while reducing prompt length.
+
+---
 
 ### `normalize_validator_response()`
 
-Cleans the validator response and ensures the output schema is valid.
+Cleans and normalizes validator output.
 
-It also filters error types so only the four allowed errors are accepted.
+It ensures:
+
+* `is_valid` is boolean,
+* `error_types` is a list,
+* only allowed error types are kept,
+* duplicate error types are removed,
+* correction instruction is limited to 700 characters.
+
+---
 
 ### `parse_json_object()`
 
-Parses validator JSON output.
+Parses validator response as JSON.
+
+If the model returns extra text, it tries to extract the JSON object.
+
+---
 
 ### `validate_extraction_with_agent()`
 
-Main function called by `stateful_extraction_2.py`.
+Main validator function.
 
-It sends the extractor output and chunk context to the validator model, parses the response, and returns a normalized validation result.
+Flow:
 
-If the validator itself fails, it returns valid by default:
+```text
+1. Build validator payload.
+2. Build validator prompt.
+3. Select validator model name based on VALIDATOR_BACKEND.
+4. Call chat_completion() from llm_client.py.
+5. Parse JSON response.
+6. Normalize validator response.
+7. Return validation result.
+```
+
+If validator execution fails, it returns valid by default:
 
 ```json
 {
@@ -1449,48 +1969,49 @@ If the validator itself fails, it returns valid by default:
 }
 ```
 
-This prevents the validator from blocking the whole extraction pipeline.
+This prevents validator failure from blocking the whole extraction pipeline.
 
 ---
 
-## What Can Be Safely Changed
-
-A teammate can safely change:
+## What anyone Can Safely Change
 
 ```python
-VALIDATOR_MODEL
+VALIDATOR_BACKEND
+VALIDATOR_HF_MODEL
+VALIDATOR_OLLAMA_MODEL
 THINK
 VALIDATOR_TEMPERATURE
 VALIDATOR_TOP_P
 VALIDATOR_NUM_CTX
+VALIDATOR_MAX_NEW_TOKENS
 VALIDATOR_TEXT_LIMIT
 ```
-
-They can also adjust the validator prompt, but should not make it too aggressive.
 
 ---
 
 ## What Should Be Changed Carefully
 
-If new block types are added, such as:
+Be careful changing:
 
-```text
-paragraph
+```python
+VALIDATOR_SYSTEM_PROMPT
+normalize_validator_response()
+validate_extraction_with_agent()
 ```
 
-then the validator must be updated to understand that new type. Otherwise, it may incorrectly mark outputs valid or invalid.
+If a new block type such as `paragraph` is added, the validator prompt and validation rules must be updated.
 
 ---
 
-# 3.7 `stitch_points.py`
+# 4.8 `stitch_points.py`
 
 ## Purpose
 
-`stitch_points.py` is Phase 3 of the pipeline.
+`stitch_points.py` is the Phase 3 stitching script.
 
-It reads all Phase 2 page outputs, stitches multi-page point blocks using `stitch_group_id`, and creates one final structured JSON document.
+It reads all Phase 2 page outputs, joins content blocks that belong to the same legal point, and writes the final structured document JSON.
 
-This is the script that produces the final clean output.
+This is the final stage of the current pipeline.
 
 ---
 
@@ -1504,9 +2025,9 @@ PHASE2_INPUT_PATH = Path(r"phase2_output\page_outputs_2\20160408_Finance_Act_201
 
 This can be:
 
-1. A single document folder containing Phase 2 page JSON files,
-2. A parent folder containing multiple document folders, or
-3. A nested group folder containing document folders.
+1. a single document folder containing Phase 2 page JSON files,
+2. a parent folder containing multiple document folders,
+3. a nested group folder containing document folders.
 
 ---
 
@@ -1534,7 +2055,7 @@ phase3_output/reports/phase3_master_report.json
 
 ## Final JSON Structure
 
-The final output looks like:
+The final document looks like:
 
 ```json
 {
@@ -1553,18 +2074,14 @@ The final output looks like:
 }
 ```
 
-Important note: Phase 2 uses block type `point`, but Phase 3 converts final legal points into type:
+Important mapping:
 
-```json
-"type": "clause"
+```text
+Phase 2 metadata → final metadata
+Phase 2 point    → final clause
+Phase 2 ignore   → skipped
+Phase 2 uncertain → skipped unless INCLUDE_UNCERTAIN_IN_FINAL = True
 ```
-
-So in the final output:
-
-* Phase 2 `metadata` becomes final `metadata`.
-* Phase 2 `point` becomes final `clause`.
-* Phase 2 `ignore` is skipped.
-* Phase 2 `uncertain` is skipped unless `INCLUDE_UNCERTAIN_IN_FINAL = True`.
 
 ---
 
@@ -1582,7 +2099,7 @@ If:
 INCLUDE_UNCERTAIN_IN_FINAL = False
 ```
 
-then uncertain blocks are excluded from the final document.
+uncertain blocks are excluded from the final document.
 
 If changed to:
 
@@ -1590,7 +2107,7 @@ If changed to:
 INCLUDE_UNCERTAIN_IN_FINAL = True
 ```
 
-then uncertain blocks are included as metadata.
+uncertain blocks are included as metadata.
 
 ---
 
@@ -1602,9 +2119,9 @@ Phase 3 uses:
 "stitch_group_id": "point_৫"
 ```
 
-to identify the same legal point across multiple pages.
+to identify blocks belonging to the same legal point.
 
-It keeps two dictionaries:
+It uses two dictionaries:
 
 ```python
 open_groups
@@ -1613,7 +2130,7 @@ latest_group_index
 
 ### `open_groups`
 
-Tracks points that are currently open because they have:
+Tracks stitch groups that are currently open because the previous block had:
 
 ```json
 "continues_to_next": true
@@ -1621,21 +2138,15 @@ Tracks points that are currently open because they have:
 
 ### `latest_group_index`
 
-Tracks the latest known location of a stitch group, even if it was already closed.
+Tracks the latest known final content index for each stitch group, even if the group is not currently open.
 
-This allows recovery if the extractor says:
-
-```json
-"continues_from_previous": true
-```
-
-but the group was not technically open.
+This helps recover when the model forgot to keep a group open but later says the next block continues from previous.
 
 ---
 
-## Stitching Cases
+## Main Stitching Cases
 
-### Case 1: Normal continuation
+### Case 1: Explicit continuation
 
 If a block has:
 
@@ -1643,13 +2154,13 @@ If a block has:
 "continues_from_previous": true
 ```
 
-and the same group is open, Phase 3 appends the current block text to the existing clause.
+and its group exists in `open_groups`, the current text is appended to the existing clause.
 
 ---
 
-### Case 2: Recovery from closed group
+### Case 2: Recovered continuation
 
-If the block says:
+If a block says:
 
 ```json
 "continues_from_previous": true
@@ -1657,25 +2168,25 @@ If the block says:
 
 but the group is not open, Phase 3 checks `latest_group_index`.
 
-If the group exists there, it appends anyway and records a warning.
+If the group exists there, the text is appended and a warning is recorded.
 
 ---
 
-### Case 3: Implicit continuation
+### Case 3: Implicit open-group continuation
 
-If the same group is still open but the model forgot to set:
+If the group is open but the model forgot to set:
 
 ```json
 "continues_from_previous": true
 ```
 
-Phase 3 still appends the block and records a warning.
+Phase 3 still appends the text and records a warning.
 
 ---
 
 ### Case 4: New point
 
-If there is no open group and no matching latest group, Phase 3 creates a new final clause.
+If there is no matching open group, Phase 3 creates a new final clause.
 
 ---
 
@@ -1687,45 +2198,62 @@ Function:
 remove_boundary_overlap()
 ```
 
-This tries to remove repeated boundary text if the end of the previous block overlaps with the beginning of the next block.
+This tries to prevent duplicate text when two stitched blocks overlap at the page boundary.
 
-This helps prevent duplicate text when the extractor accidentally repeats a small part of the previous page.
+It compares the end of the previous text with the beginning of the current text.
 
 ---
 
-## Phase 3 Report
+## Main Functions
 
-The stitch report includes:
+### `get_document_jobs()`
+
+Finds document folders containing Phase 2 page JSON files.
+
+It supports:
+
+* direct document folder,
+* parent folder,
+* nested group folder.
+
+---
+
+### `load_phase2_pages()`
+
+Loads Phase 2 page outputs and sorts them by:
+
+```text
+page_number
+chunk_id
+```
+
+---
+
+### `stitch_document()`
+
+Main stitching function.
+
+It processes all content blocks in reading order and produces:
 
 ```json
 {
-  "document_name": "...",
-  "total_pages": 50,
-  "total_blocks": 120,
-  "final_content_items": 80,
-  "metadata_blocks": 20,
-  "stitched_point_blocks": 15,
-  "ignored_blocks": 5,
-  "uncertain_blocks": 3,
-  "open_groups_remaining": [],
-  "warnings": [],
-  "skipped_blocks": [],
-  "uncertain_block_details": []
+  "contents": [...]
 }
 ```
 
-Important fields:
-
-* `stitched_point_blocks`: how many continuation blocks were appended.
-* `open_groups_remaining`: should usually be empty at the end.
-* `warnings`: shows stitching issues that were recovered.
-* `uncertain_block_details`: useful for manual review.
+plus a detailed report.
 
 ---
 
-## What Can Be Safely Changed
+### `run_phase3()`
 
-A teammate can safely change:
+Main entry point.
+
+It processes one or more documents, saves final JSON files, saves reports, and creates a master report.
+
+---
+
+## What anyone Can Safely Change
 
 ```python
 PHASE2_INPUT_PATH
@@ -1749,33 +2277,7 @@ stitch_document()
 
 These functions control final document correctness.
 
-If a new block type like `paragraph` is added, this file must be updated to handle paragraph stitching separately from point stitching.
-
----
-
-# 4. Full Pipeline Input and Output Flow
-
-The whole system can be understood as this chain:
-
-```text
-Raw PDF
-  ↓
-page_by_page_ocr.py
-  ↓
-phase1_output/page_by_page_ocr/without_headers_footers/<document>/page_XXXX.json
-  ↓
-chunking.py
-  ↓
-phase1_output/chunks/without_headers_footers/<document>/chunks.json
-  ↓
-stateful_extraction_2.py + validator.py
-  ↓
-phase2_output/page_outputs_2/<document>/<chunk_id>_page_XXXX.json
-  ↓
-stitch_points.py
-  ↓
-phase3_output/final_documents/<document>/final_stitched_document.json
-```
+If a new block type such as `paragraph` is added, this file must be updated.
 
 ---
 
@@ -1793,7 +2295,7 @@ Documents/20160408_Finance_Act_2013.pdf
 
 ## Step 2: Run page-level OCR
 
-Update in `page_by_page_ocr.py`:
+Update `page_by_page_ocr.py`:
 
 ```python
 INPUT_PATH = Path(r"Documents\20160408_Finance_Act_2013.pdf")
@@ -1817,7 +2319,7 @@ phase1_output/reports/page_by_page_ocr/20160408_Finance_Act_2013_report_without_
 
 ## Step 3: Run chunking
 
-Update in `chunking.py`:
+Update `chunking.py`:
 
 ```python
 PAGE_OCR_INPUT = Path(r"phase1_output\page_by_page_ocr\without_headers_footers\20160408_Finance_Act_2013")
@@ -1837,15 +2339,31 @@ phase1_output/chunks/without_headers_footers/20160408_Finance_Act_2013/chunks.js
 
 ---
 
-## Step 4: Run Phase 2 LLM extraction
+## Step 4: Run Phase 2 extraction
 
-Update in `stateful_extraction_2.py`:
+Update `stateful_extraction_2.py`:
 
 ```python
 INPUT_CHUNKS_PATH = Path(r"phase1_output\chunks\without_headers_footers\20160408_Finance_Act_2013\chunks.json")
 CHUNK_START = 0
 CHUNK_END = None
 USE_VALIDATOR_AGENT = True
+```
+
+Choose backend:
+
+For HuggingFace:
+
+```python
+MODEL_BACKEND = "hf"
+HF_MODEL = "google/gemma-4-E4B-it"
+```
+
+For Ollama:
+
+```python
+MODEL_BACKEND = "ollama"
+OLLAMA_MODEL = "gemma4:latest"
 ```
 
 Run:
@@ -1865,7 +2383,7 @@ phase2_output/reports/20160408_Finance_Act_2013_report.json
 
 ## Step 5: Run Phase 3 stitching
 
-Update in `stitch_points.py`:
+Update `stitch_points.py`:
 
 ```python
 PHASE2_INPUT_PATH = Path(r"phase2_output\page_outputs_2\20160408_Finance_Act_2013")
@@ -1887,21 +2405,104 @@ phase3_output/reports/phase3_master_report.json
 
 ---
 
-# 6. Dependencies and Environment Requirements
+# 6. Backend Switching Guide
 
-The project depends on these Python packages and external tools:
+The new backend system is controlled mainly from two files:
 
-## Python packages
-
-```bash
-pip install pdf2image pillow opencv-python numpy pandas pypdf ollama
+```text
+stateful_extraction_2.py
+validator.py
 ```
 
-## External tools
+`llm_client.py` should usually stay unchanged.
 
-### Chandra OCR
+---
 
-The OCR scripts assume the `chandra` command is available from the terminal.
+## 6.1 Use HuggingFace for Extractor and Validator
+
+In `stateful_extraction_2.py`:
+
+```python
+MODEL_BACKEND = "hf"
+HF_MODEL = "google/gemma-4-E4B-it"
+```
+
+In `validator.py`:
+
+```python
+VALIDATOR_BACKEND = "hf"
+VALIDATOR_HF_MODEL = "google/gemma-4-E4B-it"
+```
+
+Required packages:
+
+```bash
+pip install -U transformers torch accelerate
+```
+
+---
+
+## 6.2 Use Ollama for Extractor and Validator
+
+In `stateful_extraction_2.py`:
+
+```python
+MODEL_BACKEND = "ollama"
+OLLAMA_MODEL = "gemma4:latest"
+```
+
+In `validator.py`:
+
+```python
+VALIDATOR_BACKEND = "ollama"
+VALIDATOR_OLLAMA_MODEL = "gemma4:latest"
+```
+
+Required package:
+
+```bash
+pip install ollama
+```
+
+Ollama server must be running.
+
+---
+
+## 6.3 Use Different Backends for Extractor and Validator
+
+This is also possible.
+
+Example:
+
+Extractor uses HuggingFace:
+
+```python
+MODEL_BACKEND = "hf"
+HF_MODEL = "google/gemma-4-E4B-it"
+```
+
+Validator uses Ollama:
+
+```python
+VALIDATOR_BACKEND = "ollama"
+VALIDATOR_OLLAMA_MODEL = "gemma4:latest"
+```
+
+This can be useful if one model is better for extraction and another is faster or more reliable for validation.
+
+---
+
+# 7. Dependencies
+
+## General OCR and Processing Dependencies
+
+```bash
+pip install pdf2image pillow opencv-python numpy pandas pypdf
+```
+
+## Chandra OCR
+
+The OCR scripts expect the `chandra` command to be available.
 
 Test with:
 
@@ -1909,36 +2510,45 @@ Test with:
 chandra --help
 ```
 
-### Ollama
+## Ollama Backend
 
-The extraction and validator scripts assume Ollama is installed and running.
+```bash
+pip install ollama
+```
 
-Test with:
+Also make sure the Ollama server is running and the configured model exists.
+
+Check models:
 
 ```bash
 ollama list
 ```
 
-The configured model is:
+## HuggingFace Backend
 
-```text
-gemma4:latest
+```bash
+pip install -U transformers torch accelerate
 ```
 
-If this model is not available, pull it or change the model name in both:
+If using a gated HuggingFace model, set:
 
-```text
-stateful_extraction_2.py
-validator.py
+```bash
+HF_TOKEN=<your_token>
+```
+
+or:
+
+```bash
+HUGGINGFACE_TOKEN=<your_token>
 ```
 
 ---
 
-# 7. Current Limitations
+# 8. Current Limitations and Warnings
 
-## 7.1 Paragraph support is not implemented yet
+## 8.1 Paragraph extraction is not implemented yet
 
-The current Phase 2 schema supports:
+The current extraction schema supports:
 
 ```text
 point
@@ -1953,9 +2563,7 @@ It does not yet support:
 paragraph
 ```
 
-So if a document has large non-numbered informational paragraphs, the current extractor will likely classify them as metadata or uncertain.
-
-To properly support paragraphs, these files must be updated together:
+If paragraph extraction is required, update all of these files together:
 
 ```text
 stateful_extraction_2.py
@@ -1963,18 +2571,19 @@ validator.py
 stitch_points.py
 ```
 
-Required changes:
+Required updates:
 
-1. Add `paragraph` to the allowed block types.
-2. Update the system prompt to define paragraph behavior.
-3. Update `default_content_block()` and `normalize_block()`.
-4. Update validator rules so paragraphs are not wrongly rejected.
-5. Update Phase 3 so paragraphs are included in the final output.
-6. Add paragraph stitching using `stitch_group_id`, similar to point stitching.
+1. Add `paragraph` to allowed block types.
+2. Update the extractor prompt.
+3. Update `default_content_block()`.
+4. Update `normalize_block()`.
+5. Update validator rules.
+6. Update Phase 3 final stitching.
+7. Add paragraph stitching using `stitch_group_id`.
 
 ---
 
-## 7.2 `CHUNK_START = 48` may skip pages
+## 8.2 `CHUNK_START = 48` can skip pages
 
 In `stateful_extraction_2.py`, the current setting is:
 
@@ -1982,9 +2591,9 @@ In `stateful_extraction_2.py`, the current setting is:
 CHUNK_START = 48
 ```
 
-This is useful for debugging from a specific chunk, but it is dangerous for full-document extraction.
+This is for debugging only.
 
-For full runs, use:
+For full extraction, use:
 
 ```python
 CHUNK_START = 0
@@ -1992,35 +2601,81 @@ CHUNK_START = 0
 
 ---
 
-## 7.3 Page numbers are zero-based in OCR
+## 8.3 HuggingFace does not strictly enforce JSON
 
-`page_by_page_ocr.py` currently loops using:
+Ollama supports JSON mode more directly.
 
-```python
-for page_number in range(0, total_pages):
-```
+HuggingFace does not enforce JSON output natively in the same way. `llm_client.py` adds stronger JSON-only instructions, and the extractor/validator also parse JSON defensively.
 
-This creates files like:
+Still, HuggingFace models may sometimes return extra text. That is why these functions are important:
 
 ```text
-page_0000.json
+extract_json_object()
+parse_json_object()
+_strip_thinking_blocks()
 ```
 
-This is okay if the whole pipeline expects zero-based page numbering. But it can confuse humans because PDF page 1 becomes `page_0000.json`.
+---
+
+## 8.4 Page numbering is zero-based
+
+`page_by_page_ocr.py` starts page numbers from `0`.
+
+This means:
+
+```text
+PDF page 1 → page_0000.json
+PDF page 2 → page_0001.json
+```
+
+This is not necessarily wrong, but teammates should be aware of it.
 
 ---
 
-## 7.4 Validator is LLM-based, not deterministic
+## 8.5 Validator is conservative by design
 
-The validator is helpful, but it is still an LLM. It may miss errors or occasionally accept imperfect extraction.
+The validator does not check every possible error.
 
-There is commented deterministic logic in `validator.py` for detecting copied context text. This could be useful later if more strict checking is needed.
+It only checks four major errors:
+
+```text
+wrong_block_split
+copied_context_text
+wrong_block_type
+carry_state_inconsistency
+```
+
+This prevents overcorrection, but it also means some minor extraction errors may pass.
 
 ---
 
-# 8. Safe Modification Guide for Teammates
+## 8.6 Some comments are outdated
 
-## To change the input document
+In `stateful_extraction_2.py`, one section still has a heading saying:
+
+```text
+OLLAMA CALL
+```
+
+But the function is now:
+
+```python
+call_model()
+```
+
+and it supports both HuggingFace and Ollama through `llm_client.py`.
+
+This is not a functional bug, but the comment should eventually be renamed to:
+
+```text
+MODEL CALL
+```
+
+---
+
+# 9. Safe Modification Checklist
+
+## To process a new PDF
 
 Change:
 
@@ -2056,77 +2711,57 @@ in `stitch_points.py`.
 
 ---
 
-## To change the OCR behavior
+## To change OCR settings
 
-Modify:
+Edit `page_by_page_ocr.py`:
 
 ```python
-INCLUDE_HEADERS_FOOTERS
 METHOD
 MAX_OUTPUT_TOKENS
 TIMEOUT_SECONDS
+INCLUDE_HEADERS_FOOTERS
 ```
-
-in `page_by_page_ocr.py`.
 
 ---
 
-## To change context size around pages
+## To change chunk context size
 
-Modify:
+Edit `chunking.py`:
 
 ```python
 TAIL_SIZE
 HEAD_SIZE
 ```
 
-in `chunking.py`.
-
 ---
 
-## To change the LLM model
+## To change extractor model
 
-Modify:
+Edit `stateful_extraction_2.py`:
 
 ```python
+MODEL_BACKEND
+HF_MODEL
 OLLAMA_MODEL
 ```
 
-in `stateful_extraction_2.py`.
+---
 
-Modify:
+## To change validator model
+
+Edit `validator.py`:
 
 ```python
-VALIDATOR_MODEL
+VALIDATOR_BACKEND
+VALIDATOR_HF_MODEL
+VALIDATOR_OLLAMA_MODEL
 ```
-
-in `validator.py`.
-
-Both should usually use the same model unless there is a reason to use a smaller or faster validator model.
 
 ---
 
-## To run only part of a document
+## To run the whole document
 
-Modify:
-
-```python
-CHUNK_START
-CHUNK_END
-```
-
-in `stateful_extraction_2.py`.
-
-Example:
-
-```python
-CHUNK_START = 10
-CHUNK_END = 20
-```
-
-This processes chunks 10 to 19.
-
-For the full document:
+Edit `stateful_extraction_2.py`:
 
 ```python
 CHUNK_START = 0
@@ -2135,25 +2770,36 @@ CHUNK_END = None
 
 ---
 
+## To run only some chunks
+
+Edit `stateful_extraction_2.py`:
+
+```python
+CHUNK_START = 10
+CHUNK_END = 20
+```
+
+This runs chunks 10 to 19.
+
+---
+
 ## To disable validator
 
-Modify:
+Edit `stateful_extraction_2.py`:
 
 ```python
 USE_VALIDATOR_AGENT = False
 ```
 
-in `stateful_extraction_2.py`.
-
-This will make extraction faster but less reliable.
+This makes extraction faster but less reliable.
 
 ---
 
-# 9. Key Development Warning
+# 10. Developer Notes
 
-The pipeline is schema-dependent. The Phase 2 output schema and Phase 3 input assumptions must match.
+## 10.1 Schema consistency is critical
 
-If anyone changes this structure:
+The pipeline depends on this Phase 2 structure:
 
 ```json
 {
@@ -2170,22 +2816,75 @@ If anyone changes this structure:
 }
 ```
 
-then they must also update:
+If this schema changes, update:
 
 ```text
+stateful_extraction_2.py
 validator.py
 stitch_points.py
 ```
 
-Otherwise, Phase 3 may ignore blocks, fail to stitch points, or produce incomplete final JSON.
+together.
 
 ---
 
-# 10. Summary for New Teammate
+## 10.2 `llm_client.py` should remain stable
+
+Normal teammates should not need to edit `llm_client.py`.
+
+They should change model settings from:
+
+```text
+stateful_extraction_2.py
+validator.py
+```
+
+Only edit `llm_client.py` when adding or changing model backend behavior.
+
+---
+
+## 10.3 Full-document run checklist
+
+Before running the full pipeline, check:
+
+```python
+INCLUDE_HEADERS_FOOTERS = False
+CHUNK_START = 0
+CHUNK_END = None
+USE_VALIDATOR_AGENT = True
+```
+
+Also confirm the selected backend:
+
+```python
+MODEL_BACKEND = "hf"
+```
+
+or:
+
+```python
+MODEL_BACKEND = "ollama"
+```
+
+and in `validator.py`:
+
+```python
+VALIDATOR_BACKEND = "hf"
+```
+
+or:
+
+```python
+VALIDATOR_BACKEND = "ollama"
+```
+
+---
+
+# 11. Summary for Teammates
 
 This project converts legal PDFs into structured JSON through a multi-stage OCR and LLM extraction pipeline.
 
-Use this order:
+Use the scripts in this order:
 
 ```bash
 python page_by_page_ocr.py
@@ -2194,42 +2893,29 @@ python stateful_extraction_2.py
 python stitch_points.py
 ```
 
-The most important file for OCR is:
+The role of each main file is:
 
 ```text
-page_by_page_ocr.py
+page_by_page_ocr.py      → OCR each PDF page and save page JSON files.
+chunking.py              → Convert page JSON files into chunks.json.
+llm_client.py            → Shared model backend for HuggingFace/Ollama.
+stateful_extraction_2.py → Extract legal points, metadata, ignore blocks, and uncertain blocks.
+validator.py             → Check extractor output for major harmful errors.
+stitch_points.py         → Stitch multi-page points into final JSON.
 ```
 
-The most important file for LLM extraction is:
-
-```text
-stateful_extraction_2.py
-```
-
-The validator is:
-
-```text
-validator.py
-```
-
-The final stitching file is:
-
-```text
-stitch_points.py
-```
-
-The final output is:
+Final output:
 
 ```text
 phase3_output/final_documents/<document_name>/final_stitched_document.json
 ```
 
-Before running the full extraction, always check:
+Most important full-run reminder:
 
 ```python
 CHUNK_START = 0
 ```
 
-in `stateful_extraction_2.py`.
+If this is not set to `0`, the extractor may skip earlier chunks.
 
-Also remember that paragraph extraction is not yet fully implemented. The current pipeline mainly handles legal points, metadata, ignored text, and uncertain text.
+The newest architectural change is `llm_client.py`. It makes the extraction and validation system backend-flexible, so the project can now switch between HuggingFace local models and Ollama without rewriting extractor or validator logic.
