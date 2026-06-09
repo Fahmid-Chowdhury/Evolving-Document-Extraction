@@ -1,0 +1,42 @@
+{
+  "document_id": "20160408_Finance_Act_2013",
+  "source_file": "Documents\\20160408_Finance_Act_2013.pdf",
+  "page_number": 28,
+  "ocr": {
+    "engine": "chandra_ocr_2",
+    "method": "hf"
+  },
+  "content": {
+    "raw_markdown": "<table border=\"1\">\n<thead>\n<tr>\n<th>শিরনামা সংখ্যা<br/>(Heading No.)</th>\n<th>সামঞ্জস্যপূর্ণ<br/>নামকরণ কোড<br/>(H.S. Code)</th>\n<th>পণ্যসমূহের বিবরণ<br/>(Description of Goods)</th>\n<th>সম্পূরক<br/>তহবাব<br/>(%)</th>\n</tr>\n<tr>\n<th>(১)</th>\n<th>(২)</th>\n<th>(৩)</th>\n<th>(৪)</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>৩৪.০১</td>\n<td>সকল<br/>এইচ,এস,কোড</td>\n<td>সাবান এবং সাবান হিসাবে ব্যবহৃত সারফেস<br/>একটিভ সামগ্রী এবং সমজাতীয় পণ্য</td>\n<td>২০</td>\n</tr>\n<tr>\n<td>৩৪.০২</td>\n<td>৩৪০২.৯০.১০</td>\n<td>ডিটারজেন্ট</td>\n<td>২০</td>\n</tr>\n<tr>\n<td>৩৪.০৫</td>\n<td>৩৪০৫.১০.০০</td>\n<td>Polishes, creams and similar<br/>preparations for footwear or<br/>leather</td>\n<td>২০</td>\n</tr>\n<tr>\n<td>৩৬.০১</td>\n<td>৩৬০১.০০.০০</td>\n<td>বিশ্ফোরক পাউডার</td>\n<td>৪৫</td>\n</tr>\n<tr>\n<td>৩৬.০২</td>\n<td>৩৬০২.০০.০০</td>\n<td>তৈরী বিশ্ফোরক, বিশ্ফোরক পাউডার ব্যতীত</td>\n<td>৪৫</td>\n</tr>\n<tr>\n<td>৩৬.০৪</td>\n<td>সকল<br/>এইচ,এস,কোড</td>\n<td>আতশবাজি সিগনালিং ফ্লোয়ার, রেইন রকেট,<br/>ফগ সিগনাল এবং অন্যান্য পাইরোটেকনিক<br/>পণ্য</td>\n<td>৪৫</td>\n</tr>\n<tr>\n<td>৩৬.০৫</td>\n<td>৩৬০৫.০০.০০</td>\n<td>দিয়াশলাই; শিরনামা সংখ্যা ৩৬.০৪ এর<br/>পাইরোটেকনিক পণ্য সামগ্রী ব্যতীত</td>\n<td>৪৫</td>\n</tr>\n<tr>\n<td>৩৮.০৮</td>\n<td>৩৮০৮.৯১.২১</td>\n<td>মশার কয়েল</td>\n<td>৪৫</td>\n</tr>\n<tr>\n<td>৩৮.২৪</td>\n<td>৩৮২৪.৯০.২০</td>\n<td>Chlorinated paraffin wax</td>\n<td>১০</td>\n</tr>\n<tr>\n<td>৩৯.১৭</td>\n<td>৩৯১৭.২১.০০</td>\n<td>Tubes, pipes and hoses, rigid of<br/>polymers of ethylene</td>\n<td>৩০</td>\n</tr>\n<tr>\n<td></td>\n<td>৩৯১৭.২২.০০</td>\n<td>Tubes, pipes and hoses, rigid of<br/>polymers of propylene</td>\n<td>৩০</td>\n</tr>\n<tr>\n<td></td>\n<td>৩৯১৭.২৩.৯০</td>\n<td>Tubes, pipes and hoses, rigid of<br/>polymers of vinyl chloride<br/>(excluding PVC shrinkable tube<br/>(plain))</td>\n<td>৩০</td>\n</tr>\n<tr>\n<td></td>\n<td>৩৯১৭.২৯.৯০</td>\n<td>Tubes, pipes and hoses, rigid of<br/>other plastics (excluding Silicone<br/>tubing for laboratory use; Hoses<br/>pipe for gas cylinder)</td>\n<td>৩০</td>\n</tr>\n<tr>\n<td>৩৯.১৮</td>\n<td>সকল<br/>এইচ,এস,কোড</td>\n<td>প্লাস্টিকের তৈরী ফ্লোর কাভারিং, ওয়াল অথবা<br/>সিলিং কাভারিং, সেলফ এডহেসিভ হুডক বা না<br/>হুডক (রোল অথবা টাইল আকারে)</td>\n<td>২০</td>\n</tr>\n<tr>\n<td>৩৯.১৯</td>\n<td>সকল<br/>এইচ,এস,কোড</td>\n<td>প্লাস্টিকের তৈরী সেলফ এডহেসিভ প্রেট, শীট,<br/>ফিলা, ফয়েল, টেপ, স্ট্রীপ এবং অন্যান্য ফ্ল্যাট<br/>আকৃতি (রোল আকারে)</td>\n<td>২০</td>\n</tr>\n</tbody>\n</table>",
+    "raw_html": "<table border=\"1\">\n<thead>\n<tr>\n<th>শিরনামা সংখ্যা<br/>(Heading No.)</th>\n<th>সামঞ্জস্যপূর্ণ<br/>নামকরণ কোড<br/>(H.S. Code)</th>\n<th>পণ্যসমূহের বিবরণ<br/>(Description of Goods)</th>\n<th>সম্পূরক<br/>তহবাব<br/>(%)</th>\n</tr>\n<tr>\n<th>(১)</th>\n<th>(২)</th>\n<th>(৩)</th>\n<th>(৪)</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>৩৪.০১</td>\n<td>সকল<br/>এইচ,এস,কোড</td>\n<td>সাবান এবং সাবান হিসাবে ব্যবহৃত সারফেস<br/>একটিভ সামগ্রী এবং সমজাতীয় পণ্য</td>\n<td>২০</td>\n</tr>\n<tr>\n<td>৩৪.০২</td>\n<td>৩৪০২.৯০.১০</td>\n<td>ডিটারজেন্ট</td>\n<td>২০</td>\n</tr>\n<tr>\n<td>৩৪.০৫</td>\n<td>৩৪০৫.১০.০০</td>\n<td>Polishes, creams and similar<br/>preparations for footwear or<br/>leather</td>\n<td>২০</td>\n</tr>\n<tr>\n<td>৩৬.০১</td>\n<td>৩৬০১.০০.০০</td>\n<td>বিশ্ফোরক পাউডার</td>\n<td>৪৫</td>\n</tr>\n<tr>\n<td>৩৬.০২</td>\n<td>৩৬০২.০০.০০</td>\n<td>তৈরী বিশ্ফোরক, বিশ্ফোরক পাউডার ব্যতীত</td>\n<td>৪৫</td>\n</tr>\n<tr>\n<td>৩৬.০৪</td>\n<td>সকল<br/>এইচ,এস,কোড</td>\n<td>আতশবাজি সিগনালিং ফ্লোয়ার, রেইন রকেট,<br/>ফগ সিগনাল এবং অন্যান্য পাইরোটেকনিক<br/>পণ্য</td>\n<td>৪৫</td>\n</tr>\n<tr>\n<td>৩৬.০৫</td>\n<td>৩৬০৫.০০.০০</td>\n<td>দিয়াশলাই; শিরনামা সংখ্যা ৩৬.০৪ এর<br/>পাইরোটেকনিক পণ্য সামগ্রী ব্যতীত</td>\n<td>৪৫</td>\n</tr>\n<tr>\n<td>৩৮.০৮</td>\n<td>৩৮০৮.৯১.২১</td>\n<td>মশার কয়েল</td>\n<td>৪৫</td>\n</tr>\n<tr>\n<td>৩৮.২৪</td>\n<td>৩৮২৪.৯০.২০</td>\n<td>Chlorinated paraffin wax</td>\n<td>১০</td>\n</tr>\n<tr>\n<td>৩৯.১৭</td>\n<td>৩৯১৭.২১.০০</td>\n<td>Tubes, pipes and hoses, rigid of<br/>polymers of ethylene</td>\n<td>৩০</td>\n</tr>\n<tr>\n<td></td>\n<td>৩৯১৭.২২.০০</td>\n<td>Tubes, pipes and hoses, rigid of<br/>polymers of propylene</td>\n<td>৩০</td>\n</tr>\n<tr>\n<td></td>\n<td>৩৯১৭.২৩.৯০</td>\n<td>Tubes, pipes and hoses, rigid of<br/>polymers of vinyl chloride<br/>(excluding PVC shrinkable tube<br/>(plain))</td>\n<td>৩০</td>\n</tr>\n<tr>\n<td></td>\n<td>৩৯১৭.২৯.৯০</td>\n<td>Tubes, pipes and hoses, rigid of<br/>other plastics (excluding Silicone<br/>tubing for laboratory use; Hoses<br/>pipe for gas cylinder)</td>\n<td>৩০</td>\n</tr>\n<tr>\n<td>৩৯.১৮</td>\n<td>সকল<br/>এইচ,এস,কোড</td>\n<td>প্লাস্টিকের তৈরী ফ্লোর কাভারিং, ওয়াল অথবা<br/>সিলিং কাভারিং, সেলফ এডহেসিভ হুডক বা না<br/>হুডক (রোল অথবা টাইল আকারে)</td>\n<td>২০</td>\n</tr>\n<tr>\n<td>৩৯.১৯</td>\n<td>সকল<br/>এইচ,এস,কোড</td>\n<td>প্লাস্টিকের তৈরী সেলফ এডহেসিভ প্রেট, শীট,<br/>ফিলা, ফয়েল, টেপ, স্ট্রীপ এবং অন্যান্য ফ্ল্যাট<br/>আকৃতি (রোল আকারে)</td>\n<td>২০</td>\n</tr>\n</tbody>\n</table>"
+  },
+  "metadata": {
+    "file_name": "20160408_Finance_Act_2013.pdf",
+    "num_pages": 1,
+    "total_token_count": 1610,
+    "total_chunks": 3,
+    "total_images": 0,
+    "pages": [
+      {
+        "page_num": 0,
+        "page_box": [
+          0,
+          0,
+          1024,
+          1521
+        ],
+        "token_count": 1610,
+        "num_chunks": 3,
+        "num_images": 0
+      }
+    ]
+  },
+  "sanity": {
+    "char_count": 2345,
+    "line_count": 108,
+    "bangla_chars": 693,
+    "english_chars": 809,
+    "warnings": [],
+    "status": "ok"
+  }
+}

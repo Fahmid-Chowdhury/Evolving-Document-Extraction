@@ -1,0 +1,42 @@
+{
+  "document_id": "20160408_Finance_Act_2013",
+  "source_file": "Documents\\20160408_Finance_Act_2013.pdf",
+  "page_number": 6,
+  "ocr": {
+    "engine": "chandra_ocr_2",
+    "method": "hf"
+  },
+  "content": {
+    "raw_markdown": "- (ii) pending before any customs authority or any appellate authority constituted under this Act, or the Supreme Court of Bangladesh; and\n- (b) any case or proceeding pending before customs or customs appellate authority or the Supreme Court of Bangladesh relating to fine or penalty imposed by customs authorities in respect to any matter of clean report of findings (CRF) or customs valuation, arising out of either the pre-shipment inspection system or otherwise.\n\n(2) Notwithstanding anything contained in sub-section (1), the following disputes shall not be dealt with ADR, namely :—\n\n- (a) fraud or criminal cases;\n- (b) disputes involving seizure and confiscation of prohibited, restricted or smuggled goods;\n- (c) disputes involving allegations of money laundering;\n- (d) disputes involving customs classification of imported goods; and\n- (e) disputes on alleged evasion of duties and taxes through the resort to misdeclaration of H.S. Code, name and quantity of goods, fraud of documents, violation of import and export policy or violations of customs bonded warehouse related licensing and/or bond related conditions.” ।\n\n৭। Act No. IV of 1969 এর FIRST SCHEDULE এর প্রতিস্থাপন।—  \n Customs Act এর “FIRST SCHEDULE” এর পরিবর্তে এই আইনের তফসিল-১ এ উল্লিখিত “FIRST SCHEDULE” (পৃথকভাবে মুদ্রিত) প্রতিস্থাপিত হইবে ।",
+    "raw_html": "<ul style=\"list-style-type: none;\">\n<li>(ii) pending before any customs authority or any appellate authority constituted under this Act, or the Supreme Court of Bangladesh; and</li>\n<li>(b) any case or proceeding pending before customs or customs appellate authority or the Supreme Court of Bangladesh relating to fine or penalty imposed by customs authorities in respect to any matter of clean report of findings (CRF) or customs valuation, arising out of either the pre-shipment inspection system or otherwise.</li>\n</ul>\n\n<p>(2) Notwithstanding anything contained in sub-section (1), the following disputes shall not be dealt with ADR, namely :—</p>\n\n<ul style=\"list-style-type: none;\">\n<li>(a) fraud or criminal cases;</li>\n<li>(b) disputes involving seizure and confiscation of prohibited, restricted or smuggled goods;</li>\n<li>(c) disputes involving allegations of money laundering;</li>\n<li>(d) disputes involving customs classification of imported goods; and</li>\n<li>(e) disputes on alleged evasion of duties and taxes through the resort to misdeclaration of H.S. Code, name and quantity of goods, fraud of documents, violation of import and export policy or violations of customs bonded warehouse related licensing and/or bond related conditions.” ।</li>\n</ul>\n\n<p>৭। Act No. IV of 1969 এর FIRST SCHEDULE এর প্রতিস্থাপন।—<br/>\n    Customs Act এর “FIRST SCHEDULE” এর পরিবর্তে এই আইনের তফসিল-১ এ উল্লিখিত “FIRST SCHEDULE” (পৃথকভাবে মুদ্রিত) প্রতিস্থাপিত হইবে ।</p>"
+  },
+  "metadata": {
+    "file_name": "20160408_Finance_Act_2013.pdf",
+    "num_pages": 1,
+    "total_token_count": 605,
+    "total_chunks": 6,
+    "total_images": 0,
+    "pages": [
+      {
+        "page_num": 0,
+        "page_box": [
+          0,
+          0,
+          1024,
+          1508
+        ],
+        "token_count": 605,
+        "num_chunks": 6,
+        "num_images": 0
+      }
+    ]
+  },
+  "sanity": {
+    "char_count": 1320,
+    "line_count": 13,
+    "bangla_chars": 81,
+    "english_chars": 961,
+    "warnings": [],
+    "status": "ok"
+  }
+}

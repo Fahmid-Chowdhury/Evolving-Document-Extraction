@@ -1,0 +1,42 @@
+{
+  "document_id": "20160408_Finance_Act_2013",
+  "source_file": "Documents\\20160408_Finance_Act_2013.pdf",
+  "page_number": 17,
+  "ocr": {
+    "engine": "chandra_ocr_2",
+    "method": "hf"
+  },
+  "content": {
+    "raw_markdown": "৩২। **Ordinance No. XXXVI of 1984 এর section 184A এর সংশোধন।**—  \nউক্ত Ordinance এর section 184A এর “either a certificate from the concerned Deputy Commissioner of Taxes or from any other person authorised by the Board in this behalf, containing the tax payer’s identification number or an acknowledgement receipt of the return of income submitted for the immediate preceding assessment year shall be required to be submitted” শব্দগুলি, কমাগুলি ও চিহ্নের পরিবর্তে “a person shall be required to submit an acknowledgement receipt of the return of income filed for the immediate preceding assessment year or a certificate from the concerned Deputy Commissioner of Taxes or a computer generated certificate communicated by a computer system as may be authorised by the Board in this behalf or, in case of an old assessee, a certificate by the Deputy Commissioner of Taxes containing Taxpayer’s Identification Number and assessment completion information” শব্দগুলি, কমাগুলি ও চিহ্ন প্রতিস্থাপিত হইবে।\n\n৩৩। **Ordinance No. XXXVI of 1984 এর THIRD SCHEDULE এর সংশোধন।**—উক্ত Ordinance এর THIRD SCHEDULE এর—\n\n(ক) শিরোনাম “COMPUTATION OF DEPRECIATION ALLOWANCE” এর পরিবর্তে “COMPUTATION OF DEPRECIATION ALLOWANCE AND AMORTIZATION” প্রতিস্থাপিত হইবে; এবং\n\n(খ) paragraph 10 এর পর নিম্নরূপ নূতন paragraph 10A সন্নিবেশিত হইবে, যথা:—\n\n**“10A. Amortization of license fees.-** (1) Where an assessee, being a resident company, paid any sum as license fees on or after the first day of July, 2012 wholly and exclusively for the purpose of obtaining a permission from any authority authorised by the government applicable for two or more years to run a business, the assessee shall be allowed a deduction of an amount proportionate to such years and such deduction shall continue till the last year of the period for which the license was granted.\n\n(2) For the purpose of this paragraph, license fees means Spectrum Assignment fees paid by a cellular mobile phone operator.”।",
+    "raw_html": "<p>৩২। <b>Ordinance No. XXXVI of 1984 এর section 184A এর সংশোধন।</b>—<br/>উক্ত Ordinance এর section 184A এর “either a certificate from the concerned Deputy Commissioner of Taxes or from any other person authorised by the Board in this behalf, containing the tax payer’s identification number or an acknowledgement receipt of the return of income submitted for the immediate preceding assessment year shall be required to be submitted” শব্দগুলি, কমাগুলি ও চিহ্নের পরিবর্তে “a person shall be required to submit an acknowledgement receipt of the return of income filed for the immediate preceding assessment year or a certificate from the concerned Deputy Commissioner of Taxes or a computer generated certificate communicated by a computer system as may be authorised by the Board in this behalf or, in case of an old assessee, a certificate by the Deputy Commissioner of Taxes containing Taxpayer’s Identification Number and assessment completion information” শব্দগুলি, কমাগুলি ও চিহ্ন প্রতিস্থাপিত হইবে।</p>\n\n<p>৩৩। <b>Ordinance No. XXXVI of 1984 এর THIRD SCHEDULE এর সংশোধন।</b>—উক্ত Ordinance এর THIRD SCHEDULE এর—</p>\n\n<p>(ক) শিরোনাম “COMPUTATION OF DEPRECIATION ALLOWANCE” এর পরিবর্তে “COMPUTATION OF DEPRECIATION ALLOWANCE AND AMORTIZATION” প্রতিস্থাপিত হইবে; এবং</p>\n<p>(খ) paragraph 10 এর পর নিম্নরূপ নূতন paragraph 10A সন্নিবেশিত হইবে, যথা:—</p>\n\n<p><b>“10A. Amortization of license fees.-</b> (1) Where an assessee, being a resident company, paid any sum as license fees on or after the first day of July, 2012 wholly and exclusively for the purpose of obtaining a permission from any authority authorised by the government applicable for two or more years to run a business, the assessee shall be allowed a deduction of an amount proportionate to such years and such deduction shall continue till the last year of the period for which the license was granted.</p>\n\n<p>(2) For the purpose of this paragraph, license fees means Spectrum Assignment fees paid by a cellular mobile phone operator.”।</p>"
+  },
+  "metadata": {
+    "file_name": "20160408_Finance_Act_2013.pdf",
+    "num_pages": 1,
+    "total_token_count": 786,
+    "total_chunks": 7,
+    "total_images": 0,
+    "pages": [
+      {
+        "page_num": 0,
+        "page_box": [
+          0,
+          0,
+          1024,
+          1521
+        ],
+        "token_count": 786,
+        "num_chunks": 7,
+        "num_images": 0
+      }
+    ]
+  },
+  "sanity": {
+    "char_count": 1957,
+    "line_count": 12,
+    "bangla_chars": 179,
+    "english_chars": 1379,
+    "warnings": [],
+    "status": "ok"
+  }
+}

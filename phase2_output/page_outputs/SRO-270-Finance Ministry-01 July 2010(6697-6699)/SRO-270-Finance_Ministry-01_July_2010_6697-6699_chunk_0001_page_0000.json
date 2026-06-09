@@ -1,0 +1,70 @@
+{
+  "chunk_id": "SRO-270-Finance_Ministry-01_July_2010_6697-6699_chunk_0001",
+  "page_number": 0,
+  "document_id": "SRO-270-Finance Ministry-01 July 2010(6697-6699)",
+  "content_blocks": [
+    {
+      "block_id": "meta_1",
+      "type": "metadata",
+      "clause_number": "",
+      "text": "রেজিস্টার্ড নং ডি এ-১\n\nবাংলাদেশ\n\n![Emblem of Bangladesh featuring a map of Bangladesh, surrounded by the text 'গণপ্রজাতন্ত্রী বাংলাদেশ সরকার' (Government of the People's Republic of Bangladesh) and stars.](fd6eefa1dd44a1e149a14f6a4772f52a_3_img.webp)\n\nগেজেট\n\nঅতিরিক্ত সংখ্যা  \nকর্তৃপক্ষ কর্তৃক প্রকাশিত\n\nবৃহস্পতিবার, জুলাই ১, ২০১০",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "",
+      "stitching_note": ""
+    },
+    {
+      "block_id": "meta_2",
+      "type": "metadata",
+      "clause_number": "",
+      "text": "গণপ্রজাতন্ত্রী বাংলাদেশ সরকার  \nঅর্থ মন্ত্রণালয়  \nঅভ্যন্তরীণ সম্পদ বিভাগ  \n(আয়কর)  \nপ্রজ্ঞাপন\n\nতারিখঃ ১৭ আষাঢ়, ১৪১৭ বঙ্গাব্দ/১ জুলাই, ২০১০ খ্রিস্টাব্দ",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "",
+      "stitching_note": ""
+    },
+    {
+      "block_id": "clause_1",
+      "type": "clause",
+      "clause_number": "",
+      "text": "এস.আর. ও ২৭০-আইন/আয়কর/২০১০ I—Income-tax Ordinance, 1984 (Ord. XXXVI of 1984) এর section 44 এর sub-section (4) এর clause (b) তে প্রদত্ত ক্ষমতাবলে সরকার ০২ মাস, ১৪১৫ বঙ্গাব্দ/১৫ জানুয়ারি, ২০০৯ খ্রিস্টাব্দ তারিখে জারীকৃত প্রজ্ঞাপন এসআরও নং ০৮-আইন/২০০৯ রহিতক্রমে নির্বর্ণিত তফসিল-খ তে উল্লিখিত কর্পোরেট সামাজিক দায়িত্ব পালনের ক্ষেত্রে, নির্বর্ণিত তফসিল-ক তে উল্লিখিত উল্লিখিত শর্তাবলী সাপেক্ষে, কোন কোম্পানীকে তৎকর্তৃক বিনিয়োগিত প্রকৃত অর্থের বা খরচের ১০% হারে আয়কর রেয়াত প্রদান করিল, যথাঃ—",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "clause_1",
+      "stitching_note": "Starts the main operative clause."
+    },
+    {
+      "block_id": "clause_2",
+      "type": "clause",
+      "clause_number": "তফসিল-ক",
+      "text": "(আয়কর রেয়াতের শর্তাবলী)\n\n(১) যে সকল কোম্পানী কর্পোরেট প্রতিষ্ঠান হিসাবে সামাজিক দায়িত্ব পালনের মাধ্যমে কর রেয়াত গ্রহণ করিতে আগ্রহী বা উৎসাহী হইবে, সেই সকল প্রতিষ্ঠান—\n\n- (ক) এ কর্মরত কর্মকর্তা-কর্মচারীদেরকে নিয়মিত বেতন-ভাতা পরিশোধ করিতে হইবে এবং উক্ত প্রতিষ্ঠান কর্তৃক পরিচালিত কল-কারখানায় বিশেষতঃ শিল্পজাত পণ্য উৎপাদন করা হইলে বর্জ্য ব্যবস্থাপনা প্লান্ট (waste treatment plant) এর ব্যবস্থা থাকিতে হইবে;\n- (খ) কর্তৃক নিয়মিতভাবে আয়কর, ভ্যাট ও শুষ্ক এবং প্রাতিষ্ঠানিক ঋণ পরিশোধ করিতে হইবে;\n\n( ৬৬৯৭ )\n\nমূল্যঃ টাকা ২.০০",
+      "continues_from_previous": true,
+      "continues_to_next": false,
+      "stitch_group_id": "clause_2",
+      "stitching_note": "Continues the conditions listed in the previous clause."
+    }
+  ],
+  "output_carry_forward_state": {
+    "status": "open",
+    "active_clause_number": "",
+    "active_stitch_group_id": "clause_2",
+    "active_block_id": "clause_2",
+    "active_clause_summary": "Conditions for tax rebate based on CSR activities (Tafsil-Ka).",
+    "continuation_hint_for_next_chunk": "The next chunk continues the clauses under 'তফসিল-ক' and then introduces 'তফসিল-খ'.",
+    "last_visible_text": "মূল্যঃ টাকা ২.০০",
+    "recent_clause_history": [
+      {
+        "page_number": 0,
+        "clause_number": "",
+        "stitch_group_id": "clause_1",
+        "summary": "Government grants 10% tax rebate for CSR activities under specified conditions."
+      },
+      {
+        "page_number": 0,
+        "clause_number": "তফসিল-ক",
+        "stitch_group_id": "clause_2",
+        "summary": "Conditions for tax rebate: (1) Employee salary/waste plant/loan repayment; (2) Expense not deductible; (3) Proof required; (4) Obtain NBR certificate."
+      }
+    ]
+  }
+}

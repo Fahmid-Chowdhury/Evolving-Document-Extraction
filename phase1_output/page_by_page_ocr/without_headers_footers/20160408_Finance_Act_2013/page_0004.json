@@ -1,0 +1,42 @@
+{
+  "document_id": "20160408_Finance_Act_2013",
+  "source_file": "Documents\\20160408_Finance_Act_2013.pdf",
+  "page_number": 4,
+  "ocr": {
+    "engine": "chandra_ocr_2",
+    "method": "hf"
+  },
+  "content": {
+    "raw_markdown": "(আ) paragraph (2) এর প্রান্তস্থিত ফুলস্টপের (.) পরিবর্তে সেমিকোলন (;) চিহ্নটি প্রতিস্থাপিত হইবে এবং অতঃপর উক্ত paragraph (2) এর পর নিম্নরূপ নূতন paragraph (3) ও (4) সংযোজিত হইবে, যথা:—\n\n“(3) Transfer of bond of the Government organization, body corporate, and public and private limited companies as defined in the Companies Act, 1994 (Act No. XVIII of 1994);\n\n(4) Sale of receivables to a special purpose vehicle in connection with securitization of assets.”;\n\n“(ঘ) Article No. 64 এর পরিবর্তে নিম্নরূপ Article No. 64 প্রতিস্থাপিত হইবে, যথা:—\n\n“64 TRUST-\n\nA-Declaration of trust of any property when made by writing not being a will. The same duty as a BOTTOMRY BOND (No. 16) for a sum equal to the amount of value of the property concerned as set forth in the instrument.\n\nB-Revocation of trust of any property when made by instrument other than will. The same duty as a BOTTOMRY BOND (No. 16) for a sum equal to the amount of value of the property concerned as set forth in the instrument but not more than two hundred taka.”\n\nSell also SETTLEMENT  \n(No. 58)\n\nVALUATION-\n\nSec APARTMENT (No.8)",
+    "raw_html": "<p>(আ) paragraph (2) এর প্রান্তস্থিত ফুলস্টপের (.) পরিবর্তে সেমিকোলন (;) চিহ্নটি প্রতিস্থাপিত হইবে এবং অতঃপর উক্ত paragraph (2) এর পর নিম্নরূপ নূতন paragraph (3) ও (4) সংযোজিত হইবে, যথা:—</p>\n\n<p>“(3) Transfer of bond of the Government organization, body corporate, and public and private limited companies as defined in the Companies Act, 1994 (Act No. XVIII of 1994);</p>\n\n<p>(4) Sale of receivables to a special purpose vehicle in connection with securitization of assets.”;</p>\n\n<p>“(ঘ) Article No. 64 এর পরিবর্তে নিম্নরূপ Article No. 64 প্রতিস্থাপিত হইবে, যথা:—</p>\n\n<p>“64 TRUST-</p>\n\n<p>A-Declaration of trust of any property when made by writing not being a will. The same duty as a BOTTOMRY BOND (No. 16) for a sum equal to the amount of value of the property concerned as set forth in the instrument.</p>\n\n<p>B-Revocation of trust of any property when made by instrument other than will. The same duty as a BOTTOMRY BOND (No. 16) for a sum equal to the amount of value of the property concerned as set forth in the instrument but not more than two hundred taka.”</p>\n\n<p>Sell also SETTLEMENT<br/>(No. 58)</p>\n\n<p>VALUATION-</p>\n\n<p>Sec APARTMENT (No.8)</p>"
+  },
+  "metadata": {
+    "file_name": "20160408_Finance_Act_2013.pdf",
+    "num_pages": 1,
+    "total_token_count": 807,
+    "total_chunks": 12,
+    "total_images": 0,
+    "pages": [
+      {
+        "page_num": 0,
+        "page_box": [
+          0,
+          0,
+          1024,
+          1535
+        ],
+        "token_count": 807,
+        "num_chunks": 12,
+        "num_images": 0
+      }
+    ]
+  },
+  "sanity": {
+    "char_count": 1094,
+    "line_count": 20,
+    "bangla_chars": 144,
+    "english_chars": 663,
+    "warnings": [],
+    "status": "ok"
+  }
+}

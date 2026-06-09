@@ -1,0 +1,42 @@
+{
+  "document_id": "20160408_Finance_Act_2013",
+  "source_file": "Documents\\20160408_Finance_Act_2013.pdf",
+  "page_number": 46,
+  "ocr": {
+    "engine": "chandra_ocr_2",
+    "method": "hf"
+  },
+  "content": {
+    "raw_markdown": "<table border=\"1\">\n<thead>\n<tr>\n<th>শিরনামা সংখ্যা<br/>(Heading No.)</th>\n<th>সামঞ্জস্যপূর্ণ<br/>নামকরণ কোড<br/>(H.S. Code)</th>\n<th>পণ্যসমূহের বিবরণ<br/>(Description of Goods)</th>\n<th>সম্পূরক<br/>শতাংশ<br/>(%)</th>\n</tr>\n<tr>\n<th>(১)</th>\n<th>(২)</th>\n<th>(৩)</th>\n<th>(৪)</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>৯৪.০১</td>\n<td>৯৪০১.২০.১০</td>\n<td>Seats of a kind used for motorcycle</td>\n<td>২০</td>\n</tr>\n<tr>\n<td></td>\n<td>৯৪০১.৩০.০০</td>\n<td>Swivel seats with variable height adjustment</td>\n<td>৬০</td>\n</tr>\n<tr>\n<td></td>\n<td>৯৪০১.৬১.০০<br/>৯৪০১.৬৯.০০</td>\n<td>Other seats, with wooden frames</td>\n<td>৬০</td>\n</tr>\n<tr>\n<td></td>\n<td>৯৪০১.৭১.০০<br/>৯৪০১.৭৯.০০</td>\n<td>Other seats with metal frames</td>\n<td>৬০</td>\n</tr>\n<tr>\n<td>৯৪.০৩</td>\n<td>সকল<br/>এইচ,এস,কোড<br/>(৯৪০৩.২০.১০<br/>ব্যতিত)</td>\n<td>আসবাবপত্র ও যন্ত্রাংশ</td>\n<td>৩০</td>\n</tr>\n<tr>\n<td>৯৪.০৪</td>\n<td>৯৪০৪.২১.০০</td>\n<td>Mattresses of cellular rubber or plastics, whether or not covered</td>\n<td>৩০</td>\n</tr>\n<tr>\n<td>৯৪.০৫</td>\n<td>সকল<br/>এইচ,এস,কোড<br/>(৯৪০৫.৪০.১০<br/>৯৪০৫.৪০.২০<br/>৯৪০৫.৪০.৩০<br/>৯৪০৫.৪০.৪০<br/>৯৪০৫.৫০.১০<br/>৯৪০৫.৬০.০০<br/>৯৪০৫.৯৯.১০<br/>ব্যতিত)</td>\n<td>Lamps and lighting fittings including searchlights and spotlights and parts thereof, not elsewhere specified or included; illuminated signs, illuminated name-plates and the like, having a permanently fixed light source, and parts thereof not elsewhere specified or included.</td>\n<td>৬০</td>\n</tr>\n<tr>\n<td>৯৫.০৩</td>\n<td>সকল<br/>এইচ,এস,কোড</td>\n<td>Tricycles, scooters, pedal cars and similar wheeled toys; dolls' carriages; dolls; other toys; reduced-size (\"scale\") models and similar recreational models, working or not</td>\n<td>৩০</td>\n</tr>\n<tr>\n<td>৯৫.০৪</td>\n<td>৯৫০৪.৪০.০০</td>\n<td>Playing cards</td>\n<td>৪৫</td>\n</tr>\n<tr>\n<td>৯৬.০৩</td>\n<td>৯৬০৩.২১.০০</td>\n<td>ডেট্টাল প্রেট ব্রাশসহ সকল প্রকার টুথ ব্রাশ</td>\n<td>৪৫</td>\n</tr>\n<tr>\n<td>৯৬.১৯</td>\n<td>৯৬১৯.০০.০০</td>\n<td>Sanitary towels (pads) and tampons, napkins and napkin liners for babies and similar articles, of any material.</td>\n<td>৬০</td>\n</tr>\n</tbody>\n</table>",
+    "raw_html": "<table border=\"1\">\n<thead>\n<tr>\n<th>শিরনামা সংখ্যা<br/>(Heading No.)</th>\n<th>সামঞ্জস্যপূর্ণ<br/>নামকরণ কোড<br/>(H.S. Code)</th>\n<th>পণ্যসমূহের বিবরণ<br/>(Description of Goods)</th>\n<th>সম্পূরক<br/>শতাংশ<br/>(%)</th>\n</tr>\n<tr>\n<th>(১)</th>\n<th>(২)</th>\n<th>(৩)</th>\n<th>(৪)</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>৯৪.০১</td>\n<td>৯৪০১.২০.১০</td>\n<td>Seats of a kind used for motorcycle</td>\n<td>২০</td>\n</tr>\n<tr>\n<td></td>\n<td>৯৪০১.৩০.০০</td>\n<td>Swivel seats with variable height adjustment</td>\n<td>৬০</td>\n</tr>\n<tr>\n<td></td>\n<td>৯৪০১.৬১.০০<br/>৯৪০১.৬৯.০০</td>\n<td>Other seats, with wooden frames</td>\n<td>৬০</td>\n</tr>\n<tr>\n<td></td>\n<td>৯৪০১.৭১.০০<br/>৯৪০১.৭৯.০০</td>\n<td>Other seats with metal frames</td>\n<td>৬০</td>\n</tr>\n<tr>\n<td>৯৪.০৩</td>\n<td>সকল<br/>এইচ,এস,কোড<br/>(৯৪০৩.২০.১০<br/>ব্যতিত)</td>\n<td>আসবাবপত্র ও যন্ত্রাংশ</td>\n<td>৩০</td>\n</tr>\n<tr>\n<td>৯৪.০৪</td>\n<td>৯৪০৪.২১.০০</td>\n<td>Mattresses of cellular rubber or plastics, whether or not covered</td>\n<td>৩০</td>\n</tr>\n<tr>\n<td>৯৪.০৫</td>\n<td>সকল<br/>এইচ,এস,কোড<br/>(৯৪০৫.৪০.১০<br/>৯৪০৫.৪০.২০<br/>৯৪০৫.৪০.৩০<br/>৯৪০৫.৪০.৪০<br/>৯৪০৫.৫০.১০<br/>৯৪০৫.৬০.০০<br/>৯৪০৫.৯৯.১০<br/>ব্যতিত)</td>\n<td>Lamps and lighting fittings including searchlights and spotlights and parts thereof, not elsewhere specified or included; illuminated signs, illuminated name-plates and the like, having a permanently fixed light source, and parts thereof not elsewhere specified or included.</td>\n<td>৬০</td>\n</tr>\n<tr>\n<td>৯৫.০৩</td>\n<td>সকল<br/>এইচ,এস,কোড</td>\n<td>Tricycles, scooters, pedal cars and similar wheeled toys; dolls' carriages; dolls; other toys; reduced-size (\"scale\") models and similar recreational models, working or not</td>\n<td>৩০</td>\n</tr>\n<tr>\n<td>৯৫.০৪</td>\n<td>৯৫০৪.৪০.০০</td>\n<td>Playing cards</td>\n<td>৪৫</td>\n</tr>\n<tr>\n<td>৯৬.০৩</td>\n<td>৯৬০৩.২১.০০</td>\n<td>ডেট্টাল প্রেট ব্রাশসহ সকল প্রকার টুথ ব্রাশ</td>\n<td>৪৫</td>\n</tr>\n<tr>\n<td>৯৬.১৯</td>\n<td>৯৬১৯.০০.০০</td>\n<td>Sanitary towels (pads) and tampons, napkins and napkin liners for babies and similar articles, of any material.</td>\n<td>৬০</td>\n</tr>\n</tbody>\n</table>"
+  },
+  "metadata": {
+    "file_name": "20160408_Finance_Act_2013.pdf",
+    "num_pages": 1,
+    "total_token_count": 1344,
+    "total_chunks": 3,
+    "total_images": 0,
+    "pages": [
+      {
+        "page_num": 0,
+        "page_box": [
+          0,
+          0,
+          1024,
+          1505
+        ],
+        "token_count": 1344,
+        "num_chunks": 3,
+        "num_images": 0
+      }
+    ]
+  },
+  "sanity": {
+    "char_count": 2090,
+    "line_count": 84,
+    "bangla_chars": 365,
+    "english_chars": 1015,
+    "warnings": [],
+    "status": "ok"
+  }
+}

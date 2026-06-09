@@ -1,0 +1,42 @@
+{
+  "document_id": "001-Law-1994_Germany_DTAA",
+  "source_file": "001-Law-1994 Germany DTAA.pdf",
+  "page_number": 7,
+  "ocr": {
+    "engine": "chandra_ocr_2",
+    "method": "hf"
+  },
+  "content": {
+    "raw_markdown": "40\n\nবাংলাদেশ গেজেট, অতিরিক্ত, কালসারী ২, ১৯৯৫\n\n3. The provisions of this Article shall also apply to profits from the participation in a pool, a joint business or an international operating agency.\n\n### Article 9\n\n#### Associated Enterprises\n\n##### Where\n\n(a) an enterprise of a Contracting State participates directly or indirectly in the management, control or capital of an enterprise of the other Contracting State, or\n\n(b) the same persons participate directly or indirectly in the management, control or capital of an enterprise of a Contracting State and an enterprise of the other Contracting State,\n\nand in either case conditions are made or imposed between the two enterprises in their commercial or financial relations which differ from those which would be made between independent enterprises, then any profits which would, but for those conditions, have accrued to one of the enterprises, but, by reason of those conditions, have not so accrued, may be included in the profits of that enterprise and taxed accordingly.\n\n### Article 10\n\n#### Dividends\n\n1. Dividends paid by a company which is a resident of a Contracting State to a resident of the other Contracting State may be taxed in that other State.\n\n2. However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident and according to the laws of that State, but if the recipient is the beneficial owner of the dividends the tax so charged shall not exceed 15 per cent of the gross amount of the dividends.\n\nThis paragraph shall not affect the taxation of the company in respect of the profits out of which the dividends are paid.\n\n3. The term \"dividends\" as used in this Article means income from shares, mining shares, founders shares or other rights, not being debt-claims participating in profits, as well as income from other corporate rights which is",
+    "raw_html": "40\n<p>বাংলাদেশ গেজেট, অতিরিক্ত, কালসারী ২, ১৯৯৫</p>\n\n<p>3. The provisions of this Article shall also apply to profits from the participation in a pool, a joint business or an international operating agency.</p>\n\n<h3>Article 9</h3>\n\n<h4>Associated Enterprises</h4>\n\n<h5>Where</h5>\n\n<p>(a) an enterprise of a Contracting State participates directly or indirectly in the management, control or capital of an enterprise of the other Contracting State, or</p>\n\n<p>(b) the same persons participate directly or indirectly in the management, control or capital of an enterprise of a Contracting State and an enterprise of the other Contracting State,</p>\n\n<p>and in either case conditions are made or imposed between the two enterprises in their commercial or financial relations which differ from those which would be made between independent enterprises, then any profits which would, but for those conditions, have accrued to one of the enterprises, but, by reason of those conditions, have not so accrued, may be included in the profits of that enterprise and taxed accordingly.</p>\n\n<h3>Article 10</h3>\n\n<h4>Dividends</h4>\n\n<p>1. Dividends paid by a company which is a resident of a Contracting State to a resident of the other Contracting State may be taxed in that other State.</p>\n\n<p>2. However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident and according to the laws of that State, but if the recipient is the beneficial owner of the dividends the tax so charged shall not exceed 15 per cent of the gross amount of the dividends.</p>\n\n<p>This paragraph shall not affect the taxation of the company in respect of the profits out of which the dividends are paid.</p>\n\n<p>3. The term \"dividends\" as used in this Article means income from shares, mining shares, founders shares or other rights, not being debt-claims participating in profits, as well as income from other corporate rights which is</p>"
+  },
+  "metadata": {
+    "file_name": "001-Law-1994 Germany DTAA.pdf",
+    "num_pages": 1,
+    "total_token_count": 946,
+    "total_chunks": 15,
+    "total_images": 0,
+    "pages": [
+      {
+        "page_num": 0,
+        "page_box": [
+          0,
+          0,
+          1189,
+          1786
+        ],
+        "token_count": 946,
+        "num_chunks": 15,
+        "num_images": 0
+      }
+    ]
+  },
+  "sanity": {
+    "char_count": 1884,
+    "line_count": 29,
+    "bangla_chars": 33,
+    "english_chars": 1458,
+    "warnings": [],
+    "status": "ok"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "chunk_id": "20160408_Finance_Act_2013_chunk_0005",
+  "page_number": 4,
+  "document_id": "20160408_Finance_Act_2013",
+  "content_blocks": [
+    {
+      "block_id": "p0004_b001",
+      "type": "point",
+      "point_number": "৩",
+      "text": "(আ) paragraph (2) এর প্রান্তস্থিত ফুলস্টপের (.) পরিবর্তে সেমিকোলন (;) চিহ্নটি প্রতিস্থাপিত হইবে এবং অতঃপর উক্ত paragraph (2) এর পর নিম্নরূপ নূতন paragraph (3) ও (4) সংযোজিত হইবে, যথা:—\n\n“(3) Transfer of bond of the Government organization, body corporate, and public and private limited companies as defined in the Companies Act, 1994 (Act No. XVIII of 1994);\n\n(4) Sale of receivables to a special purpose vehicle in connection with securitization of assets.”;\n\n“(ঘ) Article No. 64 এর পরিবর্তে নিম্নরূপ Article No. 64 প্রতিস্থাপিত হইবে, যথা:—\n\n“64 TRUST-\n\nA-Declaration of trust of any property when made by writing not being a will. The same duty as a BOTTOMRY BOND (No. 16) for a sum equal to the amount of value of the property concerned as set forth in the instrument.\n\nB-Revocation of trust of any property when made by instrument other than will. The same duty as a BOTTOMRY BOND (No. 16) for a sum equal to the amount of value of the property concerned as set forth in the instrument but not more than two hundred taka.”\n\nSell also SETTLEMENT  \n(No. 58)\n\nVALUATION-\n\nSec APARTMENT (No.8)",
+      "continues_from_previous": true,
+      "continues_to_next": true,
+      "stitch_group_id": "point_৩",
+      "stitching_note": "Continuation of point 3, detailing further amendments and articles."
+    }
+  ],
+  "output_carry_forward_state": {
+    "status": "open",
+    "active_point_number": "৩",
+    "active_stitch_group_id": "point_৩",
+    "active_point_summary": "Amendment to Schedule I of Act No. II of 1899, detailing changes to Article No. 40 and Article No. 48, including a table of fees and definitions. The point continues with definitions and subsequent articles, ending with the text describing Article No. 64.",
+    "numbering_system": "english_digits",
+    "expected_next_main_point": "৪",
+    "continuation_hint": "The point 3 continues with subsequent articles and amendments.",
+    "last_visible_text": "Sec APARTMENT (No.8)"
+  }
+}

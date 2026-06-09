@@ -1,0 +1,42 @@
+{
+  "document_id": "20160408_Finance_Act_2013",
+  "source_file": "Documents\\20160408_Finance_Act_2013.pdf",
+  "page_number": 36,
+  "ocr": {
+    "engine": "chandra_ocr_2",
+    "method": "hf"
+  },
+  "content": {
+    "raw_markdown": "<table border=\"1\">\n<thead>\n<tr>\n<th>শিরোনাম সংখ্যা<br/>(Heading No.)</th>\n<th>সামঞ্জস্যপূর্ণ<br/>নামকরণ কোড<br/>(H.S. Code)</th>\n<th>পণ্যসমূহের বিবরণ<br/>(Description of Goods)</th>\n<th>সম্পূরক<br/>তক্কার<br/>(%)</th>\n</tr>\n<tr>\n<th>(১)</th>\n<th>(২)</th>\n<th>(৩)</th>\n<th>(৪)</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>৬৩.০৪</td>\n<td>সকল<br/>এইচ,এস,কোড</td>\n<td>অন্যান্য আসবাব (৯৪.০৪ হেডিং এর পণ্য ব্যতীত)</td>\n<td>২০</td>\n</tr>\n<tr>\n<td>৬৪.০২</td>\n<td>সকল<br/>এইচ,এস,কোড</td>\n<td>Other footwear with outer soles and uppers of rubber or plastics.</td>\n<td>৪৫</td>\n</tr>\n<tr>\n<td>৬৪.০৩</td>\n<td>সকল<br/>এইচ,এস,কোড</td>\n<td>Footwear with outer soles of rubber, plastics, leather or composition leather and uppers of leather.</td>\n<td>৪৫</td>\n</tr>\n<tr>\n<td>৬৪.০৪</td>\n<td>সকল<br/>এইচ,এস,কোড</td>\n<td>Footwear with outer soles of rubber, plastics, leather or composition leather and uppers of textile materials.</td>\n<td>৪৫</td>\n</tr>\n<tr>\n<td>৬৪.০৫</td>\n<td>সকল<br/>এইচ,এস,কোড</td>\n<td>Other footwear.</td>\n<td>৪৫</td>\n</tr>\n<tr>\n<td>৬৪.০৬</td>\n<td>৬৪০৬.১০.৯০<br/>৬৪০৬.২০.৯০</td>\n<td>Upper and outer soles and heels</td>\n<td>৩০</td>\n</tr>\n<tr>\n<td>৬৭.০২</td>\n<td>সকল<br/>এইচ,এস,কোড</td>\n<td>Artificial flowers, foliage and fruit and parts thereof; articles made of artificial flowers, foliage or fruit</td>\n<td>৪৫</td>\n</tr>\n<tr>\n<td>৬৮.০২</td>\n<td>সকল<br/>এইচ,এস,কোড<br/>(৬৮০২.২৯.১০<br/>ব্যতীত)</td>\n<td>Granite, marble, travertine and alabaster and other stone</td>\n<td>৬০</td>\n</tr>\n<tr>\n<td>৬৮.০৫</td>\n<td>৬৮০৫.১০.০০</td>\n<td>ওভেন টেক্সটাইল ফেব্রিকস্ বেসড প্রাকৃতিক ও কৃত্রিম এবরেসিভ পাউডার অথবা দানাঃ ইয়ারি পাউডার</td>\n<td>২০</td>\n</tr>\n<tr>\n<td></td>\n<td>৬৮০৫.২০.০০</td>\n<td>পেপার বা পেপার বোর্ড বেসড প্রাকৃতিক ও কৃত্রিম এবরেসিভ পাউডার অথবা দানা</td>\n<td>২০</td>\n</tr>\n<tr>\n<td>৬৯.০৪</td>\n<td>সকল<br/>এইচ,এস,কোড</td>\n<td>Ceramic building bricks, flooring blocks, support or filler tiles and the like.</td>\n<td>২০</td>\n</tr>\n<tr>\n<td>৬৯.০৫</td>\n<td>সকল<br/>এইচ,এস,কোড</td>\n<td>Roofing tiles, chimney-pots, cowls, chimney liners, architectural ornaments and other ceramic constructional goods.</td>\n<td>২০</td>\n</tr>\n</tbody>\n</table>",
+    "raw_html": "<table border=\"1\">\n<thead>\n<tr>\n<th>শিরোনাম সংখ্যা<br/>(Heading No.)</th>\n<th>সামঞ্জস্যপূর্ণ<br/>নামকরণ কোড<br/>(H.S. Code)</th>\n<th>পণ্যসমূহের বিবরণ<br/>(Description of Goods)</th>\n<th>সম্পূরক<br/>তক্কার<br/>(%)</th>\n</tr>\n<tr>\n<th>(১)</th>\n<th>(২)</th>\n<th>(৩)</th>\n<th>(৪)</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>৬৩.০৪</td>\n<td>সকল<br/>এইচ,এস,কোড</td>\n<td>অন্যান্য আসবাব (৯৪.০৪ হেডিং এর পণ্য ব্যতীত)</td>\n<td>২০</td>\n</tr>\n<tr>\n<td>৬৪.০২</td>\n<td>সকল<br/>এইচ,এস,কোড</td>\n<td>Other footwear with outer soles and uppers of rubber or plastics.</td>\n<td>৪৫</td>\n</tr>\n<tr>\n<td>৬৪.০৩</td>\n<td>সকল<br/>এইচ,এস,কোড</td>\n<td>Footwear with outer soles of rubber, plastics, leather or composition leather and uppers of leather.</td>\n<td>৪৫</td>\n</tr>\n<tr>\n<td>৬৪.০৪</td>\n<td>সকল<br/>এইচ,এস,কোড</td>\n<td>Footwear with outer soles of rubber, plastics, leather or composition leather and uppers of textile materials.</td>\n<td>৪৫</td>\n</tr>\n<tr>\n<td>৬৪.০৫</td>\n<td>সকল<br/>এইচ,এস,কোড</td>\n<td>Other footwear.</td>\n<td>৪৫</td>\n</tr>\n<tr>\n<td>৬৪.০৬</td>\n<td>৬৪০৬.১০.৯০<br/>৬৪০৬.২০.৯০</td>\n<td>Upper and outer soles and heels</td>\n<td>৩০</td>\n</tr>\n<tr>\n<td>৬৭.০২</td>\n<td>সকল<br/>এইচ,এস,কোড</td>\n<td>Artificial flowers, foliage and fruit and parts thereof; articles made of artificial flowers, foliage or fruit</td>\n<td>৪৫</td>\n</tr>\n<tr>\n<td>৬৮.০২</td>\n<td>সকল<br/>এইচ,এস,কোড<br/>(৬৮০২.২৯.১০<br/>ব্যতীত)</td>\n<td>Granite, marble, travertine and alabaster and other stone</td>\n<td>৬০</td>\n</tr>\n<tr>\n<td>৬৮.০৫</td>\n<td>৬৮০৫.১০.০০</td>\n<td>ওভেন টেক্সটাইল ফেব্রিকস্ বেসড প্রাকৃতিক ও কৃত্রিম এবরেসিভ পাউডার অথবা দানাঃ ইয়ারি পাউডার</td>\n<td>২০</td>\n</tr>\n<tr>\n<td></td>\n<td>৬৮০৫.২০.০০</td>\n<td>পেপার বা পেপার বোর্ড বেসড প্রাকৃতিক ও কৃত্রিম এবরেসিভ পাউডার অথবা দানা</td>\n<td>২০</td>\n</tr>\n<tr>\n<td>৬৯.০৪</td>\n<td>সকল<br/>এইচ,এস,কোড</td>\n<td>Ceramic building bricks, flooring blocks, support or filler tiles and the like.</td>\n<td>২০</td>\n</tr>\n<tr>\n<td>৬৯.০৫</td>\n<td>সকল<br/>এইচ,এস,কোড</td>\n<td>Roofing tiles, chimney-pots, cowls, chimney liners, architectural ornaments and other ceramic constructional goods.</td>\n<td>২০</td>\n</tr>\n</tbody>\n</table>"
+  },
+  "metadata": {
+    "file_name": "20160408_Finance_Act_2013.pdf",
+    "num_pages": 1,
+    "total_token_count": 1309,
+    "total_chunks": 3,
+    "total_images": 0,
+    "pages": [
+      {
+        "page_num": 0,
+        "page_box": [
+          0,
+          0,
+          1024,
+          1518
+        ],
+        "token_count": 1309,
+        "num_chunks": 3,
+        "num_images": 0
+      }
+    ]
+  },
+  "sanity": {
+    "char_count": 2131,
+    "line_count": 90,
+    "bangla_chars": 451,
+    "english_chars": 955,
+    "warnings": [],
+    "status": "ok"
+  }
+}

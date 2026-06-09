@@ -1,0 +1,45 @@
+{
+  "file_name": "20130701_205-AIN_2013_0-Income.pdf",
+  "num_pages": 3,
+  "total_token_count": 2675,
+  "total_chunks": 22,
+  "total_images": 0,
+  "pages": [
+    {
+      "page_num": 0,
+      "page_box": [
+        0,
+        0,
+        1632,
+        2112
+      ],
+      "token_count": 1022,
+      "num_chunks": 16,
+      "num_images": 0
+    },
+    {
+      "page_num": 1,
+      "page_box": [
+        0,
+        0,
+        1632,
+        2112
+      ],
+      "token_count": 746,
+      "num_chunks": 2,
+      "num_images": 0
+    },
+    {
+      "page_num": 2,
+      "page_box": [
+        0,
+        0,
+        1632,
+        2112
+      ],
+      "token_count": 907,
+      "num_chunks": 4,
+      "num_images": 0
+    }
+  ]
+}

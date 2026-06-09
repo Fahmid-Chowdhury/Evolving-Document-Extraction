@@ -1,0 +1,22 @@
+{
+  "input_path": "001-Law-1994 Germany DTAA.pdf",
+  "run_status": "success",
+  "total_pdfs": 1,
+  "successful_pdfs": 1,
+  "failed_pdfs": 0,
+  "total_pages": 24,
+  "successful_pages": 24,
+  "failed_pages": 0,
+  "pdf_runs": [
+    {
+      "pdf": "001-Law-1994 Germany DTAA.pdf",
+      "status": "success",
+      "message": "OCR completed successfully.",
+      "elapsed_seconds": 1643.3,
+      "total_pages": 24,
+      "successful_pages": 24,
+      "failed_pages": 0,
+      "document_output_dir": "phase1_output\\page_by_page_ocr\\001-Law-1994 Germany DTAA"
+    }
+  ]
+}

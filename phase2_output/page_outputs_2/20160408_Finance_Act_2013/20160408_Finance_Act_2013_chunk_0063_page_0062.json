@@ -1,0 +1,47 @@
+{
+  "chunk_id": "20160408_Finance_Act_2013_chunk_0063",
+  "page_number": 62,
+  "document_id": "20160408_Finance_Act_2013",
+  "content_blocks": [
+    {
+      "block_id": "p0062_b001",
+      "type": "metadata",
+      "point_number": "",
+      "text": "সপ্তম অধ্যায়\n\nঘোষণা",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "",
+      "stitching_note": ""
+    },
+    {
+      "block_id": "p0062_b002",
+      "type": "point",
+      "point_number": "২",
+      "text": "এই ঘোষণার পরিপ্রেক্ষিতে উক্ত Act এর section 4(1) এর বিধান অনুযায়ী এই বিলের প্রস্তাবিত দফা ৫, ৬, ৭, ৩৭, ৩৮, ৩৯, ৪০, ৪১, ৪২ এবং ৪৩ এর বিধানাবলী অবিলম্বে কার্যকর হইবে।",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "point_২",
+      "stitching_note": ""
+    },
+    {
+      "block_id": "p0062_b003",
+      "type": "metadata",
+      "point_number": "",
+      "text": "মোঃ মাহফুজুর রহমান\n\nসচিব।",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "",
+      "stitching_note": ""
+    }
+  ],
+  "output_carry_forward_state": {
+    "status": "closed",
+    "active_point_number": "",
+    "active_stitch_group_id": "",
+    "active_point_summary": "The section contains a declaration (metadata) and a subsequent point (২) declaring the immediate effect of certain provisions of the Bill. The document flow ends with a signature block (metadata).",
+    "numbering_system": "english_digits",
+    "expected_next_main_point": "",
+    "continuation_hint": "The document flow is complete on this page.",
+    "last_visible_text": ""
+  }
+}

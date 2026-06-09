@@ -1,0 +1,42 @@
+{
+  "document_id": "001-Law-1994_Germany_DTAA",
+  "source_file": "001-Law-1994 Germany DTAA.pdf",
+  "page_number": 5,
+  "ocr": {
+    "engine": "chandra_ocr_2",
+    "method": "hf"
+  },
+  "content": {
+    "raw_markdown": "68वाराणसिन एकादश, आठवीस, आगस्त २, १९६९\n\n7. The fact that a company which is a resident of a Contracting State controls or is controlled by a company which is a resident of the other Contracting State or which carries on business in that other State (whether through a permanent establishment or otherwise), shall not of itself constitute either company a permanent establishment of the other.\n\n## Article 6\n\n### Income from Immovable Property\n\n1. Income derived by a resident of a Contracting State from immovable property (including income from agriculture, forestry or fishery) situated in the other Contracting State may be taxed in that other State.\n\n2. The term \"immovable property\" shall have the meaning which it has under the law of the Contracting State in which the property in question is situated. The term shall in any case include property accessory to immovable property, livestock and equipment used in agriculture, forestry and fishery, rights to which the provisions of general law respecting landed property apply, usufruct of immovable property and rights to variable or fixed payments as consideration for the working of, or the right to work, mineral deposits, sources and other natural resources; ships, boats and aircraft shall not be regarded as immovable property.\n\n3. The provisions of paragraph 1 shall apply to income derived from the direct use, letting, or use in any other form of immovable property.\n\n4. The provisions of paragraphs 1 and 3 shall also apply to the income from immovable property of an enterprise and to income from immovable property used for the performance of professional services.\n\n## Article 7\n\n### Business Profits\n\n7. The profits of an enterprise of a Contracting State shall be taxable only in that State unless the enterprise carries on business in the other Contracting State through a permanent establishment situated therein. If the enterprise carries on business as aforesaid, the profits of the enterprise may be taxed in the other State but only so much of them as is attributable to that permanent establishment.\n\n2. Subject to the provisions of paragraph 3, where an enterprise of a Contracting State carries on business in the other Contracting State through a permanent establishment situated therein, there shall in each Contracting State be attributed to that permanent establishment the profits which it might be expected to make if it were a distinct and separate enterprise engaged in",
+    "raw_html": "68वाराणसिन एकादश, आठवीस, आगस्त २, १९६९\n<p>7. The fact that a company which is a resident of a Contracting State controls or is controlled by a company which is a resident of the other Contracting State or which carries on business in that other State (whether through a permanent establishment or otherwise), shall not of itself constitute either company a permanent establishment of the other.</p>\n\n<h2>Article 6</h2>\n\n<h3>Income from Immovable Property</h3>\n\n<p>1. Income derived by a resident of a Contracting State from immovable property (including income from agriculture, forestry or fishery) situated in the other Contracting State may be taxed in that other State.</p>\n\n<p>2. The term \"immovable property\" shall have the meaning which it has under the law of the Contracting State in which the property in question is situated. The term shall in any case include property accessory to immovable property, livestock and equipment used in agriculture, forestry and fishery, rights to which the provisions of general law respecting landed property apply, usufruct of immovable property and rights to variable or fixed payments as consideration for the working of, or the right to work, mineral deposits, sources and other natural resources; ships, boats and aircraft shall not be regarded as immovable property.</p>\n\n<p>3. The provisions of paragraph 1 shall apply to income derived from the direct use, letting, or use in any other form of immovable property.</p>\n\n<p>4. The provisions of paragraphs 1 and 3 shall also apply to the income from immovable property of an enterprise and to income from immovable property used for the performance of professional services.</p>\n\n<h2>Article 7</h2>\n\n<h3>Business Profits</h3>\n\n<p>7. The profits of an enterprise of a Contracting State shall be taxable only in that State unless the enterprise carries on business in the other Contracting State through a permanent establishment situated therein. If the enterprise carries on business as aforesaid, the profits of the enterprise may be taxed in the other State but only so much of them as is attributable to that permanent establishment.</p>\n\n<p>2. Subject to the provisions of paragraph 3, where an enterprise of a Contracting State carries on business in the other Contracting State through a permanent establishment situated therein, there shall in each Contracting State be attributed to that permanent establishment the profits which it might be expected to make if it were a distinct and separate enterprise engaged in</p>"
+  },
+  "metadata": {
+    "file_name": "001-Law-1994 Germany DTAA.pdf",
+    "num_pages": 1,
+    "total_token_count": 965,
+    "total_chunks": 13,
+    "total_images": 0,
+    "pages": [
+      {
+        "page_num": 0,
+        "page_box": [
+          0,
+          0,
+          1189,
+          1786
+        ],
+        "token_count": 965,
+        "num_chunks": 13,
+        "num_images": 0
+      }
+    ]
+  },
+  "sanity": {
+    "char_count": 2458,
+    "line_count": 23,
+    "bangla_chars": 0,
+    "english_chars": 1958,
+    "warnings": [],
+    "status": "ok"
+  }
+}

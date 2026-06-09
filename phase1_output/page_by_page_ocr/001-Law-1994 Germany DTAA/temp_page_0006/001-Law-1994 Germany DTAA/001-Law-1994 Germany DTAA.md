@@ -1,0 +1,29 @@
+पर्याप्त लेख, कीर्तिपुर, काश्मीरी २, १९६४
+
+८०
+
+the same or similar activities under the same or similar conditions and dealing wholly independently with the enterprise of which it is a permanent establishment.
+
+3. In determining the profits of a permanent establishment there shall be allowed as deductions expenses which are incurred for the purposes of the permanent establishment, including executive and general administrative expenses so incurred, whether in the State in which the permanent establishment is situated or elsewhere.
+
+4. In so far as it has been customary in a Contracting State to determine the profits to be attributed to a permanent establishment on the basis of an apportionment of the total profits of the enterprise to its various parts, nothing in paragraph 2 shall preclude that Contracting State from determining the profits to be taxed by such an apportionment as may be customary; the method of apportionment adopted shall, however, be such that the result shall be in accordance with the principles contained in this Article.
+
+5. No profits shall be attributed to a permanent establishment by reason of the mere purchase by that permanent establishment of goods or merchandise for the enterprise.
+
+6. For the purposes of the preceding paragraphs, the profits to be attributed to the permanent establishment shall be determined by the same method year by year unless there is good and sufficient reason to the contrary.
+
+7. Where profits include items of income which are dealt with separately in other Articles of this Agreement, then the provisions of those Articles shall not be affected by the provisions of this Article.
+
+### Article 8
+
+#### Shipping and Air Transport
+
+1. Profits from the operation of aircraft in international traffic shall be taxable only in the Contracting State in which the place of effective management of the enterprise is situated.
+
+2. (a) Profits derived from the operation of ships in international traffic shall be taxable only in the Contracting State in which the place of effective management of the enterprise is situated.
+
+(b) Notwithstanding the provisions of sub-paragraph (a), such profits may be taxed in the other Contracting State from which they are derived provided that the tax so charged shall not exceed :
+
+(aa) during the first five fiscal years after the entry into force of this Agreement, 50 per cent, and
+
+(bb) during the subsequent five fiscal years, 25 per cent, of the tax otherwise imposed by the internal law of that State. Subsequently, only the provisions of sub-paragraph (a) shall be applicable.

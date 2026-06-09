@@ -1,0 +1,42 @@
+{
+  "document_id": "20160408_Finance_Act_2013",
+  "source_file": "Documents\\20160408_Finance_Act_2013.pdf",
+  "page_number": 1,
+  "ocr": {
+    "engine": "chandra_ocr_2",
+    "method": "hf"
+  },
+  "content": {
+    "raw_markdown": "### দ্বিতীয় অধ্যায়\n\n#### Stamp Act, 1899 (Act II of 1899) এর সংশোধন\n\n২। **Act No. II of 1899 এর section 2 এর সংশোধন।**—Stamp Act, 1899 (Act No. II of 1899), অতঃপর উক্ত Act বলিয়া উল্লিখিত, এর section 2 এর clause (21) এর পরিবর্তে নিম্নরূপ clause (21) প্রতিস্থাপিত হইবে, যথা:—\n\n“(21) **“Power of Attorney”** means the power of attorney as defined in section-2, clause (1), of the Power of Attorney Act, 2012 (Act No. XXXV of 2012)”;\n\n৩। **Act No. II of 1899 এর Schedule I এর সংশোধন।**—উক্ত Act এর Schedule I এর—\n\n(ক) Article No. 40 এর বিপরীতে column (2) এর clause (1) এর EXEMPTIONS এর আওতাধীন—\n\n- (অ) paragraph (a) এর শেষে উল্লিখিত “and” শব্দটি বিলুপ্ত হইবে;\n- (আ) paragraph (b) এর প্রান্তস্থিত ফুলস্টপের (.) পরিবর্তে “; and” প্রতিস্থাপিত হইবে এবং অতঃপর উক্ত paragraph (b) এর পর নিম্নরূপ নূতন paragraph (c) সংযোজিত হইবে, যথা:—\n\n“(c) Instruments executed by persons taking loan from Karmasangsthan Bank established by the Karmasangsthan Bank Act, 1998 (Act No. VII of 1998) as security for the recovery of such loans.”;\n\n(খ) Article No. 48 এর পরিবর্তে নিম্নরূপ Article No. 48 প্রতিস্থাপিত হইবে, যথা:—\n\n“48 POWER OF ATTORNEY as defined by section 2, clause (21), not being a proxy—",
+    "raw_html": "<h3>দ্বিতীয় অধ্যায়</h3>\n\n<h4>Stamp Act, 1899 (Act II of 1899) এর সংশোধন</h4>\n\n<p>২। <b>Act No. II of 1899 এর section 2 এর সংশোধন।</b>—Stamp Act, 1899 (Act No. II of 1899), অতঃপর উক্ত Act বলিয়া উল্লিখিত, এর section 2 এর clause (21) এর পরিবর্তে নিম্নরূপ clause (21) প্রতিস্থাপিত হইবে, যথা:—</p>\n\n<p>“(21) <b>“Power of Attorney”</b> means the power of attorney as defined in section-2, clause (1), of the Power of Attorney Act, 2012 (Act No. XXXV of 2012)”;</p>\n\n<p>৩। <b>Act No. II of 1899 এর Schedule I এর সংশোধন।</b>—উক্ত Act এর Schedule I এর—</p>\n\n<p>(ক) Article No. 40 এর বিপরীতে column (2) এর clause (1) এর EXEMPTIONS এর আওতাধীন—</p>\n\n<ul style=\"list-style-type: none;\">\n<li>(অ) paragraph (a) এর শেষে উল্লিখিত “and” শব্দটি বিলুপ্ত হইবে;</li>\n<li>(আ) paragraph (b) এর প্রান্তস্থিত ফুলস্টপের (.) পরিবর্তে “; and” প্রতিস্থাপিত হইবে এবং অতঃপর উক্ত paragraph (b) এর পর নিম্নরূপ নূতন paragraph (c) সংযোজিত হইবে, যথা:—</li>\n</ul>\n\n<p>“(c) Instruments executed by persons taking loan from Karmasangsthan Bank established by the Karmasangsthan Bank Act, 1998 (Act No. VII of 1998) as security for the recovery of such loans.”;</p>\n\n<p>(খ) Article No. 48 এর পরিবর্তে নিম্নরূপ Article No. 48 প্রতিস্থাপিত হইবে, যথা:—</p>\n\n<p>“48 POWER OF ATTORNEY as defined by section 2, clause (21), not being a proxy—</p>"
+  },
+  "metadata": {
+    "file_name": "20160408_Finance_Act_2013.pdf",
+    "num_pages": 1,
+    "total_token_count": 979,
+    "total_chunks": 12,
+    "total_images": 0,
+    "pages": [
+      {
+        "page_num": 0,
+        "page_box": [
+          0,
+          0,
+          1024,
+          1397
+        ],
+        "token_count": 979,
+        "num_chunks": 12,
+        "num_images": 0
+      }
+    ]
+  },
+  "sanity": {
+    "char_count": 1179,
+    "line_count": 20,
+    "bangla_chars": 300,
+    "english_chars": 487,
+    "warnings": [],
+    "status": "ok"
+  }
+}

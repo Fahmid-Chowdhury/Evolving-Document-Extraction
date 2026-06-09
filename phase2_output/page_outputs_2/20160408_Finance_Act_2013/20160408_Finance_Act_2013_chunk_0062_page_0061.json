@@ -1,0 +1,37 @@
+{
+  "chunk_id": "20160408_Finance_Act_2013_chunk_0062",
+  "page_number": 61,
+  "document_id": "20160408_Finance_Act_2013",
+  "content_blocks": [
+    {
+      "block_id": "p0061_b001",
+      "type": "metadata",
+      "point_number": "",
+      "text": "দ্বিতীয় অংশ\n\n(অর্থ আইন, ২০১৩ এর ধারা ৩৬ দ্রষ্টব্য)\n\nসারচার্জের হার",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "",
+      "stitching_note": ""
+    },
+    {
+      "block_id": "p0061_b002",
+      "type": "point",
+      "point_number": "",
+      "text": "কোন ব্যক্তি-করদাতা (assessee being individual) যাহার Income-tax Ordinance, 1984 (Ord. No. XXXVI of 1984) এর section 80 অনুযায়ী পরিসম্পদ, দায় ও খরচের বিবরণী (statement of assets, liabilities and expenses) তে প্রদর্শিত নীট পরিসম্পদের মূল্যমান (total net worth) দুই কোটি টাকার অধিক, সেইরূপ ব্যক্তি করদাতার ক্ষেত্রে আয়কর প্রযোজ্য এইরূপ আয়ের উপর প্রযোজ্য আয়করের ১০% হারে এবং নীট পরিসম্পদের মূল্যমান (total net worth) দশ কোটি টাকার অধিক, সেইরূপ ব্যক্তি-করদাতার ক্ষেত্রে আয়কর প্রযোজ্য এইরূপ আয়ের উপর প্রযোজ্য আয়করের ১৫% হারে সারচার্জ প্রদেয় হইবে।",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "point_new",
+      "stitching_note": "New main point regarding surcharge rates."
+    }
+  ],
+  "output_carry_forward_state": {
+    "status": "closed",
+    "active_point_number": "",
+    "active_stitch_group_id": "point_new",
+    "active_point_summary": "Surcharge rates for individuals based on net worth.",
+    "numbering_system": "mixed",
+    "expected_next_main_point": "",
+    "continuation_hint": "The current section on Surcharge Rates is completed. The next major section starts with 'সপ্তম অধ্যায়' (metadata).",
+    "last_visible_text": "কোন ব্যক্তি-করদাতা (assessee being individual) যাহার Income-tax Ordinance, 1984 (Ord. No. XXXVI of 1984) এর section 80 অনুযায়ী পরিসম্পদ, দায় ও খরচের বিবরণী (statement of assets, liabilities and expenses) তে প্রদর্শিত নীট পরিসম্পদের মূল্যমান (total net worth) দুই কোটি টাকার অধিক, সেইরূপ ব্যক্তি করদাতার ক্ষেত্রে আয়কর প্রযোজ্য এইরূপ আয়ের উপর প্রযোজ্য আয়করের ১০% হারে এবং নীট পরিসম্পদের মূল্যমান (total net worth) দশ কোটি টাকার অধিক, সেইরূপ ব্যক্তি-করদাতার ক্ষেত্রে আয়কর প্রযোজ্য এইরূপ আয়ের উপর প্রযোজ্য আয়করের ১৫% হারে সারচার্জ প্রদেয় হইবে।"
+  }
+}

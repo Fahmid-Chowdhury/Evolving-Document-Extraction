@@ -1,0 +1,37 @@
+{
+  "chunk_id": "20160408_Finance_Act_2013_chunk_0018",
+  "page_number": 17,
+  "document_id": "20160408_Finance_Act_2013",
+  "content_blocks": [
+    {
+      "block_id": "p0017_b001",
+      "type": "point",
+      "point_number": "৩২।",
+      "text": "**Ordinance No. XXXVI of 1984 এর section 184A এর সংশোধন।**—  \nউক্ত Ordinance এর section 184A এর “either a certificate from the concerned Deputy Commissioner of Taxes or from any other person authorised by the Board in this behalf, containing the tax payer’s identification number or an acknowledgement receipt of the return of income submitted for the immediate preceding assessment year shall be required to be submitted” শব্দগুলি, কমাগুলি ও চিহ্নের পরিবর্তে “a person shall be required to submit an acknowledgement receipt of the return of income filed for the immediate preceding assessment year or a certificate from the concerned Deputy Commissioner of Taxes or a computer generated certificate communicated by a computer system as may be authorised by the Board in this behalf or, in case of an old assessee, a certificate by the Deputy Commissioner of Taxes containing Taxpayer’s Identification Number and assessment completion information” শব্দগুলি, কমাগুলি ও চিহ্ন প্রতিস্থাপিত হইবে।",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "point_৩২।",
+      "stitching_note": ""
+    },
+    {
+      "block_id": "p0017_b002",
+      "type": "point",
+      "point_number": "৩৩।",
+      "text": "**Ordinance No. XXXVI of 1984 এর THIRD SCHEDULE এর সংশোধন।**—উক্ত Ordinance এর THIRD SCHEDULE এর—\n\n(ক) শিরোনাম “COMPUTATION OF DEPRECIATION ALLOWANCE” এর পরিবর্তে “COMPUTATION OF DEPRECIATION ALLOWANCE AND AMORTIZATION” প্রতিস্থাপিত হইবে; এবং\n\n(খ) paragraph 10 এর পর নিম্নরূপ নূতন paragraph 10A সন্নিবেশিত হইবে, যথা:—\n\n**“10A. Amortization of license fees.-** (1) Where an assessee, being a resident company, paid any sum as license fees on or after the first day of July, 2012 wholly and exclusively for the purpose of obtaining a permission from any authority authorised by the government applicable for two or more years to run a business, the assessee shall be allowed a deduction of an amount proportionate to such years and such deduction shall continue till the last year of the period for which the license was granted.\n\n(2) For the purpose of this paragraph, license fees means Spectrum Assignment fees paid by a cellular mobile phone operator.”।",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "point_৩৩।",
+      "stitching_note": ""
+    }
+  ],
+  "output_carry_forward_state": {
+    "status": "open",
+    "active_point_number": "৩৩।",
+    "active_stitch_group_id": "point_৩৩।",
+    "active_point_summary": "Amendment to Ordinance No. XXXVI of 1984 এর THIRD SCHEDULE, including the insertion of paragraph 10A.",
+    "numbering_system": "english_digits",
+    "expected_next_main_point": "৩৪।",
+    "continuation_hint": "The point 33 is complete, and the next point 34 is visible at the start of the next chunk.",
+    "last_visible_text": "For the purpose of this paragraph, license fees means Spectrum Assignment fees paid by a cellular mobile phone operator.”।"
+  }
+}

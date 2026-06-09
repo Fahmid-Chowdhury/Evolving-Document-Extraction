@@ -1,0 +1,42 @@
+{
+  "document_id": "20160408_Finance_Act_2013",
+  "source_file": "Documents\\20160408_Finance_Act_2013.pdf",
+  "page_number": 5,
+  "ocr": {
+    "engine": "chandra_ocr_2",
+    "method": "hf"
+  },
+  "content": {
+    "raw_markdown": "তৃতীয় অধ্যায়Customs Act, 1969 (Act No. IV of 1969) এর সংশোধন\n\n৪। **Act No. IV of 1969 এর section 25B এর প্রতিস্থাপন।**—Customs Act, 1969 (Act No. IV of 1969), অতঃপর Customs Act বলিয়া উল্লিখিত, এর section 25B এর পরিবর্তে নিম্নরূপ section 25B প্রতিস্থাপিত হইবে, যথাঃ—\n\n**“25B. Optional pre-shipment Inspection.**—Notwithstanding anything contained in this Act, it is optional for the importers to have their importable goods inspected by a pre-shipment inspection agency before or at the time of shipment of those goods on board a vessel, aircraft or other conveyance.”।\n\n৫। **Act No. IV of 1969 এর section 91 এর সংশোধন।**—Customs Act এর section 91 এর sub-section (4) এর—\n\n- (ক) clause (a) তে উল্লিখিত “Investigation Directorate, or” শব্দগুলি ও ক্রমার পরিবর্তে “Investigation Directorate or of the Customs Valuation and Internal Audit Commissionerate, or” শব্দগুলি ও ক্রমা প্রতিস্থাপিত হইবে; এবং\n- (খ) clause (b) তে উল্লিখিত “of the said two Directorates” শব্দগুলির পরিবর্তে “of the said Directorates and Commissionerate” শব্দগুলি প্রতিস্থাপিত হইবে।\n\n৬। **Act No. IV of 1969 এর section 192C এর প্রতিস্থাপন।**—Customs Act এর section 192C এর পরিবর্তে নিম্নরূপ section 192C প্রতিস্থাপিত হইবে, যথাঃ—\n\n**“192C. Definition and scope of disputes for ADR.**—(1) For the purposes of this chapter, “dispute” means-\n\n- (a) any case or proceeding—\n  - (i) of levy, assessment, collection or refund of duty and taxes or, for imposition of fine or penalty in relation to the determination of customs valuation under section 25 of any imported consignment; and",
+    "raw_html": "তৃতীয় অধ্যায়Customs Act, 1969 (Act No. IV of 1969) এর সংশোধন\n<p>৪। <b>Act No. IV of 1969 এর section 25B এর প্রতিস্থাপন।</b>—Customs Act, 1969 (Act No. IV of 1969), অতঃপর Customs Act বলিয়া উল্লিখিত, এর section 25B এর পরিবর্তে নিম্নরূপ section 25B প্রতিস্থাপিত হইবে, যথাঃ—</p>\n\n<p><b>“25B. Optional pre-shipment Inspection.</b>—Notwithstanding anything contained in this Act, it is optional for the importers to have their importable goods inspected by a pre-shipment inspection agency before or at the time of shipment of those goods on board a vessel, aircraft or other conveyance.”।</p>\n\n<p>৫। <b>Act No. IV of 1969 এর section 91 এর সংশোধন।</b>—Customs Act এর section 91 এর sub-section (4) এর—</p>\n\n<ul style=\"list-style-type: none;\">\n<li>(ক) clause (a) তে উল্লিখিত “Investigation Directorate, or” শব্দগুলি ও ক্রমার পরিবর্তে “Investigation Directorate or of the Customs Valuation and Internal Audit Commissionerate, or” শব্দগুলি ও ক্রমা প্রতিস্থাপিত হইবে; এবং</li>\n<li>(খ) clause (b) তে উল্লিখিত “of the said two Directorates” শব্দগুলির পরিবর্তে “of the said Directorates and Commissionerate” শব্দগুলি প্রতিস্থাপিত হইবে।</li>\n</ul>\n\n<p>৬। <b>Act No. IV of 1969 এর section 192C এর প্রতিস্থাপন।</b>—Customs Act এর section 192C এর পরিবর্তে নিম্নরূপ section 192C প্রতিস্থাপিত হইবে, যথাঃ—</p>\n\n<p><b>“192C. Definition and scope of disputes for ADR.</b>—(1) For the purposes of this chapter, “dispute” means-</p>\n\n<ul style=\"list-style-type: none;\">\n<li>(a) any case or proceeding—\n      <ul style=\"list-style-type: none;\">\n<li>(i) of levy, assessment, collection or refund of duty and taxes or, for imposition of fine or penalty in relation to the determination of customs valuation under section 25 of any imported consignment; and</li>\n</ul>\n</li>\n</ul>"
+  },
+  "metadata": {
+    "file_name": "20160408_Finance_Act_2013.pdf",
+    "num_pages": 1,
+    "total_token_count": 1005,
+    "total_chunks": 11,
+    "total_images": 0,
+    "pages": [
+      {
+        "page_num": 0,
+        "page_box": [
+          0,
+          0,
+          1024,
+          1545
+        ],
+        "token_count": 1005,
+        "num_chunks": 11,
+        "num_images": 0
+      }
+    ]
+  },
+  "sanity": {
+    "char_count": 1546,
+    "line_count": 17,
+    "bangla_chars": 288,
+    "english_chars": 849,
+    "warnings": [],
+    "status": "ok"
+  }
+}

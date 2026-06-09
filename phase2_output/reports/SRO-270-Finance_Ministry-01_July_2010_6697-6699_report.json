@@ -1,0 +1,78 @@
+{
+  "input_path": "phase1_output\\chunks\\without_headers_footers\\SRO-270-Finance Ministry-01 July 2010(6697-6699)\\chunks.json",
+  "group_name": null,
+  "run_status": "success",
+  "total_documents": 1,
+  "total_chunks": 3,
+  "successful_chunks": 3,
+  "failed_chunks": 0,
+  "failed_pages_by_document": {},
+  "documents": [
+    {
+      "document_name": "SRO-270-Finance Ministry-01 July 2010(6697-6699)",
+      "chunks_path": "phase1_output\\chunks\\without_headers_footers\\SRO-270-Finance Ministry-01 July 2010(6697-6699)\\chunks.json",
+      "page_output_dir": "phase2_output\\page_outputs_2\\SRO-270-Finance Ministry-01 July 2010(6697-6699)",
+      "total_chunks": 3,
+      "successful_chunks": 3,
+      "failed_chunks": 0,
+      "failed_pages": [],
+      "final_carry_forward_state": {
+        "status": "closed",
+        "active_point_number": "",
+        "active_stitch_group_id": "",
+        "active_point_summary": "The list of eligible grants/donations has concluded.",
+        "numbering_system": "mixed",
+        "expected_next_main_point": "",
+        "continuation_hint": "No further points expected.",
+        "last_visible_text": ""
+      },
+      "pages": [
+        {
+          "chunk_id": "SRO-270-Finance_Ministry-01_July_2010_6697-6699_chunk_0001",
+          "page_number": 0,
+          "status": "success",
+          "elapsed_seconds": 26.15,
+          "output_path": "phase2_output\\page_outputs_2\\SRO-270-Finance Ministry-01 July 2010(6697-6699)\\SRO-270-Finance_Ministry-01_July_2010_6697-6699_chunk_0001_page_0000.json",
+          "block_count": 3,
+          "carry_state_status": "open",
+          "active_point_number": "",
+          "numbering_system": "mixed",
+          "expected_next_main_point": "২",
+          "sent_previous_open_point_block": false,
+          "previous_open_point_block_id": "",
+          "error": null
+        },
+        {
+          "chunk_id": "SRO-270-Finance_Ministry-01_July_2010_6697-6699_chunk_0002",
+          "page_number": 1,
+          "status": "success",
+          "elapsed_seconds": 16.68,
+          "output_path": "phase2_output\\page_outputs_2\\SRO-270-Finance Ministry-01 July 2010(6697-6699)\\SRO-270-Finance_Ministry-01_July_2010_6697-6699_chunk_0002_page_0001.json",
+          "block_count": 4,
+          "carry_state_status": "open",
+          "active_point_number": "",
+          "numbering_system": "mixed",
+          "expected_next_main_point": "point_১",
+          "sent_previous_open_point_block": false,
+          "previous_open_point_block_id": "",
+          "error": null
+        },
+        {
+          "chunk_id": "SRO-270-Finance_Ministry-01_July_2010_6697-6699_chunk_0003",
+          "page_number": 2,
+          "status": "success",
+          "elapsed_seconds": 21.7,
+          "output_path": "phase2_output\\page_outputs_2\\SRO-270-Finance Ministry-01 July 2010(6697-6699)\\SRO-270-Finance_Ministry-01_July_2010_6697-6699_chunk_0003_page_0002.json",
+          "block_count": 12,
+          "carry_state_status": "closed",
+          "active_point_number": "",
+          "numbering_system": "mixed",
+          "expected_next_main_point": "",
+          "sent_previous_open_point_block": false,
+          "previous_open_point_block_id": "",
+          "error": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "chunk_id": "20160408_Finance_Act_2013_chunk_0050",
+  "page_number": 49,
+  "document_id": "20160408_Finance_Act_2013",
+  "content_blocks": [
+    {
+      "block_id": "p0049_b001",
+      "type": "point",
+      "point_number": "(৫)",
+      "text": "২১২ নং পৃষ্ঠার কলাম (1) এ উল্লিখিত Heading 70.10, এর আওতাভুক্ত কলাম (2) তে বর্ণিত H.S.Code “7010.90.00” এর বিপরীতে কলাম (5) এ উল্লিখিত এন্ট্রি “10%” এর পরিবর্তে এন্ট্রি “25%” প্রতিস্থাপিত হইবে।",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "point_(৫)",
+      "stitching_note": ""
+    },
+    {
+      "block_id": "p0049_b002",
+      "type": "point",
+      "point_number": "(৬)",
+      "text": "২২৬ নং পৃষ্ঠার কলাম (1) এ উল্লিখিত Heading 72.08 এবং উহার বিপরীতে কলাম (2), (3), (4) ও (5) এ উল্লিখিত এন্ট্রিসমূহের পরিবর্তে নিম্নরূপ Heading এবং এন্ট্রিসমূহ প্রতিস্থাপিত হইবে, যথা:—\n\n<table>\n<tbody>\n<tr>\n<td>“72.08</td>\n<td>Flat-rolled products or iron or non-alloy steel, of a width of 600 mm or more, hot-rolled, not clad, plated or coated.</td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td>- In coils, not further worked than hot-rolled, with patterns in relief</td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td>7208.10.10</td>\n<td>--- Imported by VAT registered iron/steel product, transformer and pre-fabricated building manufacturing industry</td>\n<td>kg</td>\n<td>5%</td>\n<td>Free</td>\n</tr>\n<tr>\n<td>7208.10.90</td>\n<td>--- Other</td>\n<td>kg</td>\n<td>10%</td>\n<td>Free</td>\n</tr>\n<tr>\n<td></td>\n<td>- Other, in coils, not further worked than hot-rolled, pickled</td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td>-- Of a thickness of 4.75 mm or more</td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td>7208.25.10</td>\n<td>--- Imported by VAT registered iron/steel product, transformer and pre-fabricated building manufacturing industry</td>\n<td>kg</td>\n<td>5%</td>\n<td>Free</td>\n</tr>\n<tr>\n<td>7208.25.90</td>\n<td>--- Other</td>\n<td>kg</td>\n<td>10%</td>\n<td>Free</td>\n</tr>\n<tr>\n<td></td>\n<td>-- Of a thickness of 3 mm or more but less than 4.75 mm</td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td>7208.26.10</td>\n<td>...Imported by VAT registered iron/steel product, transformer and pre-fabricated building manufacturing industry</td>\n<td>kg</td>\n<td>5%</td>\n<td>Free</td>\n</tr>\n</tbody>\n</table>",
+      "continues_from_previous": true,
+      "continues_to_next": true,
+      "stitch_group_id": "point_(৬)",
+      "stitching_note": "Continues the table structure started in the previous chunk."
+    }
+  ],
+  "output_carry_forward_state": {
+    "status": "open",
+    "active_point_number": "(৬)",
+    "active_stitch_group_id": "point_(৬)",
+    "active_point_summary": "Replacement of entries for Heading 72.08 and related H.S.Codes, including the table structure.",
+    "numbering_system": "english_digits",
+    "expected_next_main_point": "(৬)",
+    "continuation_hint": "The point (৬) continues into the next page, starting with the remaining text of the table row.",
+    "last_visible_text": "7208.26.10\n...Imported by VAT registered iron/steel product, transformer and pre-fabricated building manufacturing industry\nkg\n5%\nFree"
+  }
+}

@@ -1,0 +1,25 @@
+৬২বাংলাদেশ গেজেট, অতিরিক্ত, জানুয়ারী ২, ১৯৯৪
+
+3. The provisions of paragraphs 1 and 2 shall not apply if the visit of entertainers or athletes to a Contracting State is supported wholly or substantially from public funds of the other Contracting State, a Land, a political subdivision or a local authority thereof.
+
+#### Article 18
+
+##### Pensions
+
+Subject to the provisions of paragraphs 1 and 3 of Article 19, pensions and other similar remuneration paid to a resident of a Contracting State in consideration of past employment shall be taxable only in that State.
+
+#### Article 19
+
+##### Government Service
+
+1. Remuneration including pensions paid by a Contracting State, a Land, a political subdivision or a local authority thereof to an individual in respect of services rendered to that State, Land, subdivision or authority shall be taxable only in that State. However, such remuneration shall be taxable only in the other Contracting State if the services are rendered in that State, if the individual is a resident of that State, a national of that State and not a national of the first-mentioned State.
+
+2. The provisions of Articles 15, 16 and 18 shall apply to remuneration and pensions in respect of services rendered in connection with a business carried on by a Contracting State, a Land, a political subdivision or a local authority thereof.
+
+3. The provisions of paragraph 1 shall likewise apply in respect of remuneration paid, under a development assistance programme of a Contracting State, a land, a political subdivision or a local authority thereof, by that State, Land, political subdivision, local authority or any other governmental instrument to a specialist or volunteer seconded to the other Contracting State with the consent of that other State.
+
+#### Article 20
+
+##### Teachers, Students and Trainees
+
+1. An individual who visits a Contracting State at the invitation of that State or of a university, college, school, museum or other cultural institution of that State or under an official programme of cultural exchange for a period not exceeding two years solely for the purpose of teaching, giving lectures or carrying out research at such institution and who is, or was immediately before that visit, a resident of the other Contracting State shall be exempt

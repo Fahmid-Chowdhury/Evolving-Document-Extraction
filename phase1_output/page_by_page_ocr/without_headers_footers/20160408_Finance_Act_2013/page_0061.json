@@ -1,0 +1,42 @@
+{
+  "document_id": "20160408_Finance_Act_2013",
+  "source_file": "Documents\\20160408_Finance_Act_2013.pdf",
+  "page_number": 61,
+  "ocr": {
+    "engine": "chandra_ocr_2",
+    "method": "hf"
+  },
+  "content": {
+    "raw_markdown": "দ্বিতীয় অংশ\n\n(অর্থ আইন, ২০১৩ এর ধারা ৩৬ দ্রষ্টব্য)\n\nসারচার্জের হার\n\nকোন ব্যক্তি-করদাতা (assessee being individual) যাহার Income-tax Ordinance, 1984 (Ord. No. XXXVI of 1984) এর section 80 অনুযায়ী পরিসম্পদ, দায় ও খরচের বিবরণী (statement of assets, liabilities and expenses) তে প্রদর্শিত নীট পরিসম্পদের মূল্যমান (total net worth) দুই কোটি টাকার অধিক, সেইরূপ ব্যক্তি করদাতার ক্ষেত্রে আয়কর প্রযোজ্য এইরূপ আয়ের উপর প্রযোজ্য আয়করের ১০% হারে এবং নীট পরিসম্পদের মূল্যমান (total net worth) দশ কোটি টাকার অধিক, সেইরূপ ব্যক্তি-করদাতার ক্ষেত্রে আয়কর প্রযোজ্য এইরূপ আয়ের উপর প্রযোজ্য আয়করের ১৫% হারে সারচার্জ প্রদেয় হইবে।",
+    "raw_html": "দ্বিতীয় অংশ<p>(অর্থ আইন, ২০১৩ এর ধারা ৩৬ দ্রষ্টব্য)</p>সারচার্জের হার<p>কোন ব্যক্তি-করদাতা (assessee being individual) যাহার Income-tax Ordinance, 1984 (Ord. No. XXXVI of 1984) এর section 80 অনুযায়ী পরিসম্পদ, দায় ও খরচের বিবরণী (statement of assets, liabilities and expenses) তে প্রদর্শিত নীট পরিসম্পদের মূল্যমান (total net worth) দুই কোটি টাকার অধিক, সেইরূপ ব্যক্তি করদাতার ক্ষেত্রে আয়কর প্রযোজ্য এইরূপ আয়ের উপর প্রযোজ্য আয়করের ১০% হারে এবং নীট পরিসম্পদের মূল্যমান (total net worth) দশ কোটি টাকার অধিক, সেইরূপ ব্যক্তি-করদাতার ক্ষেত্রে আয়কর প্রযোজ্য এইরূপ আয়ের উপর প্রযোজ্য আয়করের ১৫% হারে সারচার্জ প্রদেয় হইবে।</p>"
+  },
+  "metadata": {
+    "file_name": "20160408_Finance_Act_2013.pdf",
+    "num_pages": 1,
+    "total_token_count": 513,
+    "total_chunks": 6,
+    "total_images": 0,
+    "pages": [
+      {
+        "page_num": 0,
+        "page_box": [
+          0,
+          0,
+          1024,
+          1405
+        ],
+        "token_count": 513,
+        "num_chunks": 6,
+        "num_images": 0
+      }
+    ]
+  },
+  "sanity": {
+    "char_count": 617,
+    "line_count": 7,
+    "bangla_chars": 363,
+    "english_chars": 125,
+    "warnings": [],
+    "status": "ok"
+  }
+}

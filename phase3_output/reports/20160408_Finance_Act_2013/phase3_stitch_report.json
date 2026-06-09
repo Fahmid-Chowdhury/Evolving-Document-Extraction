@@ -1,0 +1,28 @@
+{
+  "document_name": "20160408_Finance_Act_2013",
+  "total_pages": 20,
+  "total_blocks": 59,
+  "final_content_items": 49,
+  "metadata_blocks": 6,
+  "stitched_point_blocks": 10,
+  "ignored_blocks": 0,
+  "uncertain_blocks": 0,
+  "open_groups_remaining": [
+    "point_৩",
+    "point_১০।",
+    "point_১৩।",
+    "point_২৮।"
+  ],
+  "warnings": [
+    {
+      "type": "recovered_closed_group_continuation",
+      "page_number": 16,
+      "chunk_id": "20160408_Finance_Act_2013_chunk_0017",
+      "block_id": "p0016_b001",
+      "group_id": "point_৩০।",
+      "message": "Block says continues_from_previous=true, but group was not open. Appended to latest same group."
+    }
+  ],
+  "skipped_blocks": [],
+  "uncertain_block_details": []
+}

@@ -1,0 +1,75 @@
+{
+  "input_path": "Finance Acts",
+  "run_status": "success",
+  "total_pdfs": 4,
+  "successful_pdfs": 4,
+  "failed_pdfs": 0,
+  "document_output_dirs_checked": [
+    "phase1_output\\full_document_ocr\\Finance Acts\\20160408_Finance_Act_2013",
+    "phase1_output\\full_document_ocr\\Finance Acts\\20170630_Finance_Act_2017",
+    "phase1_output\\full_document_ocr\\Finance Acts\\20210701_Finance_Act_2021",
+    "phase1_output\\full_document_ocr\\Finance Acts\\20240701_Finance_Act_2024"
+  ],
+  "output_files_found_for_given_input": {
+    "markdown": 4,
+    "html": 4,
+    "metadata_json": 4,
+    "images": 5
+  },
+  "pdf_runs": [
+    {
+      "pdf": "Documents\\Finance Acts\\20160408_Finance_Act_2013.pdf",
+      "status": "success",
+      "elapsed_seconds": 2599.08,
+      "output_dir": "phase1_output\\full_document_ocr\\Finance Acts",
+      "document_output_dir": "phase1_output\\full_document_ocr\\Finance Acts\\20160408_Finance_Act_2013"
+    },
+    {
+      "pdf": "Documents\\Finance Acts\\20170630_Finance_Act_2017.pdf",
+      "status": "success",
+      "elapsed_seconds": 3812.52,
+      "output_dir": "phase1_output\\full_document_ocr\\Finance Acts",
+      "document_output_dir": "phase1_output\\full_document_ocr\\Finance Acts\\20170630_Finance_Act_2017"
+    },
+    {
+      "pdf": "Documents\\Finance Acts\\20210701_Finance_Act_2021.pdf",
+      "status": "success",
+      "elapsed_seconds": 3296.26,
+      "output_dir": "phase1_output\\full_document_ocr\\Finance Acts",
+      "document_output_dir": "phase1_output\\full_document_ocr\\Finance Acts\\20210701_Finance_Act_2021"
+    },
+    {
+      "pdf": "Documents\\Finance Acts\\20240701_Finance_Act_2024.pdf",
+      "status": "success",
+      "elapsed_seconds": 5058.7,
+      "output_dir": "phase1_output\\full_document_ocr\\Finance Acts",
+      "document_output_dir": "phase1_output\\full_document_ocr\\Finance Acts\\20240701_Finance_Act_2024"
+    }
+  ],
+  "sanity_check": {
+    "status": "ok",
+    "warnings": [],
+    "markdown_files": [
+      {
+        "file": "phase1_output\\full_document_ocr\\Finance Acts\\20160408_Finance_Act_2013\\20160408_Finance_Act_2013.md",
+        "status": "ok",
+        "message": "Output text was generated."
+      },
+      {
+        "file": "phase1_output\\full_document_ocr\\Finance Acts\\20170630_Finance_Act_2017\\20170630_Finance_Act_2017.md",
+        "status": "ok",
+        "message": "Output text was generated."
+      },
+      {
+        "file": "phase1_output\\full_document_ocr\\Finance Acts\\20210701_Finance_Act_2021\\20210701_Finance_Act_2021.md",
+        "status": "ok",
+        "message": "Output text was generated."
+      },
+      {
+        "file": "phase1_output\\full_document_ocr\\Finance Acts\\20240701_Finance_Act_2024\\20240701_Finance_Act_2024.md",
+        "status": "ok",
+        "message": "Output text was generated."
+      }
+    ]
+  }
+}

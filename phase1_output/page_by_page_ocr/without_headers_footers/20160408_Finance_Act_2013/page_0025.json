@@ -1,0 +1,42 @@
+{
+  "document_id": "20160408_Finance_Act_2013",
+  "source_file": "Documents\\20160408_Finance_Act_2013.pdf",
+  "page_number": 25,
+  "ocr": {
+    "engine": "chandra_ocr_2",
+    "method": "hf"
+  },
+  "content": {
+    "raw_markdown": "<table border=\"1\">\n<thead>\n<tr>\n<th>শিরনামা সংখ্যা<br/>(Heading No.)</th>\n<th>সামঞ্জস্যপূর্ণ<br/>নামকরণ কোড<br/>(H.S. Code)</th>\n<th>পণ্যসমূহের বিবরণ<br/>(Description of Goods)</th>\n<th>সম্পূরক<br/>শতাংশ<br/>(%)</th>\n</tr>\n<tr>\n<th>(১)</th>\n<th>(২)</th>\n<th>(৩)</th>\n<th>(৪)</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>২১.০৬</td>\n<td>২১০৬.৯০.১০</td>\n<td>সুগন্ধি দ্রব্যের মিশ্রণ ব্যতীত কোমল পানীয়<br/>প্রস্তুতে ব্যবহৃত সামগ্ৰী, আয়তন ভিত্তিক<br/>এ্যালকোহল ক্ষমতা ০.৫% এর উর্ধ্বে</td>\n<td>৩৫০</td>\n</tr>\n<tr>\n<td>২২.০১</td>\n<td>সকল<br/>এইচ,এস,কোড</td>\n<td>Waters, including natural or<br/>artificial mineral waters and<br/>aerated waters, not containing<br/>added sugar or other sweetening<br/>matter nor flavoured; ice and<br/>snow</td>\n<td>২০</td>\n</tr>\n<tr>\n<td>২২.০২</td>\n<td>২২০২.১০.০০</td>\n<td>কোমল পানীয়</td>\n<td>১৫০</td>\n</tr>\n<tr>\n<td></td>\n<td>২২০২.৯০.০০</td>\n<td>নন-এ্যালকোহলিক বিয়ার</td>\n<td>১৫০</td>\n</tr>\n<tr>\n<td>২২.০৩</td>\n<td>২২০৩.০০.০০</td>\n<td>মল্ট হইতে প্রস্তুত বিয়ার</td>\n<td>২৫০</td>\n</tr>\n<tr>\n<td>২২.০৪</td>\n<td>সকল<br/>এইচ,এস,কোড</td>\n<td>তাজা আঙ্গুরের মদ্য, ফার্টিফাইড মদ্যসহ;<br/>(২০.০৯ হেডিংভুক্ত grape must ব্যতীত)</td>\n<td>৩৫০</td>\n</tr>\n<tr>\n<td>২২.০৫</td>\n<td>সকল<br/>এইচ,এস,কোড</td>\n<td>ভারমুখ এবং তাজা আঙ্গুরের তৈরী মদ্য,<br/>সুবাসিত</td>\n<td>৩৫০</td>\n</tr>\n<tr>\n<td>২২.০৬</td>\n<td>২২০৬.০০.০০</td>\n<td>অন্যান্য গাঁজনো পানীয় (উদাহরণস্বরূপ<br/>সিডার, পেৰী)</td>\n<td>৩৫০</td>\n</tr>\n<tr>\n<td>২২.০৮</td>\n<td>সকল<br/>এইচ,এস,কোড</td>\n<td>Undenatured ethyl alcohol of an<br/>alcoholic strength by volume of less<br/>than 80% volume, spirits, liquors and<br/>other spirituous beverages</td>\n<td>৩৫০</td>\n</tr>\n<tr>\n<td>২৪.০১</td>\n<td>সকল<br/>এইচ,এস,কোড</td>\n<td>Unmanufactured Tobacco,<br/>Tobacco refuse</td>\n<td>৬০</td>\n</tr>\n<tr>\n<td>২৪.০২</td>\n<td>২৪০২.১০.০০</td>\n<td>তামাকের তৈরী সিগার, চুবুট ও সিগারিল্লো</td>\n<td>১৫০</td>\n</tr>\n<tr>\n<td></td>\n<td>২৪০২.২০.০০</td>\n<td>তামাকের তৈরী সিগারেট</td>\n<td>৩৫০</td>\n</tr>\n<tr>\n<td></td>\n<td>২৪০২.৯০.০০</td>\n<td>হাতে বা অযান্ত্রিক পদ্ধতিতে তৈরী বিভিন্ন এবং<br/>অন্যান্য</td>\n<td>১০০</td>\n</tr>\n<tr>\n<td>২৪.০৩</td>\n<td>সকল<br/>এইচ,এস,কোড</td>\n<td>অন্যান্য প্রস্তুতকৃত তামাক এবং সমজাতীয়<br/>পদার্থ; তামাকের \"homogenised\" বা<br/>\"reconstituted\" নির্জাস বা সুগন্ধি</td>\n<td>১০০</td>\n</tr>\n<tr>\n<td>২৫.০১</td>\n<td>২৫০১.০০.২০</td>\n<td>Salt (other than pure sodium<br/>chloride) not in aqueous solution<br/>including salt boulder for crushing<br/>and salt in bulk</td>\n<td>২০</td>\n</tr>\n</tbody>\n</table>",
+    "raw_html": "<table border=\"1\">\n<thead>\n<tr>\n<th>শিরনামা সংখ্যা<br/>(Heading No.)</th>\n<th>সামঞ্জস্যপূর্ণ<br/>নামকরণ কোড<br/>(H.S. Code)</th>\n<th>পণ্যসমূহের বিবরণ<br/>(Description of Goods)</th>\n<th>সম্পূরক<br/>শতাংশ<br/>(%)</th>\n</tr>\n<tr>\n<th>(১)</th>\n<th>(২)</th>\n<th>(৩)</th>\n<th>(৪)</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>২১.০৬</td>\n<td>২১০৬.৯০.১০</td>\n<td>সুগন্ধি দ্রব্যের মিশ্রণ ব্যতীত কোমল পানীয়<br/>প্রস্তুতে ব্যবহৃত সামগ্ৰী, আয়তন ভিত্তিক<br/>এ্যালকোহল ক্ষমতা ০.৫% এর উর্ধ্বে</td>\n<td>৩৫০</td>\n</tr>\n<tr>\n<td>২২.০১</td>\n<td>সকল<br/>এইচ,এস,কোড</td>\n<td>Waters, including natural or<br/>artificial mineral waters and<br/>aerated waters, not containing<br/>added sugar or other sweetening<br/>matter nor flavoured; ice and<br/>snow</td>\n<td>২০</td>\n</tr>\n<tr>\n<td>২২.০২</td>\n<td>২২০২.১০.০০</td>\n<td>কোমল পানীয়</td>\n<td>১৫০</td>\n</tr>\n<tr>\n<td></td>\n<td>২২০২.৯০.০০</td>\n<td>নন-এ্যালকোহলিক বিয়ার</td>\n<td>১৫০</td>\n</tr>\n<tr>\n<td>২২.০৩</td>\n<td>২২০৩.০০.০০</td>\n<td>মল্ট হইতে প্রস্তুত বিয়ার</td>\n<td>২৫০</td>\n</tr>\n<tr>\n<td>২২.০৪</td>\n<td>সকল<br/>এইচ,এস,কোড</td>\n<td>তাজা আঙ্গুরের মদ্য, ফার্টিফাইড মদ্যসহ;<br/>(২০.০৯ হেডিংভুক্ত grape must ব্যতীত)</td>\n<td>৩৫০</td>\n</tr>\n<tr>\n<td>২২.০৫</td>\n<td>সকল<br/>এইচ,এস,কোড</td>\n<td>ভারমুখ এবং তাজা আঙ্গুরের তৈরী মদ্য,<br/>সুবাসিত</td>\n<td>৩৫০</td>\n</tr>\n<tr>\n<td>২২.০৬</td>\n<td>২২০৬.০০.০০</td>\n<td>অন্যান্য গাঁজনো পানীয় (উদাহরণস্বরূপ<br/>সিডার, পেৰী)</td>\n<td>৩৫০</td>\n</tr>\n<tr>\n<td>২২.০৮</td>\n<td>সকল<br/>এইচ,এস,কোড</td>\n<td>Undenatured ethyl alcohol of an<br/>alcoholic strength by volume of less<br/>than 80% volume, spirits, liquors and<br/>other spirituous beverages</td>\n<td>৩৫০</td>\n</tr>\n<tr>\n<td>২৪.০১</td>\n<td>সকল<br/>এইচ,এস,কোড</td>\n<td>Unmanufactured Tobacco,<br/>Tobacco refuse</td>\n<td>৬০</td>\n</tr>\n<tr>\n<td>২৪.০২</td>\n<td>২৪০২.১০.০০</td>\n<td>তামাকের তৈরী সিগার, চুবুট ও সিগারিল্লো</td>\n<td>১৫০</td>\n</tr>\n<tr>\n<td></td>\n<td>২৪০২.২০.০০</td>\n<td>তামাকের তৈরী সিগারেট</td>\n<td>৩৫০</td>\n</tr>\n<tr>\n<td></td>\n<td>২৪০২.৯০.০০</td>\n<td>হাতে বা অযান্ত্রিক পদ্ধতিতে তৈরী বিভিন্ন এবং<br/>অন্যান্য</td>\n<td>১০০</td>\n</tr>\n<tr>\n<td>২৪.০৩</td>\n<td>সকল<br/>এইচ,এস,কোড</td>\n<td>অন্যান্য প্রস্তুতকৃত তামাক এবং সমজাতীয়<br/>পদার্থ; তামাকের \"homogenised\" বা<br/>\"reconstituted\" নির্জাস বা সুগন্ধি</td>\n<td>১০০</td>\n</tr>\n<tr>\n<td>২৫.০১</td>\n<td>২৫০১.০০.২০</td>\n<td>Salt (other than pure sodium<br/>chloride) not in aqueous solution<br/>including salt boulder for crushing<br/>and salt in bulk</td>\n<td>২০</td>\n</tr>\n</tbody>\n</table>"
+  },
+  "metadata": {
+    "file_name": "20160408_Finance_Act_2013.pdf",
+    "num_pages": 1,
+    "total_token_count": 1632,
+    "total_chunks": 3,
+    "total_images": 0,
+    "pages": [
+      {
+        "page_num": 0,
+        "page_box": [
+          0,
+          0,
+          1024,
+          1558
+        ],
+        "token_count": 1632,
+        "num_chunks": 3,
+        "num_images": 0
+      }
+    ]
+  },
+  "sanity": {
+    "char_count": 2465,
+    "line_count": 108,
+    "bangla_chars": 735,
+    "english_chars": 875,
+    "warnings": [],
+    "status": "ok"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "document_id": "20160408_Finance_Act_2013",
+  "source_file": "Documents\\20160408_Finance_Act_2013.pdf",
+  "page_number": 47,
+  "ocr": {
+    "engine": "chandra_ocr_2",
+    "method": "hf"
+  },
+  "content": {
+    "raw_markdown": "দ্বিতীয় অংশ  \nসম্পূরক তত্ত্ব আরোপযোগ্য সেবাসমূহ\n\n<table border=\"1\">\n<thead>\n<tr>\n<th>শিরনামা সংখ্যা</th>\n<th>সেবার কোড</th>\n<th>সেবাসমূহ</th>\n<th>সম্পূরক তত্ত্ব হার (%)</th>\n</tr>\n<tr>\n<th>(১)</th>\n<th>(২)</th>\n<th>(৩)</th>\n<th>(৪)</th>\n</tr>\n</thead>\n</table>\n\n<table border=\"1\">\n<tbody>\n<tr>\n<td>S001</td>\n<td>S001.00</td>\n<td>হোটেল ও রেস্তোরাঁ :</td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td>S001.10</td>\n<td>হোটেলঃ আবাসন, খাদ্য বা পানীয় সরবরাহকালে যদি হোটলে মদ জাতীয় পানীয় সরবরাহ করা হয় বা যে কোন ধরণের “ফ্লোর শো” এর আয়োজন করা হয় কেবল ঐ সকল বিলের উপর (বৎসরে একদিনের জন্য করা হইলেও)</td>\n<td>১০</td>\n</tr>\n<tr>\n<td></td>\n<td>S001.20</td>\n<td>রেস্তোরাঁঃ খাদ্য বা পানীয় সরবরাহকালে যদি রেস্তোরাঁয় মদ জাতীয় পানীয় সরবরাহ করা হয় বা যে কোন ধরণের “ফ্লোর শো” এর আয়োজন করা হয় কেবল ঐ সকল বিলের উপর (বৎসরে একদিনের জন্য করা হইলেও)</td>\n<td>১০</td>\n</tr>\n<tr>\n<td>S012</td>\n<td>S012.20</td>\n<td>সিম কার্ড সরবরাহকারী :<br/><br/>সেলুলার(Mobile/Fixed Wireless) টেলিফোনের ক্ষেত্রে সিম (Subscriber's Identity Module-SIM) কার্ড বা রিম (Removable User Identification Module-RUIM) কার্ড বা অনুরূপ অন্য কোন Microchip সম্বলিত কার্ড সরবরাহ অথবা একই উদ্দেশ্য পূরণকল্পে উল্লিখিত কার্ড ব্যতীত প্রতিবার Code Division Multiple Access (CDMA) বা অনুরূপ অন্য কোন পদ্ধতি ব্যবহার</td>\n<td>৩৫<br/><br/>।</td>\n</tr>\n<tr>\n<td>S023</td>\n<td>S023.10</td>\n<td>চলচ্চিত্র প্রদর্শক (প্রেক্ষাগৃহ)</td>\n<td>৩৫</td>\n</tr>\n<tr>\n<td>S039</td>\n<td>S039.20</td>\n<td>স্যাটেলাইট চ্যানেল ডিস্ট্রিবিউটর ।</td>\n<td>২৫ ।” ।</td>\n</tr>\n</tbody>\n</table>",
+    "raw_html": "<p style=\"text-align: center;\">দ্বিতীয় অংশ<br/>সম্পূরক তত্ত্ব আরোপযোগ্য সেবাসমূহ</p>\n\n<table border=\"1\">\n<thead>\n<tr>\n<th>শিরনামা সংখ্যা</th>\n<th>সেবার কোড</th>\n<th>সেবাসমূহ</th>\n<th>সম্পূরক তত্ত্ব হার (%)</th>\n</tr>\n<tr>\n<th>(১)</th>\n<th>(২)</th>\n<th>(৩)</th>\n<th>(৪)</th>\n</tr>\n</thead>\n</table>\n\n<table border=\"1\">\n<tbody>\n<tr>\n<td>S001</td>\n<td>S001.00</td>\n<td>হোটেল ও রেস্তোরাঁ :</td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td>S001.10</td>\n<td>হোটেলঃ আবাসন, খাদ্য বা পানীয় সরবরাহকালে যদি হোটলে মদ জাতীয় পানীয় সরবরাহ করা হয় বা যে কোন ধরণের “ফ্লোর শো” এর আয়োজন করা হয় কেবল ঐ সকল বিলের উপর (বৎসরে একদিনের জন্য করা হইলেও)</td>\n<td>১০</td>\n</tr>\n<tr>\n<td></td>\n<td>S001.20</td>\n<td>রেস্তোরাঁঃ খাদ্য বা পানীয় সরবরাহকালে যদি রেস্তোরাঁয় মদ জাতীয় পানীয় সরবরাহ করা হয় বা যে কোন ধরণের “ফ্লোর শো” এর আয়োজন করা হয় কেবল ঐ সকল বিলের উপর (বৎসরে একদিনের জন্য করা হইলেও)</td>\n<td>১০</td>\n</tr>\n<tr>\n<td>S012</td>\n<td>S012.20</td>\n<td>সিম কার্ড সরবরাহকারী :<br/><br/>সেলুলার(Mobile/Fixed Wireless) টেলিফোনের ক্ষেত্রে সিম (Subscriber's Identity Module-SIM) কার্ড বা রিম (Removable User Identification Module-RUIM) কার্ড বা অনুরূপ অন্য কোন Microchip সম্বলিত কার্ড সরবরাহ অথবা একই উদ্দেশ্য পূরণকল্পে উল্লিখিত কার্ড ব্যতীত প্রতিবার Code Division Multiple Access (CDMA) বা অনুরূপ অন্য কোন পদ্ধতি ব্যবহার</td>\n<td>৩৫<br/><br/>।</td>\n</tr>\n<tr>\n<td>S023</td>\n<td>S023.10</td>\n<td>চলচ্চিত্র প্রদর্শক (প্রেক্ষাগৃহ)</td>\n<td>৩৫</td>\n</tr>\n<tr>\n<td>S039</td>\n<td>S039.20</td>\n<td>স্যাটেলাইট চ্যানেল ডিস্ট্রিবিউটর ।</td>\n<td>২৫ ।” ।</td>\n</tr>\n</tbody>\n</table>"
+  },
+  "metadata": {
+    "file_name": "20160408_Finance_Act_2013.pdf",
+    "num_pages": 1,
+    "total_token_count": 971,
+    "total_chunks": 5,
+    "total_images": 0,
+    "pages": [
+      {
+        "page_num": 0,
+        "page_box": [
+          0,
+          0,
+          1024,
+          1371
+        ],
+        "token_count": 971,
+        "num_chunks": 5,
+        "num_images": 0
+      }
+    ]
+  },
+  "sanity": {
+    "char_count": 1506,
+    "line_count": 60,
+    "bangla_chars": 632,
+    "english_chars": 353,
+    "warnings": [],
+    "status": "ok"
+  }
+}

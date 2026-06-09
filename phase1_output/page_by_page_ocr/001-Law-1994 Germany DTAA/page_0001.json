@@ -1,0 +1,42 @@
+{
+  "document_id": "001-Law-1994_Germany_DTAA",
+  "source_file": "001-Law-1994 Germany DTAA.pdf",
+  "page_number": 1,
+  "ocr": {
+    "engine": "chandra_ocr_2",
+    "method": "hf"
+  },
+  "content": {
+    "raw_markdown": "66বাংলাদেশ লেজিস্টিভ, আইন, কলম্বো ২, ১৯৯৪\n\nDesiring to promote their mutual economic relations through the conclusion of an Agreement for the avoidance of double taxation with respect to taxes on income,\n\nHave agreed as follows :\n\n## Article 1\n\n### Personal Scope\n\nThis Agreement shall apply to persons who are residents of one or both of the Contracting States.\n\n## Article 2\n\n### Taxes Covered\n\n1. This Agreement shall apply to taxes on income imposed on behalf of each Contracting State or of its Laender, political subdivisions or local authorities, irrespective of the manner in which they are levied.\n\n2. There shall be regarded as taxes on income all taxes imposed on total income or on elements of income including taxes on gains from the alienation of movable or immovable property.\n\n3. The existing taxes to which this Agreement shall apply are, in particular ;\n\n(a) in the Federal Republic of Germany :\n\nthe Einkommensteuer (income tax), the Koerperschaftsteuer (corporation tax) and the Gewerbesteuer and (trade tax) (hereinafter referred to as \"German tax\");\n\n(b) in Bangladesh :\n\nthe income tax (hereinafter referred to as \"Bangladesh tax\").\n\n4. This Agreement shall apply also to any identical or substantially similar taxes which are imposed after the date of signature of the Agreement in addition to, or in place of, the existing taxes.\n\n## Article 3\n\n### General Definitions\n\n1. For the purposes of this Agreement, unless the context otherwise requires :\n\n(a) the term \"Bangladesh\" means the People's Republic of Bangladesh;\n\n(b) the terms \"a Contracting State\" and \"the other Contracting State\" mean the Federal Republic of Germany or Bangladesh as the context requires, and, when used in a geographical sense, the area in which the tax law of the State concerned is or may be in force;",
+    "raw_html": "66বাংলাদেশ লেজিস্টিভ, আইন, কলম্বো ২, ১৯৯৪\n<p>Desiring to promote their mutual economic relations through the conclusion of an Agreement for the avoidance of double taxation with respect to taxes on income,</p>\n\n<p>Have agreed as follows :</p>\n\n<h2>Article 1</h2>\n\n<h3>Personal Scope</h3>\n\n<p>This Agreement shall apply to persons who are residents of one or both of the Contracting States.</p>\n\n<h2>Article 2</h2>\n\n<h3>Taxes Covered</h3>\n\n<p>1. This Agreement shall apply to taxes on income imposed on behalf of each Contracting State or of its Laender, political subdivisions or local authorities, irrespective of the manner in which they are levied.</p>\n\n<p>2. There shall be regarded as taxes on income all taxes imposed on total income or on elements of income including taxes on gains from the alienation of movable or immovable property.</p>\n\n<p>3. The existing taxes to which this Agreement shall apply are, in particular ;</p>\n\n<p>(a) in the Federal Republic of Germany :</p>\n\n<p>the Einkommensteuer (income tax), the Koerperschaftsteuer (corporation tax) and the Gewerbesteuer and (trade tax) (hereinafter referred to as \"German tax\");</p>\n\n<p>(b) in Bangladesh :</p>\n\n<p>the income tax (hereinafter referred to as \"Bangladesh tax\").</p>\n\n<p>4. This Agreement shall apply also to any identical or substantially similar taxes which are imposed after the date of signature of the Agreement in addition to, or in place of, the existing taxes.</p>\n\n<h2>Article 3</h2>\n\n<h3>General Definitions</h3>\n\n<p>1. For the purposes of this Agreement, unless the context otherwise requires :</p>\n\n<p>(a) the term \"Bangladesh\" means the People's Republic of Bangladesh;</p>\n\n<p>(b) the terms \"a Contracting State\" and \"the other Contracting State\" mean the Federal Republic of Germany or Bangladesh as the context requires, and, when used in a geographical sense, the area in which the tax law of the State concerned is or may be in force;</p>"
+  },
+  "metadata": {
+    "file_name": "001-Law-1994 Germany DTAA.pdf",
+    "num_pages": 1,
+    "total_token_count": 1198,
+    "total_chunks": 22,
+    "total_images": 0,
+    "pages": [
+      {
+        "page_num": 0,
+        "page_box": [
+          0,
+          0,
+          1189,
+          1786
+        ],
+        "token_count": 1198,
+        "num_chunks": 22,
+        "num_images": 0
+      }
+    ]
+  },
+  "sanity": {
+    "char_count": 1806,
+    "line_count": 41,
+    "bangla_chars": 31,
+    "english_chars": 1374,
+    "warnings": [],
+    "status": "ok"
+  }
+}

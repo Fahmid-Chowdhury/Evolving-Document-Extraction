@@ -1,0 +1,70 @@
+{
+  "chunk_id": "20160408_Finance_Act_2013_chunk_0002",
+  "page_number": 1,
+  "document_id": "20160408_Finance_Act_2013",
+  "content_blocks": [
+    {
+      "block_id": "block_1",
+      "type": "metadata",
+      "clause_number": "",
+      "text": "৪৯৬২বাংলাদেশ গেজেট, অতিরিক্ত, জুন ৩০, ২০১৩",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "",
+      "stitching_note": "Page header/metadata"
+    },
+    {
+      "block_id": "block_2",
+      "type": "metadata",
+      "clause_number": "",
+      "text": "### দ্বিতীয় অধ্যায়\n\n#### Stamp Act, 1899 (Act II of 1899) এর সংশোধন",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "",
+      "stitching_note": "Chapter heading"
+    },
+    {
+      "block_id": "block_3",
+      "type": "clause",
+      "clause_number": "2",
+      "text": "**Act No. II of 1899 এর section 2 এর সংশোধন।**—Stamp Act, 1899 (Act No. II of 1899), অতঃপর উক্ত Act বলিয়া উল্লিখিত, এর section 2 এর clause (21) এর পরিবর্তে নিম্নরূপ clause (21) প্রতিস্থাপিত হইবে, যথা:—\n\n“(21) **“Power of Attorney”** means the power of attorney as defined in section-2, clause (1), of the Power of Attorney Act, 2012 (Act No. XXXV of 2012)”;",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "clause_2",
+      "stitching_note": "Clause 2"
+    },
+    {
+      "block_id": "block_4",
+      "type": "clause",
+      "clause_number": "3",
+      "text": "**Act No. II of 1899 এর Schedule I এর সংশোধন।**—উক্ত Act এর Schedule I এর—\n\n(ক) Article No. 40 এর বিপরীতে column (2) এর clause (1) এর EXEMPTIONS এর আওতাধীন—\n\n- (অ) paragraph (a) এর শেষে উল্লিখিত “and” শব্দটি বিলুপ্ত হইবে;\n- (আ) paragraph (b) এর প্রান্তস্থিত ফুলস্টপের (.) পরিবর্তে “; and” প্রতিস্থাপিত হইবে এবং অতঃপর উক্ত paragraph (b) এর পর নিম্নরূপ নূতন paragraph (c) সংযোজিত হইবে, যথা:—\n\n“(c) Instruments executed by persons taking loan from Karmasangsthan Bank established by the Karmasangsthan Bank Act, 1998 (Act No. VII of 1998) as security for the recovery of such loans.”;\n\n(খ) Article No. 48 এর পরিবর্তে নিম্নরূপ Article No. 48 প্রতিস্থাপিত হইবে, যথা:—\n\n“48 POWER OF ATTORNEY as defined by section 2, clause (21), not being a proxy—",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "clause_3",
+      "stitching_note": "Clause 3"
+    }
+  ],
+  "output_carry_forward_state": {
+    "status": "open",
+    "active_clause_number": "3",
+    "active_stitch_group_id": "clause_3",
+    "active_block_id": "block_4",
+    "active_clause_summary": "Amends the Stamp Act, 1899, specifically Article No. 48, regarding the definition of POWER OF ATTORNEY.",
+    "continuation_hint_for_next_chunk": "The clause (3) continues into the next page, detailing the replacement text for Article No. 48.",
+    "last_visible_text": "“48 POWER OF ATTORNEY as defined by section 2, clause (21), not being a proxy—",
+    "recent_clause_history": [
+      {
+        "page_number": 1,
+        "clause_number": "2",
+        "stitch_group_id": "clause_2",
+        "summary": "Amends section 2 of the Stamp Act, 1899, defining 'Power of Attorney'."
+      },
+      {
+        "page_number": 1,
+        "clause_number": "3",
+        "stitch_group_id": "clause_3",
+        "summary": "Amends Schedule I and Article No. 48 of the Stamp Act, 1899."
+      }
+    ]
+  }
+}

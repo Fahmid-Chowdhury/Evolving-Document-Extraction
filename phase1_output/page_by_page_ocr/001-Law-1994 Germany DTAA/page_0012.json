@@ -1,0 +1,42 @@
+{
+  "document_id": "001-Law-1994_Germany_DTAA",
+  "source_file": "001-Law-1994 Germany DTAA.pdf",
+  "page_number": 12,
+  "ocr": {
+    "engine": "chandra_ocr_2",
+    "method": "hf"
+  },
+  "content": {
+    "raw_markdown": "বাংলাদেশ গেজেট, অতিরিক্ত, জানুয়ারী ২, ১৯৯৪\n\n৬১\n\nemployment is exercised in the other Contracting State. If the employment is so exercised, such remuneration as is derived therefrom may be taxed in that other State.\n\n2. Notwithstanding the provisions of paragraph 1, remuneration derived by a resident of a Contracting State in respect of an employment exercised in the other Contracting State shall be taxable only in the first mentioned State if :\n\n- (a) the recipient is present in the other State for a period or periods not exceeding in the aggregate 183 days in the fiscal year concerned, and\n- (b) the remuneration is paid by, or on behalf of, an employer who is not a resident of the other State, and\n- (c) the remuneration is not borne by a permanent establishment or a fixed base which the employer has in the other State.\n\n3. Notwithstanding the preceding provisions of this Article, remuneration derived in respect of an employment exercised aboard a ship or aircraft operated in international traffic may be taxed in the Contracting State in which the place of effective management of the enterprise is situated.\n\n### Article 16\n\n#### Directors' Fees\n\nDirectors' fees and similar payments derived by a resident of a Contracting State in his capacity as a member of the board of directors of a company which is a resident of the other Contracting State may be taxed in that other State.\n\n### Article 17\n\n#### Artists and Athletes\n\n1. Notwithstanding the provisions of Articles 7, 14, and 15, income derived, by a resident of a Contracting State as an entertainer, such as a theatre, motion picture, radio or television artist, or a musician, or as an athlete, from his personal activities as such exercised in the other Contracting State, may be taxed in that other State.\n\n2. Where income in respect of personal activities exercised by an entertainer or an athlete in his capacity as such accrues not to the entertainer or athlete himself but to another person that income may, notwithstanding the provisions of Articles 7, 14 and 15, be taxed in the Contracting State in which the activities of the entertainer or athlete are exercised.",
+    "raw_html": "<p>বাংলাদেশ গেজেট, অতিরিক্ত, জানুয়ারী ২, ১৯৯৪</p>\n\n<p>৬১</p>\n\n<p>employment is exercised in the other Contracting State. If the employment is so exercised, such remuneration as is derived therefrom may be taxed in that other State.</p>\n\n<p>2. Notwithstanding the provisions of paragraph 1, remuneration derived by a resident of a Contracting State in respect of an employment exercised in the other Contracting State shall be taxable only in the first mentioned State if :</p>\n\n<ul style=\"list-style-type: none;\">\n<li>(a) the recipient is present in the other State for a period or periods not exceeding in the aggregate 183 days in the fiscal year concerned, and</li>\n<li>(b) the remuneration is paid by, or on behalf of, an employer who is not a resident of the other State, and</li>\n<li>(c) the remuneration is not borne by a permanent establishment or a fixed base which the employer has in the other State.</li>\n</ul>\n\n<p>3. Notwithstanding the preceding provisions of this Article, remuneration derived in respect of an employment exercised aboard a ship or aircraft operated in international traffic may be taxed in the Contracting State in which the place of effective management of the enterprise is situated.</p>\n\n<h3>Article 16</h3>\n\n<h4>Directors' Fees</h4>\n\n<p>Directors' fees and similar payments derived by a resident of a Contracting State in his capacity as a member of the board of directors of a company which is a resident of the other Contracting State may be taxed in that other State.</p>\n\n<h3>Article 17</h3>\n\n<h4>Artists and Athletes</h4>\n\n<p>1. Notwithstanding the provisions of Articles 7, 14, and 15, income derived, by a resident of a Contracting State as an entertainer, such as a theatre, motion picture, radio or television artist, or a musician, or as an athlete, from his personal activities as such exercised in the other Contracting State, may be taxed in that other State.</p>\n\n<p>2. Where income in respect of personal activities exercised by an entertainer or an athlete in his capacity as such accrues not to the entertainer or athlete himself but to another person that income may, notwithstanding the provisions of Articles 7, 14 and 15, be taxed in the Contracting State in which the activities of the entertainer or athlete are exercised.</p>"
+  },
+  "metadata": {
+    "file_name": "001-Law-1994 Germany DTAA.pdf",
+    "num_pages": 1,
+    "total_token_count": 980,
+    "total_chunks": 13,
+    "total_images": 0,
+    "pages": [
+      {
+        "page_num": 0,
+        "page_box": [
+          0,
+          0,
+          1189,
+          1786
+        ],
+        "token_count": 980,
+        "num_chunks": 13,
+        "num_images": 0
+      }
+    ]
+  },
+  "sanity": {
+    "char_count": 2150,
+    "line_count": 27,
+    "bangla_chars": 37,
+    "english_chars": 1654,
+    "warnings": [],
+    "status": "ok"
+  }
+}

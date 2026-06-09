@@ -1,0 +1,307 @@
+{
+  "page_metadata": {
+    "page_number": 51,
+    "document_id": "SRO_NO_2013_FINANCE_ACT",
+    "carry_forward_state": {
+      "active_block_id": "blk_089_P50",
+      "active_nesting_path": ["৩", "(খ)"],
+      "pending_object_type": "clause_substitution_quote",
+      "open_table_id": null,
+      "note": "Page 50 ended mid-sentence inside the English definition of 'Power of Attorney'. Expecting continuation of quoted text for clause 3(b)."
+    }
+  },
+  "content_blocks": [
+    {
+      "id": "blk_001_P51",
+      "type": "clause",
+      "is_stitched_with_previous": true,
+      "stitching_target_id": "blk_089_P50",
+      "clause_number": "৩",
+      "sub_clause_number": "(খ)",
+      "nesting_path": ["৩", "(খ)"],
+      "text": "—not being a proxy, for the sole purpose of procuring the registration of one or more documents in relation to a single transaction...\"",
+      "logic_note": "Continuation of the substitution text for Article 48 of the Stamp Act.",
+      "contains_quoted_text": true,
+      "quoted_text_metadata": {
+        "is_complete": true,
+        "language": "EN"
+      },
+      "parent_id": "blk_chapter_02"
+    },
+    {
+      "id": "blk_002_P51",
+      "type": "metadata",
+      "metadata_subtype": "chapter_header",
+      "content": "তৃতীয় অধ্যায়",
+      "logic_note": "Identified as a new major structural division based on the ordinal 'তৃতীয়' (Third) and 'অধ্যায়' (Chapter).",
+      "hierarchy_depth": 1,
+      "chapter_number": "তৃতীয় অধ্যায়",
+      "is_clause_related": true,
+      "is_stitched_with_previous": false,
+      "stitching_target_id": null
+    },
+    {
+      "id": "blk_003_P51",
+      "type": "metadata",
+      "metadata_subtype": "gazette_footer",
+      "content": "(৪৯)",
+      "logic_note": "Pagination or gazette reference number; unrelated to enforceable legal mandates.",
+      "hierarchy_depth": null,
+      "chapter_number": null,
+      "is_clause_related": false,
+      "is_stitched_with_previous": false,
+      "stitching_target_id": null
+    },
+    {
+      "id": "blk_004_P51",
+      "type": "clause",
+      "clause_number": "৪",
+      "sub_clause_number": null,
+      "nesting_path": ["৪"],
+      "text": "আয়কর অধ্যাদেশ, ১৯৮৪ (অধ্যদেশ নং ৩৬, ১৯৮৪) এর Schedule I এর পরিবর্তে নিম্নরূপ Schedule I প্রতিস্থাপিত হইবে, যথা:—",
+      "logic_note": "Parent clause introducing a full schedule/table substitution.",
+      "contains_quoted_text": false,
+      "parent_id": "blk_002_P51",
+      "is_stitched_with_previous": false
+    },
+    {
+      "id": "blk_005_P51",
+      "type": "table",
+      "parent_clause_id": "blk_004_P51",
+      "caption": "Schedule I: Tax Rates",
+      "logic_note": "Linearized tax schedule. Truncated at page end due to length of rows.",
+      "is_stitched_with_previous": false,
+      "is_truncated": true,
+      "table_data": {
+        "headers": ["আয় সীমা", "কর হার"],
+        "rows": [
+          ["প্রথম ২,২০,০০০ টাকা পর্যন্ত", "শূন্য"],
+          ["পরবর্তী ৩,০০,০০০ টাকা পর্যন্ত", "১০%"]
+        ]
+      },
+      "table_continuation_state": {
+        "last_processed_row_index": 1,
+        "headers_repeated_on_next_page": true
+      }
+    }
+  ]
+}
+
+
+{
+  "page_metadata": {
+    "page_number": 51,
+    "document_id": "SRO_NO_2013_FINANCE_ACT",
+    "carry_forward_state": {
+      "active_block_id": "blk_089_P50",
+      "active_nesting_path": ["৩", "(খ)"],
+      "pending_object_type": "clause_substitution_quote",
+      "open_table_id": null,
+      "note": "Page 50 ended mid-sentence inside the English definition of 'Power of Attorney'. Expecting continuation of quoted text for clause 3(b)."
+    }
+  },
+  "content_blocks": [
+    {
+      "id": "blk_001_P51",
+      "type": "clause",
+      "is_stitched_with_previous": true,
+      "stitching_target_id": "blk_089_P50",
+      "clause_number": "৩",
+      "sub_clause_number": "(খ)",
+      "nesting_path": ["৩", "(খ)"],
+      "text": "—not being a proxy, for the sole purpose of procuring the registration of one or more documents in relation to a single transaction...\"",
+      "logic_note": "Continuation of the substitution text for Article 48 of the Stamp Act.",
+      "contains_quoted_text": true,
+      "quoted_text_metadata": {
+        "is_complete": true,
+        "language": "EN"
+      },
+      "parent_id": "blk_chapter_02"
+    },
+    {
+      "id": "blk_002_P51",
+      "type": "metadata",
+      "metadata_subtype": "chapter_header",
+      "content": "তৃতীয় অধ্যায়",
+      "logic_note": "Identified as a new major structural division based on the ordinal 'তৃতীয়' (Third) and 'অধ্যায়' (Chapter).",
+      "hierarchy_depth": 1,
+      "chapter_number": "তৃতীয় অধ্যায়",
+      "is_clause_related": true,
+      "is_stitched_with_previous": false,
+      "stitching_target_id": null
+    },
+    {
+      "id": "blk_003_P51",
+      "type": "metadata",
+      "metadata_subtype": "gazette_footer",
+      "content": "(৪৯)",
+      "logic_note": "Pagination or gazette reference number; unrelated to enforceable legal mandates.",
+      "hierarchy_depth": null,
+      "chapter_number": null,
+      "is_clause_related": false,
+      "is_stitched_with_previous": false,
+      "stitching_target_id": null
+    },
+    {
+      "id": "blk_004_P51",
+      "type": "clause",
+      "clause_number": "৪",
+      "sub_clause_number": null,
+      "nesting_path": ["৪"],
+      "text": "আয়কর অধ্যাদেশ, ১৯৮৪ (অধ্যদেশ নং ৩৬, ১৯৮৪) এর Schedule I এর পরিবর্তে নিম্নরূপ Schedule I প্রতিস্থাপিত হইবে, যথা:—",
+      "logic_note": "Parent clause introducing a full schedule/table substitution.",
+      "contains_quoted_text": false,
+      "parent_id": "blk_002_P51",
+      "is_stitched_with_previous": false
+    },
+    {
+      "id": "blk_005_P51",
+      "type": "table",
+      "parent_clause_id": "blk_004_P51",
+      "caption": "Schedule I: Tax Rates",
+      "logic_note": "Linearized tax schedule. Truncated at page end due to length of rows.",
+      "is_stitched_with_previous": false,
+      "is_truncated": true,
+      "table_data": {
+        "headers": ["আয় সীমা", "কর হার"],
+        "rows": [
+          ["প্রথম ২,২০,০০০ টাকা পর্যন্ত", "শূন্য"],
+          ["পরবর্তী ৩,০০,০০০ টাকা পর্যন্ত", "১০%"]
+        ]
+      },
+      "table_continuation_state": {
+        "last_processed_row_index": 1,
+        "headers_repeated_on_next_page": true
+      }
+    }
+  ]
+}
+
+
+
+
+
+
+
+{
+  "page_metadata": {
+    "page_number": 3,
+    "document_id": "..."
+  },
+  "content_blocks": [
+    {
+      "id": "blk_003_P003",
+      "type": "clause",
+      "clause_number": "৩",
+      "text": "...only text from current page...",
+      "is_stitched_with_previous": true,
+      "stitching_target_id": "blk_002_P002",
+      "contains_quoted_text": true,
+      "quoted_text_metadata": {
+        "is_complete": false,
+        "language": "EN"
+      },
+      "parent_id": null,
+      "logic_note": "Continuation of clause 3(b)."
+    }
+  ],
+  "output_carry_forward_state": {
+    "active_block_id": "blk_003_P003",
+    "active_nesting_path": ["৩", "(খ)"],
+    "sub_clause_number": "(খ)",
+    "pending_object_type": "quoted_text",
+    "open_table_id": null,
+    "note": "Clause 3(b) still continues to next page."
+  }
+}
+
+
+
+
+{
+  "page_metadata": {
+    "document_id": "SRO_NO_2013_FINANCE_ACT",
+    "chunk_id": "chunk_0003",
+    "page_number": 3
+  },
+
+  "content_blocks": [
+    {
+      "id": "P003_B001",
+      "type": "clause",
+      "number": "৩",
+      "title": null,
+      "path": ["৩", "(খ)"],
+      "parent_path": ["৩"],
+      "text": "Only the text physically found on this page.",
+      "is_continuation": true,
+      "stitch_to": "P002_B004",
+      "continues_next": true,
+      "notes": "Continuation of clause 3(b)."
+    }
+  ],
+
+  "output_carry_forward_state": {
+    "current_chapter": {
+      "id": "P001_B002",
+      "title": "দ্বিতীয় অধ্যায়",
+      "started_page": 1
+    },
+
+    "active_open_blocks": [
+      {
+        "block_id": "P003_B001",
+        "type": "clause",
+        "number": "৩",
+        "path": ["৩", "(খ)"],
+        "parent_path": ["৩"],
+        "started_page": 1,
+        "last_seen_page": 3,
+        "status": "open",
+        "reason_open": "The quoted substitution text has not closed yet.",
+        "summary_so_far": "Clause 3 amends Schedule I of Act No. II of 1899. Subclause (খ) substitutes Article 48 relating to Power of Attorney.",
+        "last_text_tail": "last 300-500 characters of the unfinished block",
+        "expected_next": [
+          "continuation_text",
+          "subclause",
+          "quoted_text_closure"
+        ]
+      }
+    ],
+
+    "open_quote": {
+      "is_open": true,
+      "owner_block_id": "P003_B001",
+      "owner_path": ["৩", "(খ)"],
+      "started_page": 1,
+      "language": "EN",
+      "quote_type": "substitution_text",
+      "last_quote_tail": "last visible part of the quote"
+    },
+
+    "open_table": {
+      "is_open": false,
+      "table_id": null,
+      "owner_block_id": null,
+      "owner_path": [],
+      "started_page": null,
+      "last_headers": [],
+      "last_row_tail": null
+    },
+
+    "recently_closed_blocks": [
+      {
+        "block_id": "P002_B003",
+        "type": "clause",
+        "number": "২",
+        "path": ["২"],
+        "closed_page": 1,
+        "summary": "Clause 2 completed before clause 3 started."
+      }
+    ],
+
+    "state_note": "Clause 3(b) remains active across pages. Next page should be checked for continuation before starting a new clause."
+  },
+
+  "warnings": []
+}

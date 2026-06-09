@@ -1,0 +1,27 @@
+{
+  "chunk_id": "20160408_Finance_Act_2013_chunk_0003",
+  "page_number": 2,
+  "document_id": "20160408_Finance_Act_2013",
+  "content_blocks": [
+    {
+      "block_id": "p0002_b001",
+      "type": "point",
+      "point_number": "৩",
+      "text": "<table border=\"0\">\n<tr>\n<td data-bbox=\"293 112 678 278\">(a) When executed for the sole purpose of procuring the registration of one or more document in relation to a single transaction or for admitting execution of one or more such documents;</td>\n<td data-bbox=\"718 112 874 158\">Five hundred<br/>Taka</td>\n</tr>\n<tr>\n<td data-bbox=\"293 293 678 388\">(b) When executed for the purpose of the section 2, clause (7), of the power of Attorney Act, 2012;</td>\n<td data-bbox=\"718 293 874 338\">One thousand<br/>Taka</td>\n</tr>\n<tr>\n<td data-bbox=\"293 403 678 682\">(c) When power of attorney given by a loanee while obtaining loans, advances or any other credit facilities from any scheduled bank or financial institution empowering such bank or institution to realise the loan amount from him, in the event of default by him, by selling his immovable property; and</td>\n<td data-bbox=\"718 403 874 448\">One thousand<br/>Taka</td>\n</tr>\n</table>\n\n**Explanation**—“In this clause—\n\n- (i) “Financial institution” means the Bangladesh Shilpa Bank established by the Bangladesh Shilpa Bank Order, 1972 (President’s Order No. 129 of 1972), the",
+      "continues_from_previous": true,
+      "continues_to_next": true,
+      "stitch_group_id": "point_৩",
+      "stitching_note": "Continuation of point 3, which includes a table and explanation details."
+    }
+  ],
+  "output_carry_forward_state": {
+    "status": "open",
+    "active_point_number": "৩",
+    "active_stitch_group_id": "point_৩",
+    "active_point_summary": "Amendment to Schedule I of Act No. II of 1899, detailing changes to Article No. 40 and Article No. 48, including a table of fees and definitions.",
+    "numbering_system": "english_digits",
+    "expected_next_main_point": "৪",
+    "continuation_hint": "The point 3 continues with definitions and subsequent articles.",
+    "last_visible_text": "Bangladesh Shilpa Bank established by the Bangladesh Shilpa Bank Order, 1972 (President’s Order No. 129 of 1972), the"
+  }
+}

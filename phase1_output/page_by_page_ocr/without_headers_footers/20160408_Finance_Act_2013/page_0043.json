@@ -1,0 +1,42 @@
+{
+  "document_id": "20160408_Finance_Act_2013",
+  "source_file": "Documents\\20160408_Finance_Act_2013.pdf",
+  "page_number": 43,
+  "ocr": {
+    "engine": "chandra_ocr_2",
+    "method": "hf"
+  },
+  "content": {
+    "raw_markdown": "<table border=\"1\">\n<thead>\n<tr>\n<th>শিরনামা সংখ্যা<br/>(Heading No.)</th>\n<th>সামঞ্জস্যপূর্ণ<br/>নামকরণ কোড<br/>(H.S. Code)</th>\n<th>পণ্যসমূহের বিবরণ<br/>(Description of Goods)</th>\n<th>সম্পূরক<br/>শতহার<br/>(%)</th>\n</tr>\n<tr>\n<th>(১)</th>\n<th>(২)</th>\n<th>(৩)</th>\n<th>(৪)</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td></td>\n<td>৮৫৩৯.৩২.৯০<br/>৮৫৩৯.৩৯.৯০</td>\n<td>ইভিকেক্টর পাইলট ল্যাম্প ও পরীক্ষাগারে ব্যবহৃত ল্যাম্প ব্যতীত অন্যান্য মার্করী, সোডিয়াম বা মেটাল হ্যালাইড ল্যাম্প</td>\n<td>২০</td>\n</tr>\n<tr>\n<td>৮৫.৪২</td>\n<td>৮৫৪২.৩৯.১০</td>\n<td>সিম কার্ড</td>\n<td>২০</td>\n</tr>\n<tr>\n<td>৮৫.৪৪</td>\n<td>৮৫৪৪.১৯.৯০</td>\n<td>উইডিং ওয়ারার: অন্যান্য</td>\n<td>২০</td>\n</tr>\n<tr>\n<td></td>\n<td>৮৫৪৪.২০.০০</td>\n<td>দ্বি-অক্ষ বিশিষ্ট (co-axial) তার এবং অন্যান্য দ্বি-অক্ষ বিশিষ্ট (co-axial) বৈদ্যুতিক পরিবাহী</td>\n<td>২০</td>\n</tr>\n<tr>\n<td></td>\n<td>৮৫৪৪.৪২.০০</td>\n<td>Other electric conductors for a voltage not exceeding 1,000 V fitted with connectors</td>\n<td>২০</td>\n</tr>\n<tr>\n<td>৮৫.৪৫</td>\n<td>৮৫৪৫.৯০.৯০</td>\n<td>ল্যাম্প কার্বন, ব্যাটারী কার্বন, এবং ইলেকট্রিক্যাল কাজে ব্যবহৃত অন্যান্য পণ্য</td>\n<td>২০</td>\n</tr>\n<tr>\n<td>৮৭.০৩</td>\n<td>সংশ্লিষ্ট<br/>এইচ,এস,কোড</td>\n<td>মোটর গাড়ী এবং অন্যান্য মোটরযান, স্টেশন ওয়াগনসহ:</td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td>(১) ইঞ্জিনসহ অটো রিক্সা/ শ্রি ছইলার</td>\n<td>২০</td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td>(২) সম্পূর্ণতরী ইঞ্জিনসহ চার স্ট্রোক বিশিষ্ট সিএনজি ও ব্যাটারী চালিত অটো রিক্সা/শ্রি ছইলার</td>\n<td>২০</td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td>(৩) সম্পূর্ণতরী মোটর গাড়ী ও অন্যান্য মোটরযান, স্টেশন ওয়াগনসহ (এয়ারুলস ব্যতীত):</td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td>(ক) সিলিন্ডার ক্যাপাসিটি ১৫০০ সিসি পর্যন্ত</td>\n<td>৪৫</td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td>(খ) সিলিন্ডার ক্যাপাসিটি ১৫০১ সিসি হইতে ১৭৫০ সিসি পর্যন্ত (মাইক্রোবাস ব্যতীত)</td>\n<td>১০০</td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td>(গ) সিলিন্ডার ক্যাপাসিটি ১৭৫১ সিসি হইতে ২০০০ সিসি পর্যন্ত (মাইক্রোবাস ব্যতীত)</td>\n<td>১৫০</td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td>(ঘ) সিলিন্ডার ক্যাপাসিটি ২০০১ সিসি হইতে ২৭৫০ সিসি পর্যন্ত</td>\n<td>২৫০</td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td>(ঙ) সিলিন্ডার ক্যাপাসিটি ২৭৫১ সিসি হইতে ৪০০০ সিসি পর্যন্ত</td>\n<td>৩৫০</td>\n</tr>\n</tbody>\n</table>",
+    "raw_html": "<table border=\"1\">\n<thead>\n<tr>\n<th>শিরনামা সংখ্যা<br/>(Heading No.)</th>\n<th>সামঞ্জস্যপূর্ণ<br/>নামকরণ কোড<br/>(H.S. Code)</th>\n<th>পণ্যসমূহের বিবরণ<br/>(Description of Goods)</th>\n<th>সম্পূরক<br/>শতহার<br/>(%)</th>\n</tr>\n<tr>\n<th>(১)</th>\n<th>(২)</th>\n<th>(৩)</th>\n<th>(৪)</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td></td>\n<td>৮৫৩৯.৩২.৯০<br/>৮৫৩৯.৩৯.৯০</td>\n<td>ইভিকেক্টর পাইলট ল্যাম্প ও পরীক্ষাগারে ব্যবহৃত ল্যাম্প ব্যতীত অন্যান্য মার্করী, সোডিয়াম বা মেটাল হ্যালাইড ল্যাম্প</td>\n<td>২০</td>\n</tr>\n<tr>\n<td>৮৫.৪২</td>\n<td>৮৫৪২.৩৯.১০</td>\n<td>সিম কার্ড</td>\n<td>২০</td>\n</tr>\n<tr>\n<td>৮৫.৪৪</td>\n<td>৮৫৪৪.১৯.৯০</td>\n<td>উইডিং ওয়ারার: অন্যান্য</td>\n<td>২০</td>\n</tr>\n<tr>\n<td></td>\n<td>৮৫৪৪.২০.০০</td>\n<td>দ্বি-অক্ষ বিশিষ্ট (co-axial) তার এবং অন্যান্য দ্বি-অক্ষ বিশিষ্ট (co-axial) বৈদ্যুতিক পরিবাহী</td>\n<td>২০</td>\n</tr>\n<tr>\n<td></td>\n<td>৮৫৪৪.৪২.০০</td>\n<td>Other electric conductors for a voltage not exceeding 1,000 V fitted with connectors</td>\n<td>২০</td>\n</tr>\n<tr>\n<td>৮৫.৪৫</td>\n<td>৮৫৪৫.৯০.৯০</td>\n<td>ল্যাম্প কার্বন, ব্যাটারী কার্বন, এবং ইলেকট্রিক্যাল কাজে ব্যবহৃত অন্যান্য পণ্য</td>\n<td>২০</td>\n</tr>\n<tr>\n<td>৮৭.০৩</td>\n<td>সংশ্লিষ্ট<br/>এইচ,এস,কোড</td>\n<td>মোটর গাড়ী এবং অন্যান্য মোটরযান, স্টেশন ওয়াগনসহ:</td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td>(১) ইঞ্জিনসহ অটো রিক্সা/ শ্রি ছইলার</td>\n<td>২০</td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td>(২) সম্পূর্ণতরী ইঞ্জিনসহ চার স্ট্রোক বিশিষ্ট সিএনজি ও ব্যাটারী চালিত অটো রিক্সা/শ্রি ছইলার</td>\n<td>২০</td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td>(৩) সম্পূর্ণতরী মোটর গাড়ী ও অন্যান্য মোটরযান, স্টেশন ওয়াগনসহ (এয়ারুলস ব্যতীত):</td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td>(ক) সিলিন্ডার ক্যাপাসিটি ১৫০০ সিসি পর্যন্ত</td>\n<td>৪৫</td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td>(খ) সিলিন্ডার ক্যাপাসিটি ১৫০১ সিসি হইতে ১৭৫০ সিসি পর্যন্ত (মাইক্রোবাস ব্যতীত)</td>\n<td>১০০</td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td>(গ) সিলিন্ডার ক্যাপাসিটি ১৭৫১ সিসি হইতে ২০০০ সিসি পর্যন্ত (মাইক্রোবাস ব্যতীত)</td>\n<td>১৫০</td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td>(ঘ) সিলিন্ডার ক্যাপাসিটি ২০০১ সিসি হইতে ২৭৫০ সিসি পর্যন্ত</td>\n<td>২৫০</td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td>(ঙ) সিলিন্ডার ক্যাপাসিটি ২৭৫১ সিসি হইতে ৪০০০ সিসি পর্যন্ত</td>\n<td>৩৫০</td>\n</tr>\n</tbody>\n</table>"
+  },
+  "metadata": {
+    "file_name": "20160408_Finance_Act_2013.pdf",
+    "num_pages": 1,
+    "total_token_count": 1506,
+    "total_chunks": 3,
+    "total_images": 0,
+    "pages": [
+      {
+        "page_num": 0,
+        "page_box": [
+          0,
+          0,
+          1024,
+          1565
+        ],
+        "token_count": 1506,
+        "num_chunks": 3,
+        "num_images": 0
+      }
+    ]
+  },
+  "sanity": {
+    "char_count": 2197,
+    "line_count": 108,
+    "bangla_chars": 901,
+    "english_chars": 506,
+    "warnings": [],
+    "status": "ok"
+  }
+}

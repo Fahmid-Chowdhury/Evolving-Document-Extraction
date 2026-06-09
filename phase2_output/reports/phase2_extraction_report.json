@@ -1,0 +1,35 @@
+[
+  {
+    "chunk_id": "SRO-270-Finance_Ministry-01_July_2010_6697-6699_chunk_0001",
+    "page_number": 0,
+    "status": "success",
+    "elapsed_seconds": 13.98,
+    "output_path": "phase2_output\\page_outputs\\SRO-270-Finance_Ministry-01_July_2010_6697-6699_chunk_0001_page_0000.json",
+    "block_count": 7,
+    "carry_state_status": "open",
+    "active_clause_number": "### তফসিল-খ",
+    "error": null
+  },
+  {
+    "chunk_id": "SRO-270-Finance_Ministry-01_July_2010_6697-6699_chunk_0002",
+    "page_number": 1,
+    "status": "success",
+    "elapsed_seconds": 9.84,
+    "output_path": "phase2_output\\page_outputs\\SRO-270-Finance_Ministry-01_July_2010_6697-6699_chunk_0002_page_0001.json",
+    "block_count": 4,
+    "carry_state_status": "open",
+    "active_clause_number": "### তফসিল-খ",
+    "error": null
+  },
+  {
+    "chunk_id": "SRO-270-Finance_Ministry-01_July_2010_6697-6699_chunk_0003",
+    "page_number": 2,
+    "status": "success",
+    "elapsed_seconds": 9.03,
+    "output_path": "phase2_output\\page_outputs\\SRO-270-Finance_Ministry-01_July_2010_6697-6699_chunk_0003_page_0002.json",
+    "block_count": 3,
+    "carry_state_status": "closed",
+    "active_clause_number": "",
+    "error": null
+  }
+]

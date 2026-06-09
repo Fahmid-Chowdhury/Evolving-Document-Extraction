@@ -1,0 +1,42 @@
+{
+  "document_id": "20160408_Finance_Act_2013",
+  "source_file": "Documents\\20160408_Finance_Act_2013.pdf",
+  "page_number": 8,
+  "ocr": {
+    "engine": "chandra_ocr_2",
+    "method": "hf"
+  },
+  "content": {
+    "raw_markdown": "(b) for building or apartment situated in the area of Dhanmandi Residential Area, Defence Officers Housing Society (DOHS), Mahakhali, Lalmatia Housing Society, Uttara Model Town, Bashundhara Residential Area, Dhaka Cantonment, Kawran Bazar, Bijaynagar, Segunbagicha, Nikunja of Dhaka, and Panchlaish, Khulshi, Agrabad and Nasirabad Area of Chittagong-\n\n- (i) taka four thousand per square meter in the case of a building or apartment the plinth area of which does not exceed two hundred square meter;\n- (ii) taka five thousand per square meter in the case of a building or apartment the plinth area of which exceeds two hundred square meter;\n\n(c) for building or apartment situated in the area of any City Corporation other than areas mentioned in clauses (a) or (b)-\n\n- (i) taka two thousand per square meter in the case of a building or apartment the plinth area of which does not exceed two hundred square meter;\n- (ii) taka three thousand per square meter in the case of a building or apartment the plinth area of which exceeds two hundred square meter;\n\n(d) for building or apartment situated in the area of a Paurasabha of any district headquarters—\n\n- (i) taka one thousand per square meter in the case of a building or apartment the plinth area of which does not exceed two hundred square meter;\n- (ii) taka one thousand and five hundred per square meter in the case of a building or apartment the plinth area of which exceeds two hundred square meter;",
+    "raw_html": "<p>(b) for building or apartment situated in the area of Dhanmandi Residential Area, Defence Officers Housing Society (DOHS), Mahakhali, Lalmatia Housing Society, Uttara Model Town, Bashundhara Residential Area, Dhaka Cantonment, Kawran Bazar, Bijaynagar, Segunbagicha, Nikunja of Dhaka, and Panchlaish, Khulshi, Agrabad and Nasirabad Area of Chittagong-</p>\n<ul style=\"list-style-type: none;\">\n<li>(i) taka four thousand per square meter in the case of a building or apartment the plinth area of which does not exceed two hundred square meter;</li>\n<li>(ii) taka five thousand per square meter in the case of a building or apartment the plinth area of which exceeds two hundred square meter;</li>\n</ul>\n<p>(c) for building or apartment situated in the area of any City Corporation other than areas mentioned in clauses (a) or (b)-</p>\n<ul style=\"list-style-type: none;\">\n<li>(i) taka two thousand per square meter in the case of a building or apartment the plinth area of which does not exceed two hundred square meter;</li>\n<li>(ii) taka three thousand per square meter in the case of a building or apartment the plinth area of which exceeds two hundred square meter;</li>\n</ul>\n<p>(d) for building or apartment situated in the area of a Paurasabha of any district headquarters—</p>\n<ul style=\"list-style-type: none;\">\n<li>(i) taka one thousand per square meter in the case of a building or apartment the plinth area of which does not exceed two hundred square meter;</li>\n<li>(ii) taka one thousand and five hundred per square meter in the case of a building or apartment the plinth area of which exceeds two hundred square meter;</li>\n</ul>"
+  },
+  "metadata": {
+    "file_name": "20160408_Finance_Act_2013.pdf",
+    "num_pages": 1,
+    "total_token_count": 558,
+    "total_chunks": 3,
+    "total_images": 0,
+    "pages": [
+      {
+        "page_num": 0,
+        "page_box": [
+          0,
+          0,
+          1024,
+          1525
+        ],
+        "token_count": 558,
+        "num_chunks": 3,
+        "num_images": 0
+      }
+    ]
+  },
+  "sanity": {
+    "char_count": 1460,
+    "line_count": 14,
+    "bangla_chars": 0,
+    "english_chars": 1155,
+    "warnings": [],
+    "status": "ok"
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "document_name": "page_outputs",
+  "total_pages": 6,
+  "total_blocks": 20,
+  "final_content_items": 8,
+  "metadata_blocks": 8,
+  "stitched_point_blocks": 0,
+  "ignored_blocks": 0,
+  "uncertain_blocks": 0,
+  "open_groups_remaining": [],
+  "warnings": [
+    {
+      "type": "unknown_block_type",
+      "page_number": 0,
+      "chunk_id": "20160408_Finance_Act_2013_chunk_0001",
+      "block_id": "b3",
+      "block_type": "clause"
+    },
+    {
+      "type": "unknown_block_type",
+      "page_number": 1,
+      "chunk_id": "20160408_Finance_Act_2013_chunk_0002",
+      "block_id": "block_3",
+      "block_type": "clause"
+    },
+    {
+      "type": "unknown_block_type",
+      "page_number": 1,
+      "chunk_id": "20160408_Finance_Act_2013_chunk_0002",
+      "block_id": "block_4",
+      "block_type": "clause"
+    },
+    {
+      "type": "unknown_block_type",
+      "page_number": 2,
+      "chunk_id": "20160408_Finance_Act_2013_chunk_0003",
+      "block_id": "block_5",
+      "block_type": "clause"
+    },
+    {
+      "type": "unknown_block_type",
+      "page_number": 3,
+      "chunk_id": "20160408_Finance_Act_2013_chunk_0004",
+      "block_id": "block_6",
+      "block_type": "clause"
+    },
+    {
+      "type": "unknown_block_type",
+      "page_number": 3,
+      "chunk_id": "20160408_Finance_Act_2013_chunk_0004",
+      "block_id": "block_7",
+      "block_type": "clause"
+    },
+    {
+      "type": "unknown_block_type",
+      "page_number": 3,
+      "chunk_id": "20160408_Finance_Act_2013_chunk_0004",
+      "block_id": "block_8",
+      "block_type": "clause"
+    },
+    {
+      "type": "unknown_block_type",
+      "page_number": 4,
+      "chunk_id": "20160408_Finance_Act_2013_chunk_0005",
+      "block_id": "block_2",
+      "block_type": "clause"
+    },
+    {
+      "type": "unknown_block_type",
+      "page_number": 4,
+      "chunk_id": "20160408_Finance_Act_2013_chunk_0005",
+      "block_id": "block_3",
+      "block_type": "clause"
+    },
+    {
+      "type": "unknown_block_type",
+      "page_number": 5,
+      "chunk_id": "20160408_Finance_Act_2013_chunk_0006",
+      "block_id": "block_2",
+      "block_type": "clause"
+    },
+    {
+      "type": "unknown_block_type",
+      "page_number": 5,
+      "chunk_id": "20160408_Finance_Act_2013_chunk_0006",
+      "block_id": "block_3",
+      "block_type": "clause"
+    },
+    {
+      "type": "unknown_block_type",
+      "page_number": 5,
+      "chunk_id": "20160408_Finance_Act_2013_chunk_0006",
+      "block_id": "block_4",
+      "block_type": "clause"
+    }
+  ],
+  "skipped_blocks": [],
+  "uncertain_block_details": []
+}

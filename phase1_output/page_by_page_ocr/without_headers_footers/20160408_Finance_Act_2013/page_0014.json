@@ -1,0 +1,42 @@
+{
+  "document_id": "20160408_Finance_Act_2013",
+  "source_file": "Documents\\20160408_Finance_Act_2013.pdf",
+  "page_number": 14,
+  "ocr": {
+    "engine": "chandra_ocr_2",
+    "method": "hf"
+  },
+  "content": {
+    "raw_markdown": "২১। **Ordinance No. XXXVI of 1984 এর section 53BBB এর সংশোধন।**—উক্ত Ordinance এর section 53BBB এর “, bonds” কমা ও শব্দ বিলুপ্ত হইবে।\n\n২২। **Ordinance No. XXXVI of 1984 এর section 53E এর সংশোধন।**—উক্ত Ordinance এর section 53E এর বিদ্যমান বিধান sub-section (1) হিসেবে সংখ্যায়িত হইবে এবং উক্তরূপ সংখ্যায়িত sub-section (1) এর পর নিম্নরূপ sub-section (2) সংযোজিত হইবে, যথা:—\n\n“(2) Any company, as defined in clause (20) of section 2 of this Ordinance other than oil marketing company, which sells goods to any distributor or to any other persons under a written contract at a price lower than the retail price fixed by such company, shall collect at the time of sale of such goods to such distributor or other persons at the rate of five per cent of the difference between the sale price to the distributor or other persons and the retail price fixed by such company.”।\n\n২৩। **Ordinance No. XXXVI of 1984 এর section 53FF এর সংশোধন।**—উক্ত Ordinance এর section 53FF এর—\n\n(ক) clause (a) এর—\n\n(অ) sub-clause (i) এর “two thousand” শব্দগুলির পরিবর্তে “one thousand and six hundred” শব্দগুলি প্রতিস্থাপিত হইবে;\n\n(আ) sub-clause (ii) এর “one thousand and eight hundred” শব্দগুলির পরিবর্তে “one thousand and five hundred” শব্দগুলি প্রতিস্থাপিত হইবে;\n\n(ই) sub-clause (iii) এর “eight hundred” শব্দগুলির পরিবর্তে “six hundred” শব্দগুলি প্রতিস্থাপিত হইবে;\n\n(খ) clause (aa) এর—\n\n(অ) sub-clause (i) এর “eight thousand” শব্দগুলির পরিবর্তে “six thousand and five hundred” শব্দগুলি প্রতিস্থাপিত হইবে;\n\n(আ) sub-clause (ii) এর “six thousand” শব্দগুলির পরিবর্তে “five thousand” শব্দগুলি প্রতিস্থাপিত হইবে;\n\n(ই) sub-clause (iii) এর “two thousand” শব্দগুলির পরিবর্তে “one thousand and six hundred” শব্দগুলি প্রতিস্থাপিত হইবে।",
+    "raw_html": "<p>২১। <b>Ordinance No. XXXVI of 1984 এর section 53BBB এর সংশোধন।</b>—উক্ত Ordinance এর section 53BBB এর “, bonds” কমা ও শব্দ বিলুপ্ত হইবে।</p>\n\n<p>২২। <b>Ordinance No. XXXVI of 1984 এর section 53E এর সংশোধন।</b>—উক্ত Ordinance এর section 53E এর বিদ্যমান বিধান sub-section (1) হিসেবে সংখ্যায়িত হইবে এবং উক্তরূপ সংখ্যায়িত sub-section (1) এর পর নিম্নরূপ sub-section (2) সংযোজিত হইবে, যথা:—</p>\n\n<p>“(2) Any company, as defined in clause (20) of section 2 of this Ordinance other than oil marketing company, which sells goods to any distributor or to any other persons under a written contract at a price lower than the retail price fixed by such company, shall collect at the time of sale of such goods to such distributor or other persons at the rate of five per cent of the difference between the sale price to the distributor or other persons and the retail price fixed by such company.”।</p>\n\n<p>২৩। <b>Ordinance No. XXXVI of 1984 এর section 53FF এর সংশোধন।</b>—উক্ত Ordinance এর section 53FF এর—</p>\n\n<p>(ক) clause (a) এর—</p>\n\n<p>(অ) sub-clause (i) এর “two thousand” শব্দগুলির পরিবর্তে “one thousand and six hundred” শব্দগুলি প্রতিস্থাপিত হইবে;</p>\n\n<p>(আ) sub-clause (ii) এর “one thousand and eight hundred” শব্দগুলির পরিবর্তে “one thousand and five hundred” শব্দগুলি প্রতিস্থাপিত হইবে;</p>\n\n<p>(ই) sub-clause (iii) এর “eight hundred” শব্দগুলির পরিবর্তে “six hundred” শব্দগুলি প্রতিস্থাপিত হইবে;</p>\n\n<p>(খ) clause (aa) এর—</p>\n\n<p>(অ) sub-clause (i) এর “eight thousand” শব্দগুলির পরিবর্তে “six thousand and five hundred” শব্দগুলি প্রতিস্থাপিত হইবে;</p>\n\n<p>(আ) sub-clause (ii) এর “six thousand” শব্দগুলির পরিবর্তে “five thousand” শব্দগুলি প্রতিস্থাপিত হইবে;</p>\n\n<p>(ই) sub-clause (iii) এর “two thousand” শব্দগুলির পরিবর্তে “one thousand and six hundred” শব্দগুলি প্রতিস্থাপিত হইবে।</p>"
+  },
+  "metadata": {
+    "file_name": "20160408_Finance_Act_2013.pdf",
+    "num_pages": 1,
+    "total_token_count": 1141,
+    "total_chunks": 14,
+    "total_images": 0,
+    "pages": [
+      {
+        "page_num": 0,
+        "page_box": [
+          0,
+          0,
+          1024,
+          1542
+        ],
+        "token_count": 1141,
+        "num_chunks": 14,
+        "num_images": 0
+      }
+    ]
+  },
+  "sanity": {
+    "char_count": 1701,
+    "line_count": 23,
+    "bangla_chars": 428,
+    "english_chars": 844,
+    "warnings": [],
+    "status": "ok"
+  }
+}

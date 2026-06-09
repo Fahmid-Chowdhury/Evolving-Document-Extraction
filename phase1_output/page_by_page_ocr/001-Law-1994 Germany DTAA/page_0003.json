@@ -1,0 +1,42 @@
+{
+  "document_id": "001-Law-1994_Germany_DTAA",
+  "source_file": "001-Law-1994 Germany DTAA.pdf",
+  "page_number": 3,
+  "ocr": {
+    "engine": "chandra_ocr_2",
+    "method": "hf"
+  },
+  "content": {
+    "raw_markdown": "৫২বাংলাদেশ সেক্রেট, অতিরিক্ত, জানুয়ারী-২, ১৯৯৪\n\n2. Where by reason of the provisions of paragraph 1 an individual is a resident of both Contracting States, then his status shall be determined as follows :\n\n- (a) he shall be deemed to be a resident of the State in which he has permanent home available to him; if he has a permanent home available to him in both States he shall be deemed to be a resident of the State with which his personal and economic relations are closer (centre of vital interests);\n- (b) if the State in which he has his centre of vital interests can not be determined, or if he has not a permanent home available to him in either State, he shall be deemed to be a resident of the State in which he has an habitual abode;\n- (c) if he has an habitual abode in both States or in neither of them, he shall be deemed to be a resident of the State of which he is a national;\n- (d) if he is a national of both States or of neither of them, the competent authorities of the Contracting States shall settle the question by mutual agreement.\n\n3. Where by reason of the provisions of paragraph 1 a person other than an individual is a resident of both Contracting States then it shall be deemed to be a resident of the State in which its place of effective management is situated.\n\n## Article 5\n\n### Permanent Establishment\n\n1. For the purposes of the Agreement, the term \"permanent establishment\" means a fixed place of business through which the business of an enterprise is wholly or partly carried on.\n\n2. The term \"permanent establishmsnt\" includes especially :\n\n- (a) a place of management;\n- (b) a branch;\n- (c) an office;\n- (d) a factory;\n- (e) a workshop;\n- (f) a warehouse, in relation to a person providing storage facilities for others; and\n- (g) a mine, an oil or gas well, a quarry or any other place of extraction of natural resources.\n\n3. A building site or construction or installation project constitutes a permanent establishment only if it lasts more than 183 days.",
+    "raw_html": "৫২বাংলাদেশ সেক্রেট, অতিরিক্ত, জানুয়ারী-২, ১৯৯৪\n<p>2. Where by reason of the provisions of paragraph 1 an individual is a resident of both Contracting States, then his status shall be determined as follows :</p>\n\n<ul style=\"list-style-type: none;\">\n<li>(a) he shall be deemed to be a resident of the State in which he has permanent home available to him; if he has a permanent home available to him in both States he shall be deemed to be a resident of the State with which his personal and economic relations are closer (centre of vital interests);</li>\n<li>(b) if the State in which he has his centre of vital interests can not be determined, or if he has not a permanent home available to him in either State, he shall be deemed to be a resident of the State in which he has an habitual abode;</li>\n<li>(c) if he has an habitual abode in both States or in neither of them, he shall be deemed to be a resident of the State of which he is a national;</li>\n<li>(d) if he is a national of both States or of neither of them, the competent authorities of the Contracting States shall settle the question by mutual agreement.</li>\n</ul>\n\n<p>3. Where by reason of the provisions of paragraph 1 a person other than an individual is a resident of both Contracting States then it shall be deemed to be a resident of the State in which its place of effective management is situated.</p>\n\n<h2>Article 5</h2>\n\n<h3>Permanent Establishment</h3>\n\n<p>1. For the purposes of the Agreement, the term \"permanent establishment\" means a fixed place of business through which the business of an enterprise is wholly or partly carried on.</p>\n\n<p>2. The term \"permanent establishmsnt\" includes especially :</p>\n\n<ul style=\"list-style-type: none;\">\n<li>(a) a place of management;</li>\n<li>(b) a branch;</li>\n<li>(c) an office;</li>\n<li>(d) a factory;</li>\n<li>(e) a workshop;</li>\n<li>(f) a warehouse, in relation to a person providing storage facilities for others; and</li>\n<li>(g) a mine, an oil or gas well, a quarry or any other place of extraction of natural resources.</li>\n</ul>\n\n<p>3. A building site or construction or installation project constitutes a permanent establishment only if it lasts more than 183 days.</p>"
+  },
+  "metadata": {
+    "file_name": "001-Law-1994 Germany DTAA.pdf",
+    "num_pages": 1,
+    "total_token_count": 913,
+    "total_chunks": 11,
+    "total_images": 0,
+    "pages": [
+      {
+        "page_num": 0,
+        "page_box": [
+          0,
+          0,
+          1189,
+          1786
+        ],
+        "token_count": 913,
+        "num_chunks": 11,
+        "num_images": 0
+      }
+    ]
+  },
+  "sanity": {
+    "char_count": 1999,
+    "line_count": 28,
+    "bangla_chars": 39,
+    "english_chars": 1493,
+    "warnings": [],
+    "status": "ok"
+  }
+}

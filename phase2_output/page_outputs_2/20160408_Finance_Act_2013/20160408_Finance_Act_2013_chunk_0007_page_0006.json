@@ -1,0 +1,37 @@
+{
+  "chunk_id": "20160408_Finance_Act_2013_chunk_0007",
+  "page_number": 6,
+  "document_id": "20160408_Finance_Act_2013",
+  "content_blocks": [
+    {
+      "block_id": "p0006_b001",
+      "type": "point",
+      "point_number": "৬।",
+      "text": "- (ii) pending before any customs authority or any appellate authority constituted under this Act, or the Supreme Court of Bangladesh; and\n- (b) any case or proceeding pending before customs or customs appellate authority or the Supreme Court of Bangladesh relating to fine or penalty imposed by customs authorities in respect to any matter of clean report of findings (CRF) or customs valuation, arising out of either the pre-shipment inspection system or otherwise.\n\n(2) Notwithstanding anything contained in sub-section (1), the following disputes shall not be dealt with ADR, namely :—\n\n- (a) fraud or criminal cases;\n- (b) disputes involving seizure and confiscation of prohibited, restricted or smuggled goods;\n- (c) disputes involving allegations of money laundering;\n- (d) disputes involving customs classification of imported goods; and\n- (e) disputes on alleged evasion of duties and taxes through the resort to misdeclaration of H.S. Code, name and quantity of goods, fraud of documents, violation of import and export policy or violations of customs bonded warehouse related licensing and/or bond related conditions।",
+      "continues_from_previous": true,
+      "continues_to_next": false,
+      "stitch_group_id": "point_৬।",
+      "stitching_note": "Continuation of point 6 (Section 192C definition)."
+    },
+    {
+      "block_id": "p0006_b002",
+      "type": "point",
+      "point_number": "৭।",
+      "text": "Act No. IV of 1969 এর FIRST SCHEDULE এর প্রতিস্থাপন।—  \n Customs Act এর “FIRST SCHEDULE” এর পরিবর্তে এই আইনের তফসিল-১ এ উল্লিখিত “FIRST SCHEDULE” (পৃথকভাবে মুদ্রিত) প্রতিস্থাপিত হইবে ।",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "point_৭।",
+      "stitching_note": "New main point 7."
+    }
+  ],
+  "output_carry_forward_state": {
+    "status": "closed",
+    "active_point_number": "৭।",
+    "active_stitch_group_id": "point_৭।",
+    "active_point_summary": "Replacement of FIRST SCHEDULE of Act No. IV of 1969.",
+    "numbering_system": "english_digits",
+    "expected_next_main_point": "৮।",
+    "continuation_hint": "The next major point is 8, starting a new topic (Income-tax Ordinance, 1984).",
+    "last_visible_text": "Customs Act এর “FIRST SCHEDULE” এর পরিবর্তে এই আইনের তফসিল-১ এ উল্লিখিত “FIRST SCHEDULE” (পৃথকভাবে মুদ্রিত) প্রতিস্থাপিত হইবে ।"
+  }
+}

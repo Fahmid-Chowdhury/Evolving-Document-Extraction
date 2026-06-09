@@ -1,0 +1,27 @@
+{
+  "chunk_id": "20160408_Finance_Act_2013_chunk_0051",
+  "page_number": 50,
+  "document_id": "20160408_Finance_Act_2013",
+  "content_blocks": [
+    {
+      "block_id": "p0050_b001",
+      "type": "point",
+      "point_number": "(৬)",
+      "text": "<table border=\"1\">\n<tr>\n<td>7208.26.90</td>\n<td>...Other</td>\n<td>kg</td>\n<td>10%</td>\n<td>Free</td>\n</tr>\n<tr>\n<td></td>\n<td>... Of a thickness of less than 3 mm</td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td>7208.27.30</td>\n<td>...Imported by VAT registered iron/steel product, transformer, pre-fabricated building and bicycle parts manufacturing industry</td>\n<td>kg</td>\n<td>5%</td>\n<td>Free</td>\n</tr>\n<tr>\n<td>7208.27.90</td>\n<td>...Other</td>\n<td>kg</td>\n<td>10%</td>\n<td>Free</td>\n</tr>\n<tr>\n<td></td>\n<td>- Other, in coils, not further worked than hot-rolled</td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td>..Of a thickness exceeding 10 mm</td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td>7208.36.10</td>\n<td>...Imported by VAT registered iron/steel product, transformer and pre-fabricated building manufacturing industry</td>\n<td>kg</td>\n<td>5%</td>\n<td>Free</td>\n</tr>\n<tr>\n<td>7208.36.90</td>\n<td>...Other</td>\n<td>kg</td>\n<td>10%</td>\n<td>Free</td>\n</tr>\n<tr>\n<td></td>\n<td>..Of a thickness of 4.75 mm or more but not exceeding 10 mm</td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td>7208.37.10</td>\n<td>...Imported by VAT registered iron/steel product, transformer and pre-fabricated building manufacturing industry</td>\n<td>kg</td>\n<td>5%</td>\n<td>Free</td>\n</tr>\n<tr>\n<td>7208.37.90</td>\n<td>...Other</td>\n<td>kg</td>\n<td>10%</td>\n<td>Free</td>\n</tr>\n<tr>\n<td></td>\n<td>..Of a thickness of 3 mm or more but less than 4.75 mm</td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td>7208.38.10</td>\n<td>...Imported by VAT registered iron/steel product, transformer and pre-fabricated building manufacturing industry</td>\n<td>kg</td>\n<td>5%</td>\n<td>Free</td>\n</tr>\n</table>",
+      "continues_from_previous": true,
+      "continues_to_next": true,
+      "stitch_group_id": "point_(৬)",
+      "stitching_note": "Continuation of the replacement table structure for Heading 72.08."
+    }
+  ],
+  "output_carry_forward_state": {
+    "status": "open",
+    "active_point_number": "(৬)",
+    "active_stitch_group_id": "point_(৬)",
+    "active_point_summary": "Replacement of entries for Heading 72.08 and related H.S.Codes, including the table structure. The table continues into the next page.",
+    "numbering_system": "english_digits",
+    "expected_next_main_point": "(৬)",
+    "continuation_hint": "The point (৬) continues into the next page, starting with the remaining text of the table row.",
+    "last_visible_text": "7208.38.10\n...Imported by VAT registered iron/steel product, transformer and pre-fabricated building manufacturing industry\nkg\n5%\nFree"
+  }
+}

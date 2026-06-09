@@ -1,0 +1,21 @@
+{
+  "file_name": "20160408_Finance_Act_2013.pdf",
+  "num_pages": 1,
+  "total_token_count": 953,
+  "total_chunks": 10,
+  "total_images": 0,
+  "pages": [
+    {
+      "page_num": 0,
+      "page_box": [
+        0,
+        0,
+        1024,
+        1545
+      ],
+      "token_count": 953,
+      "num_chunks": 10,
+      "num_images": 0
+    }
+  ]
+}

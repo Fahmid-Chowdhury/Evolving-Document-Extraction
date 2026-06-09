@@ -1,0 +1,42 @@
+{
+  "document_id": "20160408_Finance_Act_2013",
+  "source_file": "Documents\\20160408_Finance_Act_2013.pdf",
+  "page_number": 3,
+  "ocr": {
+    "engine": "chandra_ocr_2",
+    "method": "hf"
+  },
+  "content": {
+    "raw_markdown": "Bangladesh Shilpa Rin Sangstha established by the Bangladesh Shilpa Rin Sangstha Order, 1972 (President's Order No. 128 of 1972) and the Bangladesh House Building Finance Corporation established under the Bangladesh House Building Finance Corporation Order, 1973 (President's Order No. 7 of 1973),\n\n(ii) \"Scheduled bank\" means a scheduled bank as defined in clause (j) of article 2 of the Bangladesh Bank Order, 1972 (President's Order No. 127 of 1972); and\n\n(d) When an irrevocable power of attorney is executed for consideration as defined by section 2, clause (2), of the Power of Attorney Act, 2012. 3% of the value of the consideration, which is not less than six thousand Taka and not more than sixty thousand Taka.\";\n\n(গ) Article No. 62 এর বিপরীতে column (2) এর EXEMPTIONS এর আগতায়ীন—\n\n(অ) paragraph (1) এর শেষে সেমিকোলন (;) চিহ্নটি সন্নিবেশিত হইবে;",
+    "raw_html": "<p>Bangladesh Shilpa Rin Sangstha established by the Bangladesh Shilpa Rin Sangstha Order, 1972 (President's Order No. 128 of 1972) and the Bangladesh House Building Finance Corporation established under the Bangladesh House Building Finance Corporation Order, 1973 (President's Order No. 7 of 1973),</p>\n\n<p>(ii) \"Scheduled bank\" means a scheduled bank as defined in clause (j) of article 2 of the Bangladesh Bank Order, 1972 (President's Order No. 127 of 1972); and</p>\n\n<p>(d) When an irrevocable power of attorney is executed for consideration as defined by section 2, clause (2), of the Power of Attorney Act, 2012. 3% of the value of the consideration, which is not less than six thousand Taka and not more than sixty thousand Taka.\";</p>\n\n<p>(গ) Article No. 62 এর বিপরীতে column (2) এর EXEMPTIONS এর আগতায়ীন—</p>\n\n<p>(অ) paragraph (1) এর শেষে সেমিকোলন (;) চিহ্নটি সন্নিবেশিত হইবে;</p>"
+  },
+  "metadata": {
+    "file_name": "20160408_Finance_Act_2013.pdf",
+    "num_pages": 1,
+    "total_token_count": 537,
+    "total_chunks": 7,
+    "total_images": 0,
+    "pages": [
+      {
+        "page_num": 0,
+        "page_box": [
+          0,
+          0,
+          1024,
+          1507
+        ],
+        "token_count": 537,
+        "num_chunks": 7,
+        "num_images": 0
+      }
+    ]
+  },
+  "sanity": {
+    "char_count": 857,
+    "line_count": 9,
+    "bangla_chars": 58,
+    "english_chars": 564,
+    "warnings": [],
+    "status": "ok"
+  }
+}

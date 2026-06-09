@@ -1,0 +1,42 @@
+{
+  "document_id": "20160408_Finance_Act_2013",
+  "source_file": "Documents\\20160408_Finance_Act_2013.pdf",
+  "page_number": 27,
+  "ocr": {
+    "engine": "chandra_ocr_2",
+    "method": "hf"
+  },
+  "content": {
+    "raw_markdown": "<table border=\"1\">\n<thead>\n<tr>\n<th>শিরনামা সংখ্যা<br/>(Heading No.)</th>\n<th>সামঞ্জস্যপূর্ণ<br/>নামকরণ কোড<br/>(H.S. Code)</th>\n<th>পণ্যসমূহের বিবরণ<br/>(Description of Goods)</th>\n<th>সম্পূরক<br/>ভরহাও<br/>(%)</th>\n</tr>\n<tr>\n<th>(১)</th>\n<th>(২)</th>\n<th>(৩)</th>\n<th>(৪)</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>২৯.১৭</td>\n<td>২৯১৭.৩২.৯০</td>\n<td>ডাইঅক্টাইল অর্থোফেলটস (ডি ও পি)</td>\n<td>২০</td>\n</tr>\n<tr>\n<td></td>\n<td>২৯১৭.৩৩.০০</td>\n<td>Dinonyl or didecyl orthophthalates</td>\n<td>১০</td>\n</tr>\n<tr>\n<td></td>\n<td>২৯১৭.৩৪.০০</td>\n<td>Other esters of orthophthalic acid</td>\n<td>১০</td>\n</tr>\n<tr>\n<td></td>\n<td>২৯১৭.৩৯.০০</td>\n<td>Other plasticizer</td>\n<td>২০</td>\n</tr>\n<tr>\n<td>৩২.০৮</td>\n<td>৩২০৮.১০.৯০</td>\n<td>পলিয়েস্টার বেইজড অন্যান্য পেইন্টস, ভার্ণিশ<br/>(এনামেল লেকারসহ)</td>\n<td>২০</td>\n</tr>\n<tr>\n<td></td>\n<td>৩২০৮.২০.৯০</td>\n<td>Other paints based on acrylic or vinyl polymers, in a non-aqueous medium</td>\n<td>২০</td>\n</tr>\n<tr>\n<td></td>\n<td>৩২০৮.৯০.৯০</td>\n<td>অন্যান্য পেইন্টস, ভার্ণিশ এবং লেকার</td>\n<td>২০</td>\n</tr>\n<tr>\n<td>৩২.০৯</td>\n<td>৩২০৯.১০.৯০</td>\n<td>এক্সেলিক ডিনাইল পলিমার বেইজড অন্যান্য<br/>পেইন্ট এন্ড ভার্ণিশ (এনামেল ও লেকারসহ)</td>\n<td>২০</td>\n</tr>\n<tr>\n<td></td>\n<td>৩২০৯.৯০.৯০</td>\n<td>অন্যান্য পেইন্টস, ভার্ণিশ এবং লেকার</td>\n<td>২০</td>\n</tr>\n<tr>\n<td>৩২.১০</td>\n<td>৩২১০.০০.২০</td>\n<td>Prepared water pigments of a kind<br/>used for finishing leather, for<br/>cleaning footwear in tablet form</td>\n<td>২০</td>\n</tr>\n<tr>\n<td></td>\n<td>৩২১০.০০.৯০</td>\n<td>অন্যান্য পেইন্ট, বার্ণিশ (এনামেল, লেকার ও<br/>ডিস্টেম্পারসহ)</td>\n<td>২০</td>\n</tr>\n<tr>\n<td>৩৩.০৩</td>\n<td>৩৩০৩.০০.০০</td>\n<td>সুগন্ধি ও প্রসাধনী পানি</td>\n<td>৪৫</td>\n</tr>\n<tr>\n<td>৩৩.০৪</td>\n<td>সকল<br/>এইচ,এস,কোড</td>\n<td>সৌন্দর্য অথবা প্রসাধন সামগ্রী এবং ত্বক<br/>পরিচর্যার প্রসাধন সামগ্রী (ঔষধে ব্যবহৃত<br/>পদার্থ ব্যতীত), সানক্লিন বা সান ট্যান সামগ্রী;<br/>হাত, নখ বা পায়ের প্রসাধন সামগ্রীসহ</td>\n<td>৪৫</td>\n</tr>\n<tr>\n<td>৩৩.০৫</td>\n<td>সকল<br/>এইচ,এস,কোড</td>\n<td>কেশ পরিচর্যায় ব্যবহৃত সামগ্রী</td>\n<td>৬০</td>\n</tr>\n<tr>\n<td>৩৩.০৬</td>\n<td>৩৩০৬.১০.০০</td>\n<td>ডেনটফ্রিস</td>\n<td>২০</td>\n</tr>\n<tr>\n<td></td>\n<td>৩৩০৬.৯০.০০</td>\n<td>মুখগহ্বর বা দাঁতের জন্য ব্যবহৃত অন্যান্য<br/>সামগ্রী</td>\n<td>২০</td>\n</tr>\n<tr>\n<td>৩৩.০৭</td>\n<td>সকল<br/>এইচ,এস,কোড</td>\n<td>শেভের আগে, শেভের পরে বা শেভের সময়<br/>ব্যবহার্য সামগ্রী; শরীরের দূর্গন্ধ দূরীকরণে<br/>ব্যবহৃত সামগ্রী, ডিপাইলেন্ট্রী এবং অন্যান্য<br/>সুগন্ধি, প্রসাধনী ও টয়লেট সামগ্রী যা অন্য<br/>কোথাও বর্ণিত বা অন্তর্ভুক্ত নহে; কন্সের দূর্গন্ধ<br/>নাশক (সুগন্ধিযুক্ত হটুক বা না হটুক) অথবা<br/>(জীবানুনাশক ক্ষমতা থাকুক বা না থাকুক)</td>\n<td>২০</td>\n</tr>\n</tbody>\n</table>",
+    "raw_html": "<table border=\"1\">\n<thead>\n<tr>\n<th>শিরনামা সংখ্যা<br/>(Heading No.)</th>\n<th>সামঞ্জস্যপূর্ণ<br/>নামকরণ কোড<br/>(H.S. Code)</th>\n<th>পণ্যসমূহের বিবরণ<br/>(Description of Goods)</th>\n<th>সম্পূরক<br/>ভরহাও<br/>(%)</th>\n</tr>\n<tr>\n<th>(১)</th>\n<th>(২)</th>\n<th>(৩)</th>\n<th>(৪)</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>২৯.১৭</td>\n<td>২৯১৭.৩২.৯০</td>\n<td>ডাইঅক্টাইল অর্থোফেলটস (ডি ও পি)</td>\n<td>২০</td>\n</tr>\n<tr>\n<td></td>\n<td>২৯১৭.৩৩.০০</td>\n<td>Dinonyl or didecyl orthophthalates</td>\n<td>১০</td>\n</tr>\n<tr>\n<td></td>\n<td>২৯১৭.৩৪.০০</td>\n<td>Other esters of orthophthalic acid</td>\n<td>১০</td>\n</tr>\n<tr>\n<td></td>\n<td>২৯১৭.৩৯.০০</td>\n<td>Other plasticizer</td>\n<td>২০</td>\n</tr>\n<tr>\n<td>৩২.০৮</td>\n<td>৩২০৮.১০.৯০</td>\n<td>পলিয়েস্টার বেইজড অন্যান্য পেইন্টস, ভার্ণিশ<br/>(এনামেল লেকারসহ)</td>\n<td>২০</td>\n</tr>\n<tr>\n<td></td>\n<td>৩২০৮.২০.৯০</td>\n<td>Other paints based on acrylic or vinyl polymers, in a non-aqueous medium</td>\n<td>২০</td>\n</tr>\n<tr>\n<td></td>\n<td>৩২০৮.৯০.৯০</td>\n<td>অন্যান্য পেইন্টস, ভার্ণিশ এবং লেকার</td>\n<td>২০</td>\n</tr>\n<tr>\n<td>৩২.০৯</td>\n<td>৩২০৯.১০.৯০</td>\n<td>এক্সেলিক ডিনাইল পলিমার বেইজড অন্যান্য<br/>পেইন্ট এন্ড ভার্ণিশ (এনামেল ও লেকারসহ)</td>\n<td>২০</td>\n</tr>\n<tr>\n<td></td>\n<td>৩২০৯.৯০.৯০</td>\n<td>অন্যান্য পেইন্টস, ভার্ণিশ এবং লেকার</td>\n<td>২০</td>\n</tr>\n<tr>\n<td>৩২.১০</td>\n<td>৩২১০.০০.২০</td>\n<td>Prepared water pigments of a kind<br/>used for finishing leather, for<br/>cleaning footwear in tablet form</td>\n<td>২০</td>\n</tr>\n<tr>\n<td></td>\n<td>৩২১০.০০.৯০</td>\n<td>অন্যান্য পেইন্ট, বার্ণিশ (এনামেল, লেকার ও<br/>ডিস্টেম্পারসহ)</td>\n<td>২০</td>\n</tr>\n<tr>\n<td>৩৩.০৩</td>\n<td>৩৩০৩.০০.০০</td>\n<td>সুগন্ধি ও প্রসাধনী পানি</td>\n<td>৪৫</td>\n</tr>\n<tr>\n<td>৩৩.০৪</td>\n<td>সকল<br/>এইচ,এস,কোড</td>\n<td>সৌন্দর্য অথবা প্রসাধন সামগ্রী এবং ত্বক<br/>পরিচর্যার প্রসাধন সামগ্রী (ঔষধে ব্যবহৃত<br/>পদার্থ ব্যতীত), সানক্লিন বা সান ট্যান সামগ্রী;<br/>হাত, নখ বা পায়ের প্রসাধন সামগ্রীসহ</td>\n<td>৪৫</td>\n</tr>\n<tr>\n<td>৩৩.০৫</td>\n<td>সকল<br/>এইচ,এস,কোড</td>\n<td>কেশ পরিচর্যায় ব্যবহৃত সামগ্রী</td>\n<td>৬০</td>\n</tr>\n<tr>\n<td>৩৩.০৬</td>\n<td>৩৩০৬.১০.০০</td>\n<td>ডেনটফ্রিস</td>\n<td>২০</td>\n</tr>\n<tr>\n<td></td>\n<td>৩৩০৬.৯০.০০</td>\n<td>মুখগহ্বর বা দাঁতের জন্য ব্যবহৃত অন্যান্য<br/>সামগ্রী</td>\n<td>২০</td>\n</tr>\n<tr>\n<td>৩৩.০৭</td>\n<td>সকল<br/>এইচ,এস,কোড</td>\n<td>শেভের আগে, শেভের পরে বা শেভের সময়<br/>ব্যবহার্য সামগ্রী; শরীরের দূর্গন্ধ দূরীকরণে<br/>ব্যবহৃত সামগ্রী, ডিপাইলেন্ট্রী এবং অন্যান্য<br/>সুগন্ধি, প্রসাধনী ও টয়লেট সামগ্রী যা অন্য<br/>কোথাও বর্ণিত বা অন্তর্ভুক্ত নহে; কন্সের দূর্গন্ধ<br/>নাশক (সুগন্ধিযুক্ত হটুক বা না হটুক) অথবা<br/>(জীবানুনাশক ক্ষমতা থাকুক বা না থাকুক)</td>\n<td>২০</td>\n</tr>\n</tbody>\n</table>"
+  },
+  "metadata": {
+    "file_name": "20160408_Finance_Act_2013.pdf",
+    "num_pages": 1,
+    "total_token_count": 1791,
+    "total_chunks": 3,
+    "total_images": 0,
+    "pages": [
+      {
+        "page_num": 0,
+        "page_box": [
+          0,
+          0,
+          1024,
+          1575
+        ],
+        "token_count": 1791,
+        "num_chunks": 3,
+        "num_images": 0
+      }
+    ]
+  },
+  "sanity": {
+    "char_count": 2632,
+    "line_count": 120,
+    "bangla_chars": 1000,
+    "english_chars": 715,
+    "warnings": [],
+    "status": "ok"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "file_name": "001-Law-1994 Germany DTAA.pdf",
+  "num_pages": 1,
+  "total_token_count": 994,
+  "total_chunks": 14,
+  "total_images": 0,
+  "pages": [
+    {
+      "page_num": 0,
+      "page_box": [
+        0,
+        0,
+        1189,
+        1786
+      ],
+      "token_count": 994,
+      "num_chunks": 14,
+      "num_images": 0
+    }
+  ]
+}

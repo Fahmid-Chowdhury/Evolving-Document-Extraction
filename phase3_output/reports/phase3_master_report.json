@@ -1,0 +1,23 @@
+{
+  "input_path": "phase2_output\\page_outputs_2\\20160408_Finance_Act_2013",
+  "total_documents": 1,
+  "documents": [
+    {
+      "document_name": "20160408_Finance_Act_2013",
+      "phase2_page_output_dir": "phase2_output\\page_outputs_2\\20160408_Finance_Act_2013",
+      "final_output_path": "phase3_output\\final_documents\\20160408_Finance_Act_2013\\final_stitched_document.json",
+      "report_path": "phase3_output\\reports\\20160408_Finance_Act_2013\\phase3_stitch_report.json",
+      "total_pages": 20,
+      "total_blocks": 59,
+      "final_content_items": 49,
+      "warnings": 1,
+      "uncertain_blocks": 0,
+      "open_groups_remaining": [
+        "point_৩",
+        "point_১০।",
+        "point_১৩।",
+        "point_২৮।"
+      ]
+    }
+  ]
+}

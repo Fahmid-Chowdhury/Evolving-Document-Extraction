@@ -1,0 +1,42 @@
+{
+  "document_id": "001-Law-1994_Germany_DTAA",
+  "source_file": "001-Law-1994 Germany DTAA.pdf",
+  "page_number": 4,
+  "ocr": {
+    "engine": "chandra_ocr_2",
+    "method": "hf"
+  },
+  "content": {
+    "raw_markdown": "বাংলাদেশ গেজেট, অতিরিক্ত, জানুয়ারী ২, ১৯৯৪\n\n৫০\n\n4. Notwithstanding the preceding provisions of this Article, the term \"permanent establishment\" shall be deemed not to include :\n\n- (a) the use of facilities solely for the purpose of storage or display of goods or merchandise belonging to the enterprise;\n- (b) the maintenance of a stock of goods or merchandise belonging to the enterprise solely for the purpose of storage or display;\n- (c) the maintenance of a stock of goods or merchandise belonging to the enterprise solely for the purpose of processing by another enterprise;\n- (d) the maintenance of a fixed place of business solely for the purpose of purchasing goods or merchandise or of collecting information, for the enterprise;\n- (e) the maintenance of a fixed place of business solely for the purpose of carrying on, for the enterprise, any other activity of a preparatory or auxiliary character such as supply of information, advertising or scientific research;\n- (f) the maintenance of a fixed place of business solely for any combination of activities mentioned in sub-paragraphs (a) to (e), provided that the overall activity of the fixed place of business resulting from this combination is of a preparatory or auxiliary character.\n\n5. Notwithstanding the provisions of paragraphs 1 and 2, where a person—other than an agent of an independent status to whom paragraph 6 applies—is acting on behalf of an enterprise and\n\n- (a) he has, and habitually exercises, in a Contracting State an authority to conclude contracts in the name of the enterprise unless his activities are limited to the purchase of goods or merchandise for the enterprise,\n- (b) he habitually maintains in a Contracting State a stock of goods merchandise belonging to the enterprise from which he regularly delivers goods or merchandise for or on behalf of the enterprise, or\n- (c) he habitually secures orders for the supply of goods in a Contracting State, wholly or almost wholly for the enterprise itself or for the enterprise and other enterprises which are controlled by it or have controlling interest in it,\n\nthat enterprise shall be deemed to have a permanent establishment in that State in respect of any activities which that person undertakes for the enterprise.\n\n6. An enterprise shall not be deemed to have a permanent establishment in a Contracting State merely because it carries on business in that State through a broker, general commission agent or any other agent of an independent status, provided that such persons are acting in the ordinary course of their business and their activities do not involve securing of orders within the meaning of sub-paragraph (c) of paragraph 5,",
+    "raw_html": "<p>বাংলাদেশ গেজেট, অতিরিক্ত, জানুয়ারী ২, ১৯৯৪</p>\n\n<p>৫০</p>\n\n<p>4. Notwithstanding the preceding provisions of this Article, the term \"permanent establishment\" shall be deemed not to include :</p>\n\n<ul style=\"list-style-type: none;\">\n<li>(a) the use of facilities solely for the purpose of storage or display of goods or merchandise belonging to the enterprise;</li>\n<li>(b) the maintenance of a stock of goods or merchandise belonging to the enterprise solely for the purpose of storage or display;</li>\n<li>(c) the maintenance of a stock of goods or merchandise belonging to the enterprise solely for the purpose of processing by another enterprise;</li>\n<li>(d) the maintenance of a fixed place of business solely for the purpose of purchasing goods or merchandise or of collecting information, for the enterprise;</li>\n<li>(e) the maintenance of a fixed place of business solely for the purpose of carrying on, for the enterprise, any other activity of a preparatory or auxiliary character such as supply of information, advertising or scientific research;</li>\n<li>(f) the maintenance of a fixed place of business solely for any combination of activities mentioned in sub-paragraphs (a) to (e), provided that the overall activity of the fixed place of business resulting from this combination is of a preparatory or auxiliary character.</li>\n</ul>\n\n<p>5. Notwithstanding the provisions of paragraphs 1 and 2, where a person—other than an agent of an independent status to whom paragraph 6 applies—is acting on behalf of an enterprise and</p>\n\n<ul style=\"list-style-type: none;\">\n<li>(a) he has, and habitually exercises, in a Contracting State an authority to conclude contracts in the name of the enterprise unless his activities are limited to the purchase of goods or merchandise for the enterprise,</li>\n<li>(b) he habitually maintains in a Contracting State a stock of goods merchandise belonging to the enterprise from which he regularly delivers goods or merchandise for or on behalf of the enterprise, or</li>\n<li>(c) he habitually secures orders for the supply of goods in a Contracting State, wholly or almost wholly for the enterprise itself or for the enterprise and other enterprises which are controlled by it or have controlling interest in it,</li>\n</ul>\n\n<p>that enterprise shall be deemed to have a permanent establishment in that State in respect of any activities which that person undertakes for the enterprise.</p>\n\n<p>6. An enterprise shall not be deemed to have a permanent establishment in a Contracting State merely because it carries on business in that State through a broker, general commission agent or any other agent of an independent status, provided that such persons are acting in the ordinary course of their business and their activities do not involve securing of orders within the meaning of sub-paragraph (c) of paragraph 5,</p>"
+  },
+  "metadata": {
+    "file_name": "001-Law-1994 Germany DTAA.pdf",
+    "num_pages": 1,
+    "total_token_count": 881,
+    "total_chunks": 8,
+    "total_images": 0,
+    "pages": [
+      {
+        "page_num": 0,
+        "page_box": [
+          0,
+          0,
+          1189,
+          1786
+        ],
+        "token_count": 881,
+        "num_chunks": 8,
+        "num_images": 0
+      }
+    ]
+  },
+  "sanity": {
+    "char_count": 2686,
+    "line_count": 22,
+    "bangla_chars": 37,
+    "english_chars": 2126,
+    "warnings": [],
+    "status": "ok"
+  }
+}

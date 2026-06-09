@@ -1,0 +1,57 @@
+{
+  "chunk_id": "20160408_Finance_Act_2013_chunk_0017",
+  "page_number": 16,
+  "document_id": "20160408_Finance_Act_2013",
+  "content_blocks": [
+    {
+      "block_id": "p0016_b001",
+      "type": "point",
+      "point_number": "",
+      "text": "(2) Every such order shall cease to have effect after the expiry of a period of one year from the date of the order made under sub-section (1).\n\n(3) The income tax authority mentioned in sub-section (1) may extend such period or periods with the approval of the Board:\n\nProvided that the total period of extension shall in no case exceed one year.\n\n(4) In computing the period referred to sub-section (2) and sub-section (3), the period, if any, for which the order under sub-section (1) has been stayed by any court, shall be excluded. ।",
+      "continues_from_previous": true,
+      "continues_to_next": false,
+      "stitch_group_id": "point_৩০।",
+      "stitching_note": "Continuation of point 30."
+    },
+    {
+      "block_id": "p0016_b002",
+      "type": "point",
+      "point_number": "২৯।",
+      "text": "**Ordinance No. XXXVI of 1984 এর section 124 এর সংশোধন।**—উক্ত Ordinance এর section 124 এর sub-section (2) এর proviso এর “Deputy Director General” শব্দগুলির পরিবর্তে “Director General” শব্দগুলি প্রতিস্থাপিত হইবে।",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "point_২৯।",
+      "stitching_note": "New main point."
+    },
+    {
+      "block_id": "p0016_b003",
+      "type": "point",
+      "point_number": "৩০।",
+      "text": "**Ordinance No. XXXVI of 1984 এর section 160 এর সংশোধন।**—উক্ত Ordinance এর section 160 এর sub-section (1) এর—\n\n(ক) clause (a) এর “twenty five per cent” শব্দগুলির পরিবর্তে “fifteen per cent” শব্দগুলি প্রতিস্থাপিত হইবে; এবং\n\n(খ) clause (b) এর “fifty per cent” শব্দগুলির পরিবর্তে “twenty five per cent” শব্দগুলি প্রতিস্থাপিত হইবে।",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "point_৩০।",
+      "stitching_note": "New main point."
+    },
+    {
+      "block_id": "p0016_b004",
+      "type": "point",
+      "point_number": "৩১।",
+      "text": "**Ordinance No. XXXVI of 1984 এর section 164 এর সংশোধন।**—উক্ত Ordinance এর section 164 এর clause (e) এর প্রান্ত:স্থিত “or” শব্দটি বিলুপ্ত হইবে এবং অত:পর নিম্নরূপ clauses (ee) ও (eee) সন্নিবেশিত হইবে, যথা:—\n\n“(ee) fails to comply with the requirement under sub-section (1) of section 116;\n\n(eee) fails to comply with the order made under sub-section (1) of section 116A; or ”।",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "point_৩১।",
+      "stitching_note": "New main point."
+    }
+  ],
+  "output_carry_forward_state": {
+    "status": "closed",
+    "active_point_number": "৩১।",
+    "active_stitch_group_id": "point_৩১।",
+    "active_point_summary": "Amendment to Ordinance No. XXXVI of 1984, section 164.",
+    "numbering_system": "english_digits",
+    "expected_next_main_point": "৩২।",
+    "continuation_hint": "The point 31 is complete.",
+    "last_visible_text": "“(ee) fails to comply with the requirement under sub-section (1) of section 116;\n\n(eee) fails to comply with the order made under sub-section (1) of section 116A; or ”।"
+  }
+}

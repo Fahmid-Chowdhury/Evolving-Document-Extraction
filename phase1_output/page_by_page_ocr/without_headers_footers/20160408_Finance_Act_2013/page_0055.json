@@ -1,0 +1,42 @@
+{
+  "document_id": "20160408_Finance_Act_2013",
+  "source_file": "Documents\\20160408_Finance_Act_2013.pdf",
+  "page_number": 55,
+  "ocr": {
+    "engine": "chandra_ocr_2",
+    "method": "hf"
+  },
+  "content": {
+    "raw_markdown": "<table border=\"1\">\n<tr>\n<td>8901.10.90</td>\n<td>-Other<br/>-Tankers</td>\n<td>u</td>\n<td>10%</td>\n<td>Free</td>\n</tr>\n<tr>\n<td>8901.20.10</td>\n<td>---Vessels capacity not exceeding 3000 DWT for registration in Bangladesh operating in ocean for at least three consecutive years.</td>\n<td>u</td>\n<td>25%</td>\n<td>Free</td>\n</tr>\n<tr>\n<td>8901.20.20</td>\n<td>---Vessels capacity exceeding 3000 DWT but not exceeding 5000 DWT for registration in Bangladesh operating in ocean for at least three consecutive years.</td>\n<td>u</td>\n<td>10%</td>\n<td>Free</td>\n</tr>\n<tr>\n<td>8901.20.30</td>\n<td>---Vessels capacity exceeding 5000 DWT for registration in Bangladesh operating in ocean for at least three consecutive years.</td>\n<td>u</td>\n<td>0%</td>\n<td>Free</td>\n</tr>\n<tr>\n<td>8901.20.90</td>\n<td>---Other<br/>-Refrigerated vessels, other than those of sub-heading No. 8901.20</td>\n<td>u</td>\n<td>10%</td>\n<td>Free</td>\n</tr>\n<tr>\n<td>8901.30.10</td>\n<td>---Vessels capacity not exceeding 3000 DWT for registration in Bangladesh operating in ocean for at least three consecutive years.</td>\n<td>u</td>\n<td>25%</td>\n<td>Free</td>\n</tr>\n<tr>\n<td>8901.30.20</td>\n<td>---Vessels capacity exceeding 3000 DWT but not exceeding 5000 DWT for registration in Bangladesh operating in ocean for at least three consecutive years.</td>\n<td>u</td>\n<td>10%</td>\n<td>Free</td>\n</tr>\n<tr>\n<td>8901.30.30</td>\n<td>---Vessels capacity exceeding 5000 DWT for registration in Bangladesh operating in ocean for at least three consecutive years.</td>\n<td>u</td>\n<td>0%</td>\n<td>Free</td>\n</tr>\n<tr>\n<td>8901.30.90</td>\n<td>---Other<br/>-Other vessels for the transport of goods and other vessels for the transport of both persons and goods.</td>\n<td>u</td>\n<td>10%</td>\n<td>Free</td>\n</tr>\n<tr>\n<td>8901.90.10</td>\n<td>---Vessels capacity not exceeding 3000 DWT for registration in Bangladesh operating in ocean for at least three consecutive years.</td>\n<td>u</td>\n<td>25%</td>\n<td>Free</td>\n</tr>\n</table>",
+    "raw_html": "<table border=\"1\">\n<tr>\n<td>8901.10.90</td>\n<td>-Other<br/>-Tankers</td>\n<td>u</td>\n<td>10%</td>\n<td>Free</td>\n</tr>\n<tr>\n<td>8901.20.10</td>\n<td>---Vessels capacity not exceeding 3000 DWT for registration in Bangladesh operating in ocean for at least three consecutive years.</td>\n<td>u</td>\n<td>25%</td>\n<td>Free</td>\n</tr>\n<tr>\n<td>8901.20.20</td>\n<td>---Vessels capacity exceeding 3000 DWT but not exceeding 5000 DWT for registration in Bangladesh operating in ocean for at least three consecutive years.</td>\n<td>u</td>\n<td>10%</td>\n<td>Free</td>\n</tr>\n<tr>\n<td>8901.20.30</td>\n<td>---Vessels capacity exceeding 5000 DWT for registration in Bangladesh operating in ocean for at least three consecutive years.</td>\n<td>u</td>\n<td>0%</td>\n<td>Free</td>\n</tr>\n<tr>\n<td>8901.20.90</td>\n<td>---Other<br/>-Refrigerated vessels, other than those of sub-heading No. 8901.20</td>\n<td>u</td>\n<td>10%</td>\n<td>Free</td>\n</tr>\n<tr>\n<td>8901.30.10</td>\n<td>---Vessels capacity not exceeding 3000 DWT for registration in Bangladesh operating in ocean for at least three consecutive years.</td>\n<td>u</td>\n<td>25%</td>\n<td>Free</td>\n</tr>\n<tr>\n<td>8901.30.20</td>\n<td>---Vessels capacity exceeding 3000 DWT but not exceeding 5000 DWT for registration in Bangladesh operating in ocean for at least three consecutive years.</td>\n<td>u</td>\n<td>10%</td>\n<td>Free</td>\n</tr>\n<tr>\n<td>8901.30.30</td>\n<td>---Vessels capacity exceeding 5000 DWT for registration in Bangladesh operating in ocean for at least three consecutive years.</td>\n<td>u</td>\n<td>0%</td>\n<td>Free</td>\n</tr>\n<tr>\n<td>8901.30.90</td>\n<td>---Other<br/>-Other vessels for the transport of goods and other vessels for the transport of both persons and goods.</td>\n<td>u</td>\n<td>10%</td>\n<td>Free</td>\n</tr>\n<tr>\n<td>8901.90.10</td>\n<td>---Vessels capacity not exceeding 3000 DWT for registration in Bangladesh operating in ocean for at least three consecutive years.</td>\n<td>u</td>\n<td>25%</td>\n<td>Free</td>\n</tr>\n</table>"
+  },
+  "metadata": {
+    "file_name": "20160408_Finance_Act_2013.pdf",
+    "num_pages": 1,
+    "total_token_count": 907,
+    "total_chunks": 3,
+    "total_images": 0,
+    "pages": [
+      {
+        "page_num": 0,
+        "page_box": [
+          0,
+          0,
+          1024,
+          1468
+        ],
+        "token_count": 907,
+        "num_chunks": 3,
+        "num_images": 0
+      }
+    ]
+  },
+  "sanity": {
+    "char_count": 1978,
+    "line_count": 72,
+    "bangla_chars": 0,
+    "english_chars": 1218,
+    "warnings": [],
+    "status": "ok"
+  }
+}

@@ -1,0 +1,36 @@
+৭২—৭৬বাংলাদেশ গেজেট, অতিরিক্ত, জানুয়ারী ২, ১৯৯৪
+
+The Ambassador of the  
+People's Republic of Bangladesh
+
+Bonn, May 29, 1990
+
+Excellency,
+
+I have the honour to confirm receipt of your Note of today's date, which reads as follows :
+
+"With reference to Article 3 of the Agreement between the Federal Republic of Germany and the People's Republic of Bangladesh for the Avoidance of Double Taxation with respect to Taxes on Income, signed today, I have the honour to declare that the conclusion of the said Agreement does not affect the position of the Federal Republic of Germany on the maritime borders of Bangladesh.
+
+It is our mutual understanding that the Agreement signed today may be reviewed after the expiry of five years as from its entry into force, should either Contracting State so request.
+
+I would be grateful if you could confirm your agreement to the foregoing, in which case this Note and Your Excellency's Note in reply thereto shall form an integral part of the said Agreement."
+
+I have the honour to inform you that my Government agrees to the foregoing.
+
+Accept, Excellency, the assurances of my highest consideration.
+
+His Excellency
+
+Dr Hans Werner Lautenschlager
+
+State Secretary of the Federal Foreign Office Bonn"
+
+রাষ্ট্রপতির আদেশক্রমে
+
+ড: আকবর আলী খান  
+সচিব।
+
+---
+
+মোঃ মিজানুর রহমান, উপ-নিরক্ষক, বাংলাদেশ সরকারী মদ্রাসালয়, ঢাকা কর্তৃক মদ্রাসত।  
+মোঃ আব্দুর রশীদ সরকার, উপ-নিরক্ষক, বাংলাদেশ ফরমস্ ও প্রকাশনী অফিস, তেজগাঁও, ঢাকা কর্তৃক প্রকাশিত।

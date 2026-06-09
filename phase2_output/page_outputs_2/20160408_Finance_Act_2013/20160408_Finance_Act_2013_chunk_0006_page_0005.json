@@ -1,0 +1,57 @@
+{
+  "chunk_id": "20160408_Finance_Act_2013_chunk_0006",
+  "page_number": 5,
+  "document_id": "20160408_Finance_Act_2013",
+  "content_blocks": [
+    {
+      "block_id": "p0005_b001",
+      "type": "metadata",
+      "point_number": "",
+      "text": "তৃতীয় অধ্যায়Customs Act, 1969 (Act No. IV of 1969) এর সংশোধন",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "",
+      "stitching_note": ""
+    },
+    {
+      "block_id": "p0005_b002",
+      "type": "point",
+      "point_number": "৪।",
+      "text": "Act No. IV of 1969 এর section 25B এর প্রতিস্থাপন।—Customs Act, 1969 (Act No. IV of 1969), অতঃপর Customs Act বলিয়া উল্লিখিত, এর section 25B এর পরিবর্তে নিম্নরূপ section 25B প্রতিস্থাপিত হইবে, যথাঃ—\n\n“25B. Optional pre-shipment Inspection.**—Notwithstanding anything contained in this Act, it is optional for the importers to have their importable goods inspected by a pre-shipment inspection agency before or at the time of shipment of those goods on board a vessel, aircraft or other conveyance.”।",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "point_৪।",
+      "stitching_note": "New main point 4."
+    },
+    {
+      "block_id": "p0005_b003",
+      "type": "point",
+      "point_number": "৫।",
+      "text": "Act No. IV of 1969 এর section 91 এর সংশোধন।—Customs Act এর section 91 এর sub-section (4) এর—\n\n- (ক) clause (a) তে উল্লিখিত “Investigation Directorate, or” শব্দগুলি ও ক্রমার পরিবর্তে “Investigation Directorate or of the Customs Valuation and Internal Audit Commissionerate, or” শব্দগুলি ও ক্রমা প্রতিস্থাপিত হইবে; এবং\n- (খ) clause (b) তে উল্লিখিত “of the said two Directorates” শব্দগুলির পরিবর্তে “of the said Directorates and Commissionerate” শব্দগুলি প্রতিস্থাপিত হইবে।",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "point_৫।",
+      "stitching_note": "New main point 5."
+    },
+    {
+      "block_id": "p0005_b004",
+      "type": "point",
+      "point_number": "৬।",
+      "text": "Act No. IV of 1969 এর section 192C এর প্রতিস্থাপন।—Customs Act এর section 192C এর পরিবর্তে নিম্নরূপ section 192C প্রতিস্থাপিত হইবে, যথাঃ—\n\n**“192C. Definition and scope of disputes for ADR.**—(1) For the purposes of this chapter, “dispute” means-\n\n- (a) any case or proceeding—\n  - (i) of levy, assessment, collection or refund of duty and taxes or, for imposition of fine or penalty in relation to the determination of customs valuation under section 25 of any imported consignment; and",
+      "continues_from_previous": false,
+      "continues_to_next": true,
+      "stitch_group_id": "point_৬।",
+      "stitching_note": "New main point 6, continues to next page."
+    }
+  ],
+  "output_carry_forward_state": {
+    "status": "open",
+    "active_point_number": "৬।",
+    "active_stitch_group_id": "point_৬।",
+    "active_point_summary": "Amendment to section 192C of the Customs Act, defining 'dispute' and listing types of cases/proceedings.",
+    "numbering_system": "english_digits",
+    "expected_next_main_point": "৭।",
+    "continuation_hint": "The definition of 'dispute' under section 192C continues with sub-points (ii) and (b), and then sub-section (2).",
+    "last_visible_text": "- (a) any case or proceeding—\n  - (i) of levy, assessment, collection or refund of duty and taxes or, for imposition of fine or penalty in relation to the determination of customs valuation under section 25 of any imported consignment; and"
+  }
+}

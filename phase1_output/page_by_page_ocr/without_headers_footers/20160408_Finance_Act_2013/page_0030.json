@@ -1,0 +1,42 @@
+{
+  "document_id": "20160408_Finance_Act_2013",
+  "source_file": "Documents\\20160408_Finance_Act_2013.pdf",
+  "page_number": 30,
+  "ocr": {
+    "engine": "chandra_ocr_2",
+    "method": "hf"
+  },
+  "content": {
+    "raw_markdown": "<table border=\"1\">\n<thead>\n<tr>\n<th>শিরনামা সংখ্যা<br/>(Heading No.)</th>\n<th>সামঞ্জস্যপূর্ণ<br/>নামকরণ কোড<br/>(H.S. Code)</th>\n<th>পণ্যসমূহের বিবরণ<br/>(Description of Goods)</th>\n<th>সম্পূরক<br/>শতাংশ<br/>(%)</th>\n</tr>\n<tr>\n<th>(১)</th>\n<th>(২)</th>\n<th>(৩)</th>\n<th>(৪)</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td></td>\n<td>৩৯২৩.২১.০০</td>\n<td>Sacks and bags (including cones) of polymers of ethylene other than plastics</td>\n<td>৬০</td>\n</tr>\n<tr>\n<td></td>\n<td>৩৯২৩.২৯.৯০</td>\n<td>Sacks and bags (including cones) of other plastics</td>\n<td>৬০</td>\n</tr>\n<tr>\n<td></td>\n<td>৩৯২৩.৩০.৯০</td>\n<td>কার্বয়, বোতল, ফ্লাস্ক ও সমজাতীয় পণ্য (ঔষধের স্যাশে ও ইনহেলারের কটেইনার ব্যতীত)</td>\n<td>৬০</td>\n</tr>\n<tr>\n<td></td>\n<td>৩৯২৩.৪০.৯০</td>\n<td>Other Spools, cops, bobbins and similar supports</td>\n<td>৬০</td>\n</tr>\n<tr>\n<td></td>\n<td>৩৯২৩.৫০.০০</td>\n<td>Stoppers, lids, caps and other closures</td>\n<td>৬০</td>\n</tr>\n<tr>\n<td></td>\n<td>৩৯২৩.৯০.৯০</td>\n<td>প্লাস্টিক প্যালেটস</td>\n<td>৬০</td>\n</tr>\n<tr>\n<td>৩৯.২৪</td>\n<td>৩৯২৪.১০.০০</td>\n<td>প্লাস্টিকের টেবিলওয়ার বা কিচেনওয়ার</td>\n<td>৬০</td>\n</tr>\n<tr>\n<td></td>\n<td>৩৯২৪.৯০.১০</td>\n<td>Feeding Bottles</td>\n<td>২০</td>\n</tr>\n<tr>\n<td></td>\n<td>৩৯২৪.৯০.৯০</td>\n<td>অন্যান্য</td>\n<td>৬০</td>\n</tr>\n<tr>\n<td>৩৯.২৫</td>\n<td>৩৯২৫.২০.০০</td>\n<td>প্লাস্টিকের তৈরী দরজা, জানালা ও উহাদের ফ্রেম এবং দরজার threshold</td>\n<td>৬০</td>\n</tr>\n<tr>\n<td></td>\n<td>৩৯২৫.৩০.০০</td>\n<td>প্লাস্টিকের তৈরী শাটার, ব্রাইন্ড এবং উহাদের পার্টস</td>\n<td>২০</td>\n</tr>\n<tr>\n<td></td>\n<td>৩৯২৫.৯০.০০</td>\n<td>প্লাস্টিকের তৈরী অন্যান্য বিস্তার্স ওয়ার</td>\n<td>২০</td>\n</tr>\n<tr>\n<td>৩৯.২৬</td>\n<td>৩৯২৬.১০.০০</td>\n<td>প্লাস্টিকের তৈরী অফিস এবং স্কুল সামগ্রী</td>\n<td>২০</td>\n</tr>\n<tr>\n<td></td>\n<td>৩৯২৬.৪০.০০</td>\n<td>Statuettes এবং অন্যান্য গৃহসজ্জার দ্রব্যাদি</td>\n<td>৪৫</td>\n</tr>\n<tr>\n<td></td>\n<td>৩৯২৬.৯০.৯৯</td>\n<td>প্লাস্টিকের তৈরী অন্যান্য দ্রব্যাদি</td>\n<td>৪৫</td>\n</tr>\n<tr>\n<td>৪০.১৬</td>\n<td>৪০১৬.৯১.০০</td>\n<td>Floor coverings and mats</td>\n<td>২০</td>\n</tr>\n<tr>\n<td>৪২.০২</td>\n<td>সকল<br/>এইচ,এস,কোড</td>\n<td>Trunks, suit-case, vanity-cases, executive-cases, brief-cases, school satchels, spectacle cases, binocular cases, camera cases, musical instrument cases, guncases, holsters and similar containers; travelling-bags, insulated food or beverages bags</td>\n<td>২০</td>\n</tr>\n</tbody>\n</table>",
+    "raw_html": "<table border=\"1\">\n<thead>\n<tr>\n<th>শিরনামা সংখ্যা<br/>(Heading No.)</th>\n<th>সামঞ্জস্যপূর্ণ<br/>নামকরণ কোড<br/>(H.S. Code)</th>\n<th>পণ্যসমূহের বিবরণ<br/>(Description of Goods)</th>\n<th>সম্পূরক<br/>শতাংশ<br/>(%)</th>\n</tr>\n<tr>\n<th>(১)</th>\n<th>(২)</th>\n<th>(৩)</th>\n<th>(৪)</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td></td>\n<td>৩৯২৩.২১.০০</td>\n<td>Sacks and bags (including cones) of polymers of ethylene other than plastics</td>\n<td>৬০</td>\n</tr>\n<tr>\n<td></td>\n<td>৩৯২৩.২৯.৯০</td>\n<td>Sacks and bags (including cones) of other plastics</td>\n<td>৬০</td>\n</tr>\n<tr>\n<td></td>\n<td>৩৯২৩.৩০.৯০</td>\n<td>কার্বয়, বোতল, ফ্লাস্ক ও সমজাতীয় পণ্য (ঔষধের স্যাশে ও ইনহেলারের কটেইনার ব্যতীত)</td>\n<td>৬০</td>\n</tr>\n<tr>\n<td></td>\n<td>৩৯২৩.৪০.৯০</td>\n<td>Other Spools, cops, bobbins and similar supports</td>\n<td>৬০</td>\n</tr>\n<tr>\n<td></td>\n<td>৩৯২৩.৫০.০০</td>\n<td>Stoppers, lids, caps and other closures</td>\n<td>৬০</td>\n</tr>\n<tr>\n<td></td>\n<td>৩৯২৩.৯০.৯০</td>\n<td>প্লাস্টিক প্যালেটস</td>\n<td>৬০</td>\n</tr>\n<tr>\n<td>৩৯.২৪</td>\n<td>৩৯২৪.১০.০০</td>\n<td>প্লাস্টিকের টেবিলওয়ার বা কিচেনওয়ার</td>\n<td>৬০</td>\n</tr>\n<tr>\n<td></td>\n<td>৩৯২৪.৯০.১০</td>\n<td>Feeding Bottles</td>\n<td>২০</td>\n</tr>\n<tr>\n<td></td>\n<td>৩৯২৪.৯০.৯০</td>\n<td>অন্যান্য</td>\n<td>৬০</td>\n</tr>\n<tr>\n<td>৩৯.২৫</td>\n<td>৩৯২৫.২০.০০</td>\n<td>প্লাস্টিকের তৈরী দরজা, জানালা ও উহাদের ফ্রেম এবং দরজার threshold</td>\n<td>৬০</td>\n</tr>\n<tr>\n<td></td>\n<td>৩৯২৫.৩০.০০</td>\n<td>প্লাস্টিকের তৈরী শাটার, ব্রাইন্ড এবং উহাদের পার্টস</td>\n<td>২০</td>\n</tr>\n<tr>\n<td></td>\n<td>৩৯২৫.৯০.০০</td>\n<td>প্লাস্টিকের তৈরী অন্যান্য বিস্তার্স ওয়ার</td>\n<td>২০</td>\n</tr>\n<tr>\n<td>৩৯.২৬</td>\n<td>৩৯২৬.১০.০০</td>\n<td>প্লাস্টিকের তৈরী অফিস এবং স্কুল সামগ্রী</td>\n<td>২০</td>\n</tr>\n<tr>\n<td></td>\n<td>৩৯২৬.৪০.০০</td>\n<td>Statuettes এবং অন্যান্য গৃহসজ্জার দ্রব্যাদি</td>\n<td>৪৫</td>\n</tr>\n<tr>\n<td></td>\n<td>৩৯২৬.৯০.৯৯</td>\n<td>প্লাস্টিকের তৈরী অন্যান্য দ্রব্যাদি</td>\n<td>৪৫</td>\n</tr>\n<tr>\n<td>৪০.১৬</td>\n<td>৪০১৬.৯১.০০</td>\n<td>Floor coverings and mats</td>\n<td>২০</td>\n</tr>\n<tr>\n<td>৪২.০২</td>\n<td>সকল<br/>এইচ,এস,কোড</td>\n<td>Trunks, suit-case, vanity-cases, executive-cases, brief-cases, school satchels, spectacle cases, binocular cases, camera cases, musical instrument cases, guncases, holsters and similar containers; travelling-bags, insulated food or beverages bags</td>\n<td>২০</td>\n</tr>\n</tbody>\n</table>"
+  },
+  "metadata": {
+    "file_name": "20160408_Finance_Act_2013.pdf",
+    "num_pages": 1,
+    "total_token_count": 1555,
+    "total_chunks": 3,
+    "total_images": 0,
+    "pages": [
+      {
+        "page_num": 0,
+        "page_box": [
+          0,
+          0,
+          1024,
+          1531
+        ],
+        "token_count": 1555,
+        "num_chunks": 3,
+        "num_images": 0
+      }
+    ]
+  },
+  "sanity": {
+    "char_count": 2336,
+    "line_count": 120,
+    "bangla_chars": 603,
+    "english_chars": 895,
+    "warnings": [],
+    "status": "ok"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "document_id": "001-Law-1994_Germany_DTAA",
+  "source_file": "001-Law-1994 Germany DTAA.pdf",
+  "page_number": 8,
+  "ocr": {
+    "engine": "chandra_ocr_2",
+    "method": "hf"
+  },
+  "content": {
+    "raw_markdown": "বাংলাদেশ গেজেট, অতিরিক্ত, জানুয়ারী ২, ১৯৯৪\n\n৫৭\n\nsubjected to the same taxation treatment as income from shares by the laws of the State of which the company making the distribution is a resident and distributions on certificates of an investment-trust.\n\n4. The provisions of paragraphs 1 and 2 shall not apply if the beneficial owner of the dividends, being a resident of a Contracting State, carries on business in the other Contracting State of which the company paying the dividends is a resident, through a permanent establishment situated therein, or performs in that other State professional services from a fixed base situated therein, and the holding in respect of which the dividends are paid is effectively connected with such permanent establishment or fixed base. In such case the provisions of Article 7 or Article 14, as the case may be, shall apply.\n\n5. Where a company which is a resident of a Contracting State derives profits or income from the other Contracting State, that other State may not impose any tax on the dividends paid by the company, except insofar as such dividends are paid to a resident of that other State or insofar as the holding in respect of which the dividends are paid is effectively connected with a permanent establishment or a fixed base situated in that other State, nor subject the company's undistributed profits to a tax on the company's undistributed profits, even if the dividends paid or the undistributed profits consist wholly or partly of profits or income arising in such other State.\n\n## Article 11\n\n### Interest\n\n1. Interest arising in a Contracting State and paid to a resident of the other Contracting State may be taxed in that other State.\n\n2. However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the recipient is the beneficial owner of the interest the tax so charged shall not exceed 10 per cent of the gross amount of the interest.\n\n3. Notwithstanding the provisions of paragraph 2,\n\n- (a) interest arising in the Federal Republic of Germany and paid to the Bangladesh Government or to the Bangladesh Bank shall be exempt from German tax;\n- (b) interest arising in Bangladesh and paid to the German Government the Deutsche Bundesbank, the Kreditanstalt fur Wiederaufbau or the Deutsche Gesellschaft fur Wirtschaftliche Zusammenarbeit (Entwicklungsgesellschaft) shall be exempt from Bangladesh tax.\n\nThe competent authorities of the Contracting States may determine by mutual agreement any other governmental institution to which this paragraph shall apply.",
+    "raw_html": "<p>বাংলাদেশ গেজেট, অতিরিক্ত, জানুয়ারী ২, ১৯৯৪</p>\n\n<p>৫৭</p>\n\n<p>subjected to the same taxation treatment as income from shares by the laws of the State of which the company making the distribution is a resident and distributions on certificates of an investment-trust.</p>\n\n<p>4. The provisions of paragraphs 1 and 2 shall not apply if the beneficial owner of the dividends, being a resident of a Contracting State, carries on business in the other Contracting State of which the company paying the dividends is a resident, through a permanent establishment situated therein, or performs in that other State professional services from a fixed base situated therein, and the holding in respect of which the dividends are paid is effectively connected with such permanent establishment or fixed base. In such case the provisions of Article 7 or Article 14, as the case may be, shall apply.</p>\n\n<p>5. Where a company which is a resident of a Contracting State derives profits or income from the other Contracting State, that other State may not impose any tax on the dividends paid by the company, except insofar as such dividends are paid to a resident of that other State or insofar as the holding in respect of which the dividends are paid is effectively connected with a permanent establishment or a fixed base situated in that other State, nor subject the company's undistributed profits to a tax on the company's undistributed profits, even if the dividends paid or the undistributed profits consist wholly or partly of profits or income arising in such other State.</p>\n\n<h2>Article 11</h2>\n\n<h3>Interest</h3>\n\n<p>1. Interest arising in a Contracting State and paid to a resident of the other Contracting State may be taxed in that other State.</p>\n\n<p>2. However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the recipient is the beneficial owner of the interest the tax so charged shall not exceed 10 per cent of the gross amount of the interest.</p>\n\n<p>3. Notwithstanding the provisions of paragraph 2,</p>\n\n<ul style=\"list-style-type: none;\">\n<li>(a) interest arising in the Federal Republic of Germany and paid to the Bangladesh Government or to the Bangladesh Bank shall be exempt from German tax;</li>\n<li>(b) interest arising in Bangladesh and paid to the German Government the Deutsche Bundesbank, the Kreditanstalt fur Wiederaufbau or the Deutsche Gesellschaft fur Wirtschaftliche Zusammenarbeit (Entwicklungsgesellschaft) shall be exempt from Bangladesh tax.</li>\n</ul>\n\n<p>The competent authorities of the Contracting States may determine by mutual agreement any other governmental institution to which this paragraph shall apply.</p>"
+  },
+  "metadata": {
+    "file_name": "001-Law-1994 Germany DTAA.pdf",
+    "num_pages": 1,
+    "total_token_count": 982,
+    "total_chunks": 12,
+    "total_images": 0,
+    "pages": [
+      {
+        "page_num": 0,
+        "page_box": [
+          0,
+          0,
+          1189,
+          1786
+        ],
+        "token_count": 982,
+        "num_chunks": 12,
+        "num_images": 0
+      }
+    ]
+  },
+  "sanity": {
+    "char_count": 2603,
+    "line_count": 24,
+    "bangla_chars": 37,
+    "english_chars": 2066,
+    "warnings": [],
+    "status": "ok"
+  }
+}

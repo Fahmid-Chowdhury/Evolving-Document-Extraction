@@ -1,0 +1,37 @@
+{
+  "chunk_id": "20160408_Finance_Act_2013_chunk_0060",
+  "page_number": 59,
+  "document_id": "20160408_Finance_Act_2013",
+  "content_blocks": [
+    {
+      "block_id": "p0059_b001",
+      "type": "point",
+      "point_number": "অনুচ্ছেদ-খ",
+      "text": "আরও শর্ত থাকে যে, এইরূপ publicly traded company যদি ১০% এর কম লভ্যাংশ ঘোষণা করে অথবা সিকিউরিটিজ এন্ড এক্সচেঞ্জ কমিশন কর্তৃক নির্ধারিত সময়ের মধ্যে ঘোষিত লভ্যাংশ প্রদান না করে তাহা হইলে উক্ত publicly traded company এর কর হার হইবে ৩৭.৫%;",
+      "continues_from_previous": true,
+      "continues_to_next": false,
+      "stitch_group_id": "point_অনুচ্ছেদ-খ",
+      "stitching_note": "Continuation of tax rate rules for publicly traded companies."
+    },
+    {
+      "block_id": "p0059_b002",
+      "type": "point",
+      "point_number": "অনুচ্ছেদ-খ",
+      "text": "(আ) এইরূপ প্রত্যেকটি কোম্পানীর ক্ষেত্রে যাহা publicly traded company নহে, এবং স্থানীয় কর্তৃপক্ষসহ Income-tax Ordinance, 1984 (Ord. No. XXXVI of 1984) এর section 2 এর clause (20) এর sub-clause (a), (b), (bb), (bbb) ও (c) এর আওতাধীন অন্যান্য কোম্পানীর ক্ষেত্রে-\n\n- (খ) ব্যাংক, বীমা, অর্থলগ্নীকারী প্রতিষ্ঠানসমূহ (মার্চেন্ট ব্যাংক ব্যতীত) এর ক্ষেত্রে-\n- (গ) মার্চেন্ট ব্যাংক এর ক্ষেত্রে\n- (ঘ) সিগারেট প্রস্তুতকারক কোম্পানীর ক্ষেত্রে-\n\nউক্ত আয়ের ৩৭.৫% :\n\nতবে শর্ত থাকে যে, যদি এইরূপ কোম্পানী উহার পরিশোধিত মূলধনের ন্যূনতম ২০% শেয়ার Initial Public Offerings (IPO) এর মাধ্যমে হস্তান্তর করে, তাহা হইলে এইরূপ কোম্পানী উক্ত হস্তান্তর সংশ্লিষ্ট বৎসরে প্রযোজ্য আয়করের উপর ১০% হারে আয়কর রেয়াত লাভ করিবে;\n\nউক্ত আয়ের ৪২.৫%;\n\nউক্ত আয়ের ৩৭.৫%;\n\nউক্ত আয়ের ৪৫% :\n\nতবে শর্ত থাকে যে, এইরূপ প্রত্যেকটি সিগারেট প্রস্তুতকারক কোম্পানী publicly traded company হইলে সেক্ষেত্রে কর হার হইবে ৪০%;",
+      "continues_from_previous": true,
+      "continues_to_next": false,
+      "stitch_group_id": "point_অনুচ্ছেদ-খ",
+      "stitching_note": "Details tax rates for non-publicly traded companies and specific sectors."
+    }
+  ],
+  "output_carry_forward_state": {
+    "status": "open",
+    "active_point_number": "অনুচ্ছেদ-খ",
+    "active_stitch_group_id": "point_অনুচ্ছেদ-খ",
+    "active_point_summary": "Details tax rates for various types of companies (non-publicly traded, banks, etc.) and specific conditions for tax relief.",
+    "numbering_system": "mixed",
+    "expected_next_main_point": "(ঙ)",
+    "continuation_hint": "The next page continues the discussion of tax rates, starting with (ঙ) and then moving to the next main point (২).",
+    "last_visible_text": "তবে শর্ত থাকে যে, এইরূপ প্রত্যেকটি সিগারেট প্রস্তুতকারক কোম্পানী publicly traded company হইলে সেক্ষেত্রে কর হার হইবে ৪০%;"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "document_id": "20160408_Finance_Act_2013",
+  "source_file": "Documents\\20160408_Finance_Act_2013.pdf",
+  "page_number": 40,
+  "ocr": {
+    "engine": "chandra_ocr_2",
+    "method": "hf"
+  },
+  "content": {
+    "raw_markdown": "<table border=\"1\">\n<thead>\n<tr>\n<th>শিরনামা সংখ্যা<br/>(Heading No.)</th>\n<th>সামঞ্জস্যপূর্ণ<br/>নামকরণ কোড<br/>(H.S. Code)</th>\n<th>পণ্যসমূহের বিবরণ<br/>(Description of Goods)</th>\n<th>সম্পূরক<br/>তক্কার<br/>(%)</th>\n</tr>\n<tr>\n<th>(১)</th>\n<th>(২)</th>\n<th>(৩)</th>\n<th>(৪)</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>৭৬.০৭</td>\n<td>৭৬০৭.২০.১০</td>\n<td>পেপার/পেপার বোর্ড দ্বারা ব্যাক্ড (Backed)<br/>এ্যালুমিনিয়াম ফয়েল, রসিন হটক বা না<br/>হটক, রোল/রিল/ববিন আকারে</td>\n<td>৩০</td>\n</tr>\n<tr>\n<td>৭৬.১৫</td>\n<td>৭৬১৫.২০.০০</td>\n<td>এ্যালুমিনিয়াম স্যানিটারী ওয়াটার ও যন্ত্রাংশ</td>\n<td>২০</td>\n</tr>\n<tr>\n<td>৮২.১২</td>\n<td>৮২১২.১০.০০</td>\n<td>রেজর</td>\n<td>২০</td>\n</tr>\n<tr>\n<td></td>\n<td>৮২১২.২০.১৯</td>\n<td>স্টেইনলেস স্টীল ব্লেন্ড</td>\n<td>২০</td>\n</tr>\n<tr>\n<td></td>\n<td>৮২১২.২০.৯০</td>\n<td>অন্যান্য</td>\n<td>২০</td>\n</tr>\n<tr>\n<td></td>\n<td>৮২১২.৯০.০০</td>\n<td>রেজর পার্টস</td>\n<td>২০</td>\n</tr>\n<tr>\n<td>৮৩.০১</td>\n<td>সকল<br/>এইচ,এস,কোড<br/>(৮৩০১.২০.১০<br/>ব্যতিত)</td>\n<td>Padlocks and locks (key,<br/>combination or electrically operated),<br/>of base metal; clasps and frames with<br/>clasps, incorporating locks, of base<br/>metal; keys for any of the foregoing<br/>articles, of base metal.</td>\n<td>২০</td>\n</tr>\n<tr>\n<td>৮৪.০৭ এবং<br/>৮৪.০৮</td>\n<td>৮৪০৭.৩১.১০<br/>৮৪০৭.৩২.১০<br/>৮৪০৭.৩৩.১০<br/>৮৪০৮.২০.১০</td>\n<td>দুই স্ট্রোক বিশিষ্ট অটো রিস্ক/থ্রি হুইলারের<br/>ইঞ্জিন</td>\n<td>২০</td>\n</tr>\n<tr>\n<td></td>\n<td>৮৪০৭.৩১.২০<br/>৮৪০৭.৩২.২০<br/>৮৪০৭.৩৩.২০<br/>৮৪০৮.২০.২০</td>\n<td>চার স্ট্রোক বিশিষ্ট অটো রিস্ক/থ্রি হুইলারের<br/>ইঞ্জিন</td>\n<td>২০</td>\n</tr>\n<tr>\n<td>৮৪.১৪</td>\n<td>৮৪১৪.৫১.১০</td>\n<td>১২৫ ওয়াট বা তার নিম্নের মটরযুক্ত টেবিল,<br/>ফ্লোর, ওয়াল, সিলিং, উইন্ডো, জানালা ও<br/>ছাদের ফ্যান</td>\n<td>৪৫</td>\n</tr>\n<tr>\n<td></td>\n<td>৮৪১৪.৯০.১০</td>\n<td>ফ্যান এর যন্ত্রাংশ</td>\n<td>৪৫</td>\n</tr>\n<tr>\n<td>৮৪.১৫</td>\n<td>৮৪১৫.১০.৯০<br/>৮৪১৫.২০.৯০<br/>৮৪১৫.৮১.৯০<br/>৮৪১৫.৮২.৯০<br/>৮৪১৫.৮৩.৯০</td>\n<td>মটরচালিত পাখায়ুক্ত এবং উষ্ণতা ও আর্দ্রতা<br/>পরিবর্তন এর সুবিধা সম্বলিত, আর্দ্রতা<br/>পৃথকভাবে নিয়ন্ত্রণ করা যায় না এইরূপ<br/>বৈশিষ্ট্য সম্বলিত শীতাতপ নিয়ন্ত্রণকারী যন্ত্র</td>\n<td>১০০</td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td>যন্ত্রাংশ :</td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td>৮৪১৫.৯০.১০</td>\n<td>ইনডোর অথবা আউটডোর ইউনিট</td>\n<td>১০০</td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td>অন্যান্য যন্ত্রাংশ :</td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td>৮৪১৫.৯০.৯১</td>\n<td>ভ্যাট রেজিস্টার্ড এয়ার কন্ডিশনার প্রস্তুতকারক<br/>প্রতিষ্ঠান কর্তৃক আমদানিকৃত</td>\n<td>২০</td>\n</tr>\n</tbody>\n</table>",
+    "raw_html": "<table border=\"1\">\n<thead>\n<tr>\n<th>শিরনামা সংখ্যা<br/>(Heading No.)</th>\n<th>সামঞ্জস্যপূর্ণ<br/>নামকরণ কোড<br/>(H.S. Code)</th>\n<th>পণ্যসমূহের বিবরণ<br/>(Description of Goods)</th>\n<th>সম্পূরক<br/>তক্কার<br/>(%)</th>\n</tr>\n<tr>\n<th>(১)</th>\n<th>(২)</th>\n<th>(৩)</th>\n<th>(৪)</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>৭৬.০৭</td>\n<td>৭৬০৭.২০.১০</td>\n<td>পেপার/পেপার বোর্ড দ্বারা ব্যাক্ড (Backed)<br/>এ্যালুমিনিয়াম ফয়েল, রসিন হটক বা না<br/>হটক, রোল/রিল/ববিন আকারে</td>\n<td>৩০</td>\n</tr>\n<tr>\n<td>৭৬.১৫</td>\n<td>৭৬১৫.২০.০০</td>\n<td>এ্যালুমিনিয়াম স্যানিটারী ওয়াটার ও যন্ত্রাংশ</td>\n<td>২০</td>\n</tr>\n<tr>\n<td>৮২.১২</td>\n<td>৮২১২.১০.০০</td>\n<td>রেজর</td>\n<td>২০</td>\n</tr>\n<tr>\n<td></td>\n<td>৮২১২.২০.১৯</td>\n<td>স্টেইনলেস স্টীল ব্লেন্ড</td>\n<td>২০</td>\n</tr>\n<tr>\n<td></td>\n<td>৮২১২.২০.৯০</td>\n<td>অন্যান্য</td>\n<td>২০</td>\n</tr>\n<tr>\n<td></td>\n<td>৮২১২.৯০.০০</td>\n<td>রেজর পার্টস</td>\n<td>২০</td>\n</tr>\n<tr>\n<td>৮৩.০১</td>\n<td>সকল<br/>এইচ,এস,কোড<br/>(৮৩০১.২০.১০<br/>ব্যতিত)</td>\n<td>Padlocks and locks (key,<br/>combination or electrically operated),<br/>of base metal; clasps and frames with<br/>clasps, incorporating locks, of base<br/>metal; keys for any of the foregoing<br/>articles, of base metal.</td>\n<td>২০</td>\n</tr>\n<tr>\n<td>৮৪.০৭ এবং<br/>৮৪.০৮</td>\n<td>৮৪০৭.৩১.১০<br/>৮৪০৭.৩২.১০<br/>৮৪০৭.৩৩.১০<br/>৮৪০৮.২০.১০</td>\n<td>দুই স্ট্রোক বিশিষ্ট অটো রিস্ক/থ্রি হুইলারের<br/>ইঞ্জিন</td>\n<td>২০</td>\n</tr>\n<tr>\n<td></td>\n<td>৮৪০৭.৩১.২০<br/>৮৪০৭.৩২.২০<br/>৮৪০৭.৩৩.২০<br/>৮৪০৮.২০.২০</td>\n<td>চার স্ট্রোক বিশিষ্ট অটো রিস্ক/থ্রি হুইলারের<br/>ইঞ্জিন</td>\n<td>২০</td>\n</tr>\n<tr>\n<td>৮৪.১৪</td>\n<td>৮৪১৪.৫১.১০</td>\n<td>১২৫ ওয়াট বা তার নিম্নের মটরযুক্ত টেবিল,<br/>ফ্লোর, ওয়াল, সিলিং, উইন্ডো, জানালা ও<br/>ছাদের ফ্যান</td>\n<td>৪৫</td>\n</tr>\n<tr>\n<td></td>\n<td>৮৪১৪.৯০.১০</td>\n<td>ফ্যান এর যন্ত্রাংশ</td>\n<td>৪৫</td>\n</tr>\n<tr>\n<td>৮৪.১৫</td>\n<td>৮৪১৫.১০.৯০<br/>৮৪১৫.২০.৯০<br/>৮৪১৫.৮১.৯০<br/>৮৪১৫.৮২.৯০<br/>৮৪১৫.৮৩.৯০</td>\n<td>মটরচালিত পাখায়ুক্ত এবং উষ্ণতা ও আর্দ্রতা<br/>পরিবর্তন এর সুবিধা সম্বলিত, আর্দ্রতা<br/>পৃথকভাবে নিয়ন্ত্রণ করা যায় না এইরূপ<br/>বৈশিষ্ট্য সম্বলিত শীতাতপ নিয়ন্ত্রণকারী যন্ত্র</td>\n<td>১০০</td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td>যন্ত্রাংশ :</td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td>৮৪১৫.৯০.১০</td>\n<td>ইনডোর অথবা আউটডোর ইউনিট</td>\n<td>১০০</td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td>অন্যান্য যন্ত্রাংশ :</td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td>৮৪১৫.৯০.৯১</td>\n<td>ভ্যাট রেজিস্টার্ড এয়ার কন্ডিশনার প্রস্তুতকারক<br/>প্রতিষ্ঠান কর্তৃক আমদানিকৃত</td>\n<td>২০</td>\n</tr>\n</tbody>\n</table>"
+  },
+  "metadata": {
+    "file_name": "20160408_Finance_Act_2013.pdf",
+    "num_pages": 1,
+    "total_token_count": 1830,
+    "total_chunks": 3,
+    "total_images": 0,
+    "pages": [
+      {
+        "page_num": 0,
+        "page_box": [
+          0,
+          0,
+          1024,
+          1471
+        ],
+        "token_count": 1830,
+        "num_chunks": 3,
+        "num_images": 0
+      }
+    ]
+  },
+  "sanity": {
+    "char_count": 2494,
+    "line_count": 114,
+    "bangla_chars": 929,
+    "english_chars": 665,
+    "warnings": [],
+    "status": "ok"
+  }
+}

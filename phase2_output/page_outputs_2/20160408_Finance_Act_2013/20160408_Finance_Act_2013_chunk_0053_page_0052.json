@@ -1,0 +1,27 @@
+{
+  "chunk_id": "20160408_Finance_Act_2013_chunk_0053",
+  "page_number": 52,
+  "document_id": "20160408_Finance_Act_2013",
+  "content_blocks": [
+    {
+      "block_id": "p0052_b001",
+      "type": "point",
+      "point_number": "(৬)",
+      "text": "<table border=\"0\">\n<tr>\n<td>7208.52.90</td>\n<td>...Other<br/>..Of a thickness of 3 mm<br/>or more but less than 4.75<br/>mm</td>\n<td>kg</td>\n<td>10%</td>\n<td>Free</td>\n</tr>\n<tr>\n<td>7208.53.10</td>\n<td>---Imported by VAT<br/>registered iron/steel<br/>products, motorcycle, pre-<br/>fabricated building and<br/>transformer<br/>manufacturing industry</td>\n<td>Kg</td>\n<td>5%</td>\n<td>Free</td>\n</tr>\n<tr>\n<td>7208.53.90</td>\n<td>---Other<br/>---Of a thickness of less<br/>than 3 mm</td>\n<td>Kg</td>\n<td>10%</td>\n<td>Free</td>\n</tr>\n<tr>\n<td>7208.54.10</td>\n<td>----Imported by VAT<br/>registered iron/steel<br/>products, motorcycle, pre-<br/>fabricated building and<br/>transformer<br/>manufacturing industry</td>\n<td>Kg</td>\n<td>5%</td>\n<td>Free</td>\n</tr>\n<tr>\n<td>7208.54.90</td>\n<td>---Other<br/>---Other</td>\n<td>Kg</td>\n<td>10%</td>\n<td>Free</td>\n</tr>\n<tr>\n<td>7208.90.10</td>\n<td>----Imported by VAT<br/>registered iron/steel<br/>product, transformer and<br/>pre-fabricated building<br/>and manufacturing<br/>industry</td>\n<td>Kg</td>\n<td>5%</td>\n<td>Free</td>\n</tr>\n<tr>\n<td>7208.90.90</td>\n<td>---Other</td>\n<td>Kg</td>\n<td>10%</td>\n<td>Free</td>\n</tr>\n</table>\n\n(৭) ২২৭ নং পৃষ্ঠার কলাম (1) এ উল্লিখিত Heading 72.10 এর আওতাভুক্ত কলাম (2) তে বর্ণিত H.S. Code “7210.49.20” এর বিপরীতে কলাম (3) এ উল্লিখিত “more than 0.6 mm” শব্দগুলি, বর্ণগুলি, সংখ্যা ও বিন্দুর পরিবর্তে “1.0 mm or more” শব্দগুলি, বর্ণগুলি, সংখ্যা ও বিন্দু প্রতিস্থাপিত হইবে।\n\n(৮) ২২৭ নং পৃষ্ঠার কলাম (1) এ উল্লিখিত Heading 72.10 এর আওতাভুক্ত কলাম (2) তে বর্ণিত H.S. Code “7210.61.20” এর বিপরীতে কলাম (3) এ উল্লিখিত “more than 0.6 mm” শব্দগুলি, বর্ণগুলি, সংখ্যা ও বিন্দুর পরিবর্তে “1.0 mm or more” শব্দগুলি, বর্ণগুলি, সংখ্যা ও বিন্দু প্রতিস্থাপিত হইবে।\n\n(৯) ২২৭ নং পৃষ্ঠার কলাম (1) এ উল্লিখিত Heading 72.10 এর আওতাভুক্ত কলাম (2) তে বর্ণিত H.S. Code “7210.69.20” এর বিপরীতে কলাম (3) এ উল্লিখিত “more than 0.6 mm” শব্দগুলি, বর্ণগুলি, সংখ্যা ও বিন্দুর পরিবর্তে “1.0 mm or more” শব্দগুলি, বর্ণগুলি, সংখ্যা ও বিন্দু প্রতিস্থাপিত হইবে。",
+      "continues_from_previous": true,
+      "continues_to_next": false,
+      "stitch_group_id": "point_(৬)",
+      "stitching_note": "Continuation of the replacement table structure for Heading 72.08, followed by sequential amendments (৭), (৮), and (৯) which are part of the same main point (৬)."
+    }
+  ],
+  "output_carry_forward_state": {
+    "status": "closed",
+    "active_point_number": "(৬)",
+    "active_stitch_group_id": "point_(৬)",
+    "active_point_summary": "The point (৬) concludes with a table continuation and three specific amendments (৭), (৮), and (৯) regarding H.S. Codes 7210.49.20, 7210.61.20, and 7210.69.20.",
+    "numbering_system": "english_digits",
+    "expected_next_main_point": "(৭)",
+    "continuation_hint": "The point (৬) is closed. The next main point is expected to be (৭).",
+    "last_visible_text": "(৯) ২২৭ নং পৃষ্ঠার কলাম (1) এ উল্লিখিত Heading 72.10 এর আওতাভুক্ত কলাম (2) তে বর্ণিত H.S. Code “7210.69.20” এর বিপরীতে কলাম (3) এ উল্লিখিত “more than 0.6 mm” শব্দগুলি, বর্ণগুলি, সংখ্যা ও বিন্দুর পরিবর্তে “1.0 mm or more” শব্দগুলি, বর্ণগুলি, সংখ্যা ও বিন্দু প্রতিস্থাপিত হইবে."
+  }
+}  

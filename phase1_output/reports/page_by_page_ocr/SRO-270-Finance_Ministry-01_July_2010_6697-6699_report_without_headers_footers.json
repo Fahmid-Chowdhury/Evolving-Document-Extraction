@@ -1,0 +1,49 @@
+{
+  "input_path": "Documents\\SRO-Finance Ministry\\SRO-270-Finance Ministry-01 July 2010(6697-6699).pdf",
+  "include_headers_footers": false,
+  "run_status": "success",
+  "total_pdfs": 1,
+  "successful_pdfs": 1,
+  "failed_pdfs": 0,
+  "total_pages": 3,
+  "successful_pages": 3,
+  "failed_pages": 0,
+  "failed_pages_by_pdf": {},
+  "pdf_runs": [
+    {
+      "pdf": "Documents\\SRO-Finance Ministry\\SRO-270-Finance Ministry-01 July 2010(6697-6699).pdf",
+      "status": "success",
+      "message": "OCR completed successfully.",
+      "elapsed_seconds": 247.53,
+      "total_pages": 3,
+      "successful_pages": 3,
+      "failed_pages": 0,
+      "failed_page_numbers": [],
+      "warning_page_numbers": [],
+      "page_results": [
+        {
+          "success": true,
+          "page_number": 0,
+          "elapsed_seconds": 79.83,
+          "output_path": "phase1_output\\page_by_page_ocr\\without_headers_footers\\SRO-270-Finance Ministry-01 July 2010(6697-6699)\\page_0000.json",
+          "warnings": []
+        },
+        {
+          "success": true,
+          "page_number": 1,
+          "elapsed_seconds": 79.65,
+          "output_path": "phase1_output\\page_by_page_ocr\\without_headers_footers\\SRO-270-Finance Ministry-01 July 2010(6697-6699)\\page_0001.json",
+          "warnings": []
+        },
+        {
+          "success": true,
+          "page_number": 2,
+          "elapsed_seconds": 87.99,
+          "output_path": "phase1_output\\page_by_page_ocr\\without_headers_footers\\SRO-270-Finance Ministry-01 July 2010(6697-6699)\\page_0002.json",
+          "warnings": []
+        }
+      ],
+      "document_output_dir": "phase1_output\\page_by_page_ocr\\without_headers_footers\\SRO-270-Finance Ministry-01 July 2010(6697-6699)"
+    }
+  ]
+}

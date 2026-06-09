@@ -1,0 +1,57 @@
+{
+  "chunk_id": "20160408_Finance_Act_2013_chunk_0008",
+  "page_number": 7,
+  "document_id": "20160408_Finance_Act_2013",
+  "content_blocks": [
+    {
+      "block_id": "p0007_b001",
+      "type": "metadata",
+      "point_number": "",
+      "text": "চতুর্থ অধ্যায়**Income-tax Ordinance, 1984 (Ord. No. XXXVI of 1984) এর সংশোধন**",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "",
+      "stitching_note": ""
+    },
+    {
+      "block_id": "p0007_b002",
+      "type": "point",
+      "point_number": "৮।",
+      "text": "**Income-tax Ordinance, 1984 (Ord. No. XXXVI of 1984) এর section 16CCC এর সংশোধন।**—Income-tax Ordinance, 1984 (Ord. No. XXXVI of 1984), অতঃপর উক্ত Ordinance বলিয়া উল্লিখিত, এর section 16CCC এর—\n\n(ক) “every company” শব্দগুলির পরিবর্তে “every firm having gross receipts of more than taka fifty lakh or every company” শব্দগুলি প্রতিস্থাপিত হইবে;\n\n(খ) “representing such company’s” শব্দগুলির পরিবর্তে “representing such firm’s or company’s” শব্দগুলি ও চিহ্নগুলি প্রতিস্থাপিত হইবে।",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "point_৮।",
+      "stitching_note": ""
+    },
+    {
+      "block_id": "p0007_b003",
+      "type": "point",
+      "point_number": "৯।",
+      "text": "**Ordinance No. XXXVI of 1984 এর section 16E এর বিলোপ।**—উক্ত Ordinance এর section 16E বিলুপ্ত হইবে।",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "point_৯।",
+      "stitching_note": ""
+    },
+    {
+      "block_id": "p0007_b004",
+      "type": "point",
+      "point_number": "১০।",
+      "text": "**Ordinance No. XXXVI of 1984 এ নূতন section 19BBBBB এর সন্নিবেশ।**—উক্ত Ordinance এর section 19BBBB এর পর নিম্নরূপ নূতন section 19BBBBB সন্নিবেশিত হইবে, যথা:—\n\n**“19BBBBB. Special tax treatment in respect of investment in residential building and apartment.—**(1) Notwithstanding anything contained in this Ordinance, source of any sum invested by any person, in the construction or purchase of any residential building or apartment, shall be deemed to have been explained if the assessee pays, before the assessment for the relevant assessment year in which the investment is completed, tax at the following rate—\n\n(a) for building or apartment situated in the area of Gulshan Model Town, Banani, Baridhara, Motijheel Commercial Area and Dilkusha Commercial Area of Dhaka-\n\n(i) taka five thousand per square meter in the case of a building or apartment the plinth area of which does not exceed two hundred square meter;\n\n(ii) taka seven thousand per square meter in the case of a building or apartment the plinth area of which exceeds two hundred square meter;",
+      "continues_from_previous": false,
+      "continues_to_next": true,
+      "stitch_group_id": "point_১০।",
+      "stitching_note": "Continues into the next page with sub-clauses (b) and (c)."
+    }
+  ],
+  "output_carry_forward_state": {
+    "status": "open",
+    "active_point_number": "১০।",
+    "active_stitch_group_id": "point_১০।",
+    "active_point_summary": "Insertion of new section 19BBBBB in Ordinance No. XXXVI of 1984, detailing special tax treatment for residential building/apartment investment, starting with sub-clause (a).",
+    "numbering_system": "english_digits",
+    "expected_next_main_point": "১১।",
+    "continuation_hint": "The point continues with sub-clauses (b) and (c) detailing tax rates for different areas.",
+    "last_visible_text": "(i) taka five thousand per square meter in the case of a building or apartment the plinth area of which does not exceed two hundred square meter;"
+  }
+}

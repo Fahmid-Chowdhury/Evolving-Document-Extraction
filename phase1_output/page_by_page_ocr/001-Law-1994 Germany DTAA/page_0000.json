@@ -1,0 +1,42 @@
+{
+  "document_id": "001-Law-1994_Germany_DTAA",
+  "source_file": "001-Law-1994 Germany DTAA.pdf",
+  "page_number": 0,
+  "ocr": {
+    "engine": "chandra_ocr_2",
+    "method": "hf"
+  },
+  "content": {
+    "raw_markdown": "মৌলিক নং ১৯\n\nবাংলাদেশ\n\n![Emblem of Bangladesh featuring a map of the country inside a circular border with the text 'গণপ্রজাতন্ত্রী বাংলাদেশ সরকার' and '১৯৭২'.](c0a1002f53109931cebf84361e13a405_3_img.webp)\n\nগেজেট\n\nঅতিরিক্ত সংখ্যা\n\nকর্তৃপক্ষ কর্তৃক প্রকাশিত\n\nরবিবার, জানুয়ারী ২, ১৯৯৪\n\nগণপ্রজাতন্ত্রী বাংলাদেশ সরকার\n\nঅর্থ মন্ত্রণালয়\n\nঅভ্যন্তরীণ সম্পদ বিভাগ\n\n(আয়কর)\n\nপ্রজ্ঞাপন\n\nতারিখ: ১৮ই পৌষ, ১৪০০/১লা জানুয়ারী, ১৯৯৪\n\nএস, আর, ও নং ১-আইন/৯৪—যেহেতু গণপ্রজাতন্ত্রী বাংলাদেশ সরকার এবং ফেডারেল প্রজাতন্ত্রী জার্মানী সরকার মিত্র করারোপণ পরিহার এবং আয়ের উপর কর সম্পর্কিত রাজস্ব কার্যকর প্রতিরোধের জন্য ২৯শে মে, ১৯৯০ তারিখ একটি চুক্তি সম্পাদন করিয়াছে;\n\nসেহেতু Income Tax Ordinance, 1984 (XXXVI of 1984) এর section 144 এ প্রদত্ত ক্ষমতাবলে সরকার নির্দেশ দিলেন যে, এতদুদ্দেশ্যে সংযোজিত উক্ত চুক্তির বিধানাবলী বাংলাদেশে কার্যকর হইবে।\n\nচুক্তি\n\n\"Agreement  \nbetween\n\nthe People's Republic of Bangladesh  \nand  \nthe Federal Republic of Germany\n\nfor the Avoidance of Double Taxation with respect to Taxes on Income\n\nThe People's Republic of Bangladesh  \nand  \nthe Federal Republic of Germany,\n\n(৪৯)\n\nমূল্য : টাকা ১.০০",
+    "raw_html": "<p>মৌলিক নং ১৯</p><p>বাংলাদেশ</p><img alt=\"Emblem of Bangladesh featuring a map of the country inside a circular border with the text 'গণপ্রজাতন্ত্রী বাংলাদেশ সরকার' and '১৯৭২'.\" src=\"c0a1002f53109931cebf84361e13a405_3_img.webp\"/><p>গেজেট</p><p>অতিরিক্ত সংখ্যা</p><p>কর্তৃপক্ষ কর্তৃক প্রকাশিত</p><p>রবিবার, জানুয়ারী ২, ১৯৯৪</p><p>গণপ্রজাতন্ত্রী বাংলাদেশ সরকার</p><p>অর্থ মন্ত্রণালয়</p><p>অভ্যন্তরীণ সম্পদ বিভাগ</p><p>(আয়কর)</p><p>প্রজ্ঞাপন</p><p>তারিখ: ১৮ই পৌষ, ১৪০০/১লা জানুয়ারী, ১৯৯৪</p><p>এস, আর, ও নং ১-আইন/৯৪—যেহেতু গণপ্রজাতন্ত্রী বাংলাদেশ সরকার এবং ফেডারেল প্রজাতন্ত্রী জার্মানী সরকার মিত্র করারোপণ পরিহার এবং আয়ের উপর কর সম্পর্কিত রাজস্ব কার্যকর প্রতিরোধের জন্য ২৯শে মে, ১৯৯০ তারিখ একটি চুক্তি সম্পাদন করিয়াছে;</p><p>সেহেতু Income Tax Ordinance, 1984 (XXXVI of 1984) এর section 144 এ প্রদত্ত ক্ষমতাবলে সরকার নির্দেশ দিলেন যে, এতদুদ্দেশ্যে সংযোজিত উক্ত চুক্তির বিধানাবলী বাংলাদেশে কার্যকর হইবে।</p><p>চুক্তি</p><p>\"Agreement<br/>between</p><p>the People's Republic of Bangladesh<br/>and<br/>the Federal Republic of Germany</p><p>for the Avoidance of Double Taxation with respect to Taxes on Income</p><p>The People's Republic of Bangladesh<br/>and<br/>the Federal Republic of Germany,</p><p>(৪৯)</p><p>মূল্য : টাকা ১.০০</p>"
+  },
+  "metadata": {
+    "file_name": "001-Law-1994 Germany DTAA.pdf",
+    "num_pages": 1,
+    "total_token_count": 1191,
+    "total_chunks": 22,
+    "total_images": 1,
+    "pages": [
+      {
+        "page_num": 0,
+        "page_box": [
+          0,
+          0,
+          1189,
+          1786
+        ],
+        "token_count": 1191,
+        "num_chunks": 22,
+        "num_images": 1
+      }
+    ]
+  },
+  "sanity": {
+    "char_count": 1105,
+    "line_count": 48,
+    "bangla_chars": 528,
+    "english_chars": 319,
+    "warnings": [],
+    "status": "ok"
+  }
+}

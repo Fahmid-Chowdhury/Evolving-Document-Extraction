@@ -1,0 +1,40 @@
+{
+  "chunk_id": "20160408_Finance_Act_2013_chunk_0003",
+  "page_number": 2,
+  "document_id": "20160408_Finance_Act_2013",
+  "content_blocks": [
+    {
+      "block_id": "block_5",
+      "type": "clause",
+      "clause_number": "3",
+      "text": "বাংলাদেশ গেজেট, অতিরিক্ত, জুন ৩০, ২০১৩\n\n৪৯৬৩\n\n<table border=\"0\">\n<tr>\n<td data-bbox=\"293 112 678 278\">(a) When executed for the sole purpose of procuring the registration of one or more document in relation to a single transaction or for admitting execution of one or more such documents;</td>\n<td data-bbox=\"718 112 874 158\">Five hundred<br/>Taka</td>\n</tr>\n<tr>\n<td data-bbox=\"293 293 678 388\">(b) When executed for the purpose of the section 2, clause (7), of the power of Attorney Act, 2012;</td>\n<td data-bbox=\"718 293 874 338\">One thousand<br/>Taka</td>\n</tr>\n<tr>\n<td data-bbox=\"293 403 678 682\">(c) When power of attorney given by a loanee while obtaining loans, advances or any other credit facilities from any scheduled bank or financial institution empowering such bank or institution to realise the loan amount from him, in the event of default by him, by selling his immovable property; and</td>\n<td data-bbox=\"718 403 874 448\">One thousand<br/>Taka</td>\n</tr>\n</table>\n\n**Explanation**—“In this clause—\n\n- (i) “Financial institution” means the Bangladesh Shilpa Bank established by the Bangladesh Shilpa Bank Order, 1972 (President’s Order No. 129 of 1972), the",
+      "continues_from_previous": true,
+      "continues_to_next": false,
+      "stitch_group_id": "clause_3",
+      "stitching_note": "Continuation of the clause detailing the replacement text for Article No. 48."
+    }
+  ],
+  "output_carry_forward_state": {
+    "status": "open",
+    "active_clause_number": "3",
+    "active_stitch_group_id": "clause_3",
+    "active_block_id": "block_5",
+    "active_clause_summary": "Amends Schedule I and Article No. 48 of the Stamp Act, 1899, detailing the replacement text for Article No. 48.",
+    "continuation_hint_for_next_chunk": "The clause (3) continues into the next page, detailing the remaining definitions and the next article replacement.",
+    "last_visible_text": "the",
+    "recent_clause_history": [
+      {
+        "page_number": 1,
+        "clause_number": "2",
+        "stitch_group_id": "clause_2",
+        "summary": "Amends section 2 of the Stamp Act, 1899, defining 'Power of Attorney'."
+      },
+      {
+        "page_number": 1,
+        "clause_number": "3",
+        "stitch_group_id": "clause_3",
+        "summary": "Amends Schedule I and Article No. 48 of the Stamp Act, 1899."
+      }
+    ]
+  }
+}

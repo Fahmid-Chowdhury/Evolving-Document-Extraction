@@ -1,0 +1,42 @@
+{
+  "document_id": "001-Law-1994_Germany_DTAA",
+  "source_file": "001-Law-1994 Germany DTAA.pdf",
+  "page_number": 11,
+  "ocr": {
+    "engine": "chandra_ocr_2",
+    "method": "hf"
+  },
+  "content": {
+    "raw_markdown": "৬০বাংলাদেশ গেজেট, অতিরিক্ত, জানুয়ারী ২, ১৯৯৪\n\n2. Gains from the alienation of movable property forming part of the business property of a permanent establishment which an enterprise of a Contracting State has in the other Contracting State or of movable property pertaining to a fixed base available to a resident of a Contracting State in the other Contracting State for the purpose of performing professional services, including such gains from the alienation of such a permanent establishment (alone or together with the whole enterprise) or of such a fixed base, may be taxed in the other State.\n\n3. Gains from the alienation of ships or aircraft operated in international traffic or of movable property pertaining to the operation of such ships and aircraft, shall be taxable only in the Contracting State in which the place of effective management of the enterprise is situated.\n\n4. Subject to the provisions of paragraph 1, gains from the alienation of shares of a company which is a resident of a Contracting State may be taxed in that State.\n\n5. Gains from the alienation of any property other than that mentioned in paragraphs 1 to 4 shall be taxable only in the Contracting State of which the alienator is a resident.\n\n## Article 14\n\n### Independent Personal Services\n\n1. Income derived by a resident of a Contracting State in respect of professional services or other activities of an independent character shall be taxable only in that State unless :\n\n- (a) he has a fixed base regularly available to him in the other Contracting State for the purpose of performing his activities, in which case so much of the income may be taxed in that other State as is attributable to that fixed base; or\n- (b) he is present in the other Contracting State for the purpose of performing his activities for a period or periods exceeding in the aggregate 90 days in the fiscal year concerned.\n\n2. The term \"professional services\" includes especially independent scientific, literary, artistic, educational or teaching activities as well as the independent activities of physicians, lawyers, engineers, architects, dentists and accountants.\n\n## Article 15\n\n### Dependent Personal Services\n\n1. Subject to the provisions of Articles 16, 18 and 19, salaries, wages and other similar remuneration derived by a resident of a Contracting State in respect of an employment shall be taxable only in that State unless the",
+    "raw_html": "৬০বাংলাদেশ গেজেট, অতিরিক্ত, জানুয়ারী ২, ১৯৯৪\n<p>2. Gains from the alienation of movable property forming part of the business property of a permanent establishment which an enterprise of a Contracting State has in the other Contracting State or of movable property pertaining to a fixed base available to a resident of a Contracting State in the other Contracting State for the purpose of performing professional services, including such gains from the alienation of such a permanent establishment (alone or together with the whole enterprise) or of such a fixed base, may be taxed in the other State.</p>\n\n<p>3. Gains from the alienation of ships or aircraft operated in international traffic or of movable property pertaining to the operation of such ships and aircraft, shall be taxable only in the Contracting State in which the place of effective management of the enterprise is situated.</p>\n\n<p>4. Subject to the provisions of paragraph 1, gains from the alienation of shares of a company which is a resident of a Contracting State may be taxed in that State.</p>\n\n<p>5. Gains from the alienation of any property other than that mentioned in paragraphs 1 to 4 shall be taxable only in the Contracting State of which the alienator is a resident.</p>\n\n<h2>Article 14</h2>\n\n<h3>Independent Personal Services</h3>\n\n<p>1. Income derived by a resident of a Contracting State in respect of professional services or other activities of an independent character shall be taxable only in that State unless :</p>\n\n<ul style=\"list-style-type: none;\">\n<li>(a) he has a fixed base regularly available to him in the other Contracting State for the purpose of performing his activities, in which case so much of the income may be taxed in that other State as is attributable to that fixed base; or</li>\n<li>(b) he is present in the other Contracting State for the purpose of performing his activities for a period or periods exceeding in the aggregate 90 days in the fiscal year concerned.</li>\n</ul>\n\n<p>2. The term \"professional services\" includes especially independent scientific, literary, artistic, educational or teaching activities as well as the independent activities of physicians, lawyers, engineers, architects, dentists and accountants.</p>\n\n<h2>Article 15</h2>\n\n<h3>Dependent Personal Services</h3>\n\n<p>1. Subject to the provisions of Articles 16, 18 and 19, salaries, wages and other similar remuneration derived by a resident of a Contracting State in respect of an employment shall be taxable only in that State unless the</p>"
+  },
+  "metadata": {
+    "file_name": "001-Law-1994 Germany DTAA.pdf",
+    "num_pages": 1,
+    "total_token_count": 1029,
+    "total_chunks": 14,
+    "total_images": 0,
+    "pages": [
+      {
+        "page_num": 0,
+        "page_box": [
+          0,
+          0,
+          1189,
+          1786
+        ],
+        "token_count": 1029,
+        "num_chunks": 14,
+        "num_images": 0
+      }
+    ]
+  },
+  "sanity": {
+    "char_count": 2410,
+    "line_count": 26,
+    "bangla_chars": 37,
+    "english_chars": 1889,
+    "warnings": [],
+    "status": "ok"
+  }
+}

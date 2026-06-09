@@ -1,0 +1,42 @@
+{
+  "document_id": "001-Law-1994_Germany_DTAA",
+  "source_file": "001-Law-1994 Germany DTAA.pdf",
+  "page_number": 6,
+  "ocr": {
+    "engine": "chandra_ocr_2",
+    "method": "hf"
+  },
+  "content": {
+    "raw_markdown": "पर्याप्त लेख, कीर्तिपुर, काश्मीरी २, १९६४\n\n८०\n\nthe same or similar activities under the same or similar conditions and dealing wholly independently with the enterprise of which it is a permanent establishment.\n\n3. In determining the profits of a permanent establishment there shall be allowed as deductions expenses which are incurred for the purposes of the permanent establishment, including executive and general administrative expenses so incurred, whether in the State in which the permanent establishment is situated or elsewhere.\n\n4. In so far as it has been customary in a Contracting State to determine the profits to be attributed to a permanent establishment on the basis of an apportionment of the total profits of the enterprise to its various parts, nothing in paragraph 2 shall preclude that Contracting State from determining the profits to be taxed by such an apportionment as may be customary; the method of apportionment adopted shall, however, be such that the result shall be in accordance with the principles contained in this Article.\n\n5. No profits shall be attributed to a permanent establishment by reason of the mere purchase by that permanent establishment of goods or merchandise for the enterprise.\n\n6. For the purposes of the preceding paragraphs, the profits to be attributed to the permanent establishment shall be determined by the same method year by year unless there is good and sufficient reason to the contrary.\n\n7. Where profits include items of income which are dealt with separately in other Articles of this Agreement, then the provisions of those Articles shall not be affected by the provisions of this Article.\n\n### Article 8\n\n#### Shipping and Air Transport\n\n1. Profits from the operation of aircraft in international traffic shall be taxable only in the Contracting State in which the place of effective management of the enterprise is situated.\n\n2. (a) Profits derived from the operation of ships in international traffic shall be taxable only in the Contracting State in which the place of effective management of the enterprise is situated.\n\n(b) Notwithstanding the provisions of sub-paragraph (a), such profits may be taxed in the other Contracting State from which they are derived provided that the tax so charged shall not exceed :\n\n(aa) during the first five fiscal years after the entry into force of this Agreement, 50 per cent, and\n\n(bb) during the subsequent five fiscal years, 25 per cent, of the tax otherwise imposed by the internal law of that State. Subsequently, only the provisions of sub-paragraph (a) shall be applicable.",
+    "raw_html": "<p>पर्याप्त लेख, कीर्तिपुर, काश्मीरी २, १९६४</p>\n\n<p>८०</p>\n\n<p>the same or similar activities under the same or similar conditions and dealing wholly independently with the enterprise of which it is a permanent establishment.</p>\n\n<p>3. In determining the profits of a permanent establishment there shall be allowed as deductions expenses which are incurred for the purposes of the permanent establishment, including executive and general administrative expenses so incurred, whether in the State in which the permanent establishment is situated or elsewhere.</p>\n\n<p>4. In so far as it has been customary in a Contracting State to determine the profits to be attributed to a permanent establishment on the basis of an apportionment of the total profits of the enterprise to its various parts, nothing in paragraph 2 shall preclude that Contracting State from determining the profits to be taxed by such an apportionment as may be customary; the method of apportionment adopted shall, however, be such that the result shall be in accordance with the principles contained in this Article.</p>\n\n<p>5. No profits shall be attributed to a permanent establishment by reason of the mere purchase by that permanent establishment of goods or merchandise for the enterprise.</p>\n\n<p>6. For the purposes of the preceding paragraphs, the profits to be attributed to the permanent establishment shall be determined by the same method year by year unless there is good and sufficient reason to the contrary.</p>\n\n<p>7. Where profits include items of income which are dealt with separately in other Articles of this Agreement, then the provisions of those Articles shall not be affected by the provisions of this Article.</p>\n\n<h3>Article 8</h3>\n\n<h4>Shipping and Air Transport</h4>\n\n<p>1. Profits from the operation of aircraft in international traffic shall be taxable only in the Contracting State in which the place of effective management of the enterprise is situated.</p>\n\n<p>2. (a) Profits derived from the operation of ships in international traffic shall be taxable only in the Contracting State in which the place of effective management of the enterprise is situated.</p>\n\n<p>(b) Notwithstanding the provisions of sub-paragraph (a), such profits may be taxed in the other Contracting State from which they are derived provided that the tax so charged shall not exceed :</p>\n\n<p>(aa) during the first five fiscal years after the entry into force of this Agreement, 50 per cent, and</p>\n\n<p>(bb) during the subsequent five fiscal years, 25 per cent, of the tax otherwise imposed by the internal law of that State. Subsequently, only the provisions of sub-paragraph (a) shall be applicable.</p>"
+  },
+  "metadata": {
+    "file_name": "001-Law-1994 Germany DTAA.pdf",
+    "num_pages": 1,
+    "total_token_count": 1050,
+    "total_chunks": 15,
+    "total_images": 0,
+    "pages": [
+      {
+        "page_num": 0,
+        "page_box": [
+          0,
+          0,
+          1189,
+          1786
+        ],
+        "token_count": 1050,
+        "num_chunks": 15,
+        "num_images": 0
+      }
+    ]
+  },
+  "sanity": {
+    "char_count": 2590,
+    "line_count": 29,
+    "bangla_chars": 0,
+    "english_chars": 2055,
+    "warnings": [],
+    "status": "ok"
+  }
+}

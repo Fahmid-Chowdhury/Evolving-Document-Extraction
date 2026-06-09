@@ -1,0 +1,60 @@
+{
+  "chunk_id": "20160408_Finance_Act_2013_chunk_0004",
+  "page_number": 3,
+  "document_id": "20160408_Finance_Act_2013",
+  "content_blocks": [
+    {
+      "block_id": "block_6",
+      "type": "clause",
+      "clause_number": "3",
+      "text": "Bangladesh Shilpa Rin Sangstha established by the Bangladesh Shilpa Rin Sangstha Order, 1972 (President's Order No. 128 of 1972) and the Bangladesh House Building Finance Corporation established under the Bangladesh House Building Finance Corporation Order, 1973 (President's Order No. 7 of 1973),\n\n(ii) \"Scheduled bank\" means a scheduled bank as defined in clause (j) of article 2 of the Bangladesh Bank Order, 1972 (President's Order No. 127 of 1972); and\n\n(d) When an irrevocable power of attorney is executed for consideration as defined by section 2, clause (2), of the Power of Attorney Act, 2012. 3% of the value of the consideration, which is not less than six thousand Taka and not more than sixty thousand Taka.\";",
+      "continues_from_previous": true,
+      "continues_to_next": false,
+      "stitch_group_id": "clause_3",
+      "stitching_note": "Continuation of clause 3, completing the definition list."
+    },
+    {
+      "block_id": "block_7",
+      "type": "clause",
+      "clause_number": "",
+      "text": "(গ) Article No. 62 এর বিপরীতে column (2) এর EXEMPTIONS এর আগতায়ীন—",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "",
+      "stitching_note": "New clause/section heading."
+    },
+    {
+      "block_id": "block_8",
+      "type": "clause",
+      "clause_number": "",
+      "text": "(অ) paragraph (1) এর শেষে সেমিকোলন (;) চিহ্নটি সন্নিবেশিত হইবে;",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "",
+      "stitching_note": "Sub-clause continuation."
+    }
+  ],
+  "output_carry_forward_state": {
+    "status": "open",
+    "active_clause_number": "",
+    "active_stitch_group_id": "",
+    "active_block_id": "block_8",
+    "active_clause_summary": "Amends Article No. 62 by inserting a semicolon at the end of paragraph (1) and detailing subsequent changes.",
+    "continuation_hint_for_next_chunk": "The next chunk contains further amendments (Article No. 64) which should be treated as a continuation of the amendment process.",
+    "last_visible_text": "সেমিকোলন (;) চিহ্নটি সন্নিবেশিত হইবে;",
+    "recent_clause_history": [
+      {
+        "page_number": 1,
+        "clause_number": "2",
+        "stitch_group_id": "clause_2",
+        "summary": "Amends section 2 of the Stamp Act, 1899, defining 'Power of Attorney'."
+      },
+      {
+        "page_number": 1,
+        "clause_number": "3",
+        "stitch_group_id": "clause_3",
+        "summary": "Amends Schedule I and Article No. 48 of the Stamp Act, 1899."
+      }
+    ]
+  }
+}

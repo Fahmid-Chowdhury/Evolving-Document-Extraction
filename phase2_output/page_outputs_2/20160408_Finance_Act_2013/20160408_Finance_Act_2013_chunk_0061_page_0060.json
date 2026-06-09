@@ -1,0 +1,47 @@
+{
+  "chunk_id": "20160408_Finance_Act_2013_chunk_0061",
+  "page_number": 60,
+  "document_id": "20160408_Finance_Act_2013",
+  "content_blocks": [
+    {
+      "block_id": "p0060_b001",
+      "type": "point",
+      "point_number": "(ঙ)",
+      "text": "মোবাইল ফোন অপারেটর কোম্পানীর ক্ষেত্রে- উক্ত আয়ের ৪৫% :\n\nতবে শর্ত থাকে যে, মোবাইল ফোন অপারেটর কোম্পানী যদি উহার পরিশোধিত মূলধনের ন্যূনতম ১০% শেয়ার, যাহার মধ্যে Pre Initial Public Offering Placement ৫% এর বেশী থাকিতে পারিবে না, স্টক এক্সচেঞ্জের মাধ্যমে হস্তান্তর করতঃ Publicly traded company তে রূপান্তরিত হয় সেক্ষেত্রে কর হার হইবে ৪০%;",
+      "continues_from_previous": true,
+      "continues_to_next": false,
+      "stitch_group_id": "point_(ঙ)",
+      "stitching_note": "Continuation of the tax rate discussion for mobile phone operators."
+    },
+    {
+      "block_id": "p0060_b002",
+      "type": "point",
+      "point_number": "২",
+      "text": "কোম্পানী আইন, ১৯৯৪ (১৯৯৪ সনের ১৮ নং আইন) এর অধীনে বাংলাদেশে নিবন্ধিত কোন কোম্পানী অথবা আইন অনুযায়ী গঠিত সংবিধিবদ্ধ কোন প্রতিষ্ঠান হইতে ১৯৪৭ সালের ১৪ আগস্টের পরে ইস্যুকৃত, প্রতিশ্রুত ও পরিশোধিত পুঁজির উপরে ঘোষিত ও পরিশোধিত ডিভিডেন্ড আয়ের উপর বা বাংলাদেশে নিবন্ধিত নয় এইরূপ বিদেশী কোম্পানীর মুনাফা প্রত্যাবাসন যাহা Income-tax Ordinance, 1984 (Ord. No. XXXVI of 1984) এর section 2 এর clause (26) এর sub-clause (dd) অনুসারে লভ্যাংশ হিসেবে গণ্য, তাহার উপর প্রযোজ্য কর—\n\nউক্ত আয়ের ২০%;",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "point_২",
+      "stitching_note": "New main point regarding dividend income repatriation."
+    },
+    {
+      "block_id": "p0060_b003",
+      "type": "point",
+      "point_number": "৩",
+      "text": "কোম্পানী নহে, বাংলাদেশে অনিবাসী (অনিবাসী বাংলাদেশী ব্যতীত) এইরূপ ব্যক্তি শ্রেণিভুক্ত করদাতার ক্ষেত্রে আয়ের উপর প্রযোজ্য কর—\n\nউক্ত আয়ের ২৫% :\n\nব্যাখ্যা।—এই অনুচ্ছেদে “publicly traded company” বলিতে এইরূপ কোন পাবলিক লিমিটেড কোম্পানী কে বুঝাইবে যাহা কোম্পানী আইন, ১৯৯৪ (১৯৯৪ সনের ১৮ নং আইন) অনুসারে বাংলাদেশে নিবন্ধিত এবং যে আয় বৎসরের আয়কর নির্ধারণ করা হইবে সেই আয় বৎসর সমাপ্তির পূর্বে উক্ত কোম্পানীটির শেয়ার স্টক এক্সচেঞ্জে তালিকাভুক্ত হইয়াছে।",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "point_৩",
+      "stitching_note": "New main point regarding non-resident individuals."
+    }
+  ],
+  "output_carry_forward_state": {
+    "status": "closed",
+    "active_point_number": "৩",
+    "active_stitch_group_id": "point_৩",
+    "active_point_summary": "Tax rate for non-resident individuals.",
+    "numbering_system": "mixed",
+    "expected_next_main_point": "৪",
+    "continuation_hint": "The main points (২) and (৩) are completed. The next major section starts with 'দ্বিতীয় অংশ' which is metadata.",
+    "last_visible_text": "ব্যাখ্যা।—এই অনুচ্ছেদে “publicly traded company” বলিতে এইরূপ কোন পাবলিক লিমিটেড কোম্পানী কে বুঝাইবে যাহা কোম্পানী আইন, ১৯৯৪ (১৯৯৪ সনের ১৮ নং আইন) অনুসারে বাংলাদেশে নিবন্ধিত এবং যে আয় বৎসরের আয়কর নির্ধারণ করা হইবে সেই আয় বৎসর সমাপ্তির পূর্বে উক্ত কোম্পানীটির শেয়ার স্টক এক্সচেঞ্জে তালিকাভুক্ত হইয়াছে।"
+  }
+}

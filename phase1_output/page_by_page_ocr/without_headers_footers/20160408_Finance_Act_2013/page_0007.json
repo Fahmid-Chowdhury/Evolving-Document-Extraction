@@ -1,0 +1,42 @@
+{
+  "document_id": "20160408_Finance_Act_2013",
+  "source_file": "Documents\\20160408_Finance_Act_2013.pdf",
+  "page_number": 7,
+  "ocr": {
+    "engine": "chandra_ocr_2",
+    "method": "hf"
+  },
+  "content": {
+    "raw_markdown": "চতুর্থ অধ্যায়**Income-tax Ordinance, 1984 (Ord. No. XXXVI of 1984) এর সংশোধন**\n\n৮। **Income-tax Ordinance, 1984 (Ord. No. XXXVI of 1984) এর section 16CCC এর সংশোধন।**—Income-tax Ordinance, 1984 (Ord. No. XXXVI of 1984), অতঃপর উক্ত Ordinance বলিয়া উল্লিখিত, এর section 16CCC এর—\n\n(ক) “every company” শব্দগুলির পরিবর্তে “every firm having gross receipts of more than taka fifty lakh or every company” শব্দগুলি প্রতিস্থাপিত হইবে;\n\n(খ) “representing such company’s” শব্দগুলির পরিবর্তে “representing such firm’s or company’s” শব্দগুলি ও চিহ্নগুলি প্রতিস্থাপিত হইবে।\n\n৯। **Ordinance No. XXXVI of 1984 এর section 16E এর বিলোপ।**—উক্ত Ordinance এর section 16E বিলুপ্ত হইবে।\n\n১০। **Ordinance No. XXXVI of 1984 এ নূতন section 19BBBBB এর সন্নিবেশ।**—উক্ত Ordinance এর section 19BBBB এর পর নিম্নরূপ নূতন section 19BBBBB সন্নিবেশিত হইবে, যথা:—\n\n**“19BBBBB. Special tax treatment in respect of investment in residential building and apartment.—**(1) Notwithstanding anything contained in this Ordinance, source of any sum invested by any person, in the construction or purchase of any residential building or apartment, shall be deemed to have been explained if the assessee pays, before the assessment for the relevant assessment year in which the investment is completed, tax at the following rate—\n\n(a) for building or apartment situated in the area of Gulshan Model Town, Banani, Baridhara, Motijheel Commercial Area and Dilkusha Commercial Area of Dhaka-\n\n(i) taka five thousand per square meter in the case of a building or apartment the plinth area of which does not exceed two hundred square meter;\n\n(ii) taka seven thousand per square meter in the case of a building or apartment the plinth area of which exceeds two hundred square meter;",
+    "raw_html": "চতুর্থ অধ্যায়<b>Income-tax Ordinance, 1984 (Ord. No. XXXVI of 1984) এর সংশোধন</b>\n<p>৮। <b>Income-tax Ordinance, 1984 (Ord. No. XXXVI of 1984) এর section 16CCC এর সংশোধন।</b>—Income-tax Ordinance, 1984 (Ord. No. XXXVI of 1984), অতঃপর উক্ত Ordinance বলিয়া উল্লিখিত, এর section 16CCC এর—</p>\n\n<p>(ক) “every company” শব্দগুলির পরিবর্তে “every firm having gross receipts of more than taka fifty lakh or every company” শব্দগুলি প্রতিস্থাপিত হইবে;</p>\n<p>(খ) “representing such company’s” শব্দগুলির পরিবর্তে “representing such firm’s or company’s” শব্দগুলি ও চিহ্নগুলি প্রতিস্থাপিত হইবে।</p>\n\n<p>৯। <b>Ordinance No. XXXVI of 1984 এর section 16E এর বিলোপ।</b>—উক্ত Ordinance এর section 16E বিলুপ্ত হইবে।</p>\n\n<p>১০। <b>Ordinance No. XXXVI of 1984 এ নূতন section 19BBBBB এর সন্নিবেশ।</b>—উক্ত Ordinance এর section 19BBBB এর পর নিম্নরূপ নূতন section 19BBBBB সন্নিবেশিত হইবে, যথা:—</p>\n\n<p><b>“19BBBBB. Special tax treatment in respect of investment in residential building and apartment.—</b>(1) Notwithstanding anything contained in this Ordinance, source of any sum invested by any person, in the construction or purchase of any residential building or apartment, shall be deemed to have been explained if the assessee pays, before the assessment for the relevant assessment year in which the investment is completed, tax at the following rate—</p>\n\n<p>(a) for building or apartment situated in the area of Gulshan Model Town, Banani, Baridhara, Motijheel Commercial Area and Dilkusha Commercial Area of Dhaka-</p>\n<p>(i) taka five thousand per square meter in the case of a building or apartment the plinth area of which does not exceed two hundred square meter;</p>\n<p>(ii) taka seven thousand per square meter in the case of a building or apartment the plinth area of which exceeds two hundred square meter;</p>"
+  },
+  "metadata": {
+    "file_name": "20160408_Finance_Act_2013.pdf",
+    "num_pages": 1,
+    "total_token_count": 953,
+    "total_chunks": 10,
+    "total_images": 0,
+    "pages": [
+      {
+        "page_num": 0,
+        "page_box": [
+          0,
+          0,
+          1024,
+          1545
+        ],
+        "token_count": 953,
+        "num_chunks": 10,
+        "num_images": 0
+      }
+    ]
+  },
+  "sanity": {
+    "char_count": 1735,
+    "line_count": 19,
+    "bangla_chars": 236,
+    "english_chars": 1080,
+    "warnings": [],
+    "status": "ok"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "document_id": "20160408_Finance_Act_2013",
+  "source_file": "Documents\\20160408_Finance_Act_2013.pdf",
+  "page_number": 9,
+  "ocr": {
+    "engine": "chandra_ocr_2",
+    "method": "hf"
+  },
+  "content": {
+    "raw_markdown": "(e) for building or apartment situated in the area other than the areas mentioned in clauses (a) to (d)—\n\n(i) taka seven hundred per square meter in the case of a building or apartment the plinth area of which does not exceed two hundred square meter;\n\n(ii) taka one thousand per square meter in the case of a building or apartment the plinth area of which exceeds two hundred square meter.\n\n(2) The rate of tax mentioned in sub-section (1) shall be twenty per cent higher in case where the assessee already owns a building or apartment in any City Corporation before such investment is completed; or the assessee makes such investment in two or more buildings or apartments.\n\n(3) The provision of this section shall not apply where the source of such investment, made by the assessee for the purchase or construction of such residential building or apartment, is—\n\n(a) derived from any criminal activities under any other law for the time being in force; or\n\n(b) not derived from any legitimate source.” ।\n\n১১। **Ordinance No. XXXVI of 1984 এর section 29 এর সংশোধন ।—**উক্ত Ordinance এর section 29 এর sub-section (1) এর clause (viii) এর পর নিম্নরূপ নূতন clause (viii a) সন্নিবেশিত হইবে, যথা :—\n\n“(viii a) in respect of amortization of license fees as admissible under the Third Schedule;” ।\n\n১২। **Ordinance No. XXXVI of 1984 এর section 44 এর সংশোধন ।—**উক্ত Ordinance এর section 44 এর—\n\n(ক) sub-section (2) এর clause (b) এর “ten per cent” শব্দগুলির পরিবর্তে “fifteen per cent” শব্দগুলি প্রতিস্থাপিত হইবে;",
+    "raw_html": "<p>(e) for building or apartment situated in the area other than the areas mentioned in clauses (a) to (d)—</p>\n\n<p>(i) taka seven hundred per square meter in the case of a building or apartment the plinth area of which does not exceed two hundred square meter;</p>\n\n<p>(ii) taka one thousand per square meter in the case of a building or apartment the plinth area of which exceeds two hundred square meter.</p>\n\n<p>(2) The rate of tax mentioned in sub-section (1) shall be twenty per cent higher in case where the assessee already owns a building or apartment in any City Corporation before such investment is completed; or the assessee makes such investment in two or more buildings or apartments.</p>\n\n<p>(3) The provision of this section shall not apply where the source of such investment, made by the assessee for the purchase or construction of such residential building or apartment, is—</p>\n\n<p>(a) derived from any criminal activities under any other law for the time being in force; or</p>\n\n<p>(b) not derived from any legitimate source.” ।</p>\n\n<p>১১। <b>Ordinance No. XXXVI of 1984 এর section 29 এর সংশোধন ।—</b>উক্ত Ordinance এর section 29 এর sub-section (1) এর clause (viii) এর পর নিম্নরূপ নূতন clause (viii a) সন্নিবেশিত হইবে, যথা :—</p>\n\n<p>“(viii a) in respect of amortization of license fees as admissible under the Third Schedule;” ।</p>\n\n<p>১২। <b>Ordinance No. XXXVI of 1984 এর section 44 এর সংশোধন ।—</b>উক্ত Ordinance এর section 44 এর—</p>\n\n<p>(ক) sub-section (2) এর clause (b) এর “ten per cent” শব্দগুলির পরিবর্তে “fifteen per cent” শব্দগুলি প্রতিস্থাপিত হইবে;</p>"
+  },
+  "metadata": {
+    "file_name": "20160408_Finance_Act_2013.pdf",
+    "num_pages": 1,
+    "total_token_count": 907,
+    "total_chunks": 13,
+    "total_images": 0,
+    "pages": [
+      {
+        "page_num": 0,
+        "page_box": [
+          0,
+          0,
+          1024,
+          1481
+        ],
+        "token_count": 907,
+        "num_chunks": 13,
+        "num_images": 0
+      }
+    ]
+  },
+  "sanity": {
+    "char_count": 1506,
+    "line_count": 21,
+    "bangla_chars": 121,
+    "english_chars": 1018,
+    "warnings": [],
+    "status": "ok"
+  }
+}

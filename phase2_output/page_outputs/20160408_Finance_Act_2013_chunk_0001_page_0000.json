@@ -1,0 +1,64 @@
+{
+  "chunk_id": "20160408_Finance_Act_2013_chunk_0001",
+  "page_number": 0,
+  "document_id": "20160408_Finance_Act_2013",
+  "content_blocks": [
+    {
+      "block_id": "b1",
+      "type": "metadata",
+      "clause_number": "",
+      "text": "রেজিস্টার্ড নং ডি এ-১\n\n# বাংলাদেশ\n\n![Emblem of Bangladesh featuring a map of Bangladesh inside a circle with the text 'গণপ্রজাতন্ত্রী বাংলাদেশ সরকার' (Government of the People's Republic of Bangladesh) and stars.](4bcc72ec51994b4579deeb68856e2e06_3_img.webp)\n\n# গেজেট\n\nঅতিরিক্ত সংখ্যা  \nকর্তৃপক্ষ কর্তৃক প্রকাশিত\n\n---\n\nরবিবার, জুন ৩০, ২০১৩\n\n---\n\nবাংলাদেশ জাতীয় সংসদ\n\nঢাকা, ৩০ জুন, ২০১৩/১৬ আষাঢ়, ১৪২০\n\nসংসদ কর্তৃক গৃহীত নিম্নলিখিত আইনটি ৩০ জুন, ২০১৩ (১৬ আষাঢ়, ১৪২০) তারিখে রদ্রিপত্তির সম্মতি লাভ করিয়াছে এবং এতদ্বারা এই আইনটি সর্বসাধারণের অবগতির জন্য প্রকাশ করা যাইতেছে ৷\n\n২০১৩ সনের ২৫ নং আইন\n\nসরকারের আর্থিক প্রস্তাবাবলী কার্যকরকরণ এবং কতিপয় আইন সংশোধনকল্পে প্রণীত আইন",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "",
+      "stitching_note": "Document header/Preamble"
+    },
+    {
+      "block_id": "b2",
+      "type": "metadata",
+      "clause_number": "",
+      "text": "যেহেতু সরকারের আর্থিক প্রস্তাবাবলী কার্যকরকরণ এবং নিম্নবর্ণিত উদ্দেশ্যসমূহ পূরণকল্পে কতিপয় আইন সংশোধন করা সমীচীন ও প্রয়োজনীয়;\n\nসেহেতু এতদ্বারা নিম্নরূপ আইন করা হইল:—",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "",
+      "stitching_note": "Preamble/Enacting Clause"
+    },
+    {
+      "block_id": "b3",
+      "type": "clause",
+      "clause_number": "প্রথম অধ্যায়",
+      "text": "প্রথম অধ্যায়  \nপ্রারম্ভিক\n\n১। সংক্ষিপ্ত শিরোনাম ও প্রবর্তন।—(১) এই আইন অর্থ আইন, ২০১৩ নামে অভিহিত হইবে।\n\n(২) The Provisional Collection of Taxes Act, 1931 (Act No. XVI of 1931) এর অধীন জনস্বার্থে জারীকৃত ঘোষণা সাপেক্ষে, এই আইন ২০১৩ সনের ১ জুলাই তারিখে কার্যকর হইবে।",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "clause_1",
+      "stitching_note": "Chapter heading and Clause 1"
+    },
+    {
+      "block_id": "b4",
+      "type": "metadata",
+      "clause_number": "",
+      "text": "---\n\n( ৪৯৬১ )\n\nমূল্য ৪ টাকা ৫৬.০০",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "",
+      "stitching_note": "Page footer/Numbering"
+    }
+  ],
+  "output_carry_forward_state": {
+    "status": "closed",
+    "active_clause_number": "",
+    "active_stitch_group_id": "",
+    "active_block_id": "",
+    "active_clause_summary": "",
+    "continuation_hint_for_next_chunk": "The next chunk starts with Chapter II and Clause 2, continuing the legal text.",
+    "last_visible_text": "The Provisional Collection of Taxes Act, 1931 (Act No. XVI of 1931) এর অধীন জনস্বার্থে জারীকৃত ঘোষণা সাপেক্ষে, এই আইন ২০১৩ সনের ১ জুলাই তারিখে কার্যকর হইবে।",
+    "recent_clause_history": [
+      {
+        "page_number": 0,
+        "clause_number": "প্রথম অধ্যায়",
+        "stitch_group_id": "clause_1",
+        "summary": "Defines the Act (Finance Act, 2013) and its commencement date."
+      }
+    ]
+  }
+}

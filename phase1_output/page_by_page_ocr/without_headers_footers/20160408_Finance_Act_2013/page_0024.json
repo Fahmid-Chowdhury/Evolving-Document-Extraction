@@ -1,0 +1,42 @@
+{
+  "document_id": "20160408_Finance_Act_2013",
+  "source_file": "Documents\\20160408_Finance_Act_2013.pdf",
+  "page_number": 24,
+  "ocr": {
+    "engine": "chandra_ocr_2",
+    "method": "hf"
+  },
+  "content": {
+    "raw_markdown": "<table border=\"1\">\n<thead>\n<tr>\n<th>শিরনামা সংখ্যা<br/>(Heading No.)</th>\n<th>সামঞ্জস্যপূর্ণ<br/>নামকরণ কোড<br/>(H.S. Code)</th>\n<th>পণ্যসমূহের বিবরণ<br/>(Description of Goods)</th>\n<th>সম্পূরক<br/>তক্কার<br/>(%)</th>\n</tr>\n<tr>\n<th>(১)</th>\n<th>(২)</th>\n<th>(৩)</th>\n<th>(৪)</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>১৯.০১</td>\n<td>১৯০১.১০.০০</td>\n<td>খুচরা মোড়কে শূন্য থেকে ১ বছরের শিশুদের ব্যবহারের জন্য খাদ্য সামগ্রী (হেডিং নং ০৪.০১ থেকে ০৪.০৪ ভুক্ত পণ্যজাত)</td>\n<td>২০</td>\n</tr>\n<tr>\n<td></td>\n<td>১৯০১.২০.০০</td>\n<td>Mixes and dough's for the preparation of bakers' wares of heading 19.05</td>\n<td>২০</td>\n</tr>\n<tr>\n<td></td>\n<td>১৯০১.৯০.৯৯</td>\n<td>অন্যান্য খাদ্য সামগ্রী</td>\n<td>২০</td>\n</tr>\n<tr>\n<td>১৯.০২</td>\n<td>সকল<br/>এইচ,এস,কোড</td>\n<td>Pasta, whether or not cooked or stuffed or otherwise prepared; couscous</td>\n<td>৬০</td>\n</tr>\n<tr>\n<td>১৯.০৪</td>\n<td>সকল<br/>এইচ,এস,কোড</td>\n<td>Prepared foods obtained by the swelling or roasting of cereals or cereal products; all types of cereals</td>\n<td>৬০</td>\n</tr>\n<tr>\n<td>১৯.০৫</td>\n<td>১৯০৫.৩১.০০</td>\n<td>Sweet biscuits</td>\n<td>১০০</td>\n</tr>\n<tr>\n<td></td>\n<td>১৯০৫.৩২.০০</td>\n<td>Waffles and wafers</td>\n<td>১০০</td>\n</tr>\n<tr>\n<td></td>\n<td>১৯০৫.৪০.০০</td>\n<td>Rusks, toasted bread and similar toasted products</td>\n<td>১০০</td>\n</tr>\n<tr>\n<td></td>\n<td>১৯০৫.৯০.০০</td>\n<td>Other</td>\n<td>১০০</td>\n</tr>\n<tr>\n<td>২০.০৫</td>\n<td>২০০৫.২০.০০</td>\n<td>পটেটো চিপস্</td>\n<td>৬০</td>\n</tr>\n<tr>\n<td>২০.০৭</td>\n<td>সকল<br/>এইচ,এস,কোড</td>\n<td>রান্নার ফলে প্রাপ্ত জ্যাম, ফলের জেলি, মারমালেডস, ফল বা বাদামযুক্ত পিউরি এবং ফল বা বাদামের পেস্ট, চিনি বা অন্যান্য মিষ্টি পদার্থ যুক্ত হটক বা না হটক</td>\n<td>৩০</td>\n</tr>\n<tr>\n<td>২০.০৯</td>\n<td>সকল<br/>এইচ,এস,কোড</td>\n<td>ফলের রস (আঙ্গুরের must সহ) বা সজির রস, গাঁজানো নছে বা স্পিরিটযুক্ত নছে, চিনি বা অন্যান্য মিষ্টি পদার্থ যুক্ত হটক বা না হটক</td>\n<td>৩০</td>\n</tr>\n<tr>\n<td>২১.০৩</td>\n<td>সকল<br/>এইচ,এস,কোড<br/>(এইচ,এস,কোড<br/>২১০৩.৯০.০০<br/>ব্যতিত)</td>\n<td>সস এবং অনুরূপ পণ্য; mixed condiments ও mixed seasonings; সরিষার গুড়া এবং অন্যান্য পণ্য</td>\n<td>৩০</td>\n</tr>\n<tr>\n<td>২১.০৫</td>\n<td>২১০৫.০০.০০</td>\n<td>Ice cream and other edible ice, whether or not containing cocoa</td>\n<td>৩০</td>\n</tr>\n</tbody>\n</table>",
+    "raw_html": "<table border=\"1\">\n<thead>\n<tr>\n<th>শিরনামা সংখ্যা<br/>(Heading No.)</th>\n<th>সামঞ্জস্যপূর্ণ<br/>নামকরণ কোড<br/>(H.S. Code)</th>\n<th>পণ্যসমূহের বিবরণ<br/>(Description of Goods)</th>\n<th>সম্পূরক<br/>তক্কার<br/>(%)</th>\n</tr>\n<tr>\n<th>(১)</th>\n<th>(২)</th>\n<th>(৩)</th>\n<th>(৪)</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>১৯.০১</td>\n<td>১৯০১.১০.০০</td>\n<td>খুচরা মোড়কে শূন্য থেকে ১ বছরের শিশুদের ব্যবহারের জন্য খাদ্য সামগ্রী (হেডিং নং ০৪.০১ থেকে ০৪.০৪ ভুক্ত পণ্যজাত)</td>\n<td>২০</td>\n</tr>\n<tr>\n<td></td>\n<td>১৯০১.২০.০০</td>\n<td>Mixes and dough's for the preparation of bakers' wares of heading 19.05</td>\n<td>২০</td>\n</tr>\n<tr>\n<td></td>\n<td>১৯০১.৯০.৯৯</td>\n<td>অন্যান্য খাদ্য সামগ্রী</td>\n<td>২০</td>\n</tr>\n<tr>\n<td>১৯.০২</td>\n<td>সকল<br/>এইচ,এস,কোড</td>\n<td>Pasta, whether or not cooked or stuffed or otherwise prepared; couscous</td>\n<td>৬০</td>\n</tr>\n<tr>\n<td>১৯.০৪</td>\n<td>সকল<br/>এইচ,এস,কোড</td>\n<td>Prepared foods obtained by the swelling or roasting of cereals or cereal products; all types of cereals</td>\n<td>৬০</td>\n</tr>\n<tr>\n<td>১৯.০৫</td>\n<td>১৯০৫.৩১.০০</td>\n<td>Sweet biscuits</td>\n<td>১০০</td>\n</tr>\n<tr>\n<td></td>\n<td>১৯০৫.৩২.০০</td>\n<td>Waffles and wafers</td>\n<td>১০০</td>\n</tr>\n<tr>\n<td></td>\n<td>১৯০৫.৪০.০০</td>\n<td>Rusks, toasted bread and similar toasted products</td>\n<td>১০০</td>\n</tr>\n<tr>\n<td></td>\n<td>১৯০৫.৯০.০০</td>\n<td>Other</td>\n<td>১০০</td>\n</tr>\n<tr>\n<td>২০.০৫</td>\n<td>২০০৫.২০.০০</td>\n<td>পটেটো চিপস্</td>\n<td>৬০</td>\n</tr>\n<tr>\n<td>২০.০৭</td>\n<td>সকল<br/>এইচ,এস,কোড</td>\n<td>রান্নার ফলে প্রাপ্ত জ্যাম, ফলের জেলি, মারমালেডস, ফল বা বাদামযুক্ত পিউরি এবং ফল বা বাদামের পেস্ট, চিনি বা অন্যান্য মিষ্টি পদার্থ যুক্ত হটক বা না হটক</td>\n<td>৩০</td>\n</tr>\n<tr>\n<td>২০.০৯</td>\n<td>সকল<br/>এইচ,এস,কোড</td>\n<td>ফলের রস (আঙ্গুরের must সহ) বা সজির রস, গাঁজানো নছে বা স্পিরিটযুক্ত নছে, চিনি বা অন্যান্য মিষ্টি পদার্থ যুক্ত হটক বা না হটক</td>\n<td>৩০</td>\n</tr>\n<tr>\n<td>২১.০৩</td>\n<td>সকল<br/>এইচ,এস,কোড<br/>(এইচ,এস,কোড<br/>২১০৩.৯০.০০<br/>ব্যতিত)</td>\n<td>সস এবং অনুরূপ পণ্য; mixed condiments ও mixed seasonings; সরিষার গুড়া এবং অন্যান্য পণ্য</td>\n<td>৩০</td>\n</tr>\n<tr>\n<td>২১.০৫</td>\n<td>২১০৫.০০.০০</td>\n<td>Ice cream and other edible ice, whether or not containing cocoa</td>\n<td>৩০</td>\n</tr>\n</tbody>\n</table>"
+  },
+  "metadata": {
+    "file_name": "20160408_Finance_Act_2013.pdf",
+    "num_pages": 1,
+    "total_token_count": 1491,
+    "total_chunks": 3,
+    "total_images": 0,
+    "pages": [
+      {
+        "page_num": 0,
+        "page_box": [
+          0,
+          0,
+          1024,
+          1481
+        ],
+        "token_count": 1491,
+        "num_chunks": 3,
+        "num_images": 0
+      }
+    ]
+  },
+  "sanity": {
+    "char_count": 2228,
+    "line_count": 102,
+    "bangla_chars": 656,
+    "english_chars": 777,
+    "warnings": [],
+    "status": "ok"
+  }
+}
