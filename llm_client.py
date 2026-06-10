@@ -22,6 +22,9 @@ import torch
 
 BackendName = Literal["ollama", "hf", "huggingface"]
 
+TEMPERATURE = 0.2    # Default temperature for HuggingFace generation. Ollama uses the config value directly.
+TOP_P = 0.1    # Default top_p for HuggingFace generation. Ollama uses the config value directly.
+
 @dataclass(frozen=True)
 class LLMRequestConfig:
     backend: BackendName
@@ -301,10 +304,8 @@ def _chat_huggingface(
         generation_kwargs["pad_token_id"] = eos_token_id
 
     if config.temperature > 0:
-        # generation_kwargs["temperature"] = config.temperature
-        # generation_kwargs["top_p"] = config.top_p
-        generation_kwargs["temperature"] = 0.1
-        generation_kwargs["top_p"] = 0.1
+        generation_kwargs["temperature"] = TEMPERATURE if TEMPERATURE != 0 else config.temperature
+        generation_kwargs["top_p"] = TOP_P if TOP_P != 0 else config.top_p
 
     with torch.inference_mode():
         outputs = model.generate(**inputs, **generation_kwargs)
