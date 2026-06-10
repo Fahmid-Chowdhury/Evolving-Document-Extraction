@@ -6,42 +6,42 @@
     {
       "block_id": "p0009_b001",
       "type": "point",
-      "point_number": "১০।",
-      "text": "(e) for building or apartment situated in the area other than the areas mentioned in clauses (a) to (d)—\n\n(i) taka seven hundred per square meter in the case of a building or apartment the plinth area of which does not exceed two hundred square meter;\n\n(ii) taka one thousand per square meter in the case of a building or apartment the plinth area of which exceeds two hundred square meter.\n\n(2) The rate of tax mentioned in sub-section (1) shall be twenty per cent higher in case where the assessee already owns a building or apartment in any City Corporation before such investment is completed; or the assessee makes such investment in two or more buildings or apartments.\n\n(3) The provision of this section shall not apply where the source of such investment, made by the assessee for the purchase or construction of such residential building or apartment, is—\n\n(a) derived from any criminal activities under any other law for the time being in force; or\n\n(b) not derived from any legitimate source।",
+      "point_number": "১০",
+      "text": "(e) for building or apartment situated in the area other than the areas mentioned in clauses (a) to (d)—\n\n(i) taka seven hundred per square meter in the case of a building or apartment the plinth area of which does not exceed two hundred square meter;\n\n(ii) taka one thousand per square meter in the case of a building or apartment the plinth area of which exceeds two hundred square meter.\n\n(2) The rate of tax mentioned in sub-section (1) shall be twenty per cent higher in case where the assessee already owns a building or apartment in any City Corporation before such investment is completed; or the assessee makes such investment in two or more buildings or apartments.\n\n(3) The provision of this section shall not apply where the source of such investment, made by the assessee for the purchase or construction of such residential building or apartment, is—\n\n(a) derived from any criminal activities under any other law for the time being in force; or\n\n(b) not derived from any legitimate source.”",
       "continues_from_previous": true,
-      "continues_to_next": true,
-      "stitch_group_id": "point_১০।",
-      "stitching_note": "Continuation of point 10, covering sub-clause (e), sub-section (2), and sub-section (3)."
+      "continues_to_next": false,
+      "stitch_group_id": "point_১০",
+      "stitching_note": "Continuation of point 10"
     },
     {
       "block_id": "p0009_b002",
       "type": "point",
-      "point_number": "১১।",
-      "text": "**Ordinance No. XXXVI of 1984 এর section 29 এর সংশোধন ।—**উক্ত Ordinance এর section 29 এর sub-section (1) এর clause (viii) এর পর নিম্নরূপ নূতন clause (viii a) সন্নিবেশিত হইবে, যথা :\n\n“(viii a) in respect of amortization of license fees as admissible under the Third Schedule;” ।",
+      "point_number": "১১",
+      "text": "১১। <b>Ordinance No. XXXVI of 1984 এর section 29 এর সংশোধন ।—</b>উক্ত Ordinance এর section 29 এর sub-section (1) এর clause (viii) এর পর নিম্নরূপ নূতন clause (viii a) সন্নিবেশিত হইবে, যথা :—\n“(viii a) in respect of amortization of license fees as admissible under the Third Schedule;”",
       "continues_from_previous": false,
       "continues_to_next": false,
-      "stitch_group_id": "point_১১।",
-      "stitching_note": "New main point 11, concerning amendment to Ordinance No. XXXVI of 1984."
+      "stitch_group_id": "point_১১",
+      "stitching_note": ""
     },
     {
       "block_id": "p0009_b003",
       "type": "point",
-      "point_number": "১২।",
-      "text": "**Ordinance No. XXXVI of 1984 এর section 44 এর সংশোধন ।—**উক্ত Ordinance এর section 44 এর—\n\n(ক) sub-section (2) এর clause (b) এর “ten per cent” শব্দগুলির পরিবর্তে “fifteen per cent” শব্দগুলি প্রতিস্থাপিত হইবে;",
+      "point_number": "১২",
+      "text": "১২। <b>Ordinance No. XXXVI of 1984 এর section 44 এর সংশোধন ।—</b>উক্ত Ordinance এর section 44 এর—\n(ক) sub-section (2) এর clause (b) এর “ten per cent” শব্দগুলির পরিবর্তে “fifteen per cent” শব্দগুলি প্রতিস্থাপিত হইবে;",
       "continues_from_previous": false,
-      "continues_to_next": true,
-      "stitch_group_id": "point_১২।",
-      "stitching_note": "New main point 12, concerning amendment to Ordinance No. XXXVI of 1984, continuing with sub-points (খ) and (গ) on the next page."
+      "continues_to_next": false,
+      "stitch_group_id": "point_১২",
+      "stitching_note": ""
     }
   ],
   "output_carry_forward_state": {
     "status": "open",
-    "active_point_number": "১২।",
-    "active_stitch_group_id": "point_১২।",
-    "active_point_summary": "Amendment to Ordinance No. XXXVI of 1984, section 44. The current page covered sub-point (ক). The point continues with sub-points (খ) and (গ).",
+    "active_point_number": "১২",
+    "active_stitch_group_id": "point_১২",
+    "active_point_summary": "Ordinance No. XXXVI of 1984 এর section 44 এর সংশোধন ।—উক্ত Ordinance এর section 44 এর—(ক) sub-section (2) এর clause (b) এর “ten per cent” শব্দগুলির পরিবর্তে “fifteen per cent” শব্দগুলি প্রতিস্থাপিত হইবে;",
     "numbering_system": "english_digits",
-    "expected_next_main_point": "১৩।",
-    "continuation_hint": "The point continues with sub-point (খ) and (গ).",
+    "expected_next_main_point": "১৩",
+    "continuation_hint": "The next text starts with (খ) sub-section (3) এর clause (a) এর—",
     "last_visible_text": "(ক) sub-section (2) এর clause (b) এর “ten per cent” শব্দগুলির পরিবর্তে “fifteen per cent” শব্দগুলি প্রতিস্থাপিত হইবে;"
   }
 }

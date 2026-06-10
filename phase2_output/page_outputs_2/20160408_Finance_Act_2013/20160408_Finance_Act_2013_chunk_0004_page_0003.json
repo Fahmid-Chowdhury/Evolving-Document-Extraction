@@ -6,22 +6,62 @@
     {
       "block_id": "p0003_b001",
       "type": "point",
-      "point_number": "৩",
-      "text": "Bangladesh Shilpa Rin Sangstha established by the Bangladesh Shilpa Rin Sangstha Order, 1972 (President's Order No. 128 of 1972) and the Bangladesh House Building Finance Corporation established under the Bangladesh House Building Finance Corporation Order, 1973 (President's Order No. 7 of 1973),\n\n(ii) \"Scheduled bank\" means a scheduled bank as defined in clause (j) of article 2 of the Bangladesh Bank Order, 1972 (President's Order No. 127 of 1972); and\n\n(d) When an irrevocable power of attorney is executed for consideration as defined by section 2, clause (2), of the Power of Attorney Act, 2012. 3% of the value of the consideration, which is not less than six thousand Taka and not more than sixty thousand Taka.\";\n\n(গ) Article No. 62 এর বিপরীতে column (2) এর EXEMPTIONS এর আগতায়ীন—\n\n(অ) paragraph (1) এর শেষে সেমিকোলন (;) চিহ্নটি সন্নিবেশিত হইবে;",
-      "continues_from_previous": true,
+      "point_number": "",
+      "text": "Bangladesh Shilpa Rin Sangstha established by the Bangladesh Shilpa Rin Sangstha Order, 1972 (President's Order No. 128 of 1972) and the Bangladesh House Building Finance Corporation established under the Bangladesh House Building Finance Corporation Order, 1973 (President's Order No. 7 of 1973),",
+      "continues_from_previous": false,
       "continues_to_next": true,
-      "stitch_group_id": "point_৩",
-      "stitching_note": "Continuation of point 3, including definitions and subsequent amendments."
+      "stitch_group_id": "point_৫",
+      "stitching_note": "Continuation of point ৫"
+    },
+    {
+      "block_id": "p0003_b002",
+      "type": "point",
+      "point_number": "",
+      "text": "(ii) \"Scheduled bank\" means a scheduled bank as defined in clause (j) of article 2 of the Bangladesh Bank Order, 1972 (President's Order No. 127 of 1972); and",
+      "continues_from_previous": false,
+      "continues_to_next": true,
+      "stitch_group_id": "point_৫",
+      "stitching_note": "Continuation of point ৫"
+    },
+    {
+      "block_id": "p0003_b003",
+      "type": "point",
+      "point_number": "",
+      "text": "(d) When an irrevocable power of attorney is executed for consideration as defined by section 2, clause (2), of the Power of Attorney Act, 2012. 3% of the value of the consideration, which is not less than six thousand Taka and not more than sixty thousand Taka.\";",
+      "continues_from_previous": false,
+      "continues_to_next": true,
+      "stitch_group_id": "point_৫",
+      "stitching_note": "Continuation of point ৫"
+    },
+    {
+      "block_id": "p0003_b004",
+      "type": "point",
+      "point_number": "",
+      "text": "(গ) Article No. 62 এর বিপরীতে column (2) এর EXEMPTIONS এর আগতায়ীন—",
+      "continues_from_previous": false,
+      "continues_to_next": true,
+      "stitch_group_id": "point_৫",
+      "stitching_note": "Continuation of point ৫"
+    },
+    {
+      "block_id": "p0003_b005",
+      "type": "point",
+      "point_number": "",
+      "text": "(অ) paragraph (1) এর শেষে সেমিকোলন (;) চিহ্নটি সন্নিবেশিত হইবে;",
+      "continues_from_previous": false,
+      "continues_to_next": true,
+      "stitch_group_id": "point_৫",
+      "stitching_note": "Continuation of point ৫"
     }
   ],
   "output_carry_forward_state": {
     "status": "open",
-    "active_point_number": "৩",
-    "active_stitch_group_id": "point_৩",
-    "active_point_summary": "Amendment to Schedule I of Act No. II of 1899, detailing changes to Article No. 40 and Article No. 48, including a table of fees and definitions. The point continues with definitions and subsequent articles.",
+    "active_point_number": "৫",
+    "active_stitch_group_id": "point_৫",
+    "active_point_summary": "Continuation of previous point regarding definitions and clauses.",
     "numbering_system": "english_digits",
-    "expected_next_main_point": "৪",
-    "continuation_hint": "The point 3 continues with subsequent articles and amendments.",
+    "expected_next_main_point": "(আ)",
+    "continuation_hint": "The next text starts with (আ) and describes changes to paragraph (2).",
     "last_visible_text": "(অ) paragraph (1) এর শেষে সেমিকোলন (;) চিহ্নটি সন্নিবেশিত হইবে;"
   }
 }

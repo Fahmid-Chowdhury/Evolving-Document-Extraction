@@ -1,0 +1,27 @@
+{
+  "chunk_id": "20160408_Finance_Act_2013_chunk_0023",
+  "page_number": 22,
+  "document_id": "20160408_Finance_Act_2013",
+  "content_blocks": [
+    {
+      "block_id": "p22_b001",
+      "type": "metadata",
+      "point_number": "",
+      "text": "<table border=\"1\">\n<thead>\n<tr>\n<th>শিরনামা সংখ্যা<br/>(Heading No.)</th>\n<th>সামঞ্জস্যপূর্ণ<br/>নামকরণ কোড<br/>(H.S. Code)</th>\n<th>পণ্যসমূহের বিবরণ<br/>(Description of Goods)</th>\n<th>সম্পূরক<br/>শুল্কহার<br/>(%)</th>\n</tr>\n<tr>\n<th>(১)</th>\n<th>(২)</th>\n<th>(৩)</th>\n<th>(৪)</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>০৮.০৪</td>\n<td>০৮০৪.৫০.৩১<br/>০৮০৪.৫০.৩৯</td>\n<td>তাজা বা শুকনা আম</td>\n<td>২০</td>\n</tr>\n<tr>\n<td>০৮.০৫</td>\n<td>০৮০৫.১০.১০<br/>০৮০৫.১০.৯০</td>\n<td>তাজা বা শুকনা কমলালেবু</td>\n<td>২০</td>\n</tr>\n<tr>\n<td></td>\n<td>০৮০৫.২০.১০<br/>০৮০৫.২০.৯০</td>\n<td>তাজা বা শুকনা লেবু জাতীয় ফল</td>\n<td>২০</td>\n</tr>\n<tr>\n<td></td>\n<td>০৮০৫.৪০.১০<br/>০৮০৫.৪০.৯০</td>\n<td>তাজা বা শুকনা আঙ্গুর</td>\n<td>২০</td>\n</tr>\n<tr>\n<td></td>\n<td>০৮০৫.৫০.১০<br/>০৮০৫.৫০.৯০</td>\n<td>তাজা বা শুকনা লেবু</td>\n<td>২০</td>\n</tr>\n<tr>\n<td></td>\n<td>০৮০৫.৯০.১১<br/>০৮০৫.৯০.১৯<br/>০৮০৫.৯০.২১<br/>০৮০৫.৯০.২৯</td>\n<td>তাজা বা শুকনা অন্যান্য লেবু জাতীয় ফল</td>\n<td>২০</td>\n</tr>\n<tr>\n<td>০৮.০৬</td>\n<td>সকল<br/>এইচ,এস,কোড</td>\n<td>তাজা বা শুকনা আঙ্গুর ফল</td>\n<td>২০</td>\n</tr>\n<tr>\n<td>০৮.০৭</td>\n<td>সকল<br/>এইচ,এস,কোড</td>\n<td>Melons (including watermelons)<br/>and papaws (papayas), fresh.</td>\n<td>২০</td>\n</tr>\n<tr>\n<td>০৮.০৮</td>\n<td>সকল<br/>এইচ,এস,কোড</td>\n<td>তাজা আপেল, নাশপাতি ও কুইসেস</td>\n<td>২০</td>\n</tr>\n<tr>\n<td>০৮.০৯</td>\n<td>সকল<br/>এইচ,এস,কোড</td>\n<td>Apricots, cherries, peaches<br/>(including nectarines), plums and<br/>sloes, fresh.</td>\n<td>২০</td>\n</tr>\n<tr>\n<td>০৮.১০</td>\n<td>সকল<br/>এইচ,এস,কোড</td>\n<td>অন্যান্য তাজা ফল</td>\n<td>২০</td>\n</tr>\n<tr>\n<td>০৯.০৪</td>\n<td>০৯০৪.১১.১০<br/>০৯০৪.১১.৯০<br/>০৯০৪.১২.০০</td>\n<td>গোলমরিচ, চূর্ণ বা দলানো হটক বা না হটক</td>\n<td>২০</td>\n</tr>\n<tr>\n<td>০৯.০৬</td>\n<td>সকল<br/>এইচ,এস,কোড</td>\n<td>দারুচিনি এবং দারুচিনি গাছের ফুল</td>\n<td>২০</td>\n</tr>\n</tbody>\n</table>",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "",
+      "stitching_note": ""
+    }
+  ],
+  "output_carry_forward_state": {
+    "status": "closed",
+    "active_point_number": "",
+    "active_stitch_group_id": "",
+    "active_point_summary": "",
+    "numbering_system": "bangla_digits",
+    "expected_next_main_point": "",
+    "continuation_hint": "",
+    "last_visible_text": "২০"
+  }
+}

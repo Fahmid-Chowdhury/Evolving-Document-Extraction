@@ -27,7 +27,7 @@ STOP_ON_FAILURE = False
 USE_VALIDATOR_AGENT = True
 MAX_VALIDATOR_REPAIR_ROUNDS = 3
 
-SEND_PREVIOUS_OPEN_POINT_BLOCK = True
+SEND_PREVIOUS_OPEN_POINT_BLOCK = False
 # When enabled, only send the last point block from the previous chunk if continues_to_next=true. Currently, it sends the previous open point block even when this flag is false. (see line 239-240) 
 # Keep this small enough for local 9B models.
 # Set to None if you want to send the full previous point text.
@@ -42,7 +42,12 @@ PREVIOUS_OPEN_POINT_TEXT_LIMIT = None  # in characters
 MODEL_BACKEND = "hf"
 
 # HuggingFace local model
-HF_MODEL = "google/gemma-4-E4B-it"
+# HF_MODEL = "google/gemma-4-E4B-it"
+HF_MODEL = "google/gemma-4-E2B-it"
+
+# For HuggingFace generation only.
+# Increase if the model cuts off long JSON outputs.
+MAX_NEW_TOKENS = 8192
 
 # Ollama local model; only used when MODEL_BACKEND = "ollama"
 OLLAMA_MODEL = "gemma4:latest"
@@ -53,20 +58,16 @@ OLLAMA_MODEL = "gemma4:latest"
 
 THINK = True   # HF: enable_thinking in chat template; Ollama: think mode.
 
-TEMPERATURE = 0.2
-TOP_P = 0.1
+TEMPERATURE = 0.20
+TOP_P = 0.10
 NUM_CTX = 32768
-
-# For HuggingFace generation only.
-# Increase if the model cuts off long JSON outputs.
-MAX_NEW_TOKENS = 8192
 
 # =========================
 # GLOBAL CHUNK RANGE CONFIG
 # =========================
 
-CHUNK_START = 48      # inclusive; set to 0 to start from the beginning
-CHUNK_END = None     # exclusive; None means return until the end
+CHUNK_START = 0      # inclusive; set to 0 to start from the beginning
+CHUNK_END = 25     # exclusive; None means return until the end
 
 
 # ============================================================
@@ -811,6 +812,8 @@ def process_chunk(
 
     if not USE_VALIDATOR_AGENT:
         return output, validation_log
+    
+    print("  Validating extractor output with validator agent...")
 
     validator_result = validate_extraction_with_agent(
         chunk=chunk,

@@ -4,44 +4,44 @@
   "document_id": "20160408_Finance_Act_2013",
   "content_blocks": [
     {
-      "block_id": "p0000_b001",
+      "block_id": "p0004_b001",
       "type": "point",
       "point_number": "৩৪।",
-      "text": "**Ordinance No. XXXVI of 1984 এর SIXTH SCHEDULE এর সংশোধন।—উক্ত Ordinance এর SIXTH SCHEDULE এর—**\n\n(ক) **PART A এর—**\n\n(অ) paragraph 11A এর “five thousand” শব্দগুলির পরিবর্তে “ten thousand” শব্দগুলি প্রতিস্থাপিত হইবে;\n\n(আ) paragraph 35 এর “2013” সংখ্যাগুলির পরিবর্তে “2015” সংখ্যাগুলি প্রতিস্থাপিত হইবে;\n\n(ই) paragraph 39 এর “twenty four lakh” শব্দগুলির পরিবর্তে “thirty lakh” শব্দগুলি প্রতিস্থাপিত হইবে;\n\n(ঈ) paragraph 42 এর “2013” সংখ্যাগুলির পরিবর্তে “2015” সংখ্যাগুলি প্রতিস্থাপিত হইবে;\n\n(খ) **PART B এর paragraph 10 এর clause (1) এর sub-clause (b) এর “certificates issued by” শব্দগুলির পর “any financial institution or” শব্দগুলি সন্নিবেশিত হইবে।**",
-      "continues_from_previous": false,
-      "continues_to_next": false,
-      "stitch_group_id": "point_৩৪।",
-      "stitching_note": "Amendment to Ordinance No. XXXVI of 1984's SIXTH SCHEDULE."
+      "text": "Ordinance No. XXXVI of 1984 এর SIXTH SCHEDULE এর সংশোধন।—উক্ত Ordinance এর SIXTH SCHEDULE এর—\n\n(ক) PART A এর—\n\n(অ) paragraph 11A এর “five thousand” শব্দগুলির পরিবর্তে “ten thousand” শব্দগুলি প্রতিস্থাপিত হইবে;\n\n(আ) paragraph 35 এর “2013” সংখ্যাগুলির পরিবর্তে “2015” সংখ্যাগুলি প্রতিস্থাপিত হইবে;\n\n(ই) paragraph 39 এর “twenty four lakh” শব্দগুলির পরিবর্তে “thirty lakh” শব্দগুলি প্রতিস্থাপিত হইবে;\n\n(ঈ) paragraph 42 এর “2013” সংখ্যাগুলির পরিবর্তে “2015” সংখ্যাগুলি প্রতিস্থাপিত হইবে;\n\n(খ) PART B এর paragraph 10 এর clause (1) এর sub-clause (b) এর “certificates issued by” শব্দগুলির পর “any financial institution or” শব্দগুলি সন্নিবেশিত হইবে।",
+      "continues_from_previous": true,
+      "continues_to_next": true,
+      "stitch_group_id": "point_৩৪",
+      "stitching_note": ""
     },
     {
-      "block_id": "p0000_b002",
+      "block_id": "p0004_b002",
       "type": "point",
       "point_number": "৩৫।",
-      "text": "**আয়কর।—(১) উপ-ধারা (৩) এর বিধানাবলী সাপেক্ষে, ২০১৩ সালের ১ জুলাই তারিখে আরম্ভ কর বৎসরের জন্য কোন কর নির্ধারণের ক্ষেত্রে এই আইনের তফসিল-২ এ নির্দিষ্ট কর হার অনুযায়ী আয়কর ধার্য হইবে।\n\n(২) যে সকল ক্ষেত্রে Income-tax Ordinance, 1984 (Ord. No. XXXVI of 1984) এর SECOND SCHEDULE (লটারী আয় সংক্রান্ত) প্রযোজ্য হইবে সে সকল ক্ষেত্রে আরোপণযোগ্য কর উক্ত SCHEDULE অনুসারেই ধার্য করা হইবে, কিন্তু করের হার নির্ধারণের ক্ষেত্রে উপ-ধারা (১) এর বিধান প্রয়োগ করিতে হইবে।\n\n(৩) Income-tax Ordinance, 1984 (Ord. No. XXXVI of 1984) এর Chapter VII অনুসারে কর কর্তনের নিমিত্ত তফসিল-২ এ (আয়কর হার সংক্রান্ত) বর্ণিত হার ২০১৩ সালের ১ জুলাই তারিখে আরম্ভ এবং ২০১৪ সালের ৩০ জুন তারিখে সমাপ্য বৎসরের জন্য প্রযোজ্য হইবে।\n\n(৪) এই ধারায় এবং এই ধারার অধীন আরোপিত আয়কর হারের উদ্দেশ্যে ব্যবহৃত “মোট আয় (total income)” বলিতে Income-tax Ordinance, 1984 (Ord. No. XXXVI of 1984) এর বিধান অনুসারে নিরূপিত মোট আয় (total income) বুঝাইবে।",
+      "text": "আয়কর।—(১) উপ-ধারা (৩) এর বিধানাবলী সাপেক্ষে, ২০১৩ সালের ১ জুলাই তারিখে আরম্ভ কর বৎসরের জন্য কোন কর নির্ধারণের ক্ষেত্রে এই আইনের তফসিল-২ এ নির্দিষ্ট কর হার অনুযায়ী আয়কর ধার্য হইবে।\n\n(২) যে সকল ক্ষেত্রে Income-tax Ordinance, 1984 (Ord. No. XXXVI of 1984) এর SECOND SCHEDULE (লটারী আয় সংক্রান্ত) প্রযোজ্য হইবে সে সকল ক্ষেত্রে আরোপণযোগ্য কর উক্ত SCHEDULE অনুসারেই ধার্য করা হইবে, কিন্তু করের হার নির্ধারণের ক্ষেত্রে উপ-ধারা (১) এর বিধান প্রয়োগ করিতে হইবে।\n\n(৩) Income-tax Ordinance, 1984 (Ord. No. XXXVI of 1984) এর Chapter VII অনুসারে কর কর্তনের নিমিত্ত তফসিল-২ এ (আয়কর হার সংক্রান্ত) বর্ণিত হার ২০১৩ সালের ১ জুলাই তারিখে আরম্ভ এবং ২০১৪ সালের ৩০ জুন তারিখে সমাপ্য বৎসরের জন্য প্রযোজ্য হইবে।\n\n(৪) এই ধারায় এবং এই ধারার অধীন আরোপিত আয়কর হারের উদ্দেশ্যে ব্যবহৃত “মোট আয় (total income)” বলিতে Income-tax Ordinance, 1984 (Ord. No. XXXVI of 1984) এর বিধান অনুসারে নিরূপিত মোট আয় (total income) বুঝাইবে।",
       "continues_from_previous": false,
       "continues_to_next": false,
-      "stitch_group_id": "point_৩৫।",
-      "stitching_note": "Income Tax provisions."
+      "stitch_group_id": "point_৩৫",
+      "stitching_note": ""
     },
     {
-      "block_id": "p0000_b003",
+      "block_id": "p0004_b003",
       "type": "point",
       "point_number": "৩৬।",
-      "text": "**সারচার্জ।—Income-tax Ordinance, 1984 (Ord. No. XXXVI of 1984) এর আওতায় ২০১৩ সালের ১ জুলাই হইতে আরম্ভ কর বৎসরের জন্য কোন কর নির্ধারণের ক্ষেত্রে তফসিল-২ এর দ্বিতীয় অংশে নির্দিষ্ট হার অনুযায়ী সারচার্জ ধার্য হইবে।**",
+      "text": "সারচার্জ।—Income-tax Ordinance, 1984 (Ord. No. XXXVI of 1984) এর আওতায় ২০১৩ সালের ১ জুলাই হইতে আরম্ভ কর বৎসরের জন্য কোন কর নির্ধারণের ক্ষেত্রে তফসিল-২ এর দ্বিতীয় অংশে নির্দিষ্ট হার অনুযায়ী সারচার্জ ধার্য হইবে।",
       "continues_from_previous": false,
       "continues_to_next": false,
-      "stitch_group_id": "point_৩৬।",
-      "stitching_note": "Surcharge provisions."
+      "stitch_group_id": "point_৩৬",
+      "stitching_note": ""
     }
   ],
   "output_carry_forward_state": {
     "status": "open",
-    "active_point_number": "৩৭।",
-    "active_stitch_group_id": "point_৩৭।",
-    "active_point_summary": "Amendment to Section 2 of the VAT Act, 1991.",
-    "numbering_system": "english_digits",
-    "expected_next_main_point": "৩৮।",
-    "continuation_hint": "The point 37 is complete, and the next point 38 is visible at the start of the next chunk.",
-    "last_visible_text": "এ উল্ল"
+    "active_point_number": "৩৬।",
+    "active_stitch_group_id": "point_৩৬",
+    "active_point_summary": "সারচার্জ।—Income-tax Ordinance, 1984 (Ord. No. XXXVI of 1984) এর আওতায় ২০১৩ সালের ১ জুলাই হইতে আরম্ভ কর বৎসরের জন্য কোন কর নির্ধারণের ক্ষেত্রে তফসিল-২ এর দ্বিতীয় অংশে নির্দিষ্ট হার অনুযায়ী সারচার্জ ধার্য হইবে।",
+    "numbering_system": "bangla_digits",
+    "expected_next_main_point": "৩৭।",
+    "continuation_hint": "পঞ্চম অধ্যায়\n\nমূল্য সংযোজন কর আইন, ১৯৯১ (১৯৯১ সনের ২২ নং আইন) এর সংশোধন\n\n৩৭। ১৯৯১ সনের ২২ নং আইনের ধারা ২ এর সংশোধন।—মূল্য সংযোজন কর আইন, ১৯৯১ (১৯৯১ সনের ২২ নং আইন), অতঃপর উক্ত আইন বলিয়া উল্লিখিত, এ",
+    "last_visible_text": "সারচার্জ ধার্য হইবে।"
   }
 }

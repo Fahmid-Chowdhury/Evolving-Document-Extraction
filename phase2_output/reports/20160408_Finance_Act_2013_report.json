@@ -3,8 +3,8 @@
   "group_name": null,
   "run_status": "success",
   "total_documents": 1,
-  "total_chunks": 15,
-  "successful_chunks": 15,
+  "total_chunks": 25,
+  "successful_chunks": 25,
   "failed_chunks": 0,
   "failed_pages_by_document": {},
   "documents": [
@@ -12,163 +12,32 @@
       "document_name": "20160408_Finance_Act_2013",
       "chunks_path": "phase1_output\\chunks\\without_headers_footers\\20160408_Finance_Act_2013\\chunks.json",
       "page_output_dir": "phase2_output\\page_outputs_2\\20160408_Finance_Act_2013",
-      "total_chunks": 15,
-      "successful_chunks": 15,
+      "total_chunks": 25,
+      "successful_chunks": 25,
       "failed_chunks": 0,
       "failed_pages": [],
       "final_carry_forward_state": {
         "status": "closed",
         "active_point_number": "",
         "active_stitch_group_id": "",
-        "active_point_summary": "The section contains a declaration (metadata) and a subsequent point (২) declaring the immediate effect of certain provisions of the Bill. The document flow ends with a signature block (metadata).",
-        "numbering_system": "english_digits",
+        "active_point_summary": "",
+        "numbering_system": "bangla_digits",
         "expected_next_main_point": "",
-        "continuation_hint": "The document flow is complete on this page.",
-        "last_visible_text": ""
+        "continuation_hint": "",
+        "last_visible_text": "Ice cream and other edible ice, whether or not containing cocoa"
       },
       "pages": [
         {
-          "chunk_id": "20160408_Finance_Act_2013_chunk_0049",
-          "page_number": 48,
+          "chunk_id": "20160408_Finance_Act_2013_chunk_0001",
+          "page_number": 0,
           "status": "success",
-          "elapsed_seconds": 37.67,
-          "output_path": "phase2_output\\page_outputs_2\\20160408_Finance_Act_2013\\20160408_Finance_Act_2013_chunk_0049_page_0048.json",
-          "block_count": 8,
-          "carry_state_status": "open",
-          "active_point_number": "(৬)",
-          "numbering_system": "english_digits",
-          "expected_next_main_point": "(৬)",
-          "sent_previous_open_point_block": true,
-          "previous_open_point_block_id": "p0048_b008",
-          "validator_used": true,
-          "validator_final_valid": true,
-          "validator_final_error_types": [],
-          "validation_log": [
-            {
-              "round": 0,
-              "is_valid": true,
-              "error_types": [],
-              "correction_instruction": ""
-            }
-          ],
-          "error": null
-        },
-        {
-          "chunk_id": "20160408_Finance_Act_2013_chunk_0050",
-          "page_number": 49,
-          "status": "success",
-          "elapsed_seconds": 19.69,
-          "output_path": "phase2_output\\page_outputs_2\\20160408_Finance_Act_2013\\20160408_Finance_Act_2013_chunk_0050_page_0049.json",
-          "block_count": 2,
-          "carry_state_status": "open",
-          "active_point_number": "(৬)",
-          "numbering_system": "english_digits",
-          "expected_next_main_point": "(৬)",
-          "sent_previous_open_point_block": true,
-          "previous_open_point_block_id": "p0049_b002",
-          "validator_used": true,
-          "validator_final_valid": true,
-          "validator_final_error_types": [],
-          "validation_log": [
-            {
-              "round": 0,
-              "is_valid": true,
-              "error_types": [],
-              "correction_instruction": ""
-            }
-          ],
-          "error": null
-        },
-        {
-          "chunk_id": "20160408_Finance_Act_2013_chunk_0051",
-          "page_number": 50,
-          "status": "success",
-          "elapsed_seconds": 17.2,
-          "output_path": "phase2_output\\page_outputs_2\\20160408_Finance_Act_2013\\20160408_Finance_Act_2013_chunk_0051_page_0050.json",
-          "block_count": 1,
-          "carry_state_status": "open",
-          "active_point_number": "(৬)",
-          "numbering_system": "english_digits",
-          "expected_next_main_point": "(৬)",
-          "sent_previous_open_point_block": true,
-          "previous_open_point_block_id": "p0050_b001",
-          "validator_used": true,
-          "validator_final_valid": true,
-          "validator_final_error_types": [],
-          "validation_log": [
-            {
-              "round": 0,
-              "is_valid": true,
-              "error_types": [],
-              "correction_instruction": ""
-            }
-          ],
-          "error": null
-        },
-        {
-          "chunk_id": "20160408_Finance_Act_2013_chunk_0052",
-          "page_number": 51,
-          "status": "success",
-          "elapsed_seconds": 87.17,
-          "output_path": "phase2_output\\page_outputs_2\\20160408_Finance_Act_2013\\20160408_Finance_Act_2013_chunk_0052_page_0051.json",
-          "block_count": 1,
-          "carry_state_status": "open",
-          "active_point_number": "(৬)",
-          "numbering_system": "english_digits",
-          "expected_next_main_point": "(৬)",
-          "sent_previous_open_point_block": true,
-          "previous_open_point_block_id": "p0051_b001",
-          "validator_used": true,
-          "validator_final_valid": true,
-          "validator_final_error_types": [],
-          "validation_log": [
-            {
-              "round": 0,
-              "is_valid": false,
-              "error_types": [
-                "wrong_block_split",
-                "wrong_block_type"
-              ],
-              "correction_instruction": "Retry this chunk. The content blocks contain two distinct tables that appear to belong to the same continuous point structure (the replacement table for Heading 72.08). These two tables should be merged into a single point block. Furthermore, the second table structure (starting with 7208.52.90) appears to be extracted as a separate block type (or appended incorrectly) when it should be part of the main point structure. Ensure all table rows belonging to the continuous point are kept within the single point block."
-            },
-            {
-              "round": 1,
-              "is_valid": false,
-              "error_types": [
-                "wrong_block_split",
-                "carry_state_inconsistency"
-              ],
-              "correction_instruction": "Retry this chunk. The entire table structure visible in CURRENT_PAGE_TEXT should be treated as a single continuous point block (point (৬)). Do not split the table rows into multiple blocks or incorrectly merge content from NEXT_HEAD into the content_blocks.text. Furthermore, since the content block contains the final part of the point, output_carry_forward_state must reflect that the point is closed, but the active_point_summary should accurately reflect the completion of the point structure visible on this page, not imply merging with NEXT_HEAD content."
-            },
-            {
-              "round": 2,
-              "is_valid": false,
-              "error_types": [
-                "wrong_block_split",
-                "carry_state_inconsistency"
-              ],
-              "correction_instruction": "Retry this chunk. The entire table structure visible in CURRENT_PAGE_TEXT constitutes a single continuous point block (point (৬)). Do not split it into multiple blocks. Furthermore, since the table structure continues into the next page (as indicated by the context and the nature of the content), output_carry_forward_state must remain open, reflecting the continuation of point (৬), and the active_point_summary should reflect that the point continues."
-            },
-            {
-              "round": 3,
-              "is_valid": true,
-              "error_types": [],
-              "correction_instruction": ""
-            }
-          ],
-          "error": null
-        },
-        {
-          "chunk_id": "20160408_Finance_Act_2013_chunk_0053",
-          "page_number": 52,
-          "status": "success",
-          "elapsed_seconds": 66.07,
-          "output_path": "phase2_output\\page_outputs_2\\20160408_Finance_Act_2013\\20160408_Finance_Act_2013_chunk_0053_page_0052.json",
-          "block_count": 1,
+          "elapsed_seconds": 63.69,
+          "output_path": "phase2_output\\page_outputs_2\\20160408_Finance_Act_2013\\20160408_Finance_Act_2013_chunk_0001_page_0000.json",
+          "block_count": 3,
           "carry_state_status": "closed",
-          "active_point_number": "(৬)",
-          "numbering_system": "english_digits",
-          "expected_next_main_point": "(৭)",
+          "active_point_number": "",
+          "numbering_system": "bangla_digits",
+          "expected_next_main_point": "২।",
           "sent_previous_open_point_block": false,
           "previous_open_point_block_id": "",
           "validator_used": true,
@@ -177,22 +46,6 @@
           "validation_log": [
             {
               "round": 0,
-              "is_valid": false,
-              "error_types": [
-                "wrong_block_split"
-              ],
-              "correction_instruction": "Retry this chunk. The content blocks (৭), (৮), and (৯) are sequential, related amendments/points that should ideally be grouped or treated as a single continuation of the main point structure if they are all part of the same legal section, or at least ensure they are not split unnecessarily if they belong to a single logical unit. Specifically, (৭), (৮), and (৯) are all amendments referencing the same general area (Heading 72.10) and should be reviewed for appropriate grouping or splitting."
-            },
-            {
-              "round": 1,
-              "is_valid": false,
-              "error_types": [
-                "wrong_block_split"
-              ],
-              "correction_instruction": "Retry this chunk. The content blocks (৭), (৮), and (৯) are sequential amendments that clearly belong to the same main point structure following the table continuation. They should be merged into a single point block or structured as a single continuous point block, rather than being split into three separate point blocks."
-            },
-            {
-              "round": 2,
               "is_valid": true,
               "error_types": [],
               "correction_instruction": ""
@@ -201,44 +54,382 @@
           "error": null
         },
         {
-          "chunk_id": "20160408_Finance_Act_2013_chunk_0054",
-          "page_number": 53,
+          "chunk_id": "20160408_Finance_Act_2013_chunk_0002",
+          "page_number": 1,
           "status": "success",
-          "elapsed_seconds": 25.48,
-          "output_path": "phase2_output\\page_outputs_2\\20160408_Finance_Act_2013\\20160408_Finance_Act_2013_chunk_0054_page_0053.json",
+          "elapsed_seconds": 41.31,
+          "output_path": "phase2_output\\page_outputs_2\\20160408_Finance_Act_2013\\20160408_Finance_Act_2013_chunk_0002_page_0001.json",
+          "block_count": 2,
+          "carry_state_status": "open",
+          "active_point_number": "৩।",
+          "numbering_system": "bangla_digits",
+          "expected_next_main_point": "",
+          "sent_previous_open_point_block": true,
+          "previous_open_point_block_id": "p0001_b002",
+          "validator_used": true,
+          "validator_final_valid": true,
+          "validator_final_error_types": [],
+          "validation_log": [
+            {
+              "round": 0,
+              "is_valid": true,
+              "error_types": [],
+              "correction_instruction": ""
+            }
+          ],
+          "error": null
+        },
+        {
+          "chunk_id": "20160408_Finance_Act_2013_chunk_0003",
+          "page_number": 2,
+          "status": "success",
+          "elapsed_seconds": 39.72,
+          "output_path": "phase2_output\\page_outputs_2\\20160408_Finance_Act_2013\\20160408_Finance_Act_2013_chunk_0003_page_0002.json",
+          "block_count": 1,
+          "carry_state_status": "open",
+          "active_point_number": "৩।",
+          "numbering_system": "bangla_digits",
+          "expected_next_main_point": "",
+          "sent_previous_open_point_block": true,
+          "previous_open_point_block_id": "p0002_b001",
+          "validator_used": true,
+          "validator_final_valid": true,
+          "validator_final_error_types": [],
+          "validation_log": [
+            {
+              "round": 0,
+              "is_valid": true,
+              "error_types": [],
+              "correction_instruction": ""
+            }
+          ],
+          "error": null
+        },
+        {
+          "chunk_id": "20160408_Finance_Act_2013_chunk_0004",
+          "page_number": 3,
+          "status": "success",
+          "elapsed_seconds": 35.05,
+          "output_path": "phase2_output\\page_outputs_2\\20160408_Finance_Act_2013\\20160408_Finance_Act_2013_chunk_0004_page_0003.json",
+          "block_count": 1,
+          "carry_state_status": "open",
+          "active_point_number": "৩।",
+          "numbering_system": "bangla_digits",
+          "expected_next_main_point": "(আ) paragraph (2) এর প্রান্তস্থিত ফুলস্টপের (.) পরিবর্তে সেমিকোলন (;) চিহ্নটি প্রতিস্থাপিত হইবে এবং অতঃপর উক্ত paragraph (2) এর পর নিম্নরূপ নূতন paragraph (3) ও (4) সংযোজিত হইবে, যথা:—\n“(3) Transfer",
+          "sent_previous_open_point_block": true,
+          "previous_open_point_block_id": "p0003_b001",
+          "validator_used": true,
+          "validator_final_valid": true,
+          "validator_final_error_types": [],
+          "validation_log": [
+            {
+              "round": 0,
+              "is_valid": true,
+              "error_types": [],
+              "correction_instruction": ""
+            }
+          ],
+          "error": null
+        },
+        {
+          "chunk_id": "20160408_Finance_Act_2013_chunk_0005",
+          "page_number": 4,
+          "status": "success",
+          "elapsed_seconds": 37.42,
+          "output_path": "phase2_output\\page_outputs_2\\20160408_Finance_Act_2013\\20160408_Finance_Act_2013_chunk_0005_page_0004.json",
+          "block_count": 1,
+          "carry_state_status": "open",
+          "active_point_number": "৩।",
+          "numbering_system": "bangla_digits",
+          "expected_next_main_point": "৪। **Act No. IV of 1969 এর section 25B এর প্রতিস্থাপন।**—Customs Act, 1969 (Act No. IV of 1969), অতঃপর Customs Act বলিয়া উল্লিখিত, এর s",
+          "sent_previous_open_point_block": true,
+          "previous_open_point_block_id": "p0003_b001",
+          "validator_used": true,
+          "validator_final_valid": true,
+          "validator_final_error_types": [],
+          "validation_log": [
+            {
+              "round": 0,
+              "is_valid": true,
+              "error_types": [],
+              "correction_instruction": ""
+            }
+          ],
+          "error": null
+        },
+        {
+          "chunk_id": "20160408_Finance_Act_2013_chunk_0006",
+          "page_number": 5,
+          "status": "success",
+          "elapsed_seconds": 76.12,
+          "output_path": "phase2_output\\page_outputs_2\\20160408_Finance_Act_2013\\20160408_Finance_Act_2013_chunk_0006_page_0005.json",
+          "block_count": 4,
+          "carry_state_status": "open",
+          "active_point_number": "৬।",
+          "numbering_system": "bangla_digits",
+          "expected_next_main_point": "",
+          "sent_previous_open_point_block": true,
+          "previous_open_point_block_id": "p0003_b004",
+          "validator_used": true,
+          "validator_final_valid": true,
+          "validator_final_error_types": [],
+          "validation_log": [
+            {
+              "round": 0,
+              "is_valid": true,
+              "error_types": [],
+              "correction_instruction": ""
+            }
+          ],
+          "error": null
+        },
+        {
+          "chunk_id": "20160408_Finance_Act_2013_chunk_0007",
+          "page_number": 6,
+          "status": "success",
+          "elapsed_seconds": 49.16,
+          "output_path": "phase2_output\\page_outputs_2\\20160408_Finance_Act_2013\\20160408_Finance_Act_2013_chunk_0007_page_0006.json",
+          "block_count": 3,
+          "carry_state_status": "open",
+          "active_point_number": "৭।",
+          "numbering_system": "bangla_digits",
+          "expected_next_main_point": "৮।",
+          "sent_previous_open_point_block": true,
+          "previous_open_point_block_id": "p0006_b001",
+          "validator_used": true,
+          "validator_final_valid": true,
+          "validator_final_error_types": [],
+          "validation_log": [
+            {
+              "round": 0,
+              "is_valid": true,
+              "error_types": [],
+              "correction_instruction": ""
+            }
+          ],
+          "error": null
+        },
+        {
+          "chunk_id": "20160408_Finance_Act_2013_chunk_0008",
+          "page_number": 7,
+          "status": "success",
+          "elapsed_seconds": 56.64,
+          "output_path": "phase2_output\\page_outputs_2\\20160408_Finance_Act_2013\\20160408_Finance_Act_2013_chunk_0008_page_0007.json",
+          "block_count": 4,
+          "carry_state_status": "open",
+          "active_point_number": "১০।",
+          "numbering_system": "bangla_digits",
+          "expected_next_main_point": "১১।",
+          "sent_previous_open_point_block": true,
+          "previous_open_point_block_id": "p0010_b001",
+          "validator_used": true,
+          "validator_final_valid": true,
+          "validator_final_error_types": [],
+          "validation_log": [
+            {
+              "round": 0,
+              "is_valid": true,
+              "error_types": [],
+              "correction_instruction": ""
+            }
+          ],
+          "error": null
+        },
+        {
+          "chunk_id": "20160408_Finance_Act_2013_chunk_0009",
+          "page_number": 8,
+          "status": "success",
+          "elapsed_seconds": 59.5,
+          "output_path": "phase2_output\\page_outputs_2\\20160408_Finance_Act_2013\\20160408_Finance_Act_2013_chunk_0009_page_0008.json",
+          "block_count": 4,
+          "carry_state_status": "open",
+          "active_point_number": "১০।",
+          "numbering_system": "bangla_digits",
+          "expected_next_main_point": "১১।",
+          "sent_previous_open_point_block": true,
+          "previous_open_point_block_id": "p0008_b001",
+          "validator_used": true,
+          "validator_final_valid": true,
+          "validator_final_error_types": [],
+          "validation_log": [
+            {
+              "round": 0,
+              "is_valid": true,
+              "error_types": [],
+              "correction_instruction": ""
+            }
+          ],
+          "error": null
+        },
+        {
+          "chunk_id": "20160408_Finance_Act_2013_chunk_0010",
+          "page_number": 9,
+          "status": "success",
+          "elapsed_seconds": 49.47,
+          "output_path": "phase2_output\\page_outputs_2\\20160408_Finance_Act_2013\\20160408_Finance_Act_2013_chunk_0010_page_0009.json",
+          "block_count": 3,
+          "carry_state_status": "open",
+          "active_point_number": "১২।",
+          "numbering_system": "bangla_digits",
+          "expected_next_main_point": "",
+          "sent_previous_open_point_block": false,
+          "previous_open_point_block_id": "",
+          "validator_used": true,
+          "validator_final_valid": true,
+          "validator_final_error_types": [],
+          "validation_log": [
+            {
+              "round": 0,
+              "is_valid": true,
+              "error_types": [],
+              "correction_instruction": ""
+            }
+          ],
+          "error": null
+        },
+        {
+          "chunk_id": "20160408_Finance_Act_2013_chunk_0011",
+          "page_number": 10,
+          "status": "success",
+          "elapsed_seconds": 55.41,
+          "output_path": "phase2_output\\page_outputs_2\\20160408_Finance_Act_2013\\20160408_Finance_Act_2013_chunk_0011_page_0010.json",
+          "block_count": 1,
+          "carry_state_status": "open",
+          "active_point_number": "১২।",
+          "numbering_system": "bangla_digits",
+          "expected_next_main_point": "৬।",
+          "sent_previous_open_point_block": true,
+          "previous_open_point_block_id": "p0010_b001",
+          "validator_used": true,
+          "validator_final_valid": true,
+          "validator_final_error_types": [],
+          "validation_log": [
+            {
+              "round": 0,
+              "is_valid": true,
+              "error_types": [],
+              "correction_instruction": ""
+            }
+          ],
+          "error": null
+        },
+        {
+          "chunk_id": "20160408_Finance_Act_2013_chunk_0012",
+          "page_number": 11,
+          "status": "success",
+          "elapsed_seconds": 65.69,
+          "output_path": "phase2_output\\page_outputs_2\\20160408_Finance_Act_2013\\20160408_Finance_Act_2013_chunk_0012_page_0011.json",
+          "block_count": 2,
+          "carry_state_status": "open",
+          "active_point_number": "১৪।",
+          "numbering_system": "bangla_digits",
+          "expected_next_main_point": "৫।",
+          "sent_previous_open_point_block": true,
+          "previous_open_point_block_id": "p11_b002",
+          "validator_used": true,
+          "validator_final_valid": true,
+          "validator_final_error_types": [],
+          "validation_log": [
+            {
+              "round": 0,
+              "is_valid": true,
+              "error_types": [],
+              "correction_instruction": ""
+            }
+          ],
+          "error": null
+        },
+        {
+          "chunk_id": "20160408_Finance_Act_2013_chunk_0013",
+          "page_number": 12,
+          "status": "success",
+          "elapsed_seconds": 92.57,
+          "output_path": "phase2_output\\page_outputs_2\\20160408_Finance_Act_2013\\20160408_Finance_Act_2013_chunk_0013_page_0012.json",
+          "block_count": 2,
+          "carry_state_status": "open",
+          "active_point_number": "১৬।",
+          "numbering_system": "bangla_digits",
+          "expected_next_main_point": "১৭।",
+          "sent_previous_open_point_block": true,
+          "previous_open_point_block_id": "p12_b002",
+          "validator_used": true,
+          "validator_final_valid": true,
+          "validator_final_error_types": [],
+          "validation_log": [
+            {
+              "round": 0,
+              "is_valid": true,
+              "error_types": [],
+              "correction_instruction": ""
+            }
+          ],
+          "error": null
+        },
+        {
+          "chunk_id": "20160408_Finance_Act_2013_chunk_0014",
+          "page_number": 13,
+          "status": "success",
+          "elapsed_seconds": 108.8,
+          "output_path": "phase2_output\\page_outputs_2\\20160408_Finance_Act_2013\\20160408_Finance_Act_2013_chunk_0014_page_0013.json",
+          "block_count": 4,
+          "carry_state_status": "closed",
+          "active_point_number": "",
+          "numbering_system": "bangla_digits",
+          "expected_next_main_point": "২১।",
+          "sent_previous_open_point_block": true,
+          "previous_open_point_block_id": "p13_b004",
+          "validator_used": true,
+          "validator_final_valid": true,
+          "validator_final_error_types": [],
+          "validation_log": [
+            {
+              "round": 0,
+              "is_valid": true,
+              "error_types": [],
+              "correction_instruction": ""
+            }
+          ],
+          "error": null
+        },
+        {
+          "chunk_id": "20160408_Finance_Act_2013_chunk_0015",
+          "page_number": 14,
+          "status": "success",
+          "elapsed_seconds": 83.34,
+          "output_path": "phase2_output\\page_outputs_2\\20160408_Finance_Act_2013\\20160408_Finance_Act_2013_chunk_0015_page_0014.json",
+          "block_count": 3,
+          "carry_state_status": "closed",
+          "active_point_number": "",
+          "numbering_system": "bangla_digits",
+          "expected_next_main_point": "২৪।",
+          "sent_previous_open_point_block": false,
+          "previous_open_point_block_id": "",
+          "validator_used": true,
+          "validator_final_valid": true,
+          "validator_final_error_types": [],
+          "validation_log": [
+            {
+              "round": 0,
+              "is_valid": true,
+              "error_types": [],
+              "correction_instruction": ""
+            }
+          ],
+          "error": null
+        },
+        {
+          "chunk_id": "20160408_Finance_Act_2013_chunk_0016",
+          "page_number": 15,
+          "status": "success",
+          "elapsed_seconds": 67.86,
+          "output_path": "phase2_output\\page_outputs_2\\20160408_Finance_Act_2013\\20160408_Finance_Act_2013_chunk_0016_page_0015.json",
           "block_count": 5,
-          "carry_state_status": "closed",
-          "active_point_number": "(১৪)",
-          "numbering_system": "english_digits",
-          "expected_next_main_point": "(১৫)",
-          "sent_previous_open_point_block": false,
-          "previous_open_point_block_id": "",
-          "validator_used": true,
-          "validator_final_valid": true,
-          "validator_final_error_types": [],
-          "validation_log": [
-            {
-              "round": 0,
-              "is_valid": true,
-              "error_types": [],
-              "correction_instruction": ""
-            }
-          ],
-          "error": null
-        },
-        {
-          "chunk_id": "20160408_Finance_Act_2013_chunk_0055",
-          "page_number": 54,
-          "status": "success",
-          "elapsed_seconds": 30.01,
-          "output_path": "phase2_output\\page_outputs_2\\20160408_Finance_Act_2013\\20160408_Finance_Act_2013_chunk_0055_page_0054.json",
-          "block_count": 4,
           "carry_state_status": "open",
-          "active_point_number": "১৮",
-          "numbering_system": "english_digits",
-          "expected_next_main_point": "১৯",
+          "active_point_number": "২৮।",
+          "numbering_system": "bangla_digits",
+          "expected_next_main_point": "(2) Every such order shall cease to have effect after the expiry of a period of one year from the date of the order made under sub-section (1).",
           "sent_previous_open_point_block": true,
-          "previous_open_point_block_id": "p0054_b004",
+          "previous_open_point_block_id": "p0015_b005",
           "validator_used": true,
           "validator_final_valid": true,
           "validator_final_error_types": [],
@@ -253,98 +444,139 @@
           "error": null
         },
         {
-          "chunk_id": "20160408_Finance_Act_2013_chunk_0056",
-          "page_number": 55,
+          "chunk_id": "20160408_Finance_Act_2013_chunk_0017",
+          "page_number": 16,
           "status": "success",
-          "elapsed_seconds": 18.56,
-          "output_path": "phase2_output\\page_outputs_2\\20160408_Finance_Act_2013\\20160408_Finance_Act_2013_chunk_0056_page_0055.json",
-          "block_count": 1,
+          "elapsed_seconds": 220.65,
+          "output_path": "phase2_output\\page_outputs_2\\20160408_Finance_Act_2013\\20160408_Finance_Act_2013_chunk_0017_page_0016.json",
+          "block_count": 5,
           "carry_state_status": "open",
-          "active_point_number": "১৮",
-          "numbering_system": "english_digits",
-          "expected_next_main_point": "১৯",
+          "active_point_number": "৩১।",
+          "numbering_system": "bangla_digits",
+          "expected_next_main_point": "৩২।",
           "sent_previous_open_point_block": true,
-          "previous_open_point_block_id": "p0055_b001",
+          "previous_open_point_block_id": "p0016_b001",
           "validator_used": true,
           "validator_final_valid": true,
           "validator_final_error_types": [],
-          "validation_log": [
-            {
-              "round": 0,
-              "is_valid": true,
-              "error_types": [],
-              "correction_instruction": ""
-            }
-          ],
-          "error": null
-        },
-        {
-          "chunk_id": "20160408_Finance_Act_2013_chunk_0057",
-          "page_number": 56,
-          "status": "success",
-          "elapsed_seconds": 88.16,
-          "output_path": "phase2_output\\page_outputs_2\\20160408_Finance_Act_2013\\20160408_Finance_Act_2013_chunk_0057_page_0056.json",
-          "block_count": 3,
-          "carry_state_status": "closed",
-          "active_point_number": "",
-          "numbering_system": "english_digits",
-          "expected_next_main_point": "২১",
-          "sent_previous_open_point_block": false,
-          "previous_open_point_block_id": "",
-          "validator_used": true,
-          "validator_final_valid": false,
-          "validator_final_error_types": [
-            "wrong_block_split"
-          ],
           "validation_log": [
             {
               "round": 0,
               "is_valid": false,
               "error_types": [
-                "wrong_block_split"
+                "carry_state_inconsistency"
               ],
-              "correction_instruction": "Retry this chunk. The content blocks (p0056_b002) and (p0056_b003) are sequential amendments (১৯) and (২০) that should likely be treated as a single continuation of the main point structure or clearly separated as distinct, non-table points. Given they are distinct numbered amendments, they should remain separate blocks, but the overall structure suggests they are related amendments following the table continuation. No major error detected based on the 4 criteria, but the structure of amendments (১৯) and (২০) following a table continuation (১৮) is unusual. Since the error is not clearly one of the 4 major types, I will mark it valid unless a clear error is found. Re-evaluating: The table in "
+              "correction_instruction": "The output_carry_forward_state status is 'closed', but the extracted content includes points numbered ২৯, ৩০, and ৩১, which should logically follow the previous point ২৮. The state should be updated to reflect the continuation or closure correctly based on the extracted content flow."
             },
             {
               "round": 1,
               "is_valid": false,
               "error_types": [
-                "wrong_block_split"
+                "wrong_block_split",
+                "carry_state_inconsistency"
               ],
-              "correction_instruction": "Retry this chunk. The content in block p0056_b002 and p0056_b003 are amendments (points nineteen and twenty) that follow the main point (১৮) and should be treated as separate, distinct points, not necessarily continuing the flow of point (১৮). However, the entire sequence of amendments (১৯) and (২০) appears to be a single logical unit of changes following the main table structure. Ensure that the table structure (point ১৮) and the subsequent amendments (১৯) and (২০) are correctly separated into distinct point blocks, but do not split the amendments themselves if they are clearly related amendments."
+              "correction_instruction": "Block p0016_b001 contains text that logically continues the previous point (point ২৮) based on the previous_state continuation_hint, but it is incorrectly numbered as '২.' instead of continuing the sequence of point ২৮. Also, the output_carry_forward_state status is 'closed' while the content suggests continuation."
             },
             {
               "round": 2,
-              "is_valid": false,
-              "error_types": [
-                "wrong_block_split"
-              ],
-              "correction_instruction": "Retry this chunk. The content in block p0056_b002 and p0056_b003 are amendments (points nineteen and twenty) that follow the main point (১৮) which is a table continuation. These amendments should be treated as separate, distinct points, but the extractor has split the content that belongs to the main point (১৮) into multiple blocks. The table content in p0056_b001 is a continuation of the table from the previous chunk, and the subsequent text (amendments for (১৯) and (২০)) are separate points. The split is acceptable here as they represent distinct amendments, but the primary issue is that the table structure in p0056_b001 seems to be a continuation of the table from the previous chunk, and "
-            },
-            {
-              "round": 3,
-              "is_valid": false,
-              "error_types": [
-                "wrong_block_split"
-              ],
-              "correction_instruction": "Retry this chunk. The content in block p0056_b002 and p0056_b003 are amendments (points (১৯) and (২০)) that clearly belong to the same continuous point structure as the table in p0056_b001, or they should be treated as separate, distinct points following the table. However, the current structure suggests that the amendments (১৯) and (২০) are separate points, which is acceptable if they are distinct amendments. The primary issue is that the table in p0056_b001, which is a continuation of point (১৮), should ideally be merged with the subsequent amendment points (১৯) and (২০) if they are all part of the same overarching point structure, or the split between the table and the subsequent text nee"
+              "is_valid": true,
+              "error_types": [],
+              "correction_instruction": ""
             }
           ],
           "error": null
         },
         {
-          "chunk_id": "20160408_Finance_Act_2013_chunk_0058",
-          "page_number": 57,
+          "chunk_id": "20160408_Finance_Act_2013_chunk_0018",
+          "page_number": 17,
           "status": "success",
-          "elapsed_seconds": 22.53,
-          "output_path": "phase2_output\\page_outputs_2\\20160408_Finance_Act_2013\\20160408_Finance_Act_2013_chunk_0058_page_0057.json",
+          "elapsed_seconds": 62.55,
+          "output_path": "phase2_output\\page_outputs_2\\20160408_Finance_Act_2013\\20160408_Finance_Act_2013_chunk_0018_page_0017.json",
+          "block_count": 2,
+          "carry_state_status": "open",
+          "active_point_number": "৩৩।",
+          "numbering_system": "bangla_digits",
+          "expected_next_main_point": "৩৪।",
+          "sent_previous_open_point_block": true,
+          "previous_open_point_block_id": "p0003_b001",
+          "validator_used": true,
+          "validator_final_valid": true,
+          "validator_final_error_types": [],
+          "validation_log": [
+            {
+              "round": 0,
+              "is_valid": true,
+              "error_types": [],
+              "correction_instruction": ""
+            }
+          ],
+          "error": null
+        },
+        {
+          "chunk_id": "20160408_Finance_Act_2013_chunk_0019",
+          "page_number": 18,
+          "status": "success",
+          "elapsed_seconds": 131.5,
+          "output_path": "phase2_output\\page_outputs_2\\20160408_Finance_Act_2013\\20160408_Finance_Act_2013_chunk_0019_page_0018.json",
+          "block_count": 3,
+          "carry_state_status": "open",
+          "active_point_number": "৩৬।",
+          "numbering_system": "bangla_digits",
+          "expected_next_main_point": "৩৭।",
+          "sent_previous_open_point_block": true,
+          "previous_open_point_block_id": "p0004_b001",
+          "validator_used": true,
+          "validator_final_valid": true,
+          "validator_final_error_types": [],
+          "validation_log": [
+            {
+              "round": 0,
+              "is_valid": true,
+              "error_types": [],
+              "correction_instruction": ""
+            }
+          ],
+          "error": null
+        },
+        {
+          "chunk_id": "20160408_Finance_Act_2013_chunk_0020",
+          "page_number": 19,
+          "status": "success",
+          "elapsed_seconds": 158.26,
+          "output_path": "phase2_output\\page_outputs_2\\20160408_Finance_Act_2013\\20160408_Finance_Act_2013_chunk_0020_page_0019.json",
+          "block_count": 3,
+          "carry_state_status": "open",
+          "active_point_number": "৩৯।",
+          "numbering_system": "bangla_digits",
+          "expected_next_main_point": "৪০।",
+          "sent_previous_open_point_block": true,
+          "previous_open_point_block_id": "p0003_b003",
+          "validator_used": true,
+          "validator_final_valid": true,
+          "validator_final_error_types": [],
+          "validation_log": [
+            {
+              "round": 0,
+              "is_valid": true,
+              "error_types": [],
+              "correction_instruction": ""
+            }
+          ],
+          "error": null
+        },
+        {
+          "chunk_id": "20160408_Finance_Act_2013_chunk_0021",
+          "page_number": 20,
+          "status": "success",
+          "elapsed_seconds": 181.0,
+          "output_path": "phase2_output\\page_outputs_2\\20160408_Finance_Act_2013\\20160408_Finance_Act_2013_chunk_0021_page_0020.json",
           "block_count": 4,
-          "carry_state_status": "open",
+          "carry_state_status": "closed",
           "active_point_number": "",
-          "numbering_system": "mixed",
+          "numbering_system": "bangla_digits",
           "expected_next_main_point": "",
           "sent_previous_open_point_block": true,
-          "previous_open_point_block_id": "p0057_b004",
+          "previous_open_point_block_id": "p0020_b003",
           "validator_used": true,
           "validator_final_valid": true,
           "validator_final_error_types": [],
@@ -359,93 +591,15 @@
           "error": null
         },
         {
-          "chunk_id": "20160408_Finance_Act_2013_chunk_0059",
-          "page_number": 58,
+          "chunk_id": "20160408_Finance_Act_2013_chunk_0022",
+          "page_number": 21,
           "status": "success",
-          "elapsed_seconds": 19.19,
-          "output_path": "phase2_output\\page_outputs_2\\20160408_Finance_Act_2013\\20160408_Finance_Act_2013_chunk_0059_page_0058.json",
-          "block_count": 2,
-          "carry_state_status": "open",
-          "active_point_number": "অনুচ্ছেদ-খ",
-          "numbering_system": "mixed",
-          "expected_next_main_point": "(আ)",
-          "sent_previous_open_point_block": true,
-          "previous_open_point_block_id": "p0058_b002",
-          "validator_used": true,
-          "validator_final_valid": true,
-          "validator_final_error_types": [],
-          "validation_log": [
-            {
-              "round": 0,
-              "is_valid": true,
-              "error_types": [],
-              "correction_instruction": ""
-            }
-          ],
-          "error": null
-        },
-        {
-          "chunk_id": "20160408_Finance_Act_2013_chunk_0060",
-          "page_number": 59,
-          "status": "success",
-          "elapsed_seconds": 24.45,
-          "output_path": "phase2_output\\page_outputs_2\\20160408_Finance_Act_2013\\20160408_Finance_Act_2013_chunk_0060_page_0059.json",
-          "block_count": 2,
-          "carry_state_status": "open",
-          "active_point_number": "অনুচ্ছেদ-খ",
-          "numbering_system": "mixed",
-          "expected_next_main_point": "(ঙ)",
-          "sent_previous_open_point_block": false,
-          "previous_open_point_block_id": "",
-          "validator_used": true,
-          "validator_final_valid": true,
-          "validator_final_error_types": [],
-          "validation_log": [
-            {
-              "round": 0,
-              "is_valid": true,
-              "error_types": [],
-              "correction_instruction": ""
-            }
-          ],
-          "error": null
-        },
-        {
-          "chunk_id": "20160408_Finance_Act_2013_chunk_0061",
-          "page_number": 60,
-          "status": "success",
-          "elapsed_seconds": 19.44,
-          "output_path": "phase2_output\\page_outputs_2\\20160408_Finance_Act_2013\\20160408_Finance_Act_2013_chunk_0061_page_0060.json",
-          "block_count": 3,
-          "carry_state_status": "closed",
-          "active_point_number": "৩",
-          "numbering_system": "mixed",
-          "expected_next_main_point": "৪",
-          "sent_previous_open_point_block": false,
-          "previous_open_point_block_id": "",
-          "validator_used": true,
-          "validator_final_valid": true,
-          "validator_final_error_types": [],
-          "validation_log": [
-            {
-              "round": 0,
-              "is_valid": true,
-              "error_types": [],
-              "correction_instruction": ""
-            }
-          ],
-          "error": null
-        },
-        {
-          "chunk_id": "20160408_Finance_Act_2013_chunk_0062",
-          "page_number": 61,
-          "status": "success",
-          "elapsed_seconds": 16.7,
-          "output_path": "phase2_output\\page_outputs_2\\20160408_Finance_Act_2013\\20160408_Finance_Act_2013_chunk_0062_page_0061.json",
-          "block_count": 2,
+          "elapsed_seconds": 310.55,
+          "output_path": "phase2_output\\page_outputs_2\\20160408_Finance_Act_2013\\20160408_Finance_Act_2013_chunk_0022_page_0021.json",
+          "block_count": 1,
           "carry_state_status": "closed",
           "active_point_number": "",
-          "numbering_system": "mixed",
+          "numbering_system": "bangla_digits",
           "expected_next_main_point": "",
           "sent_previous_open_point_block": false,
           "previous_open_point_block_id": "",
@@ -463,15 +617,67 @@
           "error": null
         },
         {
-          "chunk_id": "20160408_Finance_Act_2013_chunk_0063",
-          "page_number": 62,
+          "chunk_id": "20160408_Finance_Act_2013_chunk_0023",
+          "page_number": 22,
           "status": "success",
-          "elapsed_seconds": 14.17,
-          "output_path": "phase2_output\\page_outputs_2\\20160408_Finance_Act_2013\\20160408_Finance_Act_2013_chunk_0063_page_0062.json",
-          "block_count": 3,
+          "elapsed_seconds": 150.11,
+          "output_path": "phase2_output\\page_outputs_2\\20160408_Finance_Act_2013\\20160408_Finance_Act_2013_chunk_0023_page_0022.json",
+          "block_count": 1,
           "carry_state_status": "closed",
           "active_point_number": "",
-          "numbering_system": "english_digits",
+          "numbering_system": "bangla_digits",
+          "expected_next_main_point": "",
+          "sent_previous_open_point_block": false,
+          "previous_open_point_block_id": "",
+          "validator_used": true,
+          "validator_final_valid": true,
+          "validator_final_error_types": [],
+          "validation_log": [
+            {
+              "round": 0,
+              "is_valid": true,
+              "error_types": [],
+              "correction_instruction": ""
+            }
+          ],
+          "error": null
+        },
+        {
+          "chunk_id": "20160408_Finance_Act_2013_chunk_0024",
+          "page_number": 23,
+          "status": "success",
+          "elapsed_seconds": 130.47,
+          "output_path": "phase2_output\\page_outputs_2\\20160408_Finance_Act_2013\\20160408_Finance_Act_2013_chunk_0024_page_0023.json",
+          "block_count": 1,
+          "carry_state_status": "closed",
+          "active_point_number": "",
+          "numbering_system": "bangla_digits",
+          "expected_next_main_point": "",
+          "sent_previous_open_point_block": false,
+          "previous_open_point_block_id": "",
+          "validator_used": true,
+          "validator_final_valid": true,
+          "validator_final_error_types": [],
+          "validation_log": [
+            {
+              "round": 0,
+              "is_valid": true,
+              "error_types": [],
+              "correction_instruction": ""
+            }
+          ],
+          "error": null
+        },
+        {
+          "chunk_id": "20160408_Finance_Act_2013_chunk_0025",
+          "page_number": 24,
+          "status": "success",
+          "elapsed_seconds": 212.48,
+          "output_path": "phase2_output\\page_outputs_2\\20160408_Finance_Act_2013\\20160408_Finance_Act_2013_chunk_0025_page_0024.json",
+          "block_count": 1,
+          "carry_state_status": "closed",
+          "active_point_number": "",
+          "numbering_system": "bangla_digits",
           "expected_next_main_point": "",
           "sent_previous_open_point_block": false,
           "previous_open_point_block_id": "",

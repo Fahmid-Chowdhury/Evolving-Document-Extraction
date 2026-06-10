@@ -4,30 +4,20 @@
   "document_id": "20160408_Finance_Act_2013",
   "content_blocks": [
     {
-      "block_id": "p0000_b001",
+      "block_id": "p0001_b001",
       "type": "metadata",
       "point_number": "",
-      "text": "![Emblem of Bangladesh featuring a map of Bangladesh inside a circle with the text 'গণপ্রজাতন্ত্রী বাংলাদেশ সরকার' (Government of the People's Republic of Bangladesh) and stars.](4bcc72ec51994b4579deeb68856e2e06_3_img.webp)\n\nঅতিরিক্ত সংখ্যা  \nকর্তৃপক্ষ কর্তৃক প্রকাশিত\n\n---\n\nরবিবার, জুন ৩০, ২০১৩\n\n---\n\nবাংলাদেশ জাতীয় সংসদ\n\nঢাকা, ৩০ জুন, ২০১৩/১৬ আষাঢ়, ১৪২০\n\nসংসদ কর্তৃক গৃহীত নিম্নলিখিত আইনটি ৩০ জুন, ২০১৩ (১৬ আষাঢ়, ১৪২০) তারিখে রদ্রিপত্তির সম্মতি লাভ করিয়াছে এবং এতদ্বারা এই আইনটি সর্বসাধারণের অবগতির জন্য প্রকাশ করা যাইতেছে ৷\n\n২০১৩ সনের ২৫ নং আইন\n\nসরকারের আর্থিক প্রস্তাবাবলী কার্যকরকরণ এবং কতিপয় আইন সংশোধনকল্পে প্রণীত আইন",
+      "text": "<img alt=\"Emblem of Bangladesh featuring a map of Bangladesh inside a circle with the text 'গণপ্রজাতন্ত্রী বাংলাদেশ সরকার' (Government of the People's Republic of Bangladesh) and stars.\" src=\"4bcc72ec51994b4579deeb68856e2e06_3_img.webp\"/><p>অতিরিক্ত সংখ্যা<br/>কর্তৃপক্ষ কর্তৃক প্রকাশিত</p><hr/><p>রবিবার, জুন ৩০, ২০১৩</p><hr/><p>বাংলাদেশ জাতীয় সংসদ</p><p>ঢাকা, ৩০ জুন, ২০১৩/১৬ আষাঢ়, ১৪২০</p><p>সংসদ কর্তৃক গৃহীত নিম্নলিখিত আইনটি ৩০ জুন, ২০১৩ (১৬ আষাঢ়, ১৪২০) তারিখে রদ্রিপত্তির সম্মতি লাভ করিয়াছে এবং এতদ্বারা এই আইনটি সর্বসাধারণের অবগতির জন্য প্রকাশ করা যাইতেছে ৷</p><p>২০১৩ সনের ২৫ নং আইন</p><p>সরকারের আর্থিক প্রস্তাবাবলী কার্যকরকরণ এবং কতিপয় আইন সংশোধনকল্পে প্রণীত আইন</p><p>যেহেতু সরকারের আর্থিক প্রস্তাবাবলী কার্যকরকরণ এবং নিম্নবর্ণিত উদ্দেশ্যসমূহ পূরণকল্পে কতিপয় আইন সংশোধন করা সমীচীন ও প্রয়োজনীয়;</p><p>সেহেতু এতদ্বারা নিম্নরূপ আইন করা হইল:—</p>",
       "continues_from_previous": false,
       "continues_to_next": false,
       "stitch_group_id": "",
       "stitching_note": ""
     },
     {
-      "block_id": "p0000_b002",
-      "type": "metadata",
-      "point_number": "",
-      "text": "প্রথম অধ্যায়  \nপ্রারম্ভিক",
-      "continues_from_previous": false,
-      "continues_to_next": false,
-      "stitch_group_id": "",
-      "stitching_note": ""
-    },
-    {
-      "block_id": "p0000_b003",
+      "block_id": "p0001_b002",
       "type": "point",
-      "point_number": "১",
-      "text": "সংক্ষিপ্ত শিরোনাম ও প্রবর্তন।—(১) এই আইন অর্থ আইন, ২০১৩ নামে অভিহিত হইবে।\n\n(২) The Provisional Collection of Taxes Act, 1931 (Act No. XVI of 1931) এর অধীন জনস্বার্থে জারীকৃত ঘোষণা সাপেক্ষে, এই আইন ২০১৩ সনের ১ জুলাই তারিখে কার্যকর হইবে।",
+      "point_number": "১।",
+      "text": "সংক্ষিপ্ত শিরোনাম ও প্রবর্তন।—(১) এই আইন অর্থ আইন, ২০১৩ নামে অভিহিত হইবে।\n(২) The Provisional Collection of Taxes Act, 1931 (Act No. XVI of 1931) এর অধীন জনস্বার্থে জারীকৃত ঘোষণা সাপেক্ষে, এই আইন ২০১৩ সনের ১ জুলাই তারিখে কার্যকর হইবে।",
       "continues_from_previous": false,
       "continues_to_next": false,
       "stitch_group_id": "point_১",
@@ -40,8 +30,8 @@
     "active_stitch_group_id": "",
     "active_point_summary": "",
     "numbering_system": "english_digits",
-    "expected_next_main_point": "২",
-    "continuation_hint": "The next main point is expected to be '২' (2), which starts in the next chunk.",
-    "last_visible_text": ""
+    "expected_next_main_point": "২।",
+    "continuation_hint": "",
+    "last_visible_text": "এই আইন ২০১৩ নামে অভিহিত হইবে।\n(২) The Provisional Collection of Taxes Act, 1931 (Act No. XVI of 1931) এর অধীন জনস্বার্থে জারীকৃত ঘোষণা সাপেক্ষে, এই আইন ২০১৩ সনের ১ জুলাই তারিখে কার্যকর হইবে।"
   }
 }

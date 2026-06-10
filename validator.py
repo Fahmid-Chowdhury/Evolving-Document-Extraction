@@ -15,19 +15,20 @@ from llm_client import LLMRequestConfig, chat_completion
 VALIDATOR_BACKEND = "hf"
 
 # HuggingFace local model
-VALIDATOR_HF_MODEL = "google/gemma-4-E4B-it"
+# VALIDATOR_HF_MODEL = "google/gemma-4-E4B-it"
+VALIDATOR_HF_MODEL = "google/gemma-4-E2B-it"
+
+# Validator output is small, so keep this smaller than extractor output.
+VALIDATOR_MAX_NEW_TOKENS = 1024
 
 # Ollama local model; only used when VALIDATOR_BACKEND = "ollama"
 VALIDATOR_OLLAMA_MODEL = "gemma4:latest"
 
 THINK = False   # HF: enable_thinking in chat template; Ollama: think mode.
 
-VALIDATOR_TEMPERATURE = 0.3
-VALIDATOR_TOP_P = 0.2
+VALIDATOR_TEMPERATURE = 0.30
+VALIDATOR_TOP_P = 0.20
 VALIDATOR_NUM_CTX = 32768
-
-# Validator output is small, so keep this smaller than extractor output.
-VALIDATOR_MAX_NEW_TOKENS = 1024
 
 VALIDATOR_TEXT_LIMIT = 2500  # Limit for previous_tail, next_head, and previous_open_point_block text in the validator prompt to keep it concise and focused on the most relevant context.
 

@@ -6,22 +6,72 @@
     {
       "block_id": "p0008_b001",
       "type": "point",
-      "point_number": "১০।",
-      "text": "(b) for building or apartment situated in the area of Dhanmandi Residential Area, Defence Officers Housing Society (DOHS), Mahakhali, Lalmatia Housing Society, Uttara Model Town, Bashundhara Residential Area, Dhaka Cantonment, Kawran Bazar, Bijaynagar, Segunbagicha, Nikunja of Dhaka, and Panchlaish, Khulshi, Agrabad and Nasirabad Area of Chittagong-\n\n- (i) taka four thousand per square meter in the case of a building or apartment the plinth area of which does not exceed two hundred square meter;\n- (ii) taka five thousand per square meter in the case of a building or apartment the plinth area of which exceeds two hundred square meter;\n\n(c) for building or apartment situated in the area of any City Corporation other than areas mentioned in clauses (a) or (b)-\n\n- (i) taka two thousand per square meter in the case of a building or apartment the plinth area of which does not exceed two hundred square meter;\n- (ii) taka three thousand per square meter in the case of a building or apartment the plinth area of which exceeds two hundred square meter;\n\n(d) for building or apartment situated in the area of a Paurasabha of any district headquarters—\n\n- (i) taka one thousand per square meter in the case of a building or apartment the plinth area of which does not exceed two hundred square meter;\n- (ii) taka one thousand and five hundred per square meter in the case of a building or apartment the plinth area of which exceeds two hundred square meter;",
+      "point_number": "১০",
+      "text": "(b) for building or apartment situated in the area of Dhanmandi Residential Area, Defence Officers Housing Society (DOHS), Mahakhali, Lalmatia Housing Society, Uttara Model Town, Bashundhara Residential Area, Dhaka Cantonment, Kawran Bazar, Bijaynagar, Segunbagicha, Nikunja of Dhaka, and Panchlaish, Khulshi, Agrabad and Nasirabad Area of Chittagong-",
       "continues_from_previous": true,
       "continues_to_next": true,
-      "stitch_group_id": "point_১০।",
-      "stitching_note": "Continuation of point 10. Includes sub-clauses (b), (c), and (d)."
+      "stitch_group_id": "point_১০",
+      "stitching_note": ""
+    },
+    {
+      "block_id": "p0008_b002",
+      "type": "point",
+      "point_number": "",
+      "text": "<ul style=\"list-style-type: none;\n<li>(i) taka four thousand per square meter in the case of a building or apartment the plinth area of which does not exceed two hundred square meter;\n</li>\n<li>(ii) taka five thousand per square meter in the case of a building or apartment the plinth area of which exceeds two hundred square meter;\n</li>\n</ul>",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "point_১০",
+      "stitching_note": ""
+    },
+    {
+      "block_id": "p0008_b003",
+      "type": "point",
+      "point_number": "",
+      "text": "(c) for building or apartment situated in the area of any City Corporation other than areas mentioned in clauses (a) or (b)-",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "point_১০",
+      "stitching_note": ""
+    },
+    {
+      "block_id": "p0008_b004",
+      "type": "point",
+      "point_number": "",
+      "text": "<ul style=\"list-style-type: none;\n<li>(i) taka two thousand per square meter in the case of a building or apartment the plinth area of which does not exceed two hundred square meter;\n</li>\n<li>(ii) taka three thousand per square meter in the case of a building or apartment the plinth area of which exceeds two hundred square meter;\n</li>\n</ul>",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "point_১০",
+      "stitching_note": ""
+    },
+    {
+      "block_id": "p0008_b005",
+      "type": "point",
+      "point_number": "",
+      "text": "(d) for building or apartment situated in the area of a Paurasabha of any district headquarters—",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "point_১০",
+      "stitching_note": ""
+    },
+    {
+      "block_id": "p0008_b006",
+      "type": "point",
+      "point_number": "",
+      "text": "<ul style=\"list-style-type: none;\n<li>(i) taka one thousand per square meter in the case of a building or apartment the plinth area of which does not exceed two hundred square meter;\n</li>\n<li>(ii) taka one thousand and five hundred per square meter in the case of a building or apartment the plinth area of which exceeds two hundred square meter;\n</li>\n</ul>",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "point_১০",
+      "stitching_note": ""
     }
   ],
   "output_carry_forward_state": {
     "status": "open",
-    "active_point_number": "১০।",
-    "active_stitch_group_id": "point_১০।",
-    "active_point_summary": "Insertion of new section 19BBBBB in Ordinance No. XXXVI of 1984, detailing special tax treatment for residential building/apartment investment. The current page covered sub-clauses (b), (c), and (d). The point continues with sub-clause (e) and subsequent sub-sections (2) and (3).",
+    "active_point_number": "১০",
+    "active_stitch_group_id": "point_১০",
+    "active_point_summary": "Ordinance No. XXXVI of 1984 এ নূতন section 19BBBBB এর সন্নিবেশ।",
     "numbering_system": "english_digits",
-    "expected_next_main_point": "১১।",
-    "continuation_hint": "The point continues with sub-clause (e) and subsequent sub-sections (2) and (3).",
-    "last_visible_text": "(d) for building or apartment situated in the area of a Paurasabha of any district headquarters—\n\n- (i) taka one thousand per square meter in the case of a building or apartment the plinth area of which does not exceed two hundred square meter;\n- (ii) taka one thousand and five hundred per square meter in the case of a building or apartment the plinth area of which exceeds two hundred square meter;"
+    "expected_next_main_point": "১১",
+    "continuation_hint": "The next text starts with (e) under point 19BBBBB.",
+    "last_visible_text": "taka one thousand and five hundred per square meter in the case of a building or apartment the plinth area of which exceeds two hundred square meter;"
   }
 }

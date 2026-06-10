@@ -4,34 +4,44 @@
   "document_id": "20160408_Finance_Act_2013",
   "content_blocks": [
     {
-      "block_id": "p0014_b001",
+      "block_id": "p14_b001",
       "type": "point",
-      "point_number": "২২।",
-      "text": "Ordinance No. XXXVI of 1984 এর section 53E এর সংশোধন।—উক্ত Ordinance এর section 53E এর বিদ্যমান বিধান sub-section (1) হিসেবে সংখ্যায়িত হইবে এবং উক্তরূপ সংখ্যায়িত sub-section (1) এর পর নিম্নরূপ sub-section (2) সংযোজিত হইবে, যথা:—\n\n“(2) Any company, as defined in clause (20) of section 2 of this Ordinance other than oil marketing company, which sells goods to any distributor or to any other persons under a written contract at a price lower than the retail price fixed by such company, shall collect at the time of sale of such goods to such distributor or other persons at the rate of five per cent of the difference between the sale price to the distributor or other persons and the retail price fixed by such company।”।",
-      "continues_from_previous": true,
-      "continues_to_next": false,
-      "stitch_group_id": "point_২২।",
-      "stitching_note": "Merged text from previous chunk and current chunk."
-    },
-    {
-      "block_id": "p0014_b002",
-      "type": "point",
-      "point_number": "২৩।",
-      "text": "Ordinance No. XXXVI of 1984 এর section 53FF এর সংশোধন।—উক্ত Ordinance এর section 53FF এর—\n\n(ক) clause (a) এর—\n\n(অ) sub-clause (i) এর “two thousand” শব্দগুলির পরিবর্তে “one thousand and six hundred” শব্দগুলি প্রতিস্থাপিত হইবে;\n\n(আ) sub-clause (ii) এর “one thousand and eight hundred” শব্দগুলির পরিবর্তে “one thousand and five hundred” শব্দগুলি প্রতিস্থাপিত হইবে;\n\n(ই) sub-clause (iii) এর “eight hundred” শব্দগুলির পরিবর্তে “six hundred” শব্দগুলি প্রতিস্থাপিত হইবে;\n\n(খ) clause (aa) এর—\n\n(অ) sub-clause (i) এর “eight thousand” শব্দগুলির পরিবর্তে “six thousand and five hundred” শব্দগুলি প্রতিস্থাপিত হইবে;\n\n(আ) sub-clause (ii) এর “six thousand” শব্দগুলির পরিবর্তে “five thousand” শব্দগুলি প্রতিস্থাপিত হইবে;\n\n(ই) sub-clause (iii) এর “two thousand” শব্দগুলির পরিবর্তে “one thousand and six hundred” শব্দগুলি প্রতিস্থাপিত হইবে।",
+      "point_number": "২১।",
+      "text": "Ordinance No. XXXVI of 1984 এর section 53BBB এর সংশোধন।—উক্ত Ordinance এর section 53BBB এর “, bonds” কমা ও শব্দ বিলুপ্ত হইবে।",
       "continues_from_previous": false,
       "continues_to_next": false,
-      "stitch_group_id": "point_২৩।",
+      "stitch_group_id": "point_২১",
+      "stitching_note": ""
+    },
+    {
+      "block_id": "p14_b002",
+      "type": "point",
+      "point_number": "২২।",
+      "text": "Ordinance No. XXXVI of 1984 এর section 53E এর সংশোধন।—উক্ত Ordinance এর section 53E এর বিদ্যমান বিধান sub-section (1) হিসেবে সংখ্যায়িত হইবে এবং উক্তরূপ সংখ্যায়িত sub-section (1) এর পর নিম্নরূপ sub-section (2) সংযোজিত হইবে, যথা:—\n\n“(2) Any company, as defined in clause (20) of section 2 of this Ordinance other than oil marketing company, which sells goods to any distributor or to any other persons under a written contract at a price lower than the retail price fixed by such company, shall collect at the time of sale of such goods to such distributor or other persons at the rate of five per cent of the difference between the sale price to the distributor or other persons and the retail price fixed by such company.”",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "point_২২",
+      "stitching_note": ""
+    },
+    {
+      "block_id": "p14_b003",
+      "type": "point",
+      "point_number": "২৩।",
+      "text": "Ordinance No. XXXVI of 1984 এর section 53FF এর সংশোধন।—উক্ত Ordinance এর section 53FF এর—\n\n(ক) clause (a) এর—\n\n(অ) sub-clause (i) এর “two thousand” শব্দগুলির পরিবর্তে “one thousand and six hundred” শব্দগুলি প্রতিস্থাপিত হইবে;\n\n(আ) sub-clause (ii) এর “one thousand and eight hundred” শব্দগুলির পরিবর্তে “one thousand and five hundred” শব্দগুলি প্রতিস্থাপিত হইবে;\n\n(ই) sub-clause (iii) এর “eight hundred” শব্দগুলির পরিবর্তে “six hundred” শব্দগুলি প্রতিস্থাপিত হইবে;\n\n(খ) clause (aa) এর—\n\n(অ) sub-clause (i) এর “eight thousand” শব্দগুলির পরিবর্তে “six thousand and five hundred” শব্দগুলি প্রতিস্থাপিত হইবে;\n\n(আ) sub-clause (ii) এর “six thousand” শব্দগুলির পরিবর্তে “five thousand” শব্দগুলি প্রতিস্থাপিত হইবে;\n\n(ই) sub-clause (iii) এর “two thousand” শব্দগুলির পরিবর্তে “one thousand and six hundred” শব্দগুলি প্রতিস্থাপিত হইবে。",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "point_২৩",
       "stitching_note": ""
     }
   ],
   "output_carry_forward_state": {
-    "status": "open",
-    "active_point_number": "২৩।",
-    "active_stitch_group_id": "point_২৩।",
-    "active_point_summary": "Amendment to Ordinance No. XXXVI of 1984, section 53FF, detailing multiple replacements in sub-clauses (a) and (b).",
-    "numbering_system": "english_digits",
+    "status": "closed",
+    "active_point_number": "",
+    "active_stitch_group_id": "",
+    "active_point_summary": "",
+    "numbering_system": "bangla_digits",
     "expected_next_main_point": "২৪।",
-    "continuation_hint": "The text for point 23 concludes here.",
+    "continuation_hint": "The next text starts with ২৪। **Ordinance No. XXXVI of 1984 এর section 53L এর বিলোপ।**—উক্ত Ordinance এর section 53L বিলুপ্ত হইবে।",
     "last_visible_text": "one thousand and six hundred শব্দগুলি প্রতিস্থাপিত হইবে।"
   }
 }

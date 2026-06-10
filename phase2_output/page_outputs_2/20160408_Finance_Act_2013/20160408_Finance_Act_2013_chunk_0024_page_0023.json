@@ -1,0 +1,27 @@
+{
+  "chunk_id": "20160408_Finance_Act_2013_chunk_0024",
+  "page_number": 23,
+  "document_id": "20160408_Finance_Act_2013",
+  "content_blocks": [
+    {
+      "block_id": "p23_b001",
+      "type": "ignore",
+      "point_number": "",
+      "text": "<table border=\"1\">\n<thead>\n<tr>\n<th>শিরনামা সংখ্যা<br/>(Heading No.)</th>\n<th>সামঞ্জস্যপূর্ণ<br/>সামকরণ কোড<br/>(H.S. Code)</th>\n<th>পণ্যসমূহের বিবরণ<br/>(Description of Goods)</th>\n<th>সম্পূরক<br/>তক্কাহার<br/>(%)</th>\n</tr>\n<tr>\n<th>(১)</th>\n<th>(২)</th>\n<th>(৩)</th>\n<th>(৪)</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>০৯.০৭</td>\n<td>সকল<br/>এইচ,এস,কোড</td>\n<td>লবঙ্গ</td>\n<td>২০</td>\n</tr>\n<tr>\n<td>০৯.০৮</td>\n<td>০৯০৮.৩১.১০<br/>০৯০৮.৩১.৯০<br/>০৯০৮.৩২.১০<br/>০৯০৮.৩২.৯০</td>\n<td>এলাচ</td>\n<td>২০</td>\n</tr>\n<tr>\n<td>০৯.০৯</td>\n<td>০৯০৯.৩১.১০<br/>০৯০৯.৩১.৯০<br/>০৯০৯.৩২.১০<br/>০৯০৯.৩২.৯০</td>\n<td>জিরা</td>\n<td>২০</td>\n</tr>\n<tr>\n<td>১৫.১৩</td>\n<td>১৫১৩.১৯.০০</td>\n<td>রিকাইন্ড নারিকেল তৈল ও ইহার অংশ বিশেষ,<br/>অন্যান্য</td>\n<td>৩০</td>\n</tr>\n<tr>\n<td>১৭.০২</td>\n<td>১৭০২.৩০.২০</td>\n<td>Liquid glucose</td>\n<td>৩০</td>\n</tr>\n<tr>\n<td></td>\n<td>১৭০২.৩০.৯০</td>\n<td>Other glucose and glucose syrup</td>\n<td>৩০</td>\n</tr>\n<tr>\n<td></td>\n<td>১৭০২.৪০.০০</td>\n<td>Glucose and glucose syrup,<br/>containing in the dry state at least<br/>20% but less than 50% by weight<br/>of fructose, excluding invert sugar</td>\n<td>৩০</td>\n</tr>\n<tr>\n<td>১৭.০৪</td>\n<td>সকল<br/>এইচ,এস,কোড</td>\n<td>কোকায়ুক্ত নয় এমন সুগার কনফেকশনারী<br/>(সাদা চকলেটসহ)</td>\n<td>৪৫</td>\n</tr>\n<tr>\n<td>১৮.০৬</td>\n<td>১৮০৬.২০.০০</td>\n<td>কোকায়ুক্ত চকলেট এবং অন্যান্য খাদ্য<br/>প্রিপারেশনঃ<br/>কোকায়ুক্ত চকলেট এবং অন্যান্য খাদ্য<br/>প্রিপারেশন (২ কেজির উর্ধ্বের ব্লক, স্লাব বা<br/>বার আকারে অথবা তরল, পেস্ট, গুড়া,<br/>দানাদার বা অন্যান্য রূপে ব্যক্তিগত প্যাকিং এ)</td>\n<td>৪৫</td>\n</tr>\n<tr>\n<td></td>\n<td>১৮০৬.৩১.০০<br/>১৮০৬.৩২.০০</td>\n<td>ফিনিস্ড চকলেট (ব্লক, স্লাব বা বার আকারে)</td>\n<td>৪৫</td>\n</tr>\n<tr>\n<td></td>\n<td>১৮০৬.৯০.০০</td>\n<td>অন্যান্য</td>\n<td>৪৫</td>\n</tr>\n</tbody>\n</table>",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "",
+      "stitching_note": ""
+    }
+  ],
+  "output_carry_forward_state": {
+    "status": "closed",
+    "active_point_number": "",
+    "active_stitch_group_id": "",
+    "active_point_summary": "",
+    "numbering_system": "bangla_digits",
+    "expected_next_main_point": "",
+    "continuation_hint": "",
+    "last_visible_text": "অন্যান্য"
+  }
+}

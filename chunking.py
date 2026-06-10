@@ -13,8 +13,10 @@ PAGE_OCR_INPUT = Path(r"phase1_output\page_by_page_ocr\without_headers_footers\2
 OUTPUT_ROOT = Path("phase1_output/chunks/without_headers_footers")
 
 
-TAIL_SIZE = 800
-HEAD_SIZE = 800
+TAIL_SIZE = 300
+HEAD_SIZE = 300
+
+CONTENT_TYPE = "raw_markdown"  # "raw_markdown" or "raw_html"
 
 
 # =========================
@@ -105,17 +107,17 @@ def build_chunks_for_document(pages: list[dict], document_name: str) -> list[dic
     total = len(pages)
 
     for i, page in enumerate(pages):
-        text = page["content"]["raw_markdown"]
+        text = page["content"][CONTENT_TYPE]
 
         previous_tail = ""
         next_head = ""
 
         if i > 0:
-            prev_text = pages[i - 1]["content"]["raw_markdown"]
+            prev_text = pages[i - 1]["content"][CONTENT_TYPE]
             previous_tail = prev_text[-TAIL_SIZE:]
 
         if i < total - 1:
-            next_text = pages[i + 1]["content"]["raw_markdown"]
+            next_text = pages[i + 1]["content"][CONTENT_TYPE]
             next_head = next_text[:HEAD_SIZE]
 
         chunk = {

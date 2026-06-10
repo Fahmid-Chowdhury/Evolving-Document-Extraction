@@ -16,10 +16,11 @@ from functools import lru_cache
 from typing import Any, Dict, Literal, Optional
 import os
 import re
+from pathlib import Path
+import torch
 
 
 BackendName = Literal["ollama", "hf", "huggingface"]
-
 
 @dataclass(frozen=True)
 class LLMRequestConfig:
@@ -141,6 +142,9 @@ def _load_hf_bundle(model_name: str) -> _HFBundle:
 
     device_map='auto' requires accelerate and will place the model on GPU when available.
     """
+    
+    OFFLOAD_DIR = Path("hf_offload")
+    OFFLOAD_DIR.mkdir(exist_ok=True)
 
     try:
         from transformers import AutoProcessor, AutoModelForCausalLM
@@ -161,38 +165,68 @@ def _load_hf_bundle(model_name: str) -> _HFBundle:
     try:
         model = AutoModelForCausalLM.from_pretrained(
             model_name,
-            dtype="auto",
+            dtype=torch.float16,
             device_map="auto",
+            max_memory={
+                0: "15GiB",
+                "cpu": "4GiB",
+            },
             token=token,
+            offload_folder=str(OFFLOAD_DIR),
+            offload_buffers=True,
+            low_cpu_mem_usage=True,
         )
     except TypeError:
         model = AutoModelForCausalLM.from_pretrained(
             model_name,
-            torch_dtype="auto",
+            torch_dtype=torch.float16,
             device_map="auto",
             token=token,
+            offload_folder=str(OFFLOAD_DIR),
+            offload_buffers=True,
+            low_cpu_mem_usage=True,
         )
-
+    
     model.eval()
+    
+    print("Device map:", getattr(model, "hf_device_map", "No device map"))
 
     return _HFBundle(processor=processor, model=model)
 
 
 def _model_input_device(model: Any):
     """
-    Finds a safe device for input tensors.
-    Works for normal and accelerate device_map models.
+    Finds a real execution device for input tensors.
+    Avoids returning 'meta' when Accelerate offloads layers.
     """
 
+    device_map = getattr(model, "hf_device_map", None)
+
+    if isinstance(device_map, dict):
+        for device in device_map.values():
+            if isinstance(device, int):
+                return f"cuda:{device}"
+            if isinstance(device, str) and device not in {"cpu", "disk", "meta"}:
+                return device
+
+        if "cpu" in device_map.values():
+            return "cpu"
+
     try:
-        return model.device
+        device = model.device
+        if str(device) != "meta":
+            return device
     except Exception:
         pass
 
     try:
-        return next(model.parameters()).device
+        device = next(model.parameters()).device
+        if str(device) != "meta":
+            return device
     except Exception:
-        return "cpu"
+        pass
+
+    return "cpu"
 
 
 def _chat_huggingface(
@@ -235,7 +269,8 @@ def _chat_huggingface(
             messages,
             tokenize=False,
             add_generation_prompt=True,
-            enable_thinking=config.think,
+            # enable_thinking=config.think,
+            enable_thinking=False,
         )
     except TypeError:
         text = processor.apply_chat_template(
@@ -266,8 +301,10 @@ def _chat_huggingface(
         generation_kwargs["pad_token_id"] = eos_token_id
 
     if config.temperature > 0:
-        generation_kwargs["temperature"] = config.temperature
-        generation_kwargs["top_p"] = config.top_p
+        # generation_kwargs["temperature"] = config.temperature
+        # generation_kwargs["top_p"] = config.top_p
+        generation_kwargs["temperature"] = 0.1
+        generation_kwargs["top_p"] = 0.1
 
     with torch.inference_mode():
         outputs = model.generate(**inputs, **generation_kwargs)
