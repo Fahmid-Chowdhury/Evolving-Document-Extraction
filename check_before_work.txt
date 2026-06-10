@@ -427,3 +427,12 @@ so what i was thinking is that, every line that is a only a title/heading/chapte
 
 
 
+since i am using small models, these small models do not follow long instruction properly. so my target was to break the process into small tasks, and giving each models each small tasks to handle. i also do not want to overload the models with lots of context to process. so each agent should follow a small specific instruction. we are feeding the prompt refiner a lot of data to process. 
+
+the prompt refiner should get only the chunks and the carry forward state along with the base prompt.
+
+the Minor Fixer Agent should not decide on needs_major_validation. we send the extracted content_blocks json to Major Validator Agent first to detect major issues and then if invalid → Prompt Refiner with validator feedback → Extractor again. but if okay then we sent the extracted content_blocks json to Minor Fixer / Normalizer to fix small issues only. 
+
+also i do not want to use any regex style feature extraction.
+
+also give me an idea what the base_prompt_template would look like.
