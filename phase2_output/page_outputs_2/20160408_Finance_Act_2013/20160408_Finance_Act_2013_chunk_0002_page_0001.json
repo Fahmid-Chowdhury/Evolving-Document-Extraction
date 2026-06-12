@@ -5,23 +5,43 @@
   "content_blocks": [
     {
       "block_id": "p0001_b001",
-      "type": "uncertain",
+      "type": "metadata",
       "point_number": "",
-      "text": "<h3>দ্বিতীয় অধ্যায়</h3>\n\n<h4>Stamp Act, 1899 (Act II of 1899) এর সংশোধন</h4>\n\n<p>২। <b>Act No. II of 1899 এর section 2 এর সংশোধন।</b>—Stamp Act, 1899 (Act No. II of 1899), অতঃপর উক্ত Act বলিয়া উল্লিখিত, এর section 2 এর clause (21) এর পরিবর্তে নিম্নরূপ clause (21) প্রতিস্থাপিত হইবে, যথা:—</p>\n\n<p>“(21) <b>“Power of Attorney”</b> means the power of attorney as defined in section-2, clause (1), of the Power of Attorney Act, 2012 (Act No. XXXV of 2012)”;</p>\n\n<p>৩। <b>Act No. II of 1899 এর Schedule I এর সংশোধন।</b>—উক্ত Act এর Schedule I এর—</p>\n\n<p>(ক) Article No. 40 এর বিপরীতে column (2) এর clause (1) এর EXEMPTIONS এর আওতাধীন—</p>\n\n<ul style=\"list-style-type: none;\">\n<li>(অ) paragraph (a) এর শেষে উল্লিখিত “and” শব্দটি বিলুপ্ত হইবে;</li>\n<li>(আ) paragraph (b) এর প্রান্তস্থিত ফুলস্টপের (.) পরিবর্তে “; and” প্রতিস্থাপিত হইবে এবং অতঃপর উক্ত paragraph (b) এর পর নিম্নরূপ নূতন paragraph (c) সংযোজিত হইবে, যথা:—</li>\n</ul>\n\n<p>“(c) Instruments executed by persons taking loan from Karmasangsthan Bank established by the Karmasangsthan Bank Act, 1998 (Act No. VII of 1998) as security for the recovery of such loans.”;</p>\n\n<p>(খ) Article No. 48 এর পরিবর্তে নিম্নরূপ Article No. 48 প্রতিস্থাপিত হইবে, যথা:—</p>\n\n<p>“48 POWER OF ATTORNEY as defined by section 2, clause (21), not being a proxy—</p>",
+      "text": "### দ্বিতীয় অধ্যায়\n\n#### Stamp Act, 1899 (Act II of 1899) এর সংশোধন",
       "continues_from_previous": false,
       "continues_to_next": false,
       "stitch_group_id": "",
-      "stitching_note": "Fallback generated because Phase 2 model failed: Invalid control character at: line 30 column 175 (char 1823)"
+      "stitching_note": "New chapter title"
+    },
+    {
+      "block_id": "p0001_b002",
+      "type": "point",
+      "point_number": "২",
+      "text": "Act No. II of 1899 এর section 2 এর সংশোধন।—Stamp Act, 1899 (Act No. II of 1899), অতঃপর উক্ত Act বলিয়া উল্লিখিত, এর section 2 এর clause (21) এর পরিবর্তে নিম্নরূপ clause (21) প্রতিস্থাপিত হইবে, যথা:—\n\n\"(21) **\"Power of Attorney\"** means the power of attorney as defined in section-2, clause (1), of the Power of Attorney Act, 2012 (Act No. XXXV of 2012)\";",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "point_২",
+      "stitching_note": "Main point 2"
+    },
+    {
+      "block_id": "p0001_b003",
+      "type": "point",
+      "point_number": "৩",
+      "text": "Act No. II of 1899 এর Schedule I এর সংশোধন।—উক্ত Act এর Schedule I এর—\n\n(ক) Article No. 40 এর বিপরীতে column (2) এর clause (1) এর EXEMPTIONS এর আওতাধীন—\n\n- (অ) paragraph (a) এর শেষে উল্লিখিত \"and\" শব্দটি বিলুপ্ত হইবে;\n- (আ) paragraph (b) এর প্রান্তস্থিত ফুলস্টপের (.) পরিবর্তে \"; and\" প্রতিস্থাপিত হইবে এবং অতঃপর উক্ত paragraph (b) এর পর নিম্নরূপ নূতন paragraph (c) সংযোজিত হইবে, যথা:—\n\n\"(c) Instruments executed by persons taking loan from Karmasangsthan Bank established by the Karmasangsthan Bank Act, 1998 (Act No. VII of 1998) as security for the recovery of such loans.\";\n\n(খ) Article No. 48 এর পরিবর্তে নিম্নরূপ Article No. 48 প্রতিস্থাপিত হইবে, যথা:—\n\n\"48 POWER OF ATTORNEY as defined by section 2, clause (21), not being a proxy—",
+      "continues_from_previous": false,
+      "continues_to_next": true,
+      "stitch_group_id": "point_৩",
+      "stitching_note": "Main point 3 continues to next page"
     }
   ],
   "output_carry_forward_state": {
-    "status": "closed",
-    "active_point_number": "",
-    "active_stitch_group_id": "",
-    "active_point_summary": "",
-    "numbering_system": "english_digits",
-    "expected_next_main_point": "২।",
-    "continuation_hint": "",
-    "last_visible_text": "এই আইন ২০১৩ নামে অভিহিত হইবে।\n(২) The Provisional Collection of Taxes Act, 1931 (Act No. XVI of 1931) এর অধীন জনস্বার্থে জারীকৃত ঘোষণা সাপেক্ষে, এই আইন ২০১৩ সনের ১ জুলাই তারিখে কার্যকর হইবে।"
+    "status": "open",
+    "active_point_number": "৩",
+    "active_stitch_group_id": "point_৩",
+    "active_point_summary": "Act No. II of 1899 এর Schedule I এর সংশোধন",
+    "numbering_system": "bangla_digits",
+    "expected_next_main_point": "৪",
+    "continuation_hint": "point_৩ continues to next page",
+    "last_visible_text": "48 POWER OF ATTORNEY as defined by section 2, clause (21), not being a proxy—"
   }
 }

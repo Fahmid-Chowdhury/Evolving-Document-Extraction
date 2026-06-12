@@ -1,0 +1,6 @@
+pypdf
+openai
+pillow
+pdf2image
+opencv-python-headless
+numpy

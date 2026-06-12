@@ -1,13 +1,11 @@
 from urllib import response
-
 from validator import validate_extraction_with_agent
-
 from pathlib import Path
 import json
+import os          # ADD THIS
 import time
 import re
 from typing import Any, Dict, List, Optional
-
 from llm_client import LLMRequestConfig, chat_completion
 
 
@@ -15,7 +13,12 @@ from llm_client import LLMRequestConfig, chat_completion
 # CONFIG
 # ============================================================
 
-INPUT_CHUNKS_PATH = Path(r"phase1_output\chunks\without_headers_footers\20160408_Finance_Act_2013\chunks.json")
+INPUT_CHUNKS_PATH = Path(
+    os.environ.get(
+        "INPUT_CHUNKS_PATH",
+        r"phase1_output/chunks/without_headers_footers/20160408_Finance_Act_2013/chunks.json"
+    )
+)
 
 OUTPUT_ROOT = Path("phase2_output")
 PAGE_OUTPUT_ROOT = OUTPUT_ROOT / "page_outputs_2"
@@ -39,11 +42,17 @@ PREVIOUS_OPEN_POINT_TEXT_LIMIT = None  # in characters
 
 # Use "hf" for HuggingFace Transformers local models.
 # Use "ollama" to keep using your local Ollama server.
-MODEL_BACKEND = "hf"
+# Use "vllm" to use a local vLLM server (make sure to set up the server and config correctly in docker-compose.yml).
+MODEL_BACKEND = "vllm"  # "ollama", "hf", or "vllm"
 
 # HuggingFace local model
 # HF_MODEL = "google/gemma-4-E4B-it"
 HF_MODEL = "google/gemma-4-E2B-it"
+
+# AFTER (clean version)
+VLLM_MODEL = os.environ.get("VLLM_SERVED_MODEL_NAME")
+if not VLLM_MODEL:
+    raise ValueError("VLLM_SERVED_MODEL_NAME environment variable is not set. Check your .env file.")       # must match --served-model-name in docker-compose
 
 # For HuggingFace generation only.
 # Increase if the model cuts off long JSON outputs.
@@ -66,8 +75,8 @@ NUM_CTX = 32768
 # GLOBAL CHUNK RANGE CONFIG
 # =========================
 
-CHUNK_START = 0      # inclusive; set to 0 to start from the beginning
-CHUNK_END = 25     # exclusive; None means return until the end
+CHUNK_START = int(os.environ.get("CHUNK_START", 0))
+CHUNK_END   = None if os.environ.get("CHUNK_END", "").strip() == "" else int(os.environ.get("CHUNK_END"))
 
 
 # ============================================================
@@ -497,9 +506,15 @@ def call_model(prompt: str) -> str:
 
     MODEL_BACKEND = "hf"     -> HuggingFace local model
     MODEL_BACKEND = "ollama" -> Ollama local server
+    MODEL_BACKEND = "vllm"  -> vLLM local server
     """
 
-    model_name = HF_MODEL if MODEL_BACKEND in ["hf", "huggingface"] else OLLAMA_MODEL
+    if MODEL_BACKEND in ["hf", "huggingface"]:
+        model_name = HF_MODEL
+    elif MODEL_BACKEND == "vllm":
+        model_name = VLLM_MODEL
+    else:
+        model_name = OLLAMA_MODEL
 
     return chat_completion(
         system_prompt=SYSTEM_PROMPT,

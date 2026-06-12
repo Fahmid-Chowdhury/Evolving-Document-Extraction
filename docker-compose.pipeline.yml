@@ -1,0 +1,26 @@
+services:
+  pipeline:
+    build:
+      context: .
+      dockerfile: Dockerfile.pipeline
+    container_name: extraction-pipeline
+    environment:
+      - VLLM_BASE_URL=http://icsetep-vllm-model:${VLLM_PORT:-8000}/v1
+      - INPUT_CHUNKS_PATH=${INPUT_CHUNKS_PATH}
+      - PHASE2_INPUT_PATH=${PHASE2_INPUT_PATH}
+      - CHUNK_START=${CHUNK_START:-0}
+      - CHUNK_END=${CHUNK_END:-}
+      - VLLM_SERVED_MODEL_NAME=${VLLM_SERVED_MODEL_NAME}
+    volumes:
+      # phase1_output is read-only input for Phase 2
+      - ./phase1_output:/app/phase1_output:ro
+      # phase2 and phase3 are read-write outputs
+      - ./phase2_output:/app/phase2_output
+      - ./phase3_output:/app/phase3_output
+    networks:
+      - llm-net
+    restart: "no"
+
+networks:
+  llm-net:
+    external: true

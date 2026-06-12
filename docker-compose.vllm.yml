@@ -1,0 +1,51 @@
+services:
+  icsetep-vllm-model:
+    image: vllm/vllm-openai:cu129-nightly
+    container_name: icsetep-vllm-model
+    runtime: nvidia
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=all
+      - NVIDIA_DRIVER_CAPABILITIES=compute,utility
+      - HUGGING_FACE_HUB_TOKEN=${HF_TOKEN:-}
+    volumes:
+      - /home/emran/Desktop/dgx_2/sscl-works/base-models:/models:ro
+    ports:
+      - "${VLLM_PORT:-8000}:8000"
+    ipc: host
+    ulimits:
+      memlock: -1
+      stack: 67108864
+    command:
+      - ${VLLM_MODEL_PATH:?VLLM_MODEL_PATH must be set in .env}
+      - --served-model-name
+      - ${VLLM_SERVED_MODEL_NAME:?VLLM_SERVED_MODEL_NAME must be set in .env}
+      - --host
+      - "0.0.0.0"
+      - --port
+      - "8000"
+      - --dtype
+      - bfloat16
+      - --max-model-len
+      - "32768"
+      - --max-num-batched-tokens
+      - "32768"
+      - --gpu-memory-utilization
+      - "0.80"
+      - --tensor-parallel-size
+      - "1"
+      - --trust-remote-code
+      - --limit-mm-per-prompt
+      - '{"image": 0}'
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 120s
+    restart: unless-stopped
+    networks:
+      - llm-net
+
+networks:
+  llm-net:
+    name: llm-net
