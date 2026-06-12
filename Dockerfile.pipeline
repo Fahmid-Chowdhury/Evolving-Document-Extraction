@@ -1,0 +1,20 @@
+FROM python:3.11-slim
+
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    curl \
+    && rm -rf /var/lib/apt/lists/*
+
+WORKDIR /app
+
+COPY requirements.pipeline.txt .
+RUN pip install --no-cache-dir -r requirements.pipeline.txt
+
+# Copy only the scripts needed for Phase 2 and Phase 3
+COPY llm_client.py .
+COPY stateful_extraction_2.py .
+COPY validator.py .
+COPY stitch_points.py .
+COPY scripts/run_pipeline.sh .
+RUN chmod +x run_pipeline.sh
+
+ENTRYPOINT ["./run_pipeline.sh"]

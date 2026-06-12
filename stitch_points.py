@@ -1,14 +1,19 @@
 from pathlib import Path
 import json
+import os          # ADD THIS
 import re
 from typing import Any, Dict, List, Optional, Tuple
-
 
 # ============================================================
 # CONFIG
 # ============================================================
 
-PHASE2_INPUT_PATH = Path(r"phase2_output\page_outputs_2\20160408_Finance_Act_2013")
+PHASE2_INPUT_PATH = Path(
+    os.environ.get(
+        "PHASE2_INPUT_PATH",
+        "phase2_output/page_outputs_2/20160408_Finance_Act_2013"
+    )
+)
 
 OUTPUT_ROOT = Path("phase3_output")
 FINAL_OUTPUT_ROOT = OUTPUT_ROOT / "final_documents"

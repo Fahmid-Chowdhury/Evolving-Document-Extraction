@@ -4,34 +4,44 @@
   "document_id": "20160408_Finance_Act_2013",
   "content_blocks": [
     {
-      "block_id": "p12_b001",
+      "block_id": "p00012_b001",
       "type": "point",
-      "point_number": "১৪।",
-      "text": "<table border=\"1\">\n<thead>\n<tr>\n<th>Period of Exemption</th>\n<th>Rate of Exemption</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>For the first and second year</td>\n<td>100% of income</td>\n</tr>\n<tr>\n<td>For the third year</td>\n<td>80% of income</td>\n</tr>\n<tr>\n<td>For the fourth year</td>\n<td>70% of income</td>\n</tr>\n<tr>\n<td>For the fifth year</td>\n<td>60% of income</td>\n</tr>\n<tr>\n<td>For the sixth year</td>\n<td>50% of income</td>\n</tr>\n<tr>\n<td>For the seventh year</td>\n<td>40% of income</td>\n</tr>\n<tr>\n<td>For the eighth year</td>\n<td>30% of income</td>\n</tr>\n<tr>\n<td>For the ninth year</td>\n<td>20% of income</td>\n</tr>\n<tr>\n<td>For the tenth year</td>\n<td>10% of income. ” ।</td>\n</tr>\n</tbody>\n</table>\n\n১৫ । **Ordinance No. XXXVI of 1984 এর section 49 এর সংশোধন ।**—উক্ত Ordinance এর section 49 এর sub-section (1) এর—\n\n(ক) clause (zu) বিলুপ্ত হইবে;\n\n(খ) clause (zy) এর প্রান্ত:স্থিত ফুলস্টপ (.) এর পরিবর্তে সেমিকোলন (;) প্রতিস্থাপিত হইবে এবং অতঃপর নিম্নরূপ নূতন clause (zz) সংযোজিত হইবে, যথা:—\n\n“(zz) collection of tax from manufacturer of soft drink.” ।",
+      "point_number": "১৪",
+      "text": "and at the rate, specified below:\n\n<table border=\"1\">\n<thead>\n<tr>\n<th>Period of Exemption</th>\n<th>Rate of Exemption</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>For the first and second year</td>\n<td>100% of income</td>\n</tr>\n<tr>\n<td>For the third year</td>\n<td>80% of income</td>\n</tr>\n<tr>\n<td>For the fourth year</td>\n<td>70% of income</td>\n</tr>\n<tr>\n<td>For the fifth year</td>\n<td>60% of income</td>\n</tr>\n<tr>\n<td>For the sixth year</td>\n<td>50% of income</td>\n</tr>\n<tr>\n<td>For the seventh year</td>\n<td>40% of income</td>\n</tr>\n<tr>\n<td>For the eighth year</td>\n<td>30% of income</td>\n</tr>\n<tr>\n<td>For the ninth year</td>\n<td>20% of income</td>\n</tr>\n<tr>\n<td>For the tenth year</td>\n<td>10% of income. \" ।</td>\n</tr>\n</tbody>\n</table>",
       "continues_from_previous": true,
       "continues_to_next": false,
       "stitch_group_id": "point_১৪",
-      "stitching_note": "Continuation of point ১৪। with table and subsequent sections."
+      "stitching_note": "Continues from previous page point ১৪, includes table content from current page"
     },
     {
-      "block_id": "p12_b002",
+      "block_id": "p00012_b002",
       "type": "point",
-      "point_number": "১৬।",
-      "text": "**Ordinance No. XXXVI of 1984 এর section 50 এর সংশোধন ।**—উক্ত Ordinance এর section 50 এর sub-section (2) এর পর নিম্নরূপ নূতন sub-section (2A) সন্নিবেশিত হইবে, যথা ৯—\n\n“(2A) The payment under sub-section (1) shall be made by such person with or without deduction of tax in accordance with a certificate, issued by the Deputy Commissioner of Taxes after being satisfied on an application made by the payee in this behalf, where such certificate specifies that-\n\n- (a) no tax shall be deducted from the payee in a case where the tax payable on the total income of the payee has already been deducted or collected from such payee under this Ordinance for the rest of the income year; or\n- (b) tax shall be deducted at a lesser rate for the rest of the income year in a case where the payee may, after adjusting the tax already deducted or collected from such payee under this Ordinance, be liable to pay a lesser sum of tax than the tax chargeable on his total income. ”",
+      "point_number": "১৫",
+      "text": "**Ordinance No. XXXVI of 1984 এর section 49 এর সংশোধন ।**—উক্ত Ordinance এর section 49 এর sub-section (1) এর—\n\n(ক) clause (zu) বিলুপ্ত হইবে;\n\n(খ) clause (zy) এর প্রান্ত:স্থিত ফুলস্টপ (.) এর পরিবর্তে সেমিকোলন (;) প্রতিস্থাপিত হইবে এবং অতঃপর নিম্নরূপ নূতন clause (zz) সংযোজিত হইবে, যথা:—\n\n\"(zz) collection of tax from manufacturer of soft drink.\" ।",
       "continues_from_previous": false,
-      "continues_to_next": true,
+      "continues_to_next": false,
+      "stitch_group_id": "point_১৫",
+      "stitching_note": "New main point ১৫"
+    },
+    {
+      "block_id": "p00012_b003",
+      "type": "point",
+      "point_number": "১৬",
+      "text": "**Ordinance No. XXXVI of 1984 এর section 50 এর সংশোধন ।**—উক্ত Ordinance এর section 50 এর sub-section (2) এর পর নিম্নরূপ নূতন sub-section (2A) সন্নিবেশিত হইবে, যথা ৯—\n\n\"(2A) The payment under sub-section (1) shall be made by such person with or without deduction of tax in accordance with a certificate, issued by the Deputy Commissioner of Taxes after being satisfied on an application made by the payee in this behalf, where such certificate specifies that-\n\n- (a) no tax shall be deducted from the payee in a case where the tax payable on the total income of the payee has already been deducted or collected from such payee under this Ordinance for the rest of the income year; or\n- (b) tax shall be deducted at a lesser rate for the rest of the income year in a case where the payee may, after adjusting the tax already deducted or collected from such payee under this Ordinance, be liable to pay a lesser sum of tax than the tax chargeable on his total income. \" ।",
+      "continues_from_previous": false,
+      "continues_to_next": false,
       "stitch_group_id": "point_১৬",
-      "stitching_note": "New main point ১৬।"
+      "stitching_note": "New main point ১৬"
     }
   ],
   "output_carry_forward_state": {
     "status": "open",
-    "active_point_number": "১৬।",
+    "active_point_number": "১৬",
     "active_stitch_group_id": "point_১৬",
-    "active_point_summary": "Ordinance No. XXXVI of 1984 এর section 50 এর সংশোধন।",
+    "active_point_summary": "Ordinance No. XXXVI of 1984 এর section 50 এর সংশোধন",
     "numbering_system": "bangla_digits",
-    "expected_next_main_point": "১৭।",
-    "continuation_hint": "The next text starts with ১৭। **Ordinance No. XXXVI of 1984 এর section 52A এর সংশোধন।**—উক্ত Ordinance এর section 52A এর sub-section (3) এর “at the rate of ten per cent of such fees” শব্দগুলির পরিবর্তে “at the rate of—\n\n- (a)",
-    "last_visible_text": "tax chargeable on his total income."
+    "expected_next_main_point": "১৭",
+    "continuation_hint": "point_১৬ continues to next page",
+    "last_visible_text": "tax chargeable on his total income. \" ।"
   }
 }

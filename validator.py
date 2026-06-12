@@ -1,5 +1,6 @@
 from typing import Any, Dict, Optional
 import json
+import os
 import re
 from urllib import response
 
@@ -12,11 +13,16 @@ from llm_client import LLMRequestConfig, chat_completion
 
 # Use "hf" for HuggingFace Transformers local models.
 # Use "ollama" to keep using your local Ollama server.
-VALIDATOR_BACKEND = "hf"
+# Use "vllm" to use a local vLLM server (make sure to set up the server and config correctly in docker-compose.yml).
+VALIDATOR_BACKEND = "vllm"  # "ollama", "hf", or "vllm"
 
 # HuggingFace local model
 # VALIDATOR_HF_MODEL = "google/gemma-4-E4B-it"
 VALIDATOR_HF_MODEL = "google/gemma-4-E2B-it"
+
+VALIDATOR_VLLM_MODEL = os.environ.get("VLLM_SERVED_MODEL_NAME")
+if not VALIDATOR_VLLM_MODEL:
+    raise ValueError("VLLM_SERVED_MODEL_NAME environment variable is not set. Check your .env file.")         # same served model name as in docker-compose.yml
 
 # Validator output is small, so keep this smaller than extractor output.
 VALIDATOR_MAX_NEW_TOKENS = 1024
@@ -464,11 +470,12 @@ def validate_extraction_with_agent(
             + json.dumps(payload, ensure_ascii=False, indent=2)
         )
 
-        model_name = (
-            VALIDATOR_HF_MODEL
-            if VALIDATOR_BACKEND in ["hf", "huggingface"]
-            else VALIDATOR_OLLAMA_MODEL
-        )
+        if VALIDATOR_BACKEND in ["hf", "huggingface"]:
+            model_name = VALIDATOR_HF_MODEL
+        elif VALIDATOR_BACKEND == "vllm":
+            model_name = VALIDATOR_VLLM_MODEL
+        else:
+            model_name = VALIDATOR_OLLAMA_MODEL
 
         raw_text = chat_completion(
             system_prompt=VALIDATOR_SYSTEM_PROMPT,

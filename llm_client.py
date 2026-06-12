@@ -4,6 +4,7 @@ Shared local LLM client for the OCR document extraction pipeline.
 Supported backends:
 1. Ollama local server
 2. HuggingFace Transformers local model
+3. vLLM OpenAI-compatible server (docker-compose.vllm.yml)
 
 This keeps the extractor/validator code clean. To switch model backend,
 change MODEL_BACKEND / VALIDATOR_BACKEND in the caller file.
@@ -17,13 +18,38 @@ from typing import Any, Dict, Literal, Optional
 import os
 import re
 from pathlib import Path
-import torch
+# import torch
 
 
-BackendName = Literal["ollama", "hf", "huggingface"]
+# ============================================================
+# BACKEND TYPE
+# ============================================================
 
-TEMPERATURE = 0.2    # Default temperature for HuggingFace generation. Ollama uses the config value directly.
-TOP_P = 0.1    # Default top_p for HuggingFace generation. Ollama uses the config value directly.
+BackendName = Literal["ollama", "hf", "huggingface", "vllm"]
+
+
+# ============================================================
+# VLLM SERVER CONFIG
+# ============================================================
+
+import os
+VLLM_BASE_URL = os.environ.get(
+    "VLLM_BASE_URL",
+    "http://vllm-gemma31b:8000/v1"
+)
+
+
+# ============================================================
+# SHARED GENERATION DEFAULTS (HF only)
+# ============================================================
+
+TEMPERATURE = 0.2   # Default temperature for HuggingFace generation. Ollama uses the config value directly.
+TOP_P = 0.1         # Default top_p for HuggingFace generation. Ollama uses the config value directly.
+
+
+# ============================================================
+# REQUEST CONFIG
+# ============================================================
 
 @dataclass(frozen=True)
 class LLMRequestConfig:
@@ -34,7 +60,7 @@ class LLMRequestConfig:
     num_ctx: Optional[int] = None
     max_new_tokens: int = 4096
     think: bool = False
-    response_format: str = "json"  # Ollama uses this directly. HF follows prompt instruction.
+    response_format: str = "json"  # Ollama uses this directly. HF/vLLM follow prompt instruction.
 
 
 # ============================================================
@@ -69,8 +95,15 @@ def chat_completion(
             config=config,
         )
 
+    if backend == "vllm":
+        return _chat_vllm(
+            system_prompt=system_prompt,
+            user_prompt=user_prompt,
+            config=config,
+        )
+
     raise ValueError(
-        f"Unsupported LLM backend: {config.backend}. Use 'ollama' or 'hf'."
+        f"Unsupported LLM backend: '{config.backend}'. Use 'ollama', 'hf', or 'vllm'."
     )
 
 
@@ -100,15 +133,13 @@ def _chat_ollama(
     if config.num_ctx is not None:
         options["num_ctx"] = config.num_ctx
 
-    # ollama.chat expects format to be either None, '' , 'json' or a JSON-serializable dict.
+    # ollama.chat expects format to be either None, '', 'json' or a JSON-serializable dict.
     format_param: Any
     if config.response_format in (None, "", "json"):
         format_param = config.response_format
     else:
-        # try to parse a JSON string into a dict, otherwise fall back to None
         try:
             import json
-
             parsed = json.loads(config.response_format)
             format_param = parsed if isinstance(parsed, dict) else None
         except Exception:
@@ -145,6 +176,7 @@ def _load_hf_bundle(model_name: str) -> _HFBundle:
 
     device_map='auto' requires accelerate and will place the model on GPU when available.
     """
+    import torch
     
     OFFLOAD_DIR = Path("hf_offload")
     OFFLOAD_DIR.mkdir(exist_ok=True)
@@ -189,9 +221,9 @@ def _load_hf_bundle(model_name: str) -> _HFBundle:
             offload_buffers=True,
             low_cpu_mem_usage=True,
         )
-    
+
     model.eval()
-    
+
     print("Device map:", getattr(model, "hf_device_map", "No device map"))
 
     return _HFBundle(processor=processor, model=model)
@@ -272,7 +304,6 @@ def _chat_huggingface(
             messages,
             tokenize=False,
             add_generation_prompt=True,
-            # enable_thinking=config.think,
             enable_thinking=False,
         )
     except TypeError:
@@ -374,3 +405,69 @@ def _strip_thinking_blocks(text: str) -> str:
         flags=re.DOTALL | re.IGNORECASE,
     )
     return text
+
+
+# ============================================================
+# VLLM BACKEND
+# ============================================================
+
+def _chat_vllm(
+    *,
+    system_prompt: str,
+    user_prompt: str,
+    config: LLMRequestConfig,
+) -> str:
+    try:
+        from openai import OpenAI
+    except ImportError as exc:
+        raise ImportError(
+            "vLLM backend selected, but 'openai' package is not installed. "
+            "Run: pip install openai"
+        ) from exc
+
+    client = OpenAI(
+        base_url=VLLM_BASE_URL,
+        api_key="EMPTY",  # vLLM does not validate the key
+    )
+
+    # Strengthen JSON instruction in the prompt, same pattern as HF backend.
+    # response_format=json_object is best-effort; not all vLLM builds enforce
+    # it for every model. The prompt instruction is the primary guarantee.
+    final_user_prompt = user_prompt
+    if config.response_format == "json":
+        final_user_prompt = (
+            user_prompt
+            + "\n\nReturn exactly one valid JSON object only. "
+              "No markdown. No explanation. No text before or after JSON."
+        )
+
+    messages = [
+        {"role": "system", "content": system_prompt},
+        {"role": "user",   "content": final_user_prompt},
+    ]
+
+    extra_kwargs = {}
+    if config.response_format == "json":
+        extra_kwargs["response_format"] = {"type": "json_object"}
+
+    try:
+        response = client.chat.completions.create(
+            model=config.model,
+            messages=messages,
+            temperature=config.temperature,
+            top_p=config.top_p,
+            max_tokens=config.max_new_tokens,
+            **extra_kwargs,
+        )
+    except Exception:
+        # If json_object mode is unsupported by this vLLM build, retry without it.
+        response = client.chat.completions.create(
+            model=config.model,
+            messages=messages,
+            temperature=config.temperature,
+            top_p=config.top_p,
+            max_tokens=config.max_new_tokens,
+        )
+
+    raw = response.choices[0].message.content or ""
+    return _strip_thinking_blocks(raw)

@@ -6,32 +6,22 @@
     {
       "block_id": "p0004_b001",
       "type": "point",
-      "point_number": "আ",
-      "text": "(আ) paragraph (2) এর প্রান্তস্থিত ফুলস্টপের (.) পরিবর্তে সেমিকোলন (;) চিহ্নটি প্রতিস্থাপিত হইবে এবং অতঃপর উক্ত paragraph (2) এর পর নিম্নরূপ নূতন paragraph (3) ও (4) সংযোজিত হইবে, যথা:—\n“(3) Transfer of bond of the Government organization, body corporate, and public and private limited companies as defined in the Companies Act, 1994 (Act No. XVIII of 1994);\n\n(4) Sale of receivables to a special purpose vehicle in connection with securitization of assets.”;",
+      "point_number": "৩",
+      "text": "(আ) paragraph (2) এর প্রান্তস্থিত ফুলস্টপের (.) পরিবর্তে সেমিকোলন (;) চিহ্নটি প্রতিস্থাপিত হইবে এবং অতঃপর উক্ত paragraph (2) এর পর নূতন paragraph (3) ও (4) সংযোজিত হইবে, যথা:—\n\n“(3) Transfer of bond of the Government organization, body corporate, and public and private limited companies as defined in the Companies Act, 1994 (Act No. XVIII of 1994);\n\n(4) Sale of receivables to a special purpose vehicle in connection with securitization of assets.”;\n\n“(ঘ) Article No. 64 এর পরিবর্তে নিম্নরূপ Article No. 64 প্রতিস্থাপিত হইবে, যথা:—\n\n“64 TRUST-\n\nA-Declaration of trust of any property when made by writing not being a will. The same duty as a BOTTOMRY BOND (No. 16) for a sum equal to the amount of value of the property concerned as set forth in the instrument.\n\nB-Revocation of trust of any property when made by instrument other than will. The same duty as a BOTTOMRY BOND (No. 16) for a sum equal to the amount of value of the property concerned as set forth in the instrument but not more than two hundred taka.”\n\nSell also SETTLEMENT  \n(No. 58)\n\nVALUATION-\n\nSec APARTMENT (No.8)",
       "continues_from_previous": true,
       "continues_to_next": true,
-      "stitch_group_id": "point_৫",
-      "stitching_note": "Continuation of point ৫, adding new paragraphs (3) and (4)."
-    },
-    {
-      "block_id": "p0004_b002",
-      "type": "point",
-      "point_number": "ঘ",
-      "text": "(ঘ) Article No. 64 এর পরিবর্তে নিম্নরূপ Article No. 64 প্রতিস্থাপিত হইবে, যথা:—\n“64 TRUST-\nA-Declaration of trust of any property when made by writing not being a will. The same duty as a BOTTOMRY BOND (No. 16) for a sum equal to the amount of value of the property concerned as set forth in the instrument.\nB-Revocation of trust of any property when made by instrument other than will. The same duty as a BOTTOMRY BOND (No. 16) for a sum equal to the amount of value of the property concerned as set forth in the instrument but not more than two hundred taka.”\nSell also SETTLEMENT\n(No. 58)\nVALUATION-\nSec APARTMENT (No.8)",
-      "continues_from_previous": false,
-      "continues_to_next": false,
-      "stitch_group_id": "point_৫",
-      "stitching_note": "Continuation of point ৫, replacing Article No. 64."
+      "stitch_group_id": "point_৩",
+      "stitching_note": "Continues from previous page point ৩, ends before point ৪ starts on next page"
     }
   ],
   "output_carry_forward_state": {
     "status": "open",
-    "active_point_number": "৫",
-    "active_stitch_group_id": "point_৫",
-    "active_point_summary": "Continuation of previous point regarding definitions and clauses.",
-    "numbering_system": "english_digits",
-    "expected_next_main_point": "৬",
-    "continuation_hint": "The next text starts with তৃতীয় অধ্যায়Customs Act, 1969 (Act No. IV of 1969) এর সংশোধন",
+    "active_point_number": "৩",
+    "active_stitch_group_id": "point_৩",
+    "active_point_summary": "Act No. II of 1899 এর Schedule I এর সংশোধন - Article 48 POWER OF ATTORNEY fee structure and explanation",
+    "numbering_system": "bangla_digits",
+    "expected_next_main_point": "৪",
+    "continuation_hint": "point_৩ continues to next page",
     "last_visible_text": "Sec APARTMENT (No.8)"
   }
 }
