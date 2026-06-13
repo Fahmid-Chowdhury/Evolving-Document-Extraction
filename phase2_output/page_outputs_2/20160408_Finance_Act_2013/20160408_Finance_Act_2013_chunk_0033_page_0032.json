@@ -1,0 +1,27 @@
+{
+  "chunk_id": "20160408_Finance_Act_2013_chunk_0033",
+  "page_number": 32,
+  "document_id": "20160408_Finance_Act_2013",
+  "content_blocks": [
+    {
+      "block_id": "p00032_b001",
+      "type": "point",
+      "point_number": "৪২.০২",
+      "text": "সকল এইচ,এস,কোড Trunks, suit-case, vanity-cases, executive-cases, brief-cases, school satchels, spectacle cases, binocular cases, camera cases, musical instrument cases, guncases, holsters and similar containers; travelling-bags, insulated food or beverages bags with table content for HS Codes 44.10, 44.18, 48.02, 48.13",
+      "continues_from_previous": true,
+      "continues_to_next": true,
+      "stitch_group_id": "point_৪২",
+      "stitching_note": "continues from previous page"
+    }
+  ],
+  "output_carry_forward_state": {
+    "status": "open",
+    "active_point_number": "৪২.০২",
+    "active_stitch_group_id": "point_৪২",
+    "active_point_summary": "৪২.০২ সকল এইচ,এস,কোড Trunks, suit-case, vanity-cases, executive-cases, brief-cases, school satchels, spectacle cases, binocular cases, camera cases, musical instrument cases, guncases, holsters and similar containers; travelling-bags, insulated food or beverages bags with table content for HS Codes 44.10, 44.18, 48.02, 48.13",
+    "numbering_system": "bangla_digits",
+    "expected_next_main_point": "৪৩",
+    "continuation_hint": "point_৪২ continues to next page",
+    "last_visible_text": "৫৭.০১ হইতে সকল কার্পেট ও অন্যান্য টেক্সটাইল ফ্লোর আচ্ছাদন ২০"
+  }
+}

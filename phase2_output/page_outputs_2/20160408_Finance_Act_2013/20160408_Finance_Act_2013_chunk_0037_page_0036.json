@@ -1,0 +1,137 @@
+{
+  "chunk_id": "20160408_Finance_Act_2013_chunk_0037",
+  "page_number": 36,
+  "document_id": "20160408_Finance_Act_2013",
+  "content_blocks": [
+    {
+      "block_id": "p00036_b001",
+      "type": "point",
+      "point_number": "৬৩.০৪",
+      "text": "অন্যান্য আসবাব (৯৪.০৪ হেডিং এর পণ্য ব্যতীত)",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "point_৬৩.০৪",
+      "stitching_note": ""
+    },
+    {
+      "block_id": "p00036_b002",
+      "type": "point",
+      "point_number": "৬৪.০২",
+      "text": "Other footwear with outer soles and uppers of rubber or plastics.",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "point_৬৪.০২",
+      "stitching_note": ""
+    },
+    {
+      "block_id": "p00036_b003",
+      "type": "point",
+      "point_number": "৬৪.০৩",
+      "text": "Footwear with outer soles of rubber, plastics, leather or composition leather and uppers of leather.",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "point_৬৪.০৩",
+      "stitching_note": ""
+    },
+    {
+      "block_id": "p00036_b004",
+      "type": "point",
+      "point_number": "৬৪.০৪",
+      "text": "Footwear with outer soles of rubber, plastics, leather or composition leather and uppers of textile materials.",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "point_৬৪.০৪",
+      "stitching_note": ""
+    },
+    {
+      "block_id": "p00036_b005",
+      "type": "point",
+      "point_number": "৬৪.০৫",
+      "text": "Other footwear.",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "point_৬৪.০৫",
+      "stitching_note": ""
+    },
+    {
+      "block_id": "p00036_b006",
+      "type": "point",
+      "point_number": "৬৪.০৬",
+      "text": "Upper and outer soles and heels",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "point_৬৪.০৬",
+      "stitching_note": ""
+    },
+    {
+      "block_id": "p00036_b007",
+      "type": "point",
+      "point_number": "৬৭.০২",
+      "text": "Artificial flowers, foliage and fruit and parts thereof; articles made of artificial flowers, foliage or fruit",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "point_৬৭.০২",
+      "stitching_note": ""
+    },
+    {
+      "block_id": "p00036_b008",
+      "type": "point",
+      "point_number": "৬৮.০২",
+      "text": "Granite, marble, travertine and alabaster and other stone",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "point_৬৮.০২",
+      "stitching_note": ""
+    },
+    {
+      "block_id": "p00036_b009",
+      "type": "point",
+      "point_number": "৬৮.০৫",
+      "text": "ওভেন টেক্সটাইল ফেব্রিকস্ বেসড প্রাকৃতিক ও কৃত্রিম এবরেসিভ পাউডার অথবা দানাঃ ইয়ারি পাউডার",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "point_৬৮.০৫",
+      "stitching_note": ""
+    },
+    {
+      "block_id": "p00036_b010",
+      "type": "point",
+      "point_number": "",
+      "text": "পেপার বা পেপার বোর্ড বেসড প্রাকৃতিক ও কৃত্রিম এবরেসিভ পাউডার অথবা দানা",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "point_৬৮.০৫",
+      "stitching_note": "Subpoint of ৬৮.০৫"
+    },
+    {
+      "block_id": "p00036_b011",
+      "type": "point",
+      "point_number": "৬৯.০৪",
+      "text": "Ceramic building bricks, flooring blocks, support or filler tiles and the like.",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "point_৬৯.০৪",
+      "stitching_note": ""
+    },
+    {
+      "block_id": "p00036_b012",
+      "type": "point",
+      "point_number": "৬৯.০৫",
+      "text": "Roofing tiles, chimney-pots, cowls, chimney liners, architectural ornaments and other ceramic constructional goods.",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "point_৬৯.০৫",
+      "stitching_note": ""
+    }
+  ],
+  "output_carry_forward_state": {
+    "status": "closed",
+    "active_point_number": "৬৯.০৫",
+    "active_stitch_group_id": "point_৬৯.০৫",
+    "active_point_summary": "Roofing tiles, chimney-pots, cowls, chimney liners, architectural ornaments and other ceramic constructional goods.",
+    "numbering_system": "mixed",
+    "expected_next_main_point": "৬৯.০৬",
+    "continuation_hint": "point_৬৯.০৫ may continue to next page",
+    "last_visible_text": "Roofing tiles, chimney-pots, cowls, chimney liners, architectural ornaments and other ceramic constructional goods."
+  }
+}

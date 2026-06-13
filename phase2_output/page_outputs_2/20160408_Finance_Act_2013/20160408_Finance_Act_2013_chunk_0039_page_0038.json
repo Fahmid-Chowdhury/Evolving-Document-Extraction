@@ -1,0 +1,137 @@
+{
+  "chunk_id": "20160408_Finance_Act_2013_chunk_0039",
+  "page_number": 38,
+  "document_id": "20160408_Finance_Act_2013",
+  "content_blocks": [
+    {
+      "block_id": "p00038_b001",
+      "type": "point",
+      "point_number": "৭০.০৫",
+      "text": "শীট আকারে ফ্ল্যাট গ্লাস এবং সারফেস প্রাউন্ড বা পলিশড গ্লাস, শোষকযুক্ত, প্রতিফলন বা প্রতিফলনহীন স্তরবিশিষ্ট হাউক বা না হাউক, অন্য কোন কাজ করা নয়",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "point_৭০.০৫",
+      "stitching_note": ""
+    },
+    {
+      "block_id": "p00038_b002",
+      "type": "point",
+      "point_number": "৭০.০৭",
+      "text": "Other tempered safety glass",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "point_৭০.০৭",
+      "stitching_note": ""
+    },
+    {
+      "block_id": "p00038_b003",
+      "type": "point",
+      "point_number": "",
+      "text": "Other laminated safety glass",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "",
+      "stitching_note": ""
+    },
+    {
+      "block_id": "p00038_b004",
+      "type": "point",
+      "point_number": "৭০.০৯",
+      "text": "ফ্রেমবিহীন অন্যান্য কাঁচের আয়না",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "point_৭০.০৯",
+      "stitching_note": ""
+    },
+    {
+      "block_id": "p00038_b005",
+      "type": "point",
+      "point_number": "",
+      "text": "ফ্রেমযুক্ত অন্যান্য কাঁচের আয়না",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "",
+      "stitching_note": ""
+    },
+    {
+      "block_id": "p00038_b006",
+      "type": "point",
+      "point_number": "৭০.১৩",
+      "text": "টেবিল, রান্নাঘর, টয়লেট, অফিস, ইনডোর ডেকোরেশন অথবা একইরূপ উদ্দেশ্যে ব্যবহারের উপযোগী কাঁচের তৈজসপত্র (৭০.১০ ও ৭০.১৮ হেডিং এর পণ্য ব্যতীত)",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "point_৭০.১৩",
+      "stitching_note": ""
+    },
+    {
+      "block_id": "p00038_b007",
+      "type": "point",
+      "point_number": "৭০.১৬",
+      "text": "Paving blocks, slabs, bricks, squares, tiles and other articles of pressed or moulded glass, whether or not wired, of a kind used for building or construction purposes; glass cubes and other glass smallwares, whether or not on a backing, for mosaics or similar decorative purposes; leaded lights and the like; multi-cellular or foam glass in blocks, panels, plates, shells or similar forms.",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "point_৭০.১৬",
+      "stitching_note": ""
+    },
+    {
+      "block_id": "p00038_b008",
+      "type": "point",
+      "point_number": "৭০.১৮",
+      "text": "Glass beads, imitation pearls, imitation precious or semi-precious stones and similar glass small wares",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "point_৭০.১৮",
+      "stitching_note": ""
+    },
+    {
+      "block_id": "p00038_b009",
+      "type": "point",
+      "point_number": "৭১.০২",
+      "text": "অমসৃণ হীরা",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "point_৭১.০২",
+      "stitching_note": ""
+    },
+    {
+      "block_id": "p00038_b010",
+      "type": "point",
+      "point_number": "",
+      "text": "মসৃণ হীরা",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "",
+      "stitching_note": ""
+    },
+    {
+      "block_id": "p00038_b011",
+      "type": "point",
+      "point_number": "৭১.১৭",
+      "text": "ইমিটেশন জুয়েলারী",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "point_৭১.১৭",
+      "stitching_note": ""
+    },
+    {
+      "block_id": "p00038_b012",
+      "type": "point",
+      "point_number": "৭৩.০৪",
+      "text": "অয়েল অথবা গ্যাস পাইপ লাইনে ব্যবহৃত লাইন পাইপঃ ব্যাস ৮ ইঞ্চি অথবা তার নিম্নে",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "point_৭৩.০৪",
+      "stitching_note": ""
+    }
+  ],
+  "output_carry_forward_state": {
+    "status": "open",
+    "active_point_number": "৭৩.০৪",
+    "active_stitch_group_id": "point_৭৩.০৪",
+    "active_point_summary": "অয়েল অথবা গ্যাস পাইপ লাইনে ব্যবহৃত লাইন পাইপঃ ব্যাস ৮ ইঞ্চি অথবা তার নিম্নে",
+    "numbering_system": "mixed",
+    "expected_next_main_point": "৭৩.০৫",
+    "continuation_hint": "point_৭৩.০৪ may continue to next page",
+    "last_visible_text": "অয়েল অথবা গ্যাস পাইপ লাইনে ব্যবহৃত লাইন পাইপঃ ব্যাস ৮ ইঞ্চি অথবা তার নিম্নে"
+  }
+}

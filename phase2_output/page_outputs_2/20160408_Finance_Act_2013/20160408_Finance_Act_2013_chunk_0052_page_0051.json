@@ -6,22 +6,22 @@
     {
       "block_id": "p0051_b001",
       "type": "point",
-      "point_number": "(৬)",
-      "text": "<table border=\"1\">\n<tr>\n<td>7208.38.90</td>\n<td>...Other<br/>..Of a thickness of less than 3 mm</td>\n<td>kg</td>\n<td>10%</td>\n<td>Free</td>\n</tr>\n<tr>\n<td>7208.39.20</td>\n<td>...Imported by VAT registered iron/steel product, transformer, pre-fabricated building manufacturing industry</td>\n<td>kg</td>\n<td>5%</td>\n<td>Free</td>\n</tr>\n<tr>\n<td>7208.39.80</td>\n<td>...Other<br/>-Not in coils, not further worked than hot-rolled, with patterns in relief</td>\n<td>kg</td>\n<td>10%</td>\n<td>Free</td>\n</tr>\n<tr>\n<td>7208.40.10</td>\n<td>...Imported by VAT registered iron/steel product, transformer and pre-fabricated building manufacturing industry</td>\n<td>kg</td>\n<td>5%</td>\n<td>Free</td>\n</tr>\n<tr>\n<td>7208.40.90</td>\n<td>...Other<br/>- Other, not in coils, not further worked than hot-rolled<br/>..Of a thickness exceeding 10 mm</td>\n<td>kg</td>\n<td>10%</td>\n<td>Free</td>\n</tr>\n<tr>\n<td>7208.51.10</td>\n<td>...Imported by VAT registered iron/steel product, transformer and pre-fabricated building manufacturing industry</td>\n<td>kg</td>\n<td>5%</td>\n<td>Free</td>\n</tr>\n<tr>\n<td>7208.51.90</td>\n<td>...Other<br/>..Of a thickness of 4.75 mm or more but not exceeding 10 mm</td>\n<td>kg</td>\n<td>10%</td>\n<td>Free</td>\n</tr>\n<tr>\n<td>7208.52.10</td>\n<td>...Imported by VAT registered iron/steel products, motorcycle, pre-fabricated building and transformer manufacturing industry</td>\n<td>kg</td>\n<td>5%</td>\n<td>Free</td>\n</tr>\n</table>",
+      "point_number": "৬",
+      "text": "7208.38.90 ...Other Of a thickness of less than 3 mm kg 10% Free 7208.39.20 ...Imported by VAT registered iron/steel product, transformer and pre-fabricated building manufacturing industry kg 5% Free 7208.39.80 ...Other -Not in coils, not further worked than hot-rolled, with patterns in relief kg 10% Free 7208.40.10 ...Imported by VAT registered iron/steel product, transformer and pre-fabricated building manufacturing industry kg 5% Free 7208.40.90 ...Other - Other, not in coils, not further worked than hot-rolled Of a thickness exceeding 10 mm kg 10% Free 7208.51.10 ...Imported by VAT registered iron/steel product, transformer and pre-fabricated building manufacturing industry kg 5% Free 7208.51.90 ...Other Of a thickness of 4.75 mm or more but not exceeding 10 mm kg 10% Free 7208.52.10 ...Imported by VAT registered iron/steel products, motorcycle, pre-fabricated building and transformer manufacturing industry kg 5% Free",
       "continues_from_previous": true,
       "continues_to_next": true,
-      "stitch_group_id": "point_(৬)",
-      "stitching_note": "Continuation of the replacement table structure for Heading 72.08."
+      "stitch_group_id": "point_৬",
+      "stitching_note": "Continuation of point 6 table entries"
     }
   ],
   "output_carry_forward_state": {
     "status": "open",
-    "active_point_number": "(৬)",
-    "active_stitch_group_id": "point_(৬)",
-    "active_point_summary": "Replacement of entries for Heading 72.08 and related H.S.Codes, including the table structure. The table continues into the next page.",
-    "numbering_system": "english_digits",
-    "expected_next_main_point": "(৬)",
-    "continuation_hint": "The point (৬) continues into the next page, starting with the remaining text of the table row.",
-    "last_visible_text": "7208.52.10\n...Imported by VAT registered iron/steel products, motorcycle, pre-fabricated building and transformer manufacturing industry\nkg\n5%\nFree"
+    "active_point_number": "৬",
+    "active_stitch_group_id": "point_৬",
+    "active_point_summary": "Heading 72.08 tariff amendment with table entries continuing",
+    "numbering_system": "bangla_digits",
+    "expected_next_main_point": "৭",
+    "continuation_hint": "Point 6 continues to next page with table entries",
+    "last_visible_text": "7208.52.10 ...Imported by VAT registered iron/steel products, motorcycle, pre-fabricated building and transformer manufacturing industry kg 5% Free"
   }
 }

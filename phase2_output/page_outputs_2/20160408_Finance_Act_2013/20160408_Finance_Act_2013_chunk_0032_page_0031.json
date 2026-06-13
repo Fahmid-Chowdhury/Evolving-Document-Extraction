@@ -1,0 +1,27 @@
+{
+  "chunk_id": "20160408_Finance_Act_2013_chunk_0032",
+  "page_number": 31,
+  "document_id": "20160408_Finance_Act_2013",
+  "content_blocks": [
+    {
+      "block_id": "p00031_b001",
+      "type": "point",
+      "point_number": "৪২",
+      "text": "৪২.০২ সকল এইচ,এস,কোড Trunks, suit-case, vanity-cases, executive-cases, brief-cases, school satchels, spectacle cases, binocular cases, camera cases, musical instrument cases, guncases, holsters and similar containers; travelling-bags, insulated food or beverages bags ২০\n\n<table border=\"1\">\n<thead>\n<tr>\n<th>শিরনামা সংখ্যা<br/>(Heading No.)</th>\n<th>সামঞ্জস্যপূর্ণ<br/>নামকরণ কোড<br/>(H.S. Code)</th>\n<th>পণ্যসমূহের বিবরণ<br/>(Description of Goods)</th>\n<th>সম্পূরক<br/>তহবাব<br/>(%)</th>\n</tr>\n<tr>\n<th>(১)</th>\n<th>(২)</th>\n<th>(৩)</th>\n<th>(৪)</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td></td>\n<td></td>\n<td>toilet bags, rucksacks, handbags, shopping bags, wallets, purses, map-cases, cigarette-cases, tobacco pouches, tool bags, sports bags, bottle-cases, jewellery boxes, powder-boxes, cutlery cases and similar containers, of leather or of composition leather, of sheeting of plastics, of textile materials, of vulcanised fibre or of paper board, or wholly or mainly covered with such materials or with paper.</td>\n<td></td>\n</tr>\n<tr>\n<td>৪৪.১০ হতে<br/>৪৪.১২</td>\n<td>সকল<br/>এইচ.এস.কোড<br/>(৪৪১০.১১.১০,<br/>৪৪১১.১২.০০,<br/>৪৪১১.১৩.০০ ও<br/>৪৪১১.১৪.০০<br/>ব্যতীত)</td>\n<td>সকল প্রকার পার্টিক্যাল বোর্ড, ওরিয়েন্টেড<br/>স্ট্র্যান্ড বোর্ড ও সমজাতীয় বোর্ড, ফাইবার<br/>বোর্ড, হার্ড বোর্ড, প্রাইউড, ভিনিয়ার্ড প্যানেলস<br/>ও সমজাতীয় লেমিনেটেড পণ্য</td>\n<td>২০</td>\n</tr>\n<tr>\n<td>৪৪.১৮</td>\n<td>সকল<br/>এইচ.এস.কোড</td>\n<td>দরজা, জানালা, উহাদের ফ্রেম ও প্রেশহোল্ড,<br/>প্যারকিট প্যানেল, শাটরিং, শিংগেল ও শেক<br/>এবং সমজাতীয় পণ্য</td>\n<td>২০</td>\n</tr>\n<tr>\n<td>৪৮.০২</td>\n<td>৪৮০২.৫৪.৯০</td>\n<td>Other paper and paperboard, not<br/>containing fibres obtained by a<br/>mechanical or chemi-mechanical<br/>process or of which not more than<br/>10% by weight of the total fibre<br/>content consists of such fibres of<br/>weighing less than 40 g/m<sup>2</sup> (Excl.<br/>imported by VAT registered<br/>manufacturing industries)</td>\n<td>২০</td>\n</tr>\n<tr>\n<td>৪৮.১৩</td>\n<td>৪৮১৩.১০.১০<br/>৪৮১৩.২০.১০<br/>৪৮১৩.৯০.১০</td>\n<td>নিবন্ধিত প্রস্তুতকারক কর্তৃক আমদানিকৃত<br/>সিগারেট পেপার, সাইজ মত কঠিত হটক বা<br/>না হটক অথবা বুকলেট বা টিউবের আকারে</td>\n<td>৬০</td>\n</tr>\n</tbody>\n</table>",
+      "continues_from_previous": true,
+      "continues_to_next": true,
+      "stitch_group_id": "point_৪২",
+      "stitching_note": "Continues from previous page point ৪২, includes table content as part of the point"
+    }
+  ],
+  "output_carry_forward_state": {
+    "status": "open",
+    "active_point_number": "৪২",
+    "active_stitch_group_id": "point_৪২",
+    "active_point_summary": "৪২.০২ সকল এইচ,এস,কোড Trunks, suit-case, vanity-cases, executive-cases, brief-cases, school satchels, spectacle cases, binocular cases, camera cases, musical instrument cases, guncases, holsters and similar containers; travelling-bags, insulated food or beverages bags ২০ with table content for HS Codes 44.10, 44.18, 48.02, 48.13",
+    "numbering_system": "bangla_digits",
+    "expected_next_main_point": "৪৩",
+    "continuation_hint": "point_৪২ continues to next page",
+    "last_visible_text": "৪৮.১৩ নিবন্ধিত প্রস্তুতকারক কর্তৃক আমদানিকৃত সিগারেট পেপার, সাইজ মত কঠিত হটক বা না হটক অথবা বুকলেট বা টিউবের আকারে ৬০"
+  }
+}

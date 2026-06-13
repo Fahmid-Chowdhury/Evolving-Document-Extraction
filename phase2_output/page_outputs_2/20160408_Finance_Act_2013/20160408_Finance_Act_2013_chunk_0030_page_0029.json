@@ -1,0 +1,27 @@
+{
+  "chunk_id": "20160408_Finance_Act_2013_chunk_0030",
+  "page_number": 29,
+  "document_id": "20160408_Finance_Act_2013",
+  "content_blocks": [
+    {
+      "block_id": "p00029_b001",
+      "type": "point",
+      "point_number": "৪৩",
+      "text": "১৯৯১ সনের ২২ নং আইনের তৃতীয় তফসিলের প্রতিস্থাপন।—উক্ত আইনের তৃতীয় তফসিলের পরিবর্তে নিম্নরূপ তৃতীয় তফসিল প্রতিস্থাপিত হইবে, যথা:— তৃতীয় তফসিল (ধারা ৭ প্রস্তুত) সম্পূরক শুদ্ধ আরোপযোগ্য পণ্য ও সেবাসমূহ",
+      "continues_from_previous": false,
+      "continues_to_next": true,
+      "stitch_group_id": "point_৪৩",
+      "stitching_note": "continues with table content"
+    }
+  ],
+  "output_carry_forward_state": {
+    "status": "open",
+    "active_point_number": "৪৩",
+    "active_stitch_group_id": "point_৪৩",
+    "active_point_summary": "১৯৯১ সনের ২২ নং আইনের তৃতীয় তফসিলের প্রতিস্থাপন।—উক্ত আইনের তৃতীয় তফসিলের পরিবর্তে নিম্নরূপ তৃতীয় তফসিল প্রতিস্থাপিত হইবে, যথা:— তৃতীয় তফসিল (ধারা ৭ প্রস্তুত) সম্পূরক শুদ্ধ আরোপযোগ্য পণ্য ও সেবাসমূহ",
+    "numbering_system": "bangla_digits",
+    "expected_next_main_point": "৪৪",
+    "continuation_hint": "point_৪৩ continues to next page with table content",
+    "last_visible_text": "প্লাস্টিকের তৈরী বাথটাব, শাওয়ার বাথ, সিল্ক, ওয়াশ বেসিন, বিডেট, ল্যাভেটরী প্যান, সীট ও কভার, ফ্লাশিং সিস্টার্মস এবং অনুরূপ স্যানিটারী ওয়ারস"
+  }
+}

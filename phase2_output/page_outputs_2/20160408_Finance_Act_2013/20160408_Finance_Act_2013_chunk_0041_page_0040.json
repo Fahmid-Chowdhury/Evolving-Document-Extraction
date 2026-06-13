@@ -1,0 +1,87 @@
+{
+  "chunk_id": "20160408_Finance_Act_2013_chunk_0041",
+  "page_number": 40,
+  "document_id": "20160408_Finance_Act_2013",
+  "content_blocks": [
+    {
+      "block_id": "p00040_b001",
+      "type": "point",
+      "point_number": "৭৬.০৭",
+      "text": "পেপার/পেপার বোর্ড দ্বারা ব্যাক্ড (Backed)\nএ্যালুমিনিয়াম ফয়েল, রসিন হটক বা না\nহটক, রোল/রিল/ববিন আকারে",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "point_৭৬.০৭",
+      "stitching_note": ""
+    },
+    {
+      "block_id": "p00040_b002",
+      "type": "point",
+      "point_number": "৭৬.১৫",
+      "text": "এ্যালুমিনিয়াম স্যানিটারী ওয়াটার ও যন্ত্রাংশ",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "point_৭৬.১৫",
+      "stitching_note": ""
+    },
+    {
+      "block_id": "p00040_b003",
+      "type": "point",
+      "point_number": "৮২.১২",
+      "text": "রেজর\nস্টেইনলেস স্টীল ব্লেন্ড\nঅন্যান্য\nরেজর পার্টস",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "point_৮২.১২",
+      "stitching_note": "Merged subpoints under heading ৮২.১২ as per validator instruction"
+    },
+    {
+      "block_id": "p00040_b004",
+      "type": "point",
+      "point_number": "৮৩.০১",
+      "text": "Padlocks and locks (key,\ncombination or electrically operated),\nof base metal; clasps and frames with\nclasps, incorporating locks, of base\nmetal; keys for any of the foregoing\narticles, of base metal.",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "point_৮৩.০১",
+      "stitching_note": ""
+    },
+    {
+      "block_id": "p00040_b005",
+      "type": "point",
+      "point_number": "৮৪.০৭ এবং ৮৪.০৮",
+      "text": "দুই স্ট্রোক বিশিষ্ট অটো রিস্ক/থ্রি হুইলারের\nইঞ্জিন\nচার স্ট্রোক বিশিষ্ট অটো রিস্ক/থ্রি হুইলারের\nইঞ্জিন",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "point_৮৪.০৭_৮৪.০৮",
+      "stitching_note": ""
+    },
+    {
+      "block_id": "p00040_b006",
+      "type": "point",
+      "point_number": "৮৪.১৪",
+      "text": "১২৫ ওয়াট বা তার নিম্নের মটরযুক্ত টেবিল,\nফ্লোর, ওয়াল, সিলিং, উইন্ডো, জানালা ও\nছাদের ফ্যান\nফ্যান এর যন্ত্রাংশ",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "point_৮৪.১৪",
+      "stitching_note": ""
+    },
+    {
+      "block_id": "p00040_b007",
+      "type": "point",
+      "point_number": "৮৪.১৫",
+      "text": "মটরচালিত পাখায়ুক্ত এবং উষ্ণতা ও আর্দ্রতা\nপরিবর্তন এর সুবিধা সম্বলিত, আর্দ্রতা\nপৃথকভাবে নিয়ন্ত্রণ করা যায় না এইরূপ\nবৈশিষ্ট্য সম্বলিত শীতাতপ নিয়ন্ত্রণকারী যন্ত্র\nযন্ত্রাংশ :\nইনডোর অথবা আউটডোর ইউনিট\nঅন্যান্য যন্ত্রাংশ :\nভ্যাট রেজিস্টার্ড এয়ার কন্ডিশনার প্রস্তুতকারক\nপ্রতিষ্ঠান কর্তৃক আমদানিকৃত",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "point_৮৪.১৫",
+      "stitching_note": ""
+    }
+  ],
+  "output_carry_forward_state": {
+    "status": "open",
+    "active_point_number": "৮৪.১৫",
+    "active_stitch_group_id": "point_৮৪.১৫",
+    "active_point_summary": "মটরচালিত পাখায়ুক্ত এবং উষ্ণতা ও আর্দ্রতা পরিবর্তন এর সুবিধা সম্বলিত, আর্দ্রতা পৃথকভাবে নিয়ন্ত্রণ করা যায় না এইরূপ বৈশিষ্ট্য সম্বলিত শীতাতপ নিয়ন্ত্রণকারী যন্ত্র যন্ত্রাংশ",
+    "numbering_system": "mixed",
+    "expected_next_main_point": "৮৪.১৬",
+    "continuation_hint": "point_৮৪.১৫ may continue to next page",
+    "last_visible_text": "ভ্যাট রেজিস্টার্ড এয়ার কন্ডিশনার প্রস্তুতকারক প্রতিষ্ঠান কর্তৃক আমদানিকৃত"
+  }
+}

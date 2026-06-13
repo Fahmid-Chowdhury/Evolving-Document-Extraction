@@ -1,0 +1,77 @@
+{
+  "chunk_id": "20160408_Finance_Act_2013_chunk_0040",
+  "page_number": 39,
+  "document_id": "20160408_Finance_Act_2013",
+  "content_blocks": [
+    {
+      "block_id": "p0039_b001",
+      "type": "point",
+      "point_number": "৭৩.০৬",
+      "text": "৭৩০৬.১১.২০<br/>৭৩০৬.১৯.২০<br/>অয়েল অথবা গ্যাস পাইপ লাইনে ব্যবহৃত লাইন পাইপ, (বাস ৮ ইঞ্চি অথবা তার নিম্নে)<br/>২০",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "point_৭৩.০৬",
+      "stitching_note": "New main point ৭৩.০৬ starts on this page"
+    },
+    {
+      "block_id": "p0039_b002",
+      "type": "point",
+      "point_number": "৭৩.২০",
+      "text": "৭৩২০.১০.০০<br/>লীফ স্প্রিং<br/>২০",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "point_৭৩.২০",
+      "stitching_note": "New main point ৭৩.২০ starts on this page"
+    },
+    {
+      "block_id": "p0039_b003",
+      "type": "point",
+      "point_number": "৭৩.২১",
+      "text": "৭৩২১.১১.০০<br/>গ্যাস জ্বালানীর উপযোগী বা গ্যাস এবং অন্যান্য উভয় জ্বালানীর উপযোগী রান্নার তৈজসপত্র এবং প্লেট গরমকারক<br/>২০",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "point_৭৩.২১",
+      "stitching_note": "New main point ৭৩.২১ starts on this page"
+    },
+    {
+      "block_id": "p0039_b004",
+      "type": "point",
+      "point_number": "৭৩.২৩",
+      "text": "৭৩২৩.৯৩.০০<br/>৭৩২৩.৯৪.০০<br/>৭৩২৩.৯৯.০০<br/>Table/kitchenware of stainless steel<br/>২০",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "point_৭৩.২৩",
+      "stitching_note": "New main point ৭৩.২৩ starts on this page"
+    },
+    {
+      "block_id": "p0039_b005",
+      "type": "point",
+      "point_number": "৭৩.২৪",
+      "text": "সকল<br/>এইচ,এস,কোড<br/>স্টেইনলেস স্টীলের সিল্ক, ওয়াস বেসিন উহার যন্ত্রাংশ, ওয়াটার ট্যাপ এবং বাথরুমের অন্যান্য ফিটিংস ও ফিক্সার্স<br/>২০",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "point_৭৩.২৪",
+      "stitching_note": "New main point ৭৩.২৪ starts on this page"
+    },
+    {
+      "block_id": "p0039_b006",
+      "type": "point",
+      "point_number": "৭৪.১৮",
+      "text": "৭৪১৮.২০.০০<br/>কপালের তৈরী সেনিটারী ওয়ার ও উহার যন্ত্রাংশ<br/>২০",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "point_৭৪.১৮",
+      "stitching_note": "New main point ৭৪.১৮ starts on this page"
+    }
+  ],
+  "output_carry_forward_state": {
+    "status": "open",
+    "active_point_number": "৭৪.১৮",
+    "active_stitch_group_id": "point_৭৪.১৮",
+    "active_point_summary": "কপালের তৈরী সেনিটারী ওয়ার ও উহার যন্ত্রাংশ",
+    "numbering_system": "mixed",
+    "expected_next_main_point": "৭৪.১৯",
+    "continuation_hint": "point_৭৪.১৮ may continue to next page",
+    "last_visible_text": "কপালের তৈরী সেনিটারী ওয়ার ও উহার যন্ত্রাংশ"
+  }
+}

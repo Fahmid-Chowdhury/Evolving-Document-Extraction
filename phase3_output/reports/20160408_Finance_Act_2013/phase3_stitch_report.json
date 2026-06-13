@@ -1,26 +1,86 @@
 {
   "document_name": "20160408_Finance_Act_2013",
-  "total_pages": 20,
-  "total_blocks": 59,
-  "final_content_items": 49,
-  "metadata_blocks": 6,
-  "stitched_point_blocks": 10,
+  "total_pages": 63,
+  "total_blocks": 252,
+  "final_content_items": 218,
+  "metadata_blocks": 16,
+  "stitched_point_blocks": 34,
   "ignored_blocks": 0,
   "uncertain_blocks": 0,
   "open_groups_remaining": [
-    "point_৩",
-    "point_১০।",
-    "point_১৩।",
-    "point_২৮।"
+    "point_৪৩",
+    "point_৪২",
+    "point_৮৭.০৩",
+    "point_৪"
   ],
   "warnings": [
     {
+      "type": "implicit_open_group_continuation",
+      "page_number": 29,
+      "chunk_id": "20160408_Finance_Act_2013_chunk_0030",
+      "block_id": "p00029_b001",
+      "group_id": "point_৪৩",
+      "message": "Group was open, so block was appended even though continues_from_previous was false."
+    },
+    {
       "type": "recovered_closed_group_continuation",
-      "page_number": 16,
-      "chunk_id": "20160408_Finance_Act_2013_chunk_0017",
-      "block_id": "p0016_b001",
-      "group_id": "point_৩০।",
+      "page_number": 31,
+      "chunk_id": "20160408_Finance_Act_2013_chunk_0032",
+      "block_id": "p00031_b001",
+      "group_id": "point_৪২",
       "message": "Block says continues_from_previous=true, but group was not open. Appended to latest same group."
+    },
+    {
+      "type": "missing_group_id",
+      "page_number": 37,
+      "chunk_id": "20160408_Finance_Act_2013_chunk_0038",
+      "block_id": "p00037_b013",
+      "message": "Point block had no stitch_group_id or point_number."
+    },
+    {
+      "type": "missing_group_id",
+      "page_number": 38,
+      "chunk_id": "20160408_Finance_Act_2013_chunk_0039",
+      "block_id": "p00038_b003",
+      "message": "Point block had no stitch_group_id or point_number."
+    },
+    {
+      "type": "missing_group_id",
+      "page_number": 38,
+      "chunk_id": "20160408_Finance_Act_2013_chunk_0039",
+      "block_id": "p00038_b005",
+      "message": "Point block had no stitch_group_id or point_number."
+    },
+    {
+      "type": "missing_group_id",
+      "page_number": 38,
+      "chunk_id": "20160408_Finance_Act_2013_chunk_0039",
+      "block_id": "p00038_b010",
+      "message": "Point block had no stitch_group_id or point_number."
+    },
+    {
+      "type": "implicit_open_group_continuation",
+      "page_number": 48,
+      "chunk_id": "20160408_Finance_Act_2013_chunk_0049",
+      "block_id": "p0048_b004",
+      "group_id": "point_৩",
+      "message": "Group was open, so block was appended even though continues_from_previous was false."
+    },
+    {
+      "type": "implicit_open_group_continuation",
+      "page_number": 49,
+      "chunk_id": "20160408_Finance_Act_2013_chunk_0050",
+      "block_id": "p0049_b002",
+      "group_id": "point_৬",
+      "message": "Group was open, so block was appended even though continues_from_previous was false."
+    },
+    {
+      "type": "implicit_open_group_continuation",
+      "page_number": 62,
+      "chunk_id": "20160408_Finance_Act_2013_chunk_0063",
+      "block_id": "p0062_b002",
+      "group_id": "point_১",
+      "message": "Group was open, so block was appended even though continues_from_previous was false."
     }
   ],
   "skipped_blocks": [],

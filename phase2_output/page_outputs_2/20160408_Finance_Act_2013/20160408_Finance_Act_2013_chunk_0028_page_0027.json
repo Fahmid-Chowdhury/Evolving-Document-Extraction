@@ -1,0 +1,27 @@
+{
+  "chunk_id": "20160408_Finance_Act_2013_chunk_0028",
+  "page_number": 27,
+  "document_id": "20160408_Finance_Act_2013",
+  "content_blocks": [
+    {
+      "block_id": "p00027_b001",
+      "type": "point",
+      "point_number": "৪৩",
+      "text": "১৯৯১ সনের ২২ নং আইনের তৃতীয় তফসিলের প্রতিস্থাপন।—উক্ত আইনের তৃতীয় তফসিলের পরিবর্তে নিম্নরূপ তৃতীয় তফসিল প্রতিস্থাপিত হইবে, যথা:— তৃতীয় তফসিল (ধারা ৭ প্রস্তুত) সম্পূরক শুদ্ধ আরোপযোগ্য পণ্য ও সেবাসমূহ",
+      "continues_from_previous": true,
+      "continues_to_next": true,
+      "stitch_group_id": "point_৪৩",
+      "stitching_note": "Continues from previous page, includes table content from this page"
+    }
+  ],
+  "output_carry_forward_state": {
+    "status": "open",
+    "active_point_number": "৪৩",
+    "active_stitch_group_id": "point_৪৩",
+    "active_point_summary": "১৯৯১ সনের ২২ নং আইনের তৃতীয় তফসিলের প্রতিস্থাপন।—উক্ত আইনের তৃতীয় তফসিলের পরিবর্তে নিম্নরূপ তৃতীয় তফসিল প্রতিস্থাপিত হইবে, যথা:— তৃতীয় তফসিল (ধারা ৭ প্রস্তুত) সম্পূরক শুদ্ধ আরোপযোগ্য পণ্য ও সেবাসমূহ",
+    "numbering_system": "bangla_digits",
+    "expected_next_main_point": "৪৪",
+    "continuation_hint": "point_৪৩ continues to next page with table content",
+    "last_visible_text": "শেভের আগে, শেভের পরে বা শেভের সময়<br/>ব্যবহার্য সামগ্রী; শরীরের দূর্গন্ধ দূরীকরণে<br/>ব্যবহৃত সামগ্রী, ডিপাইলেন্ট্রী এবং অন্যান্য<br/>সুগন্ধি, প্রসাধনী ও টয়লেট সামগ্রী যা অন্য<br/>কোথাও বর্ণিত বা অন্তর্ভুক্ত নহে; কন্সের দূর্গন্ধ<br/>নাশক (সুগন্ধিযুক্ত হটুক বা না হটুক) অথবা<br/>(জীবানুনাশক ক্ষমতা থাকুক বা না থাকুক)"
+  }
+}

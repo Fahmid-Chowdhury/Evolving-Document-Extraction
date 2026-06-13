@@ -4,44 +4,44 @@
   "document_id": "20160408_Finance_Act_2013",
   "content_blocks": [
     {
-      "block_id": "p0056_b001",
+      "block_id": "p00056_b001",
       "type": "point",
       "point_number": "১৮",
-      "text": "<table>\n<tr>\n<td>8901.90.20</td>\n<td>---Vessels capacity exceeding<br/>3000 DWT but not exceeding<br/>5000 DWT for registration in<br/>Bangladesh operating in ocean for<br/>at least three consecutive years.</td>\n<td>u</td>\n<td>10%</td>\n<td>Free</td>\n</tr>\n<tr>\n<td>8901.90.30</td>\n<td>---Vessels capacity exceeding<br/>5000 DWT for registration in<br/>Bangladesh operating in ocean for<br/>at least three consecutive years.</td>\n<td>u</td>\n<td>0%</td>\n<td>Free</td>\n</tr>\n<tr>\n<td>8901.90.90</td>\n<td>---Other</td>\n<td>u</td>\n<td>10%</td>\n<td>Free</td>\n</tr>\n</table>",
+      "text": "8901.90.20 ---Vessels capacity exceeding 3000 DWT but not exceeding 5000 DWT for registration in Bangladesh operating in ocean for at least three consecutive years. u 10% Free\n\n8901.90.30 ---Vessels capacity exceeding 5000 DWT for registration in Bangladesh operating in ocean for at least three consecutive years. u 0% Free\n\n8901.90.90 ---Other u 10% Free",
       "continues_from_previous": true,
       "continues_to_next": false,
       "stitch_group_id": "point_১৮",
-      "stitching_note": "Continuation of the table structure for point (১৮)."
+      "stitching_note": "Continuation of Point 18 table entries from previous page"
     },
     {
-      "block_id": "p0056_b002",
+      "block_id": "p00056_b002",
       "type": "point",
       "point_number": "১৯",
-      "text": "৩২৪ নং পৃষ্ঠার কলাম (১) এ উল্লিখিত Heading 94.05, এর আগতাত্যুক্ত কলাম (২) তে বর্ণিত H.S.Code “9405.99.10” এর বিপরীতে কলাম (৫) এ উল্লিখিত এন্ট্রি “10%” এর পরিবর্তে এন্ট্রি “0%” প্রতিস্থাপিত হইবে।",
+      "text": "৩২৪ নং পৃষ্ঠার কলাম (১) এ উল্লিখিত Heading 94.05, এর আগতাত্যুক্ত কলাম (২) তে বর্ণিত H.S.Code \"9405.99.10\" এর বিপরীতে কলাম (৫) এ উল্লিখিত এন্ট্রি \"10%\" এর পরিবর্তে এন্ট্রি \"0%\" প্রতিস্থাপিত হইবে।",
       "continues_from_previous": false,
       "continues_to_next": false,
       "stitch_group_id": "point_১৯",
-      "stitching_note": "Amendment point (১৯)."
+      "stitching_note": "New Point 19 amendment for Heading 94.05"
     },
     {
-      "block_id": "p0056_b003",
+      "block_id": "p00056_b003",
       "type": "point",
       "point_number": "২০",
-      "text": "৩২৪ নং পৃষ্ঠার কলাম (১) এ উল্লিখিত Heading 94.06, এর আগতাত্যুক্ত কলাম (২) তে বর্ণিত H.S.Code “9406.00.90” এর বিপরীতে কলাম (৫) এ উল্লিখিত এন্ট্রি “10%” এর পরিবর্তে এন্ট্রি “25%” প্রতিস্থাপিত হইবে।",
+      "text": "৩২৪ নং পৃষ্ঠার কলাম (১) এ উল্লিখিত Heading 94.06, এর আগতাত্যুক্ত কলাম (২) তে বর্ণিত H.S.Code \"9406.00.90\" এর বিপরীতে কলাম (৫) এ উল্লিখিত এন্ট্রি \"10%\" এর পরিবর্তে এন্ট্রি \"25%\" প্রতিস্থাপিত হইবে।",
       "continues_from_previous": false,
       "continues_to_next": false,
       "stitch_group_id": "point_২০",
-      "stitching_note": "Amendment point (২০)."
+      "stitching_note": "New Point 20 amendment for Heading 94.06"
     }
   ],
   "output_carry_forward_state": {
     "status": "closed",
-    "active_point_number": "",
-    "active_stitch_group_id": "",
-    "active_point_summary": "The current page concludes with three distinct points: (১৮) completing the table structure, (১৯) amending Heading 94.05, and (২০) amending Heading 94.06.",
-    "numbering_system": "english_digits",
+    "active_point_number": "২০",
+    "active_stitch_group_id": "point_২০",
+    "active_point_summary": "Point 20 amendment of Heading 94.06 with new entry 25%",
+    "numbering_system": "bangla_digits",
     "expected_next_main_point": "২১",
-    "continuation_hint": "The next section starts a new chapter/schedule (তফসিল-২), which should be treated as metadata.",
-    "last_visible_text": "৩২৪ নং পৃষ্ঠার কলাম (১) এ উল্লিখিত Heading 94.06, এর আগতাত্যুক্ত কলাম (২) তে বর্ণিত H.S.Code “9406.00.90” এর বিপরীতে কলাম (৫) এ উল্লিখিত এন্ট্রি “10%” এর পরিবর্তে এন্ট্রি “25%” প্রতিস্থাপিত হইবে।"
+    "continuation_hint": "Point 20 complete, next main point expected",
+    "last_visible_text": "৩২৪ নং পৃষ্ঠার কলাম (১) এ উল্লিখিত Heading 94.06, এর আগতাত্যুক্ত কলাম (২) তে বর্ণিত H.S.Code \"9406.00.90\" এর বিপরীতে কলাম (৫) এ উল্লিখিত এন্ট্রি \"10%\" এর পরিবর্তে এন্ট্রি \"25%\" প্রতিস্থাপিত হইবে।"
   }
 }

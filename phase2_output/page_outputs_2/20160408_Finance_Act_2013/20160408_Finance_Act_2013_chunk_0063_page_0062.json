@@ -16,6 +16,16 @@
     {
       "block_id": "p0062_b002",
       "type": "point",
+      "point_number": "১",
+      "text": "Provisional Collection of Taxes Act, 1931 (Act No. XVI of 1931), অতঃপর উক্ত Act বলিয়া উল্লিখিত, এর section 3 তে প্রদত্ত ক্ষমতাবলে সরকার এই বিলের প্রস্তাবিত দফা ৫, ৬, ৭, ৩৭, ৩৮, ৩৯, ৪০, ৪১, ৪২ এবং ৪৩ উহাতে তিনুত্তর বিধানাবলী সাপেক্ষে, জনস্বার্থে, অবিলম্বে কার্যকর করা সমীচীন ও প্রয়োজনীয় মর্মে ঘোষণা করিল।",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "point_১",
+      "stitching_note": ""
+    },
+    {
+      "block_id": "p0062_b003",
+      "type": "point",
       "point_number": "২",
       "text": "এই ঘোষণার পরিপ্রেক্ষিতে উক্ত Act এর section 4(1) এর বিধান অনুযায়ী এই বিলের প্রস্তাবিত দফা ৫, ৬, ৭, ৩৭, ৩৮, ৩৯, ৪০, ৪১, ৪২ এবং ৪৩ এর বিধানাবলী অবিলম্বে কার্যকর হইবে।",
       "continues_from_previous": false,
@@ -24,7 +34,7 @@
       "stitching_note": ""
     },
     {
-      "block_id": "p0062_b003",
+      "block_id": "p0062_b004",
       "type": "metadata",
       "point_number": "",
       "text": "মোঃ মাহফুজুর রহমান\n\nসচিব।",
@@ -38,10 +48,10 @@
     "status": "closed",
     "active_point_number": "",
     "active_stitch_group_id": "",
-    "active_point_summary": "The section contains a declaration (metadata) and a subsequent point (২) declaring the immediate effect of certain provisions of the Bill. The document flow ends with a signature block (metadata).",
-    "numbering_system": "english_digits",
-    "expected_next_main_point": "",
-    "continuation_hint": "The document flow is complete on this page.",
-    "last_visible_text": ""
+    "active_point_summary": "",
+    "numbering_system": "bangla_digits",
+    "expected_next_main_point": "৩",
+    "continuation_hint": "",
+    "last_visible_text": "সচিব।"
   }
 }
