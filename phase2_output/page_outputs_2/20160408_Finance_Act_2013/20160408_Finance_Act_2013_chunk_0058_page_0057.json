@@ -4,54 +4,44 @@
   "document_id": "20160408_Finance_Act_2013",
   "content_blocks": [
     {
-      "block_id": "p0057_b001",
+      "block_id": "p00057_b001",
       "type": "metadata",
       "point_number": "",
-      "text": "তফসিল-২প্রথম অংশ\n\n(অর্থ আইন, ২০১৩ এর ধারা ৩৫ দ্রষ্টব্য)\n\nপ্রথম অংশ\n\n১ জুলাই, ২০১৩ তারিখে আরম্ভ কর বৎসরের জন্য আয়করের হার",
+      "text": "তফসিল-২ প্রথম অংশ\n\n(অর্থ আইন, ২০১৩ এর ধারা ৩৫ দ্রষ্টব্য)\n\nপ্রথম অংশ\n\n১ জুলাই, ২০১৩ তারিখে আরম্ভ কর বৎসরের জন্য আয়করের হার",
       "continues_from_previous": false,
       "continues_to_next": false,
       "stitch_group_id": "",
       "stitching_note": ""
     },
     {
-      "block_id": "p0057_b002",
-      "type": "point",
+      "block_id": "p00057_b002",
+      "type": "metadata",
       "point_number": "",
-      "text": "Income-tax Ordinance, 1984 (Ord. No. XXXVI of 1984) এর section 2(46) এ সংজ্ঞায়িত ব্যক্তিগণের (person) মধ্যে যাহাদের ক্ষেত্রে অনুচ্ছেদ-খ প্রযোজ্য হইবে না সেই সকল প্রত্যেক ব্যক্তি-করদাতা (অনিবাসী বাংলাদেশীসহ), হিন্দু যৌথ পরিবার, অংশীদারী কার্ম, ব্যক্তি-সংঘ এবং আইনের দ্বারা সৃষ্ট কৃত্রিম ব্যক্তির ক্ষেত্রে মোট আয়ের উপর আয়করের হার নিম্নরূপ হইবে, যথা:—\n\n<table>\n<thead>\n<tr>\n<th>মোট আয়</th>\n<th>হার</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>(ক) প্রথম ২,২০,০০০ টাকা পর্যন্ত মোট আয়ের উপর ---</td>\n<td>শূন্য</td>\n</tr>\n<tr>\n<td>(খ) পরবর্তী ৩,০০,০০০ টাকা পর্যন্ত মোট আয়ের উপর --</td>\n<td>১০%</td>\n</tr>\n<tr>\n<td>(গ) পরবর্তী ৪,০০,০০০ টাকা পর্যন্ত মোট আয়ের উপর --</td>\n<td>১৫%</td>\n</tr>\n<tr>\n<td>(ঘ) পরবর্তী ৩,০০,০০০ টাকা পর্যন্ত মোট আয়ের উপর --</td>\n<td>২০%</td>\n</tr>\n<tr>\n<td>(ঙ) অবশিষ্ট মোট আয়ের উপর -----</td>\n<td>২৫%:</td>\n</tr>\n</tbody>\n</table>\n\nতবে শর্ত থাকে যে, মহিলা করদাতা এবং ৬৫ বৎসর বা তদূর্ধ্ব বয়সের করদাতার করমুক্ত আয়ের সীমা হইবে ২,৫০,০০০ টাকা এবং প্রতিবন্ধী করদাতার করমুক্ত আয়ের সীমা হইবে ৩,০০,০০০ টাকা:",
+      "text": "অনুচ্ছেদ-ক\n\nIncome-tax Ordinance, 1984 (Ord. No. XXXVI of 1984) এর section 2(46) এ সংজ্ঞায়িত ব্যক্তিগণের (person) মধ্যে যাহাদের ক্ষেত্রে অনুচ্ছেদ-খ প্রযোজ্য হইবে না সেই সকল প্রতি ব্যক্তি-করদাতা (অনিবাসী বাংলাদেশীসহ), হিন্দু যৌথ পরিবার, অংশীদারী কার্ম, ব্যক্তি-সংঘ এবং আইনের দ্বারা সৃষ্ট কৃত্রিম ব্যক্তির ক্ষেত্রে মোট আয়ের উপর আয়করের হার নিম্নরূপ হইবে, যথা:",
       "continues_from_previous": false,
       "continues_to_next": false,
-      "stitch_group_id": "point_1",
-      "stitching_note": "This point describes the income tax rates for different categories of taxpayers."
+      "stitch_group_id": "",
+      "stitching_note": ""
     },
     {
-      "block_id": "p0057_b003",
+      "block_id": "p00057_b003",
       "type": "point",
-      "point_number": "",
-      "text": "আরও শর্ত থাকে যে, ন্যূনতম করের পরিমাণ কোন ভাবেই নিম্নরূপে বর্ণিত হারের কম হইবে না:\n\n<table border=\"1\">\n<thead>\n<tr>\n<th>এলাকার বিবরণ</th>\n<th>ন্যূনতম করের হার (টাকা)</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>সিটি কর্পোরেশন এলাকায় অবস্থিত করদাতা</td>\n<td>৩,০০০.০০</td>\n</tr>\n<tr>\n<td>জেলা সদরের পৌরসভায় অবস্থিত করদাতা</td>\n<td>২,০০০.০০</td>\n</tr>\n<tr>\n<td>অন্যান্য এলাকায় অবস্থিত করদাতা</td>\n<td>১,০০০.০০ :</td>\n</tr>\n</tbody>\n</table>",
-      "continues_from_previous": false,
-      "continues_to_next": false,
-      "stitch_group_id": "point_2",
-      "stitching_note": "This point details the minimum tax rates based on the area."
-    },
-    {
-      "block_id": "p0057_b004",
-      "type": "point",
-      "point_number": "",
-      "text": "আরও শর্ত থাকে যে, কোন করদাতা যদি স্বল্প উন্নত এলাকা (less developed area) বা সবচেয়ে কম উন্নত এলাকায় (least developed area) অবস্থিত কোন ক্ষুদ্র বা কুটির শিল্পের",
+      "point_number": "১",
+      "text": "জুলাই, ২০১৩ তারিখে আরম্ভ কর বৎসরের জন্য আয়করের হার\n\nঅনুচ্ছেদ-ক\n\nIncome-tax Ordinance, 1984 (Ord. No. XXXVI of 1984) এর section 2(46) এ সংজ্ঞায়িত ব্যক্তিগণের (person) মধ্যে যাহাদের ক্ষেত্রে অনুচ্ছেদ-খ প্রযোজ্য হইবে না সেই সকল প্রতি ব্যক্তি-করদাতা (অনিবাসী বাংলাদেশীসহ), হিন্দু যৌথ পরিবার, অংশীদারী কার্ম, ব্যক্তি-সংঘ এবং আইনের দ্বারা সৃষ্ট কৃত্রিম ব্যক্তির ক্ষেত্রে মোট আয়ের উপর আয়করের হার নিম্নরূপ হইবে, যথা:\n\n<table>\n<thead>\n<tr>\n<th>মোট আয়</th>\n<th>হার</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>(ক) প্রথম ২,২০,০০০ টাকা পর্যন্ত মোট আয়ের উপর ---</td>\n<td>শূন্য</td>\n</tr>\n<tr>\n<td>(খ) পরবর্তী ৩,০০,০০০ টাকা পর্যন্ত মোট আয়ের উপর --</td>\n<td>১০%</td>\n</tr>\n<tr>\n<td>(গ) পরবর্তী ৪,০০,০০০ টাকা পর্যন্ত মোট আয়ের উপর --</td>\n<td>১৫%</td>\n</tr>\n<tr>\n<td>(ঘ) পরবর্তী ৩,০০,০০০ টাকা পর্যন্ত মোট আয়ের উপর --</td>\n<td>২০%</td>\n</tr>\n<tr>\n<td>(ঙ) অবশিষ্ট মোট আয়ের উপর -----</td>\n<td>২৫%:</td>\n</tr>\n</tbody>\n</table>\n\nতবে শর্ত থাকে যে, মহিলা করদাতা এবং ৬৫ বৎসর বা তদূর্ধ্ব বয়সের করদাতার করমুক্ত আয়ের সীমা হইবে ২,৫০,০০০ টাকা এবং প্রতিবন্ধী করদাতার করমুক্ত আয়ের সীমা হইবে ৩,০০,০০০ টাকা:\n\nআরও শর্ত থাকে যে, ন্যূনতম করের পরিমাণ কোন ভাবেই নিম্নরূপে বর্ণিত হারের কম হইবে না:\n\n<table border=\"1\">\n<thead>\n<tr>\n<th>এলাকার বিবরণ</th>\n<th>ন্যূনতম করের হার (টাকা)</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>সিটি কর্পোরেশন এলাকায় অবস্থিত করদাতা</td>\n<td>৩,০০০.০০</td>\n</tr>\n<tr>\n<td>জেলা সদরের পৌরসভায় অবস্থিত করদাতা</td>\n<td>২,০০০.০০</td>\n</tr>\n<tr>\n<td>অন্যান্য এলাকায় অবস্থিত করদাতা</td>\n<td>১,০০০.০০ :</td>\n</tr>\n</tbody>\n</table>\n\nআরও শর্ত থাকে যে, কোন করদাতা যদি স্বল্প উন্নত এলাকা (less developed area) বা সবচেয়ে কম উন্নত এলাকায় (least developed area) অবস্থিত কোন ক্ষুদ্র বা কুটির শিল্পের",
       "continues_from_previous": false,
       "continues_to_next": true,
-      "stitch_group_id": "point_3",
-      "stitching_note": "This point continues into the next page, detailing tax benefits for small/cottage industries."
+      "stitch_group_id": "point_১",
+      "stitching_note": "Point 1 continues to next page"
     }
   ],
   "output_carry_forward_state": {
     "status": "open",
-    "active_point_number": "",
-    "active_stitch_group_id": "point_3",
-    "active_point_summary": "The point discusses tax benefits for small or cottage industries located in less developed or least developed areas.",
-    "numbering_system": "mixed",
-    "expected_next_main_point": "",
-    "continuation_hint": "The next page continues the discussion of tax benefits for small/cottage industries, using sub-points (অ) and (আ).",
-    "last_visible_text": "সবচেয়ে কম উন্নত এলাকায় (least developed area) অবস্থিত কোন ক্ষুদ্র বা কুটির শিল্পের"
+    "active_point_number": "১",
+    "active_stitch_group_id": "point_১",
+    "active_point_summary": "Point 1 tax rates for individuals under Income-tax Ordinance, 1984 with tables for tax slabs and minimum tax, continues to next page",
+    "numbering_system": "bangla_digits",
+    "expected_next_main_point": "২",
+    "continuation_hint": "Point 1 continues to next page",
+    "last_visible_text": "কোন করদাতা যদি স্বল্প উন্নত এলাকা (less developed area) বা সবচেয়ে কম উন্নত এলাকায় (least developed area) অবস্থিত কোন ক্ষুদ্র বা কুটির শিল্পের"
   }
 }

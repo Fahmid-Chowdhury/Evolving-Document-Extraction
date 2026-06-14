@@ -1,0 +1,87 @@
+{
+  "chunk_id": "20160408_Finance_Act_2013_chunk_0034",
+  "page_number": 33,
+  "document_id": "20160408_Finance_Act_2013",
+  "content_blocks": [
+    {
+      "block_id": "p00033_b001",
+      "type": "point",
+      "point_number": "৫৮.০১",
+      "text": "Woven pile fabrics and chenille fabrics, other than fabrics of heading 58.02 or 58.06.",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "point_৫৮",
+      "stitching_note": ""
+    },
+    {
+      "block_id": "p00033_b002",
+      "type": "point",
+      "point_number": "৫৯.০৩",
+      "text": "৫৯০৩.১০.৯০ - Other textile fabrics, impregnated, coated, covered or laminated with polyvinyl chloride; ৫৯০৩.২০.৯০ - Other textile fabrics, impregnated, coated, covered or laminated with polyurethane; ৫৯০৩.৯০.০০ - Other textile fabrics with polyurethane",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "point_৫৯",
+      "stitching_note": ""
+    },
+    {
+      "block_id": "p00033_b003",
+      "type": "point",
+      "point_number": "৬০.০১",
+      "text": "Pile fabrics, including \"long pile\" fabrics and terry fabrics, knitted or crocheted.",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "point_৬০",
+      "stitching_note": ""
+    },
+    {
+      "block_id": "p00033_b004",
+      "type": "point",
+      "point_number": "৬০.০২",
+      "text": "Knitted or crocheted fabrics of a width not 'exceeding 30 cm, containing by weight 5% or more of elastomeric yarn or rubber thread, other than those of heading 60.01.",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "point_৬০",
+      "stitching_note": ""
+    },
+    {
+      "block_id": "p00033_b005",
+      "type": "point",
+      "point_number": "৬০.০৩",
+      "text": "Knitted or crocheted fabrics of a width not exceeding 30 cm, other than those of heading 60.01 or 60.02",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "point_৬০",
+      "stitching_note": ""
+    },
+    {
+      "block_id": "p00033_b006",
+      "type": "point",
+      "point_number": "৬০.০৪",
+      "text": "Knitted or crocheted fabrics of a width exceeding 30 cm, containing by weight 5% or more of elastomeric yarn or rubber thread, other those of heading 60.01",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "point_৬০",
+      "stitching_note": ""
+    },
+    {
+      "block_id": "p00033_b007",
+      "type": "point",
+      "point_number": "৬০.০৫",
+      "text": "Warp knit fabrics (including those made on galloon knitting machines), other than of headings 60.01 to 60.04",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "point_৬০",
+      "stitching_note": ""
+    }
+  ],
+  "output_carry_forward_state": {
+    "status": "open",
+    "active_point_number": "৬০.০৫",
+    "active_stitch_group_id": "point_৬০",
+    "active_point_summary": "Warp knit fabrics (including those made on galloon knitting machines), other than of headings 60.01 to 60.04",
+    "numbering_system": "bangla_digits",
+    "expected_next_main_point": "৬১",
+    "continuation_hint": "point_৬০ continues to next page",
+    "last_visible_text": "Warp knit fabrics (including those made on galloon knitting machines), other than of headings 60.01 to 60.04"
+  }
+}

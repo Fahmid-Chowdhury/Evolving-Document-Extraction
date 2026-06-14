@@ -1,0 +1,127 @@
+{
+  "chunk_id": "20160408_Finance_Act_2013_chunk_0048",
+  "page_number": 47,
+  "document_id": "20160408_Finance_Act_2013",
+  "content_blocks": [
+    {
+      "block_id": "p0047_b001",
+      "type": "metadata",
+      "point_number": "",
+      "text": "দ্বিতীয় অংশ  \nসম্পূরক তত্ত্ব আরোপযোগ্য সেবাসমূহ",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "",
+      "stitching_note": ""
+    },
+    {
+      "block_id": "p0047_b002",
+      "type": "metadata",
+      "point_number": "",
+      "text": "শিরনামা সংখ্যা (১)\nসেবার কোড (২)\nসেবাসমূহ (৩)\nসম্পূরক তত্ত্ব হার (%) (৪)",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "",
+      "stitching_note": ""
+    },
+    {
+      "block_id": "p0047_b003",
+      "type": "point",
+      "point_number": "S001",
+      "text": "হোটেল ও রেস্তোরাঁ : আবাসন, খাদ্য বা পানীয় সরবরাহকালে যদি হোটলে মদ জাতীয় পানীয় সরবরাহ করা হয় বা যে কোন ধরণের \"ফ্লোর শো\" এর আয়োজন করা হয় কেবল ঐ সকল বিলের উপর (বৎসরে একদিনের জন্য করা হইলেও) - ১০%",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "point_S001",
+      "stitching_note": ""
+    },
+    {
+      "block_id": "p0047_b004",
+      "type": "point",
+      "point_number": "S001.10",
+      "text": "হোটেলঃ আবাসন, খাদ্য বা পানীয় সরবরাহকালে যদি হোটলে মদ জাতীয় পানীয় সরবরাহ করা হয় বা যে কোন ধরণের \"ফ্লোর শো\" এর আয়োজন করা হয় কেবল ঐ সকল বিলের উপর (বৎসরে একদিনের জন্য করা হইলেও) - ১০%",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "point_S001.10",
+      "stitching_note": ""
+    },
+    {
+      "block_id": "p0047_b005",
+      "type": "point",
+      "point_number": "S001.20",
+      "text": "রেস্তোরাঁঃ খাদ্য বা পানীয় সরবরাহকালে যদি রেস্তোরাঁয় মদ জাতীয় পানীয় সরবরাহ করা হয় বা যে কোন ধরণের \"ফ্লোর শো\" এর আয়োজন করা হয় কেবল ঐ সকল বিলের উপর (বৎসরে একদিনের জন্য করা হইলেও) - ১০%",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "point_S001.20",
+      "stitching_note": ""
+    },
+    {
+      "block_id": "p0047_b006",
+      "type": "point",
+      "point_number": "S012",
+      "text": "সিম কার্ড সরবরাহকারী : সেলুলার(Mobile/Fixed Wireless) টেলিফোনের ক্ষেত্রে সিম (Subscriber's Identity Module-SIM) কার্ড বা রিম (Removable User Identification Module-RUIM) কার্ড বা অনুরূপ অন্য কোন Microchip সম্বলিত কার্ড সরবরাহ অথবা একই উদ্দেশ্য পূরণকল্পে উল্লিখিত কার্ড ব্যতীত প্রতিবার Code Division Multiple Access (CDMA) বা অনুরূপ অন্য কোন পদ্ধতি ব্যবহার - ৩৫%",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "point_S012",
+      "stitching_note": ""
+    },
+    {
+      "block_id": "p0047_b007",
+      "type": "point",
+      "point_number": "S012.20",
+      "text": "সিম কার্ড সরবরাহকারী : সেলুলার(Mobile/Fixed Wireless) টেলিফোনের ক্ষেত্রে সিম (Subscriber's Identity Module-SIM) কার্ড বা রিম (Removable User Identification Module-RUIM) কার্ড বা অনুরূপ অন্য কোন Microchip সম্বলিত কার্ড সরবরাহ অথবা একই উদ্দেশ্য পূরণকল্পে উল্লিখিত কার্ড ব্যতীত প্রতিবার Code Division Multiple Access (CDMA) বা অনুরূপ অন্য কোন পদ্ধতি ব্যবহার - ৩৫%",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "point_S012.20",
+      "stitching_note": ""
+    },
+    {
+      "block_id": "p0047_b008",
+      "type": "point",
+      "point_number": "S023",
+      "text": "চলচ্চিত্র প্রদর্শক (প্রেক্ষাগৃহ) - ৩৫%",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "point_S023",
+      "stitching_note": ""
+    },
+    {
+      "block_id": "p0047_b009",
+      "type": "point",
+      "point_number": "S023.10",
+      "text": "চলচ্চিত্র প্রদর্শক (প্রেক্ষাগৃহ) - ৩৫%",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "point_S023.10",
+      "stitching_note": ""
+    },
+    {
+      "block_id": "p0047_b010",
+      "type": "point",
+      "point_number": "S039",
+      "text": "স্যাটেলাইট চ্যানেল ডিস্ট্রিবিউটর - ২৫%",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "point_S039",
+      "stitching_note": ""
+    },
+    {
+      "block_id": "p0047_b011",
+      "type": "point",
+      "point_number": "S039.20",
+      "text": "স্যাটেলাইট চ্যানেল ডিস্ট্রিবিউটর - ২৫%",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "point_S039.20",
+      "stitching_note": ""
+    }
+  ],
+  "output_carry_forward_state": {
+    "status": "closed",
+    "active_point_number": "S039.20",
+    "active_stitch_group_id": "point_S039.20",
+    "active_point_summary": "Satellite channel distributor - 25%",
+    "numbering_system": "mixed",
+    "expected_next_main_point": "S040",
+    "continuation_hint": "New schedule begins on next page",
+    "last_visible_text": "স্যাটেলাইট চ্যানেল ডিস্ট্রিবিউটর - ২৫%"
+  }
+}

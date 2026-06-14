@@ -1,0 +1,87 @@
+{
+  "chunk_id": "20160408_Finance_Act_2013_chunk_0042",
+  "page_number": 41,
+  "document_id": "20160408_Finance_Act_2013",
+  "content_blocks": [
+    {
+      "block_id": "p00041_b001",
+      "type": "point",
+      "point_number": "৮৪.১৮",
+      "text": "সকল এইচ,এস,কোড (৮৪১৮.৫০.১০, ৮৪১৮.৬১.১০, ৮৪১৮.৬৯.১০, ৮৪১৮.৬৯.৯৩ ও ৮৪১৮.৯৯.১০ ব্যতীত) রেফ্রিজারেটর, ফ্রিজার এবং সমজাতীয় পণ্য; হিট পাম্প; রেফ্রিজারেশন ফার্নিচার",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "point_৮৪.১৮",
+      "stitching_note": ""
+    },
+    {
+      "block_id": "p00041_b002",
+      "type": "point",
+      "point_number": "৮৪.২১",
+      "text": "৮৪২১.২৩.০০, ৮৪২১.২৯.৯০ ফিল্টার",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "point_৮৪.২১",
+      "stitching_note": ""
+    },
+    {
+      "block_id": "p00041_b003",
+      "type": "point",
+      "point_number": "৮৫.০৪",
+      "text": "৮৫০৪.৩২.০০ Other transformer having a power handling capacity exceeding 1 kVA but not exceeding 16 kVA",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "point_৮৫.০৪",
+      "stitching_note": ""
+    },
+    {
+      "block_id": "p00041_b004",
+      "type": "point",
+      "point_number": "৮৫.০৬",
+      "text": "৮৫০৬.১০.০০ ম্যাগনেট ডাই অক্সাইড",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "point_৮৫.০৬",
+      "stitching_note": ""
+    },
+    {
+      "block_id": "p00041_b005",
+      "type": "point",
+      "point_number": "৮৫.০৭",
+      "text": "৮৫০৭.১০.০০ লিড এসিড ব্যাটারী ও ইলেকট্রিক অ্যাকুমুলেটর",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "point_৮৫.০৭",
+      "stitching_note": ""
+    },
+    {
+      "block_id": "p00041_b006",
+      "type": "point",
+      "point_number": "৮৫.১৯",
+      "text": "৮৫১৯.২০.০০ কয়েন, ব্যাংকনোট, ব্যাংক কার্ড, টোকেন ইত্যাদি দ্বারা চালিত সাউন্ড রেকর্ডিং বা রিপ্রোডিউসিং অ্যাপারেটাস, সম্পূর্ণ তৈরী",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "point_৮৫.১৯",
+      "stitching_note": ""
+    },
+    {
+      "block_id": "p00041_b007",
+      "type": "point",
+      "point_number": "৮৫.২১",
+      "text": "সকল এইচ,এস,কোড ভিডিও রেকর্ডিং বা রিপ্রোডিউসিং এর যন্ত্রপাতি, ভিডিও টিউনারযুক্ত হার্টেক বা না হার্টেক",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "point_৮৫.২১",
+      "stitching_note": ""
+    }
+  ],
+  "output_carry_forward_state": {
+    "status": "open",
+    "active_point_number": "৮৫.২১",
+    "active_stitch_group_id": "point_৮৫.২১",
+    "active_point_summary": "সকল এইচ,এস,কোড ভিডিও রেকর্ডিং বা রিপ্রোডিউসিং এর যন্ত্রপাতি, ভিডিও টিউনারযুক্ত হার্টেক বা না হার্টেক",
+    "numbering_system": "mixed",
+    "expected_next_main_point": "৮৫.২২",
+    "continuation_hint": "point_৮৫.২১ may continue to next page",
+    "last_visible_text": "সকল এইচ,এস,কোড ভিডিও রেকর্ডিং বা রিপ্রোডিউসিং এর যন্ত্রপাতি, ভিডিও টিউনারযুক্ত হার্টেক বা না হার্টেক"
+  }
+}

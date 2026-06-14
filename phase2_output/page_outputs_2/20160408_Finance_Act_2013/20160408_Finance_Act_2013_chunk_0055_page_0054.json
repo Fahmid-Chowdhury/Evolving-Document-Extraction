@@ -7,7 +7,7 @@
       "block_id": "p0054_b001",
       "type": "point",
       "point_number": "১৫",
-      "text": "২৭১ নং পৃষ্ঠার কলাম (1) এ উল্লিখিত Heading 84.24, এর আগতাত্যুক্ত কলাম (2) তে বর্ণিত H.S. Code “8424.20.20” এবং উহার বিপরীতে কলাম (3), (4), (5) ও (6) তে উল্লিখিত এন্ট্রিসমূহের পর নিম্নবর্ণিত H.S. Code “8424.20.30” এবং উহার বিপরীতে কলাম (3), (4), (5) ও (6) তে উল্লিখিত এন্ট্রিসমূহ সন্নিবেশিত হইবে, যথা :—\n\n“8424.20.30           -Sprinkler system and equipments    kg    5%    Free”।",
+      "text": "(১৫) ২৭১ নং পৃষ্ঠার কলাম (1) এ উল্লিখিত Heading 84.24, এর আগতাত্যুক্ত কলাম (2) তে বর্ণিত H.S. Code \"8424.20.20\" এবং উহার বিপরীতে কলাম (3), (4), (5) ও (6) তে উল্লিখিত এন্ট্রিসমূহের পর নিম্নবর্ণিত H.S. Code \"8424.20.30\" এবং উহার বিপরীতে কলাম (3), (4), (5) ও (6) তে উল্লিখিত এন্ট্রিসমূহ সন্নিবেশিত হইবে, যথা :—\n\n\"8424.20.30 -Sprinkler system and equipments kg 5% Free\"।",
       "continues_from_previous": false,
       "continues_to_next": false,
       "stitch_group_id": "point_১৫",
@@ -17,7 +17,7 @@
       "block_id": "p0054_b002",
       "type": "point",
       "point_number": "১৬",
-      "text": "২৭৪ নং পৃষ্ঠার কলাম (1) এ উল্লিখিত Heading 84.42, এর আগতাত্যুক্ত কলাম (2) তে বর্ণিত H.S. Code “8442.50.20” এর বিপরীতে কলাম (5) এ উল্লিখিত এন্ট্রি “5%” এর পরিবর্তে এন্ট্রি “2%” প্রতিস্থাপিত হইবে।",
+      "text": "(১৬) ২৭৪ নং পৃষ্ঠার কলাম (1) এ উল্লিখিত Heading 84.42, এর আগতাত্যুক্ত কলাম (2) তে বর্ণিত H.S. Code \"8442.50.20\" এর বিপরীতে কলাম (5) এ উল্লিখিত এন্ট্রি \"5%\" এর পরিবর্তে এন্ট্রি \"2%\" প্রতিস্থাপিত হইবে।",
       "continues_from_previous": false,
       "continues_to_next": false,
       "stitch_group_id": "point_১৬",
@@ -27,7 +27,7 @@
       "block_id": "p0054_b003",
       "type": "point",
       "point_number": "১৭",
-      "text": "২৯১ নং পৃষ্ঠার কলাম (1) এ উল্লিখিত Heading 85.37, এর বিপরীতে কলাম (2) তে বর্ণিত H.S. Code “8537.10.10” এর বিপরীতে কলাম (5) এ উল্লিখিত এন্ট্রি “10%” এর পরিবর্তে এন্ট্রি “2%” প্রতিস্থাপিত হইবে।",
+      "text": "(১৭) ২৯১ নং পৃষ্ঠার কলাম (1) এ উল্লিখিত Heading 85.37, এর বিপরীতে কলাম (2) তে বর্ণিত H.S. Code \"8537.10.10\" এর বিপরীতে কলাম (5) এ উল্লিখিত এন্ট্রি \"10%\" এর পরিবর্তে এন্ট্রি \"2%\" প্রতিস্থাপিত হইবে।",
       "continues_from_previous": false,
       "continues_to_next": false,
       "stitch_group_id": "point_১৭",
@@ -37,21 +37,21 @@
       "block_id": "p0054_b004",
       "type": "point",
       "point_number": "১৮",
-      "text": "৩০৭ নং পৃষ্ঠার কলাম (1) এ উল্লিখিত Heading 89.01 এবং উহার বিপরীতে কলাম (2), (3), (4) ও (5) এ উল্লিখিত এন্ট্রিসমূহের পরিবর্তে নিম্নরূপ Heading এবং এন্ট্রিসমূহ প্রতিস্থাপিত হইবে, যথা :—\n\n“89.01\n\nCruise ships, excursion boats, ferry-boats, cargo ships, barges and similar vessels for the transport of persons or goods.\n\n-Cruise ships, excursion boats and similar vessels principally designed for the transport of persons, ferry-boats of all kinds\n\n<table border=\"0\">\n<tr>\n<td style=\"vertical-align: top;\">8901.10.10</td>\n<td style=\"vertical-align: top;\">-Vessels capacity not exceeding 3000 DWT for registration in Bangladesh operating in ocean for at least three consecutive years.</td>\n<td style=\"vertical-align: top;\">u</td>\n<td style=\"vertical-align: top;\">25%</td>\n<td style=\"vertical-align: top;\">Free</td>\n</tr>\n</table>\n\n<table border=\"0\">\n<tr>\n<td style=\"vertical-align: top;\">8901.10.20</td>\n<td style=\"vertical-align: top;\">-Vessels capacity exceeding 3000 DWT but not exceeding 5000 DWT for registration in Bangladesh operating in ocean for at least three consecutive years.</td>\n<td style=\"vertical-align: top;\">u</td>\n<td style=\"vertical-align: top;\">10%</td>\n<td style=\"vertical-align: top;\">Free</td>\n</tr>\n</table>\n\n<table border=\"0\">\n<tr>\n<td style=\"vertical-align: top;\">8901.10.30</td>\n<td style=\"vertical-align: top;\">-Vessels capacity exceeding 5000 DWT for registration in Bangladesh operating in ocean for at least three consecutive years.</td>\n<td style=\"vertical-align: top;\">u</td>\n<td style=\"vertical-align: top;\">0%</td>\n<td style=\"vertical-align: top;\">Free</td>\n</tr>\n</table>",
+      "text": "(১৮) ৩০৭ নং পৃষ্ঠার কলাম (1) এ উল্লিখিত Heading 89.01 এবং উহার বিপরীতে কলাম (2), (3), (4) ও (5) এ উল্লিখিত এন্ট্রিসমূহের পরিবর্তে নিম্নরূপ Heading এবং এন্ট্রিসমূহ প্রতিস্থাপিত হইবে, যথা :—\n\n\"89.01\n\nCruise ships, excursion boats, ferry-boats, cargo ships, barges and similar vessels for the transport of persons or goods.\n\n-Cruise ships, excursion boats and similar vessels principally designed for the transport of persons, ferry-boats of all kinds\n\n<table border=\"0\">\n<tr>\n<td style=\"vertical-align: top;\">8901.10.10</td>\n<td style=\"vertical-align: top;\">-Vessels capacity not exceeding 3000 DWT for registration in Bangladesh operating in ocean for at least three consecutive years.</td>\n<td style=\"vertical-align: top;\">u</td>\n<td style=\"vertical-align: top;\">25%</td>\n<td style=\"vertical-align: top;\">Free</td>\n</tr>\n</table>\n\n<table border=\"0\">\n<tr>\n<td style=\"vertical-align: top;\">8901.10.20</td>\n<td style=\"vertical-align: top;\">-Vessels capacity exceeding 3000 DWT but not exceeding 5000 DWT for registration in Bangladesh operating in ocean for at least three consecutive years.</td>\n<td style=\"vertical-align: top;\">u</td>\n<td style=\"vertical-align: top;\">10%</td>\n<td style=\"vertical-align: top;\">Free</td>\n</tr>\n</table>\n\n<table border=\"0\">\n<tr>\n<td style=\"vertical-align: top;\">8901.10.30</td>\n<td style=\"vertical-align: top;\">-Vessels capacity exceeding 5000 DWT for registration in Bangladesh operating in ocean for at least three consecutive years.</td>\n<td style=\"vertical-align: top;\">u</td>\n<td style=\"vertical-align: top;\">0%</td>\n<td style=\"vertical-align: top;\">Free</td>\n</tr>\n</table>",
       "continues_from_previous": false,
       "continues_to_next": true,
       "stitch_group_id": "point_১৮",
-      "stitching_note": "The point continues into the next chunk/page, which starts with the continuation of the table structure."
+      "stitching_note": ""
     }
   ],
   "output_carry_forward_state": {
     "status": "open",
     "active_point_number": "১৮",
     "active_stitch_group_id": "point_১৮",
-    "active_point_summary": "The point (১৮) details the replacement of entries for Heading 89.01 with a new table structure, which continues into the next chunk.",
-    "numbering_system": "english_digits",
+    "active_point_summary": "Point 18 amendment of Heading 89.01 with new entries for cruise ships and vessels",
+    "numbering_system": "bangla_digits",
     "expected_next_main_point": "১৯",
-    "continuation_hint": "The point (১৮) continues with the remaining rows of the table structure.",
-    "last_visible_text": ">Free</td>\n</tr>\n<tr>\n<td>8901.20.10</td>\n<td>---Vessels capacity not exceeding 3000 DWT for registration in Bangladesh operating in ocean for at least three consecutive years.</td>\n<td>u</td>\n<td>25%</td>\n<td>Free</td>\n</tr>\n<tr>\n<td>8901.20.20</td>\n<td>---Vessels capacity exceeding 3000 DWT but not exceeding 5000 DWT for registration in Bangladesh operating in ocean for at least three consecutive years.</td>\n<td>u</td>\n<td>10%</td>\n<td>Free</td>\n</tr>\n<tr>\n<td>8901.20.30</td>\n<td>---Vessels capacity exceeding 5000 DWT for registration in Bangladesh operating in ocean for at least three consecutive years.</td>\n<td>u</td>\n<td>0%</td>\n<td>Free</td>\n</tr>\n<tr>\n<td>8901.20.90</td>\n<td>---Other<"
+    "continuation_hint": "Point 18 continues to next page with more table entries",
+    "last_visible_text": "-Vessels capacity exceeding 5000 DWT for registration in Bangladesh operating in ocean for at least three consecutive years."
   }
 }

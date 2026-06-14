@@ -4,24 +4,24 @@
   "document_id": "20160408_Finance_Act_2013",
   "content_blocks": [
     {
-      "block_id": "p24_b001",
-      "type": "metadata",
-      "point_number": "",
-      "text": "<table border=\"1\">\n<thead>\n<tr>\n<th>শিরনামা সংখ্যা<br/>(Heading No.)</th>\n<th>সামঞ্জস্যপূর্ণ<br/>নামকরণ কোড<br/>(H.S. Code)</th>\n<th>পণ্যসমূহের বিবরণ<br/>(Description of Goods)</th>\n<th>সম্পূরক<br/>তক্কার<br/>(%)</th>\n</tr>\n<tr>\n<th>(১)</th>\n<th>(২)</th>\n<th>(৩)</th>\n<th>(৪)</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>১৯.০১</td>\n<td>১৯০১.১০.০০</td>\n<td>খুচরা মোড়কে শূন্য থেকে ১ বছরের শিশুদের ব্যবহারের জন্য খাদ্য সামগ্রী (হেডিং নং ০৪.০১ থেকে ০৪.০৪ ভুক্ত পণ্যজাত)</td>\n<td>২০</td>\n</tr>\n<tr>\n<td></td>\n<td>১৯০১.২০.০০</td>\n<td>Mixes and dough's for the preparation of bakers' wares of heading 19.05</td>\n<td>২০</td>\n</tr>\n<tr>\n<td></td>\n<td>১৯০১.৯০.৯৯</td>\n<td>অন্যান্য খাদ্য সামগ্রী</td>\n<td>২০</td>\n</tr>\n<tr>\n<td>১৯.০২</td>\n<td>সকল<br/>এইচ,এস,কোড</td>\n<td>Pasta, whether or not cooked or stuffed or otherwise prepared; couscous</td>\n<td>৬০</td>\n</tr>\n<tr>\n<td>১৯.০৪</td>\n<td>সকল<br/>এইচ,এস,কোড</td>\n<td>Prepared foods obtained by the swelling or roasting of cereals or cereal products; all types of cereals</td>\n<td>৬০</td>\n</tr>\n<tr>\n<td>১৯.০৫</td>\n<td>১৯০৫.৩১.০০</td>\n<td>Sweet biscuits</td>\n<td>১০০</td>\n</tr>\n<tr>\n<td></td>\n<td>১৯০৫.৩২.০০</td>\n<td>Waffles and wafers</td>\n<td>১০০</td>\n</tr>\n<tr>\n<td></td>\n<td>১৯০৫.৪০.০০</td>\n<td>Rusks, toasted bread and similar toasted products</td>\n<td>১০০</td>\n</tr>\n<tr>\n<td></td>\n<td>১৯০৫.৯০.০০</td>\n<td>Other</td>\n<td>১০০</td>\n</tr>\n<tr>\n<td>২০.০৫</td>\n<td>২০০৫.২০.০০</td>\n<td>পটেটো চিপস্</td>\n<td>৬০</td>\n</tr>\n<tr>\n<td>২০.০৭</td>\n<td>সকল<br/>এইচ,এস,কোড</td>\n<td>রান্নার ফলে প্রাপ্ত জ্যাম, ফলের জেলি, মারমালেডস, ফল বা বাদামযুক্ত পিউরি এবং ফল বা বাদামের পেস্ট, চিনি বা অন্যান্য মিষ্টি পদার্থ যুক্ত হটক বা না হটক</td>\n<td>৩০</td>\n</tr>\n<tr>\n<td>২০.০৯</td>\n<td>সকল<br/>এইচ,এস,কোড</td>\n<td>ফলের রস (আঙ্গুরের must সহ) বা সজির রস, গাঁজানো নছে বা স্পিরিটযুক্ত নছে, চিনি বা অন্যান্য মিষ্টি পদার্থ যুক্ত হটক বা না হটক</td>\n<td>৩০</td>\n</tr>\n<tr>\n<td>২১.০৩</td>\n<td>সকল<br/>এইচ,এস,কোড<br/>(এইচ,এস,কোড<br/>২১০৩.৯০.০০<br/>ব্যতিত)</td>\n<td>সস এবং অনুরূপ পণ্য; mixed condiments ও mixed seasonings; সরিষার গুড়া এবং অন্যান্য পণ্য</td>\n<td>৩০</td>\n</tr>\n<tr>\n<td>২১.০৫</td>\n<td>২১০৫.০০.০০</td>\n<td>Ice cream and other edible ice, whether or not containing cocoa</td>\n<td>৩০</td>\n</tr>\n</tbody>\n</table>",
-      "continues_from_previous": false,
-      "continues_to_next": false,
-      "stitch_group_id": "",
-      "stitching_note": ""
+      "block_id": "p00024_b001",
+      "type": "point",
+      "point_number": "৪৩",
+      "text": "১৯.০১ ১৯০১.১০.০০ খুচরা মোড়কে শূন্য থেকে ১ বছরের শিশুদের ব্যবহারের জন্য খাদ্য সামগ্রী (হেডিং নং ০৪.০১ থেকে ০৪.০৪ ভুক্ত পণ্যজাত) ২০\n\n১৯.০১ ১৯০১.২০.০০ Mixes and dough's for the preparation of bakers' wares of heading 19.05 ২০\n\n১৯.০১ ১৯০১.৯০.৯৯ অন্যান্য খাদ্য সামগ্রী ২০\n\n১৯.০২ সকল এইচ,এস,কোড Pasta, whether or not cooked or stuffed or otherwise prepared; couscous ৬০\n\n১৯.০৪ সকল এইচ,এস,কোড Prepared foods obtained by the swelling or roasting of cereals or cereal products; all types of cereals ৬০\n\n১৯.০৫ ১৯০৫.৩১.০০ Sweet biscuits ১০০\n\n১৯.০৫ ১৯০৫.৩২.০০ Waffles and wafers ১০০\n\n১৯.০৫ ১৯০৫.৪০.০০ Rusks, toasted bread and similar toasted products ১০০\n\n১৯.০৫ ১৯০৫.৯০.০০ Other ১০০\n\n২০.০৫ ২০০৫.২০.০০ পটেটো চিপস্ ৬০\n\n২০.০৭ সকল এইচ,এস,কোড রান্নার ফলে প্রাপ্ত জ্যাম, ফলের জেলি, মারমালেডস, ফল বা বাদামযুক্ত পিউরি এবং ফল বা বাদামের পেস্ট, চিনি বা অন্যান্য মিষ্টি পদার্থ যুক্ত হটক বা না হটক ৩০\n\n২০.০৯ সকল এইচ,এস,কোড ফলের রস (আঙ্গুরের must সহ) বা সজির রস, গাঁজানো নছে বা স্পিরিটযুক্ত নছে, চিনি বা অন্যান্য মিষ্টি পদার্থ যুক্ত হটক বা না হটক ৩০\n\n২১.০৩ সকল এইচ,এস,কোড (এইচ,এস,কোড ২১০৩.৯০.০০ ব্যতিত) সস এবং অনুরূপ পণ্য; mixed condiments ও mixed seasonings; সরিষার গুড়া এবং অন্যান্য পণ্য ৩০\n\n২১.০৫ ২১০৫.০০.০০ Ice cream and other edible ice, whether or not containing cocoa ৩০",
+      "continues_from_previous": true,
+      "continues_to_next": true,
+      "stitch_group_id": "point_৪৩",
+      "stitching_note": "Table continuation of Third Schedule under point ৪৩"
     }
   ],
   "output_carry_forward_state": {
-    "status": "closed",
-    "active_point_number": "",
-    "active_stitch_group_id": "",
-    "active_point_summary": "",
+    "status": "open",
+    "active_point_number": "৪৩",
+    "active_stitch_group_id": "point_৪৩",
+    "active_point_summary": "১৯৯১ সনের ২২ নং আইনের তৃতীয় তফসিলের প্রতিস্থাপন।—উক্ত আইনের তৃতীয় তফসিলের পরিবর্তে নিম্নরূপ তৃতীয় তফসিল প্রতিস্থাপিত হইবে, যথা:— তৃতীয় তফসিল (ধারা ৭ প্রস্তুত) সম্পূরক শুদ্ধ আরোপযোগ্য পণ্য ও সেবাসমূহ",
     "numbering_system": "bangla_digits",
-    "expected_next_main_point": "",
-    "continuation_hint": "",
-    "last_visible_text": "Ice cream and other edible ice, whether or not containing cocoa"
+    "expected_next_main_point": "৪৪",
+    "continuation_hint": "point_৪৩ continues to next page with table content",
+    "last_visible_text": "২১.০৫ ২১০৫.০০.০০ Ice cream and other edible ice, whether or not containing cocoa ৩০"
   }
 }

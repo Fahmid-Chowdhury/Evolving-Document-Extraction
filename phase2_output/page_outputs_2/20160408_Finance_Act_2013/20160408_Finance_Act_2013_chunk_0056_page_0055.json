@@ -4,24 +4,24 @@
   "document_id": "20160408_Finance_Act_2013",
   "content_blocks": [
     {
-      "block_id": "p0055_b001",
+      "block_id": "p00055_b001",
       "type": "point",
       "point_number": "১৮",
-      "text": "<table border=\"1\">\n<tr>\n<td>8901.10.90</td>\n<td>-Other<br/>-Tankers</td>\n<td>u</td>\n<td>10%</td>\n<td>Free</td>\n</tr>\n<tr>\n<td>8901.20.10</td>\n<td>---Vessels capacity not exceeding 3000 DWT for registration in Bangladesh operating in ocean for at least three consecutive years.</td>\n<td>u</td>\n<td>25%</td>\n<td>Free</td>\n</tr>\n<tr>\n<td>8901.20.20</td>\n<td>---Vessels capacity exceeding 3000 DWT but not exceeding 5000 DWT for registration in Bangladesh operating in ocean for at least three consecutive years.</td>\n<td>u</td>\n<td>10%</td>\n<td>Free</td>\n</tr>\n<tr>\n<td>8901.20.30</td>\n<td>---Vessels capacity exceeding 5000 DWT for registration in Bangladesh operating in ocean for at least three consecutive years.</td>\n<td>u</td>\n<td>0%</td>\n<td>Free</td>\n</tr>\n<tr>\n<td>8901.20.90</td>\n<td>---Other<br/>-Refrigerated vessels, other than those of sub-heading No. 8901.20</td>\n<td>u</td>\n<td>10%</td>\n<td>Free</td>\n</tr>\n<tr>\n<td>8901.30.10</td>\n<td>---Vessels capacity not exceeding 3000 DWT for registration in Bangladesh operating in ocean for at least three consecutive years.</td>\n<td>u</td>\n<td>25%</td>\n<td>Free</td>\n</tr>\n<tr>\n<td>8901.30.20</td>\n<td>---Vessels capacity exceeding 3000 DWT but not exceeding 5000 DWT for registration in Bangladesh operating in ocean for at least three consecutive years.</td>\n<td>u</td>\n<td>10%</td>\n<td>Free</td>\n</tr>\n<tr>\n<td>8901.30.30</td>\n<td>---Vessels capacity exceeding 5000 DWT for registration in Bangladesh operating in ocean for at least three consecutive years.</td>\n<td>u</td>\n<td>0%</td>\n<td>Free</td>\n</tr>\n<tr>\n<td>8901.30.90</td>\n<td>---Other<br/>-Other vessels for the transport of goods and other vessels for the transport of both persons and goods.</td>\n<td>u</td>\n<td>10%</td>\n<td>Free</td>\n</tr>\n<tr>\n<td>8901.90.10</td>\n<td>---Vessels capacity not exceeding 3000 DWT for registration in Bangladesh operating in ocean for at least three consecutive years.</td>\n<td>u</td>\n<td>25%</td>\n<td>Free</td>\n</tr>\n</table>",
+      "text": "8901.10.90 -Other -Tankers u 10% Free 8901.20.10 ---Vessels capacity not exceeding 3000 DWT for registration in Bangladesh operating in ocean for at least three consecutive years. u 25% Free 8901.20.20 ---Vessels capacity exceeding 3000 DWT but not exceeding 5000 DWT for registration in Bangladesh operating in ocean for at least three consecutive years. u 10% Free 8901.20.30 ---Vessels capacity exceeding 5000 DWT for registration in Bangladesh operating in ocean for at least three consecutive years. u 0% Free 8901.20.90 ---Other -Refrigerated vessels, other than those of sub-heading No. 8901.20 u 10% Free 8901.30.10 ---Vessels capacity not exceeding 3000 DWT for registration in Bangladesh operating in ocean for at least three consecutive years. u 25% Free 8901.30.20 ---Vessels capacity exceeding 3000 DWT but not exceeding 5000 DWT for registration in Bangladesh operating in ocean for at least three consecutive years. u 10% Free 8901.30.30 ---Vessels capacity exceeding 5000 DWT for registration in Bangladesh operating in ocean for at least three consecutive years. u 0% Free 8901.30.90 ---Other -Other vessels for the transport of goods and other vessels for the transport of both persons and goods. u 10% Free 8901.90.10 ---Vessels capacity not exceeding 3000 DWT for registration in Bangladesh operating in ocean for at least three consecutive years. u 25% Free",
       "continues_from_previous": true,
       "continues_to_next": true,
       "stitch_group_id": "point_১৮",
-      "stitching_note": "Continuation of the table structure for point (১৮)."
+      "stitching_note": "Continuation of Point 18 table entries for heading 89.01"
     }
   ],
   "output_carry_forward_state": {
     "status": "open",
     "active_point_number": "১৮",
     "active_stitch_group_id": "point_১৮",
-    "active_point_summary": "The point (১৮) details the replacement of entries for Heading 89.01 with a new table structure, which continues into the next chunk/page.",
-    "numbering_system": "english_digits",
+    "active_point_summary": "Point 18 amendment of Heading 89.01 with new entries for cruise ships and vessels",
+    "numbering_system": "bangla_digits",
     "expected_next_main_point": "১৯",
-    "continuation_hint": "The point (১৮) continues with the remaining rows of the table structure.",
-    "last_visible_text": "---Vessels capacity not exceeding 3000 DWT for registration in Bangladesh operating in ocean for at least three consecutive years."
+    "continuation_hint": "Point 18 continues to next page with more table entries",
+    "last_visible_text": "8901.90.10 ---Vessels capacity not exceeding 3000 DWT for registration in Bangladesh operating in ocean for at least three consecutive years. u 25% Free"
   }
 }

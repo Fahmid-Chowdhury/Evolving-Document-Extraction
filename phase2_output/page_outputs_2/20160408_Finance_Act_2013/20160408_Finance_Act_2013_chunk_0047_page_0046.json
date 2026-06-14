@@ -1,0 +1,127 @@
+{
+  "chunk_id": "20160408_Finance_Act_2013_chunk_0047",
+  "page_number": 46,
+  "document_id": "20160408_Finance_Act_2013",
+  "content_blocks": [
+    {
+      "block_id": "p00046_b001",
+      "type": "point",
+      "point_number": "৯৪.০১",
+      "text": "Seats of a kind used for motorcycle",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "point_৯৪.০১",
+      "stitching_note": ""
+    },
+    {
+      "block_id": "p00046_b002",
+      "type": "point",
+      "point_number": "৯৪.০১",
+      "text": "Swivel seats with variable height adjustment",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "point_৯৪.০১",
+      "stitching_note": ""
+    },
+    {
+      "block_id": "p00046_b003",
+      "type": "point",
+      "point_number": "৯৪.০১",
+      "text": "Other seats, with wooden frames",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "point_৯৪.০১",
+      "stitching_note": ""
+    },
+    {
+      "block_id": "p00046_b004",
+      "type": "point",
+      "point_number": "৯৪.০১",
+      "text": "Other seats with metal frames",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "point_৯৪.০১",
+      "stitching_note": ""
+    },
+    {
+      "block_id": "p00046_b005",
+      "type": "point",
+      "point_number": "৯৪.০৩",
+      "text": "আসবাবপত্র ও যন্ত্রাংশ",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "point_৯৪.০৩",
+      "stitching_note": ""
+    },
+    {
+      "block_id": "p00046_b006",
+      "type": "point",
+      "point_number": "৯৪.০৪",
+      "text": "Mattresses of cellular rubber or plastics, whether or not covered",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "point_৯৪.০৪",
+      "stitching_note": ""
+    },
+    {
+      "block_id": "p00046_b007",
+      "type": "point",
+      "point_number": "৯৪.০৫",
+      "text": "Lamps and lighting fittings including searchlights and spotlights and parts thereof, not elsewhere specified or included; illuminated signs, illuminated name-plates and the like, having a permanently fixed light source, and parts thereof not elsewhere specified or included.",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "point_৯৪.০৫",
+      "stitching_note": ""
+    },
+    {
+      "block_id": "p00046_b008",
+      "type": "point",
+      "point_number": "৯৫.০৩",
+      "text": "Tricycles, scooters, pedal cars and similar wheeled toys; dolls' carriages; dolls; other toys; reduced-size (\"scale\") models and similar recreational models, working or not",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "point_৯৫.০৩",
+      "stitching_note": ""
+    },
+    {
+      "block_id": "p00046_b009",
+      "type": "point",
+      "point_number": "৯৫.০৪",
+      "text": "Playing cards",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "point_৯৫.০৪",
+      "stitching_note": ""
+    },
+    {
+      "block_id": "p00046_b010",
+      "type": "point",
+      "point_number": "৯৬.০৩",
+      "text": "ডেট্টাল প্রেট ব্রাশসহ সকল প্রকার টুথ ব্রাশ",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "point_৯৬.০৩",
+      "stitching_note": ""
+    },
+    {
+      "block_id": "p00046_b011",
+      "type": "point",
+      "point_number": "৯৬.১৯",
+      "text": "Sanitary towels (pads) and tampons, napkins and napkin liners for babies and similar articles, of any material.",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "point_৯৬.১৯",
+      "stitching_note": ""
+    }
+  ],
+  "output_carry_forward_state": {
+    "status": "open",
+    "active_point_number": "৯৬.১৯",
+    "active_stitch_group_id": "point_৯৬.১৯",
+    "active_point_summary": "Sanitary towels (pads) and tampons, napkins and napkin liners for babies and similar articles, of any material.",
+    "numbering_system": "mixed",
+    "expected_next_main_point": "৯৬.২০",
+    "continuation_hint": "point_৯৬.১৯ continues to next page",
+    "last_visible_text": "Sanitary towels (pads) and tampons, napkins and napkin liners for babies and similar articles, of any material."
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "chunk_id": "20160408_Finance_Act_2013_chunk_0045",
+  "page_number": 44,
+  "document_id": "20160408_Finance_Act_2013",
+  "content_blocks": [
+    {
+      "block_id": "p0044_b001",
+      "type": "point",
+      "point_number": "৮৭.০৩",
+      "text": "(চ) সিলিভার ক্যাপাসিটি ৪০০০ সিসি এর উর্ধ্ব (ছ) সিলিভার ক্যাপাসিটি ১৮০০ সিসি পর্যন্ত মাইক্রোবাস (জ) সিলিভার ক্যাপাসিটি ১৮০১ সিসি হইতে ২০০০ সিসি পর্যন্ত মাইক্রোবাস (৪) বিযুক্ত (সিকিডি) মোটর গাড়ি, মোটর যান, স্টেশন ওযাগন ও জীপ গাড়িসহ (চার স্ট্রোক বিশিষ্ট সিএনজি চালিত অটো রিক্সা/শ্রি হুইলার ব্যতীত): (ক) মোটর গাড়ি (২০০০ সিসি পর্যন্ত, বিযুক্ত (সিকিডি)) (খ) অন্যান্য, বিযুক্ত (সিকিডি)",
+      "continues_from_previous": true,
+      "continues_to_next": true,
+      "stitch_group_id": "point_৮৭.০৩",
+      "stitching_note": "Continuation of point ৮৭.০৩ from previous page, includes all subpoints (চ), (ছ), (জ), (৪), (ক), (খ) merged into single block"
+    },
+    {
+      "block_id": "p0044_b002",
+      "type": "point",
+      "point_number": "৮৭.০৪",
+      "text": "সম্পূর্ণ তৈরী নুনতম চার দরজা বিশিষ্ট ডাবল কেবিন পিক-আপ: সিলিভার ক্যাপাসিটি ১৫০০ সিসি পর্যন্ত (৩০%), সিলিভার ক্যাপাসিটি ১৫০১ সিসি হইতে ২৭৫০ সিসি পর্যন্ত (৪৫%), সিলিভার ক্যাপাসিটি ২৭৫১ সিসি হইতে ৪০০০ সিসি পর্যন্ত (৩৫০%), সিলিভার ক্যাপাসিটি ৪০০০ সিসি এর উর্ধ্ব (৫০০%)",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "point_৮৭.০৪",
+      "stitching_note": "New point ৮৭.০৪ with subpoints"
+    },
+    {
+      "block_id": "p0044_b003",
+      "type": "point",
+      "point_number": "৮৭.০৬",
+      "text": "দুই স্ট্রোক বিশিষ্ট অটো রিক্সা/শ্রি হুইলারের ইঞ্জিনযুক্ত চেসিস (২০%), চার স্ট্রোক বিশিষ্ট অটো রিক্সা/শ্রি হুইলারের ইঞ্জিনযুক্ত চেসিস (২০%)",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "point_৮৭.০৬",
+      "stitching_note": "New point ৮৭.০৬ with subpoints"
+    },
+    {
+      "block_id": "p0044_b004",
+      "type": "point",
+      "point_number": "৮৭.১১",
+      "text": "চার স্ট্রোক বিশিষ্ট সম্পূর্ণ তৈরী মোটর সাইকেল (৪৫%), চার স্ট্রোক বিশিষ্ট বিযুক্ত মোটর সাইকেল (৩০%)",
+      "continues_from_previous": false,
+      "continues_to_next": false,
+      "stitch_group_id": "point_৮৭.১১",
+      "stitching_note": "New point ৮৭.১১ with subpoints"
+    }
+  ],
+  "output_carry_forward_state": {
+    "status": "open",
+    "active_point_number": "৮৭.১১",
+    "active_stitch_group_id": "point_৮৭.১১",
+    "active_point_summary": "চার স্ট্রোক বিশিষ্ট বিযুক্ত মোটর সাইকেল (৩০%)",
+    "numbering_system": "mixed",
+    "expected_next_main_point": "৮৭.১২",
+    "continuation_hint": "point_৮৭.১১ continues to next page",
+    "last_visible_text": "চার স্ট্রোক বিশিষ্ট বিযুক্ত মোটর সাইকেল (৩০%)"
+  }
+}
