@@ -21,7 +21,7 @@ INPUT_CHUNKS_PATH = Path(
 )
 
 OUTPUT_ROOT = Path("phase2_output")
-PAGE_OUTPUT_ROOT = OUTPUT_ROOT / "page_outputs_2"
+PAGE_OUTPUT_ROOT = OUTPUT_ROOT / "page_outputs_3"
 REPORT_ROOT = OUTPUT_ROOT / "reports"
 
 MAX_RETRIES = 2

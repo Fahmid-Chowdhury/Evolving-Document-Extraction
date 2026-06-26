@@ -1,0 +1,27 @@
+{
+  "chunk_id": "20160408_Finance_Act_2013_chunk_0046",
+  "page_number": 45,
+  "document_id": "20160408_Finance_Act_2013",
+  "content_blocks": [
+    {
+      "block_id": "p0045_b001",
+      "type": "point",
+      "point_number": "৪৪",
+      "text": "তৃতীয় তালিকা (সম্পূরক শতকরা হার)\nশিরনামা সংখ্যা (Heading No.)\nসামঞ্জস্যপূর্ণ নামকরণ কোড (H.S. Code)\nপণ্যসমূহের বিবরণ (Description of Goods)\nসম্পূরক শতাংশ (%)\n(১)\n(২)\n(৩)\n(৪)\n৮৭১১.২০.২১\n৮৭১১.২০.৯২\nদুই স্ট্রোক বিশিষ্ট মোটর সাইকেল (সম্পূর্ণ তৈরী বা বিযুক্ত)\n২৫০\n৮৭.১২\n৮৭১২.০০.০০\nঅবাস্তিক বাই-সাইকেল ও অন্যান্য সাইকেল (ডেলিভারী ট্রাইসাইকেলসহ)\n২০\n৮৭.১৪\n৮৭১৪.১০.২০\nমোটর সাইকেলের ফুয়েল ট্যাঙ্ক\n২০\n৮৭১৪.৯২.১০\nঅবাস্তিক বাই-সাইকেল ও অন্যান্য সাইকেলের চাকার রিম ও স্পোক\n২০\n৯০.০৩\n৯০০৩.১১.০০\n৯০০৩.১৯.০০\nFrames and mountings for spectacles, goggles or the like\n২০\n৯০.০৪\nসকল এইচ,এস,কোড\nSpectacles, goggles and the like, corrective protective or other\n২০\n৯৩.০২\n৯৩০২.০০.৯০\nরিডলবার ও পিস্তল : অন্যান্য\n১০০\n৯৩.০৩\nঅন্যান্য অস্ত্রাঙ্গ\n৯৩০৩.১০.৯০\n৯৩০৩.২০.৯০\n৯৩০৩.৩০.৯০\n৯৩০৩.৯০.৯০\nঅন্যান্য\n১০০\n৯৩.০৪\n৯৩০৪.০০.৯০\nঅন্যান্য অস্ত্রঃ শ্যুটিং ফেডারেশন কর্তৃক আমদানিকৃত match weapon ব্যতীত অন্যান্য অস্ত্র\n১০০\n৯৩.০৫\nসকল এইচ,এস,কোড\n৯৩.০১ থেকে ৯৩.০৪ হেডিংভুক্ত পণ্যের যন্ত্রাংশ ও এক্সেসরিজ\n২০\n৯৩.০৬\nসকল এইচ,এস,কোড (৯৩০৬.২৯.১০ ব্যতীত)\nবোমা, গ্রেনেড, টরপেডো, মাইন, মিসাইল এবং সমজাতীয় গোলা বারুদ (শ্যুটিং ফেডারেশন থেকে আমদানিকৃত স্পোর্টস গোলাবারুদ ব্যতীত)\n১০০\n৯৩.০৭\n৯৩০৭.০০.৯০\nতরবারী, ছোরা, সঙ্গিন, বর্শা এবং সমজাতীয় পণ্যঃ অন্যান্য\n১০০",
+      "continues_from_previous": true,
+      "continues_to_next": true,
+      "stitch_group_id": "point_৪৪",
+      "stitching_note": "Third Schedule table continues from previous page, contains items under Heading 87.12, 87.14, 90.03, 90.04, 93.02, 93.03, 93.04, 93.05, 93.06, 93.07 with subpoints. Table continues to next page based on next_head showing table header again."
+    }
+  ],
+  "output_carry_forward_state": {
+    "status": "open",
+    "active_point_number": "৪৪",
+    "active_stitch_group_id": "point_৪৪",
+    "active_point_summary": "Third Schedule table continues on page 45, contains items under Heading 87.12, 87.14, 90.03, 90.04, 93.02, 93.03, 93.04, 93.05, 93.06, 93.07 with subpoints",
+    "numbering_system": "bangla_digits",
+    "expected_next_main_point": "৪৫",
+    "continuation_hint": "Table continues to next page based on next_head showing table header again",
+    "last_visible_text": "তরবারী, ছোরা, সঙ্গিন, বর্শা এবং সমজাতীয় পণ্যঃ অন্যান্য - ১০০"
+  }
+}

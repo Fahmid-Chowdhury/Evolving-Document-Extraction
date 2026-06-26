@@ -1,0 +1,27 @@
+{
+  "chunk_id": "20160408_Finance_Act_2013_chunk_0033",
+  "page_number": 32,
+  "document_id": "20160408_Finance_Act_2013",
+  "content_blocks": [
+    {
+      "block_id": "p0032_b001",
+      "type": "point",
+      "point_number": "৪৪",
+      "text": "তৃতীয় সূচী (তৃতীয় অংশ)\nশিরনামা সংখ্যা (Heading No.)\nসামঞ্জস্যপূর্ণ নামকরণ কোড (H.S. Code)\nপণ্যসমূহের বিবরণ (Description of Goods)\nসম্পূরক শতহার (%)\n(১)\n(২)\n(৩)\n(৪)\n৪৮১৩.১০.৯০\n৪৮১৩.২০.৯০\n৪৮১৩.৯০.৯০\nনিবন্ধিত প্রস্তুতকারক ব্যক্তি অন্যান্য আমদানিকারক কর্তৃক আমদানিকৃত সিগারেট পেপার, সাইজ মত কর্তিত হটক বা না হটক অথবা বুকলেট বা টিউবের আকারে\n১০০\n৪৮.১৮\nসকল এইচ,এস,কোড\nটয়লেট পেপার, টিস্যু পেপার, টাওয়েল বা ন্যাপকিন পেপার বা সমজাতীয় পণ্য, গৃহস্থালী, সেনিটারী বা অনুরূপ কাজে ব্যবহৃত\n৪৫\n৪৮.১৯\n৪৮১৯.১০.০০\nCartons, boxes and cases, of corrugated paper and paperboard\n২০\n৪৮১৯.২০.০০\nম্যাচ কাঠি প্যাকিংয়ের জন্য ডুপেক্স আউটার শেল ব্যতীত নন-করোগেটেড পেপার ও পেপার বোর্ডের তৈরী ফোল্ডিং কার্টুন, বাক্স ও কেস\n২০\n৪৮১৯.৩০.০০\nস্যাকস এবং ব্যাগস (৪০ সে. মি ও তদূর্ধ্ব প্রস্থ বেজ বিশিষ্ট)\n২০\n৪৮.২১\n৪৮২১.১০.০০\nপ্রিন্টেড লেভেলস\n৪৫\n৪৮.২৩\n৪৮২৩.৯০.৯৩\nSurface coloured or printed paper or paper board\n৩০\n৪৯.০১\n৪৯০১.১০.০০\nPrinted Books, Brochures, leaflets, similar printed matter in single sheets, wheather or not folded\n২০\n৪৯.১১\nসকল এইচ,এস,কোড\nছাপানো ছবি, ফটোগ্রাফসহ অন্যান্য ছাপানো পণ্য সামগ্রী\n২০\n৫০.০৭\n৫০০৭.২০.০০\nরেশম বস্ত্র (সিল্ক ফেব্রিক্স)\n৬০\n৫২.০৮ হইতে ৫২.১২\nসকল এইচ,এস,কোড\nওভেন ফেব্রিক্স\n৩০\n৫৪.০৭ এবং ৫৪.০৮\nসকল এইচ,এস,কোড (৫৪০৭.১০.১০ ব্যতীত)\nওভেন ফেব্রিক্স\n৩০\n৫৫.১২ হইতে ৫৫.১৬\nসকল এইচ,এস,কোড\nওভেন ফেব্রিক্স\n৩০\n৫৬.০৫\n৫৬০৫.০০.১০\nMetalized round yarn\n২০\n৫৭.০১ হইতে\nসকল\nকার্পেট ও অন্যান্য টেক্সটাইল ফ্লোর আচ্ছাদন\n২০",
+      "continues_from_previous": false,
+      "continues_to_next": true,
+      "stitch_group_id": "point_৪৪",
+      "stitching_note": "Third Schedule table continues from previous page. This page contains continuation of table rows."
+    }
+  ],
+  "output_carry_forward_state": {
+    "status": "open",
+    "active_point_number": "৪৪",
+    "active_stitch_group_id": "point_৪৪",
+    "active_point_summary": "Third Schedule table continues on page 32",
+    "numbering_system": "bangla_digits",
+    "expected_next_main_point": "৪৫",
+    "continuation_hint": "Table continues to next page based on next_head showing table header again",
+    "last_visible_text": "২০"
+  }
+}

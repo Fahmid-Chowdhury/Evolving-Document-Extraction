@@ -1,0 +1,27 @@
+{
+  "chunk_id": "20160408_Finance_Act_2013_chunk_0039",
+  "page_number": 38,
+  "document_id": "20160408_Finance_Act_2013",
+  "content_blocks": [
+    {
+      "block_id": "p0038_b001",
+      "type": "point",
+      "point_number": "৪৪",
+      "text": "<table border=\"1\">\n<thead>\n<tr>\n<th>শিরনামা সংখ্যা<br/>(Heading No.)</th>\n<th>সামঞ্জস্যপূর্ণ<br/>নামকরণ কোড<br/>(H.S. Code)</th>\n<th>পণ্যসমূহের বিবরণ<br/>(Description of Goods)</th>\n<th>সম্পূরক<br/>ভরহার<br/>(%)</th>\n</tr>\n<tr>\n<th>(১)</th>\n<th>(২)</th>\n<th>(৩)</th>\n<th>(৪)</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>৭০.০৫</td>\n<td>সকল<br/>এইচ,এস,কোড</td>\n<td>শীট আকারে ফ্ল্যাট গ্লাস এবং সারফেস প্রাউন্ড বা পলিশড গ্লাস, শোষকযুক্ত, প্রতিফলন বা প্রতিফলনহীন স্তরবিশিষ্ট হাউক বা না হাউক, অন্য কোন কাজ করা নয়</td>\n<td>৪৫</td>\n</tr>\n<tr>\n<td>৭০.০৭</td>\n<td>৭০০৭.১৯.০০</td>\n<td>Other tempered safety glass</td>\n<td>২০</td>\n</tr>\n<tr>\n<td></td>\n<td>৭০০৭.২৯.০০</td>\n<td>Other laminated safety glass</td>\n<td>২০</td>\n</tr>\n<tr>\n<td>৭০.০৯</td>\n<td>৭০০৯.৯১.৯০</td>\n<td>ফ্রেমবিহীন অন্যান্য কাঁচের আয়না</td>\n<td>২০</td>\n</tr>\n<tr>\n<td></td>\n<td>৭০০৯.৯২.৯০</td>\n<td>ফ্রেমযুক্ত অন্যান্য কাঁচের আয়না</td>\n<td>২০</td>\n</tr>\n<tr>\n<td>৭০.১৩</td>\n<td>সকল<br/>এইচ,এস,কোড</td>\n<td>টেবিল, রান্নাঘর, টয়লেট, অফিস, ইনডোর ডেকোরেশন অথবা একইরূপ উদ্দেশ্যে ব্যবহারের উপযোগী কাঁচের তৈজসপত্র (৭০.১০ ও ৭০.১৮ হেডিং এর পণ্য ব্যতীত)</td>\n<td>৪৫</td>\n</tr>\n<tr>\n<td>৭০.১৬</td>\n<td>সকল<br/>এইচ,এস,কোড</td>\n<td>Paving blocks, slabs, bricks, squares, tiles and other articles of pressed or moulded glass, whether or not wired, of a kind used for building or construction purposes; glass cubes and other glass smallwares, whether or not on a backing, for mosaics or similar decorative purposes; leaded lights and the like; multi-cellular or foam glass in blocks, panels, plates, shells or similar forms.</td>\n<td>২০</td>\n</tr>\n<tr>\n<td>৭০.১৮</td>\n<td>৭০১৮.১০.০০</td>\n<td>Glass beads, imitation pearls, imitation precious or semi-precious stones and similar glass small wares</td>\n<td>১০</td>\n</tr>\n<tr>\n<td>৭১.০২</td>\n<td>৭১০২.১০.০০<br/>৭১০২.৩১.০০</td>\n<td>অমসৃণ হীরা</td>\n<td>২০</td>\n</tr>\n<tr>\n<td></td>\n<td>৭১০২.৩৯.০০</td>\n<td>মসৃণ হীরা</td>\n<td>৬০</td>\n</tr>\n<tr>\n<td>৭১.১৭</td>\n<td>সকল<br/>এইচ,এস,কোড</td>\n<td>ইমিটেশন জুয়েলারী</td>\n<td>২০</td>\n</tr>\n<tr>\n<td>৭৩.০৪</td>\n<td>৭৩০৪.১১.২০<br/>৭৩০৪.১৯.২০</td>\n<td>অয়েল অথবা গ্যাস পাইপ লাইনে ব্যবহৃত লাইন পাইপঃ ব্যাস ৮ ইঞ্চি অথবা তার নিচে</td>\n<td>২০</td>\n</tr>\n</tbody>\n</table>",
+      "continues_from_previous": true,
+      "continues_to_next": true,
+      "stitch_group_id": "point_৪৪",
+      "stitching_note": "Third Schedule table continues from previous page and continues to next page based on next_head showing table header again"
+    }
+  ],
+  "output_carry_forward_state": {
+    "status": "open",
+    "active_point_number": "৪৪",
+    "active_stitch_group_id": "point_৪৪",
+    "active_point_summary": "Third Schedule table continues on page 38",
+    "numbering_system": "bangla_digits",
+    "expected_next_main_point": "৪৫",
+    "continuation_hint": "Table continues to next page based on next_head showing table header again",
+    "last_visible_text": "অয়েল অথবা গ্যাস পাইপ লাইনে ব্যবহৃত লাইন পাইপঃ ব্যাস ৮ ইঞ্চি অথবা তার নিচে"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "chunk_id": "20160408_Finance_Act_2013_chunk_0034",
+  "page_number": 33,
+  "document_id": "20160408_Finance_Act_2013",
+  "content_blocks": [
+    {
+      "block_id": "p0033_b001",
+      "type": "point",
+      "point_number": "৪৪",
+      "text": "<table border=\"1\">\n<thead>\n<tr>\n<th>শিরনামা সংখ্যা<br/>(Heading No.)</th>\n<th>সামঞ্জস্যপূর্ণ<br/>নামকরণ কোড<br/>(H.S. Code)</th>\n<th>পণ্যসমূহের বিবরণ<br/>(Description of Goods)</th>\n<th>সম্পূরক<br/>তক্কার<br/>(%)</th>\n</tr>\n<tr>\n<th>(১)</th>\n<th>(২)</th>\n<th>(৩)</th>\n<th>(৪)</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>৫৭.০৫</td>\n<td>এইচ,এস,কোড</td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td>৫৮.০১</td>\n<td>সকল<br/>এইচ,এস,কোড</td>\n<td>Woven pile fabrics and chenille fabrics, other than fabrics of heading 58.02 or 58.06.</td>\n<td>৪৫</td>\n</tr>\n<tr>\n<td>৫৯.০৩</td>\n<td>৫৯০৩.১০.৯০</td>\n<td>Qther textile fabrics, impregnated, coated, covered or laminated with polyvinyl chloride</td>\n<td>৪৫</td>\n</tr>\n<tr>\n<td></td>\n<td>৫৯০৩.২০.৯০</td>\n<td>Other textile fabrics, impregnated, coated, covered or laminated with polyurethane</td>\n<td>৪৫</td>\n</tr>\n<tr>\n<td></td>\n<td>৫৯০৩.৯০.০০</td>\n<td>Other textile fabrics with polyurethane</td>\n<td>৪৫</td>\n</tr>\n<tr>\n<td>৬০.০১</td>\n<td>সকল<br/>এইচ,এস,কোড</td>\n<td>Pile fabrics, including \"long pile\" fabrics and terry fabrics, knitted or crocheted.</td>\n<td>৪৫</td>\n</tr>\n<tr>\n<td>৬০.০২</td>\n<td>সকল<br/>এইচ,এস,কোড</td>\n<td>Knitted or crocheted fabrics of a width not 'exceeding 30 cm, containing by weight 5% or more of elastomeric yarn or rubber thread, other than those of heading 60.01.</td>\n<td>৪৫</td>\n</tr>\n<tr>\n<td>৬০.০৩</td>\n<td>সকল<br/>এইচ,এস,কোড</td>\n<td>Knitted or crocheted fabrics of a width not exceeding 30 cm, other than those of heading 60.01 or 60.02</td>\n<td>৪৫</td>\n</tr>\n<tr>\n<td>৬০.০৪</td>\n<td>সকল<br/>এইচ,এস,কোড</td>\n<td>Knitted or crocheted fabrics of a width exceeding 30 cm, containing by weight 5% or more of elastomeric yarn or rubber thread, other those of heading 60.01</td>\n<td>৪৫</td>\n</tr>\n<tr>\n<td>৬০.০৫</td>\n<td>সকল<br/>এইচ,এস,কোড</td>\n<td>Warp knit fabrics (including those made on galloon knitting machines), other than of headings 60.01 to 60.04</td>\n<td>৪৫</td>\n</tr>\n</tbody>\n</table>",
+      "continues_from_previous": true,
+      "continues_to_next": true,
+      "stitch_group_id": "point_৪৪",
+      "stitching_note": "Third Schedule table continues from page 32 and continues to next page based on next_head showing table header again"
+    }
+  ],
+  "output_carry_forward_state": {
+    "status": "open",
+    "active_point_number": "৪৪",
+    "active_stitch_group_id": "point_৪৪",
+    "active_point_summary": "Third Schedule table continues on page 33",
+    "numbering_system": "bangla_digits",
+    "expected_next_main_point": "৪৫",
+    "continuation_hint": "Table continues to next page based on next_head showing table header again",
+    "last_visible_text": "Warp knit fabrics (including those made on galloon knitting machines), other than of headings 60.01 to 60.04"
+  }
+}

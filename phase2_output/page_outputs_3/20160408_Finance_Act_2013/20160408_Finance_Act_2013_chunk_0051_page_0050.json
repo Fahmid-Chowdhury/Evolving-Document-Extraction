@@ -1,0 +1,27 @@
+{
+  "chunk_id": "20160408_Finance_Act_2013_chunk_0051",
+  "page_number": 50,
+  "document_id": "20160408_Finance_Act_2013",
+  "content_blocks": [
+    {
+      "block_id": "p0050_b001",
+      "type": "point",
+      "point_number": "৬",
+      "text": "7208.26.90...Other\nkg\n10%\nFree\nOf a thickness of less than 3 mm\n7208.27.30...Imported by VAT registered iron/steel product, transformer, pre-fabricated building and bicycle parts manufacturing industry\nkg\n5%\nFree\n7208.27.90...Other\nkg\n10%\nFree\n- Other, in coils, not further worked than hot-rolled\n..Of a thickness exceeding 10 mm\n7208.36.10...Imported by VAT registered iron/steel product, transformer and pre-fabricated building manufacturing industry\nkg\n5%\nFree\n7208.36.90...Other\nkg\n10%\nFree\n..Of a thickness of 4.75 mm or more but not exceeding 10 mm\n7208.37.10...Imported by VAT registered iron/steel product, transformer and pre-fabricated building manufacturing industry\nkg\n5%\nFree\n7208.37.90...Other\nkg\n10%\nFree\n..Of a thickness of 3 mm or more but less than 4.75 mm\n7208.38.10...Imported by VAT registered iron/steel product, transformer and pre-fabricated building manufacturing industry\nkg\n5%\nFree",
+      "continues_from_previous": true,
+      "continues_to_next": true,
+      "stitch_group_id": "point_৬",
+      "stitching_note": "Table entries for Point 6 continue from previous page and extend to next page."
+    }
+  ],
+  "output_carry_forward_state": {
+    "status": "open",
+    "active_point_number": "৬",
+    "active_stitch_group_id": "point_৬",
+    "active_point_summary": "Amendment to Heading 72.08 with table entries for flat-rolled products of iron or non-alloy steel.",
+    "numbering_system": "bangla_digits",
+    "expected_next_main_point": "৭",
+    "continuation_hint": "Point 6 continues with table entries, next point 7 starts on next page",
+    "last_visible_text": "7208.38.10...Imported by VAT registered iron/steel product, transformer and pre-fabricated building manufacturing industry"
+  }
+}

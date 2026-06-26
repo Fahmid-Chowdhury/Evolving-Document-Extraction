@@ -1,0 +1,27 @@
+{
+  "chunk_id": "20160408_Finance_Act_2013_chunk_0040",
+  "page_number": 39,
+  "document_id": "20160408_Finance_Act_2013",
+  "content_blocks": [
+    {
+      "block_id": "p0039_b001",
+      "type": "point",
+      "point_number": "৪৪",
+      "text": "<table border=\"1\">\n<thead>\n<tr>\n<th>শিরনামা সংখ্যা<br/>(Heading No.)</th>\n<th>সামঞ্জস্যপূর্ণ<br/>নামকরণ কোড<br/>(H.S. Code)</th>\n<th>পণ্যসমূহের বিবরণ<br/>(Description of Goods)</th>\n<th>সম্পূরক<br/>ডক্কার<br/>(%)</th>\n</tr>\n<tr>\n<th>(১)</th>\n<th>(২)</th>\n<th>(৩)</th>\n<th>(৪)</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td></td>\n<td>৭৩০৪.৯০.০০</td>\n<td>আয়রন অথবা স্টীলের তৈরী অন্যান্য টিউব, পাইপ এবং ফাঁপা প্রোফাইল, সিমলস (Seamless)</td>\n<td>২০</td>\n</tr>\n<tr>\n<td>৭৩.০৬</td>\n<td>৭৩০৬.১১.২০<br/>৭৩০৬.১৯.২০</td>\n<td>অয়েল অথবা গ্যাস পাইপ লাইনে ব্যবহৃত লাইন পাইপ, (বাস ৮ ইঞ্চি অথবা তার নিম্নে)</td>\n<td>২০</td>\n</tr>\n<tr>\n<td></td>\n<td>৭৩০৬.২১.২০<br/>৭৩০৬.২৯.২০</td>\n<td>অয়েল ও গ্যাসের ড্রিলিং এর কাজে ব্যবহৃত কেসিং এবং টিউবিং (বাস ৮ ইঞ্চি অথবা তার নিম্নে)</td>\n<td>২০</td>\n</tr>\n<tr>\n<td></td>\n<td>৭৩০৬.৩০.০০</td>\n<td>Other, welded, of circular cross-section of iron or non-alloy steel</td>\n<td>২০</td>\n</tr>\n<tr>\n<td></td>\n<td>৭৩০৬.৪০.০০</td>\n<td>Other, welded, of circular cross-section, of stainless steel</td>\n<td>২০</td>\n</tr>\n<tr>\n<td></td>\n<td>৭৩০৬.৫০.০০</td>\n<td>Other, welded, of circular cross-section, of other alloy steel</td>\n<td>২০</td>\n</tr>\n<tr>\n<td></td>\n<td>৭৩০৬.৬১.০০</td>\n<td>Other, welded, of non-circular cross-section of square or rectangular cross-section</td>\n<td>২০</td>\n</tr>\n<tr>\n<td></td>\n<td>৭৩০৬.৬৯.০০</td>\n<td>Other, welded, of non-circular cross-section of other non-circular cross-section</td>\n<td>২০</td>\n</tr>\n<tr>\n<td></td>\n<td>৭৩০৬.৯০.০০</td>\n<td>Other, welded, of non-circular cross-section: Other</td>\n<td>২০</td>\n</tr>\n<tr>\n<td>৭৩.২০</td>\n<td>৭৩২০.১০.০০</td>\n<td>লীফ স্প্রিং</td>\n<td>২০</td>\n</tr>\n<tr>\n<td>৭৩.২১</td>\n<td>৭৩২১.১১.০০</td>\n<td>গ্যাস জ্বালানীর উপযুক্ত বা গ্যাস এবং অন্যান্য উভয় জ্বালানীর উপযুক্ত রান্নার তৈজসপত্র এবং প্লেট গরমকারক</td>\n<td>২০</td>\n</tr>\n<tr>\n<td>৭৩.২৩</td>\n<td>৭৩২৩.৯৩.০০<br/>৭৩২৩.৯৪.০০<br/>৭৩২৩.৯৯.০০</td>\n<td>Table/kitchenware of stainless steel</td>\n<td>২০</td>\n</tr>\n<tr>\n<td>৭৩.২৪</td>\n<td>সকল<br/>এইচ,এস,কোড</td>\n<td>স্টেইনলেস স্টীলের সিল্ক, ওয়াশ বেসিন উহার যন্ত্রাংশ, ওয়াটার ট্যাপ এবং বাথরুমের অন্যান্য ফিটিংস ও ফিক্সার্স</td>\n<td>২০</td>\n</tr>\n<tr>\n<td>৭৪.১৮</td>\n<td>৭৪১৮.২০.০০</td>\n<td>কপারের তৈরি সেনিটারী ওয়ার এবং উহার যন্ত্রাংশ</td>\n<td>২০</td>\n</tr>\n</tbody>\n</table>",
+      "continues_from_previous": true,
+      "continues_to_next": true,
+      "stitch_group_id": "point_৪৪",
+      "stitching_note": "Third Schedule table continues from previous page and continues to next page based on next_head showing table header again"
+    }
+  ],
+  "output_carry_forward_state": {
+    "status": "open",
+    "active_point_number": "৪৪",
+    "active_stitch_group_id": "point_৪৪",
+    "active_point_summary": "Third Schedule table continues on page 39",
+    "numbering_system": "bangla_digits",
+    "expected_next_main_point": "৪৫",
+    "continuation_hint": "Table continues to next page based on next_head showing table header again",
+    "last_visible_text": "কপারের তৈরি সেনিটারী ওয়ার এবং উহার যন্ত্রাংশ"
+  }
+}
