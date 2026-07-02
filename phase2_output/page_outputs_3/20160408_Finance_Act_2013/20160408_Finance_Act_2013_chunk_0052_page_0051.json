@@ -1,0 +1,27 @@
+{
+  "chunk_id": "20160408_Finance_Act_2013_chunk_0052",
+  "page_number": 51,
+  "document_id": "20160408_Finance_Act_2013",
+  "content_blocks": [
+    {
+      "block_id": "p0051_b001",
+      "type": "point",
+      "point_number": "৬",
+      "text": "7208.38.90...Other<br/>..Of a thickness of less than 3 mm<br/>kg<br/>10%<br/>Free<br/>7208.39.20...Imported by VAT registered iron/steel product, transformer and pre-fabricated building manufacturing industry<br/>kg<br/>5%<br/>Free<br/>7208.39.80...Other<br/>-Not in coils, not further worked than hot-rolled, with patterns in relief<br/>kg<br/>10%<br/>Free<br/>7208.40.10...Imported by VAT registered iron/steel product, transformer and pre-fabricated building manufacturing industry<br/>kg<br/>5%<br/>Free<br/>7208.40.90...Other<br/>- Other, not in coils, not further worked than hot-rolled<br/>..Of a thickness exceeding 10 mm<br/>kg<br/>10%<br/>Free<br/>7208.51.10...Imported by VAT registered iron/steel product, transformer and pre-fabricated building manufacturing industry<br/>kg<br/>5%<br/>Free<br/>7208.51.90...Other<br/>..Of a thickness of 4.75 mm or more but not exceeding 10 mm<br/>kg<br/>10%<br/>Free<br/>7208.52.10...Imported by VAT registered iron/steel products, motorcycle, pre-fabricated building and transformer manufacturing industry<br/>kg<br/>5%<br/>Free",
+      "continues_from_previous": true,
+      "continues_to_next": true,
+      "stitch_group_id": "point_৬",
+      "stitching_note": "Table entries for point 6 continue from previous page and extend to next page."
+    }
+  ],
+  "output_carry_forward_state": {
+    "status": "open",
+    "active_point_number": "৬",
+    "active_stitch_group_id": "point_৬",
+    "active_point_summary": "Amendment to Heading 72.08 with table entries for flat-rolled products of iron or non-alloy steel.",
+    "numbering_system": "bangla_digits",
+    "expected_next_main_point": "৭",
+    "continuation_hint": "Point 6 continues with table entries, next point 7 starts on next page",
+    "last_visible_text": "7208.52.10...Imported by VAT registered iron/steel products, motorcycle, pre-fabricated building and transformer manufacturing industry"
+  }
+}

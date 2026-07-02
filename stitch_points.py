@@ -11,7 +11,7 @@ from typing import Any, Dict, List, Optional, Tuple
 PHASE2_INPUT_PATH = Path(
     os.environ.get(
         "PHASE2_INPUT_PATH",
-        "phase2_output/page_outputs_2/20160408_Finance_Act_2013"
+        "phase2_output/page_outputs_3/20160408_Finance_Act_2013"
     )
 )
 

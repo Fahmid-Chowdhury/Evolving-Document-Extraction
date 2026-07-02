@@ -1,0 +1,27 @@
+{
+  "chunk_id": "20160408_Finance_Act_2013_chunk_0003",
+  "page_number": 2,
+  "document_id": "20160408_Finance_Act_2013",
+  "content_blocks": [
+    {
+      "block_id": "p0002_b001",
+      "type": "point",
+      "point_number": "৩",
+      "text": "(a) When executed for the sole purpose of procuring the registration of one or more document in relation to a single transaction or for admitting execution of one or more such documents; Five hundred Taka\n\n(b) When executed for the purpose of the section 2, clause (7), of the power of Attorney Act, 2012; One thousand Taka\n\n(c) When power of attorney given by a loanee while obtaining loans, advances or any other credit facilities from any scheduled bank or financial institution empowering such bank or institution to realise the loan amount from him, in the event of default by him, by selling his immovable property; and One thousand Taka\n\n**Explanation**—“In this clause—\n\n- (i) “Financial institution” means the Bangladesh Shilpa Bank established by the Bangladesh Shilpa Bank Order, 1972 (President’s Order No. 129 of 1972), the",
+      "continues_from_previous": true,
+      "continues_to_next": true,
+      "stitch_group_id": "point_৩",
+      "stitching_note": "Table content and explanation for Article No. 48 of Schedule I of Stamp Act, 1899. Continues from previous page with opening text of Article 48. Continues to next page with definition of Financial institution."
+    }
+  ],
+  "output_carry_forward_state": {
+    "status": "open",
+    "active_point_number": "৩",
+    "active_stitch_group_id": "point_৩",
+    "active_point_summary": "Amendment to Schedule I of Stamp Act, 1899, specifically Article No. 48 replacement with table content and explanation",
+    "numbering_system": "bangla_digits",
+    "expected_next_main_point": "৪",
+    "continuation_hint": "Point 3 continues to next page with explanation text regarding Financial institution definition",
+    "last_visible_text": "- (i) “Financial institution” means the Bangladesh Shilpa Bank established by the Bangladesh Shilpa Bank Order, 1972 (President’s Order No. 129 of 1972), the"
+  }
+}
